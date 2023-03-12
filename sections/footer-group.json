@@ -1,0 +1,48 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Über sunpower4u",
+            "content": "<p>Mit sunpower4u möchten wir unseren Beitrag zur CO-Reduktion und zum Schutz des Klimas leisten. <\/p><p>Gemeinsam arbeiten wir daran, dass in Deutschland mehr grüner Strom erzeugt wird!<\/p><p><a href=\"\/pages\/uber-uns\" target=\"_blank\" title=\"Über sunpower4u\">Mehr über uns<\/a><\/p>"
+          }
+        },
+        "def04d68-e390-4c62-a611-7259cd697d78": {
+          "type": "text",
+          "settings": {
+            "title": "Individuelle Solarberatung",
+            "content": "<p>Beratung wird bei uns großgeschrieben! Wir möchten, dass du deine passende Solaranlage oder Balkonkraftwerk findest. <\/p><p>Wenn du Fragen hast, schreib uns gerne und wir helfen dir weiter!<\/p><p><a href=\"\/pages\/individuelle-beratung\" target=\"_blank\" title=\"Individuelle Beratung\">Zur Beratung<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "text",
+        "def04d68-e390-4c62-a611-7259cd697d78"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

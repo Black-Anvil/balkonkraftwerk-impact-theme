@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "2d1dc868-c903-48c5-acc1-4a8f4fc14776": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fragen rund um unsere Solarprodukte",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hier haben wir die häufigsten Kundenfragen zu unseren Solarprodukten zusammengestellt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-1",
+        "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Depositphotos_331275944_XL.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "55d57e18-440f-4e35-9c38-965246e1c733": {
+      "type": "faq",
+      "blocks": {
+        "template--16662977970403__55d57e18-440f-4e35-9c38-965246e1c733-16783593203fa2dd87-0": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist sunpower4u.de?",
+            "content": "<p>Sunpower4u ist ein Internetangebot der fantastic commerce GmbH (kurz = fantacom). Auf dieser Webseite verkaufen wir von der fantacom Produkte rund um Solarstrom und aktuell besonders mit dem Fokus auf sogenannte Balkonkraftwerke.<\/p>"
+          }
+        },
+        "template--16662977970403__55d57e18-440f-4e35-9c38-965246e1c733-16783593203fa2dd87-1": {
+          "type": "item",
+          "settings": {
+            "title": "Wer ist die fantastic commerce GmbH?",
+            "content": "<p>Hierbei handelt es sich um eine in Hamburg registrierte und ansässige Gesellschaft. Wenn Du bei fantacom (bzw sunpower4u) kaufst, kaufst Du also von einem deutschen Unternehmen. Das bietet Dir den Vorteil, das die hiesigen Gesetze und Verbraucherschutzregeln gelten. Ein fairer und sicherer Rahmen.<\/p>"
+          }
+        },
+        "template--16662977970403__55d57e18-440f-4e35-9c38-965246e1c733-16783593203fa2dd87-2": {
+          "type": "item",
+          "settings": {
+            "title": "Ist sunpower4u.de ein deutsches Unternehmen?",
+            "content": "<p>Ja - sunpower4u gehört der fantastic commerce GmbH - ein in Hamburg ansässiges Unternehmen. Unsere genauen Daten findest Du auch im <a href=\"https:\/\/balkonkraftwerk-rocks.myshopify.com\/impressum\" target=\"_blank\">Impressum<\/a>.<\/p>"
+          }
+        },
+        "3eaecee6-f025-43c9-bc44-47dac857e822": {
+          "type": "item",
+          "settings": {
+            "title": "Was für Produkte gibt es hier zu kaufen?",
+            "content": "<p>Wir versuchen eine kleine Auswahl guter Produkte im Bereich Solarenergie anzubieten; aktuell mit dem Fokus auf sogenannten Balkonkraftwerke und Solarpanels. Dabei legen wir Wert auf Produkte die mit hoher Qualität produziert werden und achten darauf, das die Produkte für Dich als Kunden gut installier- und nutzbar sind. Wichtig dabei: Wir stellen diese Produkte nicht selber her. Wir suchen die besten Produzenten und stellen diese Produkte für Dich als Kunden zusammen.<\/p>"
+          }
+        },
+        "e3538bed-50dc-45f5-8397-27276d8cc0cb": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es Garantie auf die Produkte?",
+            "content": "<p>Natürlich. Alle Produkte die Du bei uns kaufen kannst, unterliegen zunächst der gesetzlichen Gewährleistung. Darüber hinaus bieten die meisten Hersteller eine weiterführende Garantie an. Besonders bei Wechselrichtern und Solarpanelen sind diese oft sehr lang. So sind 5 Jahre Garantie und über 10 Jahre Garantie auf Solarpanels keine Seltenheit. Die genauen Daten findest Du in der Artikelbeschreibung.<\/p><p>Solltest Du einen Garantiefall eines bei uns gekauften Produktes melden wollen, wenden Dich bitte an unseren <a href=\"\/pages\/contact\" title=\"Kontakt\">Kundenservice<\/a>.<\/p>"
+          }
+        },
+        "b59c6abc-11d0-45e6-82b2-9af25582b7f9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich meine Bestellung zurückgeben?",
+            "content": "<p>Natürlich. Auch hier gelten zunächst die gesetzlichen Bestimmungen, die Dir erlauben, jedes Produkt zurückz geben. Wir versuchen aber auch darüber hinaus kulant mit allen Anfragen umzugehen. Allerdings nutzen wir keinen automatisierten Prozess, da wir auch zunächst mit Dir gemeinsam klären wollen, was das Problem ist.<a href=\"mailto:service@sunpower4u.de\" target=\"_blank\">Schreib uns daher bitte gerne eine Mail an unseren Kundenservice.<\/a><\/p>"
+          }
+        },
+        "22c48ad2-4a23-4464-a29b-2d78a6751fba": {
+          "type": "item",
+          "settings": {
+            "title": "Wann und wie muss ich bezahlen?",
+            "content": "<p>Die Bezahlung muss mit der Bestellaufgabe stattfinden. Wir bieten viele Zahlungsmöglichkeiten an, wie z. B. Paypal, Sofortüberweisung und Kreditkarte. <\/p>"
+          }
+        },
+        "f6b00d7e-1964-4804-903f-6634018478ef": {
+          "type": "item",
+          "settings": {
+            "title": "Ist Ratenzahlung möglich?",
+            "content": "<p>Teilweise bieten wir mit Klarna auch einen sogenannten \"buy now pay later\" Service an. Dieser erlaubt den Kauf auf Rechnung und\/oder auf Raten. Bitte beachte hierbei, dass Du in diesem Fall eine Beziehung mit Klarna eingehst und Klarna im Falle einer Nichtzahlung durch Dich alleine verantwortlich ist für eventuelle Mahnungen. Wir haben hierauf dann keinen Einfluss mehr. <\/p>"
+          }
+        },
+        "8e0ee4a5-d539-4682-acf2-c9a579d6de46": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Förderungen gibt es für ein Balkonkraftwerk\/Solaranlage?",
+            "content": "<p>Die Förderungen sind stark abhängig von der Kommune, in der du lebst. Wir haben dazu <a href=\"\/blogs\/balkonkraftwerk-tipps\/diese-zuschusse-gibt-es-fur-balkonkraftwerke\" target=\"_blank\" title=\"Diese Zuschüsse gibt es für Balkonkraftwerke\">einen Blog Artikel<\/a>, der fortwährend gepflegt wird.<\/p>"
+          }
+        },
+        "f555ca20-159d-46cb-be23-8f806614271d": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Lies Dir dazu am besten unseren <a href=\"https:\/\/www.sunpower4u.de\/blogs\/balkonkraftwerk-tipps\/ein-blog-beitrag\" target=\"_blank\">Blogbeitrag über Balkonkraftwerke durch.<\/a><\/p>"
+          }
+        },
+        "28e6a176-6daf-4cdc-b109-5037b987efb5": {
+          "type": "item",
+          "settings": {
+            "title": "Wie funktioniert ein Balkonkraftwerk?",
+            "content": "<p>Wenn Du gerne noch mehr Informationen über den Aufbau von Solarzellen und deren Funktionsweise haben möchtest,<a href=\"https:\/\/www.sunpower4u.de\/blogs\/balkonkraftwerk-tipps\/so-funktioniert-ein-balkonkraftwerk\" target=\"_blank\">schau mal in diesen Blogbeitrag (mit Video) rein. <\/a><\/p>"
+          }
+        },
+        "e43d9297-d5c2-4b0e-8512-0f10f2ffbc74": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich mein Balkonkraftwerk anmelden?",
+            "content": "<p>Ja! Obwohl die EU Anlagen für die \"Stromeigenerzeugung\" mit einer Leistung unter 800 Watt als nicht relevant eingestuft hat, müssen solche Anlagen in Deutschland sogar zweifach angemeldet werden. Zum einem beim Verteilernetzbetreiber und dann noch bei der Bundesnetzagentur. Aber - keine Bange. Es ist weniger schlimm als es klingt und es kostet kein Geld.<\/p>"
+          }
+        },
+        "5c4f5ced-caf9-4ef2-977c-a345f614f5ad": {
+          "type": "item",
+          "settings": {
+            "title": "Wie melde ich mein Balkonkraftwerk an?",
+            "content": "<h4>Beim Netzbetreiber<\/h4><p>Für die Anmeldung bei dem Verteilernetzbetreiber musst Du wissen, wer das für die Immobilie ist, an der Du das Balkonkraftwerk installierst. Jeder Netzbetreiber hat eine Codenummer, die Du auf Deiner Stromrechnung findest. <a href=\"https:\/\/bdew-codes.de\/Codenumbers\/BDEWCodes\/CodeOverview\" target=\"_blank\">Auf dieser Seite kannst Du mit der Codenummer das Unternehmen ermitteln.<\/a><\/p><p>Du hast die Nummer nicht parat oder findest die Rechnung nicht? Kein Problem - <a href=\"https:\/\/xn--strungsauskunft-9sb.de\/stromausfall\" target=\"_blank\">Du kannst auch auf dieser Seite<\/a> Deine Daten für die Meldung einer Störung eingeben und erhältst ebenso die Information.<\/p><p>Danach besuchst Du die Webseite Deines Netzbetreibers. Viele bieten inzwischen eine Möglichkeit die Anmeldung online vorzunehmen. <a href=\"https:\/\/www.pvplug.de\/wp-content\/uploads\/2019\/04\/DGS_Anmeldeformular_Steckdosen-Solarmodul.pdf\" target=\"_blank\">Ist dies nicht der Fall, kannst Du dieses Musterschreiben für die Anmeldung verwenden.<\/a><\/p><h4>Bei der Bundesnetzagentur<\/h4><p>Oftmals deutlich einfacher ist die Meldung bei der Bundesnetzagentur. <a href=\"https:\/\/www.marktstammdatenregister.de\/MaStR\/Assistent\/RegistrierungsAssistentInfo?typ=1394\" target=\"_blank\">Einfach diese Seite besuchen und durch den Anmeldeprozess gehen.<\/a><\/p>"
+          }
+        },
+        "cf3ab35a-4f2e-4e70-ac28-2dbf9d714973": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange hält ein Balkonkraftwerk\/ein Solarpanel?",
+            "content": "<p>Bei sachgemäßer Installation und einem Mindestmaß an Wartung und Pflege ist davon auszugehen, das die Anlagen bis zu 30 Jahre halten können.<\/p>"
+          }
+        },
+        "4cc495b3-2372-4fe9-9b48-fa69e2380d23": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Unterlagen bekomme ich mit meinem Balkonkraftwerk?",
+            "content": "<p>Du erhältst alle Unterlagen,welche  die ordnungsgemäße Zulassung und Konformität in Deutschland nachweisen. Ferner erhältst Du eine Rechnung sowie eine Anleitung, der Du alle relevanten Infos für die Installation entnehmen kannst. <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Kontakt\">Wenn Du darüber hinaus Fragen hast, kannst Du Dich immer an unseren Kundenservice wenden.<\/a><\/p>"
+          }
+        },
+        "d6b02c37-acd9-4ede-8100-3c52a544ba24": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich mein Balkonkraftwerk erweitern?",
+            "content": "<p>Eine Erweiterung von 300 auf 600 Watt ist möglich, indem ein zweites Panel gekauft wird und ein größerer Wechselrichter installiert wird. Eine Erweiterung der 600 Watt Anlage ist nicht möglich, da dies die durch den Gesetzgeber definierte, maximale Größe ist.<\/p>"
+          }
+        },
+        "695c41db-8ce1-428a-9acf-12163e56094b": {
+          "type": "item",
+          "settings": {
+            "title": "An wen kann ich mich wenden, wenn es eine Frage gibt?",
+            "content": "<p><a href=\"mailto:service@sunpower4u.de\" target=\"_blank\">Du kannst Dich immer gerne an unseren Kundenservice wenden. Schreib uns gerne eine Mail. Wir freuen uns auf Dich!<\/a><\/p>"
+          }
+        },
+        "0eaa7a57-f5cd-40ab-a4e4-99ccbab45ad9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich die Anschlüsse verlängern?",
+            "content": "<p>Ja, natürlich, die Solarkabel lassen sich einfach verlängern. Dazu haben wir <a href=\"\/collections\/zubehor\" target=\"_blank\" title=\"Zubehör\">passende Kabel im Angebot.<\/a><\/p><p><\/p><p>Das Kabel vom Wechselrichter zur Steckdose kannst du mit einem normalen Verlängerungskabel verlängern.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16662977970403__55d57e18-440f-4e35-9c38-965246e1c733-16783593203fa2dd87-0",
+        "template--16662977970403__55d57e18-440f-4e35-9c38-965246e1c733-16783593203fa2dd87-1",
+        "template--16662977970403__55d57e18-440f-4e35-9c38-965246e1c733-16783593203fa2dd87-2",
+        "3eaecee6-f025-43c9-bc44-47dac857e822",
+        "e3538bed-50dc-45f5-8397-27276d8cc0cb",
+        "b59c6abc-11d0-45e6-82b2-9af25582b7f9",
+        "22c48ad2-4a23-4464-a29b-2d78a6751fba",
+        "f6b00d7e-1964-4804-903f-6634018478ef",
+        "8e0ee4a5-d539-4682-acf2-c9a579d6de46",
+        "f555ca20-159d-46cb-be23-8f806614271d",
+        "28e6a176-6daf-4cdc-b109-5037b987efb5",
+        "e43d9297-d5c2-4b0e-8512-0f10f2ffbc74",
+        "5c4f5ced-caf9-4ef2-977c-a345f614f5ad",
+        "cf3ab35a-4f2e-4e70-ac28-2dbf9d714973",
+        "4cc495b3-2372-4fe9-9b48-fa69e2380d23",
+        "d6b02c37-acd9-4ede-8100-3c52a544ba24",
+        "695c41db-8ce1-428a-9acf-12163e56094b",
+        "0eaa7a57-f5cd-40ab-a4e4-99ccbab45ad9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Falls deine Fragen nicht beantwortet werden, schreib uns gerne über unser Kontaktformular:",
+        "button_text": "Zum Kontaktformular",
+        "button_url": "shopify:\/\/pages\/contact",
+        "text_position": "center",
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2d1dc868-c903-48c5-acc1-4a8f4fc14776",
+    "55d57e18-440f-4e35-9c38-965246e1c733"
+  ]
+}

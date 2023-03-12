@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p>Aktuelles rund um Balkonkraftwerke und Solaranlagen<\/p>",
+        "show_newsletter_form": false,
+        "show_tags": false,
+        "banner_background": "#245da7",
+        "banner_text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "#ffffff",
+        "feature_article_text_color": "",
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

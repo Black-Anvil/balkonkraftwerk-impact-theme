@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "bf20251f-c4c9-4983-a290-b6659c3c59b2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.short_description_product_page | metafield_tag }}"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-percent",
+            "icon_width": 24,
+            "title": "Ohne Mehrwertsteuer",
+            "content": "<p>Spare dir die 19% Mehrwersteuer.<\/p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "5dd39103-8866-46e6-bd0a-75bab2b511dc": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "icon_width": 24,
+            "title": "Schneller Versand",
+            "content": "<p>Schneller Versand in 2-5 Werktagen per Spedition<\/p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "bf20251f-c4c9-4983-a290-b6659c3c59b2",
+        "rating",
+        "badges",
+        "price",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c",
+        "5dd39103-8866-46e6-bd0a-75bab2b511dc"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ähnliche Produkte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "3310016b-e6a2-4cca-9282-b774ee795bac": {
+      "type": "faq",
+      "blocks": {
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0": {
+          "type": "item",
+          "settings": {
+            "title": "Wie wir verschickt?",
+            "content": "<p>Die Balkonkraftwerkem Solarpanels oder Solar-Battreien verschicken wir augrrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehört wird per DHL und DPD versendet.<\/p>"
+          }
+        },
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich die Ware auch abholen",
+            "content": "<p>Ja auf jeden Fall! Du kannst die Ware auch bei uns im Lager in Nettetal abholen.<br\/><br\/>Im Bestellprozess kannst du \"Selbstabholung\" auswählen. Im Anschluss bekommst du dann eine E-Mail in welche du den Termin zur abholung buchen kannst.<\/p>"
+          }
+        },
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wie ist das mit der Mehrwertsteuer bei Solarprodukten?",
+            "content": "<p>Seit dem 1.1.2023 hat der Gesetzgeber die Mehrwertsteuer bei Solaranlagen im \"wohnungsnahen\" Umfeld gestrichen, das gilt für Anlagen bis 30 kwH, also 30.000 Watt.<\/p><p>Unsere Balkonkraftwerke und einzele Solarpanels werden alle ohne Mehrwertsteuer verkauft. <br\/><br\/>Bei einigen Produkten wie z.B. einer ganzen Palette von Solarpanels fondern wir einen Nachweis darüber an, dass diese \"wohungsnah\" eingesetzt werden und für die private Nutzung gedacht sind.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Fragen zur Bestellung",
+        "content": "<p>Die häufigsten Fragen zur Bestellung unserer Produkte<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "3310016b-e6a2-4cca-9282-b774ee795bac"
+  ]
+}

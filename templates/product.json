@@ -1,0 +1,379 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "#245da7",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#ffcb00",
+            "payment_button_text_color": ""
+          }
+        },
+        "6faf7042-b794-4748-8082-e3a7be76c137": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-box",
+            "icon_width": 24,
+            "title": "Versand",
+            "content": "{{ product.metafields.custom.shipping_explanation | metafield_tag }}",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "6faf7042-b794-4748-8082-e3a7be76c137"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "b4761fbe-39d6-4105-ad84-a0ecafd67aad": {
+      "type": "tabs",
+      "blocks": {
+        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Produktdetails",
+            "content": "{{ product.metafields.custom.product_details_impact | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Technische Details",
+            "content": "{{ product.metafields.custom.pdf_download_block | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-0",
+        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "Produktdetails",
+        "first_tab_open": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "0b83c33d-67e1-4980-8e10-0125b401bfed": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16659255558371__0b83c33d-67e1-4980-8e10-0125b401bfed-1678349381b31dad3c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Produktbewertungen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255558371__0b83c33d-67e1-4980-8e10-0125b401bfed-1678349381b31dad3c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1678349516a857a9b6": {
+      "type": "apps",
+      "blocks": {
+        "68d50607-a04f-40b1-86e9-7335d4bfc43d": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "68d50607-a04f-40b1-86e9-7335d4bfc43d"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-earth",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#ffcb00",
+            "icon_color": "",
+            "title": "Deutscher Händler",
+            "content": "<p>Wir sind ein deutscher Händler aus Hamburg.<\/p>"
+          }
+        },
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#ffcb00",
+            "icon_color": "",
+            "title": "Bester Service",
+            "content": "<p>Du kannst uns jederzeit per E-Mail, Telefon oder WhatsApp erreichen. Auch nach deiner Bestellung.<\/p>"
+          }
+        },
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#ffcb00",
+            "icon_color": "",
+            "title": "Sichere Bezahlung",
+            "content": "<p>Bei uns im Shop kannst du sicher und bequem per PayPal, Kreditkarte, Sofortüberweisung oder Rechnung bezahlen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-0",
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1",
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Deine Vorteile",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "76425803-a0c4-47c2-974b-716c027eb060": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Kostenlose Solarberatung",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wenn du Fragen hast, welches das richtige Solarprodukt für dich ist, komm gerne in unsere Solarberatung. Entweder per E-Mail über den Button oder einfach über WhatsApp schreiben, siehe Button unten rechts.<\/p>"
+          }
+        },
+        "7e338f13-b561-4a03-8e58-36c30ec4c046": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zur Solarberatung",
+            "url": "shopify:\/\/pages\/individuelle-beratung",
+            "background": "#245da7",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-1",
+        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-2",
+        "7e338f13-b561-4a03-8e58-36c30ec4c046"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ähnliche Produkte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "96e63a9b-0a08-4675-ae00-4638ce5de9be": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Zum Newsletter anmelden",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
+          }
+        },
+        "32da5613-cf56-4320-bb0d-1a3afac12d36": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-1",
+        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-2",
+        "32da5613-cf56-4320-bb0d-1a3afac12d36"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b4761fbe-39d6-4105-ad84-a0ecafd67aad",
+    "0b83c33d-67e1-4980-8e10-0125b401bfed",
+    "1678349516a857a9b6",
+    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
+    "76425803-a0c4-47c2-974b-716c027eb060",
+    "related-products",
+    "96e63a9b-0a08-4675-ae00-4638ce5de9be"
+  ]
+}

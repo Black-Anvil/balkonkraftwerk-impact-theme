@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "balkonkraftwerk-600w-set",
+        "featured_product_heading": "Beliebtestes Produkt",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "62a2bb76-9347-4a7a-af15-cd27f566107b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Zum Newsletter anmelden",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
+          }
+        },
+        "85eb1e91-fbfa-4f45-91f8-8edaf70dfa70": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-1",
+        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-2",
+        "85eb1e91-fbfa-4f45-91f8-8edaf70dfa70"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "62a2bb76-9347-4a7a-af15-cd27f566107b"
+  ]
+}

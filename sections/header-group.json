@@ -1,0 +1,127 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Geprüfte Ware mit ❤️ aus Hamburg",
+            "url": ""
+          }
+        },
+        "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b": {
+          "type": "message",
+          "settings": {
+            "text": "⭐⭐⭐⭐⭐ aus über 100 Bewertungen",
+            "url": ""
+          }
+        },
+        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed": {
+          "type": "message",
+          "settings": {
+            "text": "Kostenlose Beratung zu Solarprodukten",
+            "url": "shopify:\/\/pages\/individuelle-beratung"
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b",
+        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-base",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 10,
+        "background": "#ffcb00",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "e771d8e7-45b3-4c19-b450-e6483882dc05": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Produkte",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "0dd49317-beaf-4b03-8e54-44ba979adc6b": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Service",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "e771d8e7-45b3-4c19-b450-e6483882dc05",
+        "0dd49317-beaf-4b03-8e54-44ba979adc6b"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "{{shop.brand.logo}}",
+        "logo_max_width": 235,
+        "logo_mobile_max_width": 100,
+        "menu": "mega-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": false,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
