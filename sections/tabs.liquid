@@ -24,7 +24,6 @@
             {%- if section.settings.subheading != blank -%}
               <p class="bold">{{ section.settings.subheading | escape }}</p>
             {%- endif -%}
-
             {%- if section.settings.title != blank -%}
               <p class="h2">{%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}</p>
             {%- endif -%}
@@ -34,22 +33,42 @@
         <div class="tabs-container">
           <div class="sm:hidden">
             {%- for block in section.blocks -%}
-              {%- assign title = block.settings.title | default: block.settings.page.title -%}
-              {%- assign content = block.settings.page.content | default: block.settings.content -%}
+              {%- case block.type -%}
+                {%- when 'tab' -%}
+                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
+                  {%- assign content = block.settings.page.content | default: block.settings.content -%}
 
-              {%- if title and content -%}
-                {%- assign open = false -%}
+                  {%- if title and content -%}
+                    {%- assign open = false -%}
 
-                {%- if forloop.first and section.settings.first_tab_open -%}
-                  {%- assign open = true -%}
-                {%- endif -%}
+                    {%- if forloop.first and section.settings.first_tab_open -%}
+                      {%- assign open = true -%}
+                    {%- endif -%}
 
-                {%- capture accordion_content -%}
-                  <div class="prose">{{ content }}</div>
-                {%- endcapture -%}
+                    {%- capture accordion_content -%}
+                      <div class="prose">{{ content }}</div>
+                    {%- endcapture -%}
 
-                {%- render 'accordion', title: title, content: accordion_content, open: open -%}
-              {%- endif -%}
+                    {%- render 'accordion', title: title, content: accordion_content, open: open -%}
+                  {%- endif -%}
+                {%- when 'prod_desc' -%}
+                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
+                  {%- assign content = product.description -%}
+
+                  {%- if title and content -%}
+                    {%- assign open = false -%}
+
+                    {%- if forloop.first and section.settings.first_tab_open -%}
+                      {%- assign open = true -%}
+                    {%- endif -%}
+
+                    {%- capture accordion_content -%}
+                      <div class="prose">{{ content }}</div>
+                    {%- endcapture -%}
+
+                    {%- render 'accordion', title: title, content: accordion_content, open: open -%}
+                  {%- endif -%}
+              {%- endcase -%}
             {%- endfor -%}
           </div>
 
@@ -60,15 +79,28 @@
             </template>
 
             {%- for block in section.blocks -%}
-              {%- assign title = block.settings.title | default: block.settings.page.title -%}
-              {%- assign content = block.settings.page.content | default: block.settings.content -%}
+              {%- case block.type -%}
+                {%- when 'tab' -%}
+                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
+                  {%- assign content = block.settings.page.content | default: block.settings.content -%}
 
-              {%- if title != blank and content != blank -%}
-                <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
-                <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
-                  {{ content }}
-                </div>
-              {%- endif -%}
+                  {%- if title != blank and content != blank -%}
+                    <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
+                    <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
+                      {{ content }}
+                    </div>
+                  {%- endif -%}
+                {%- when 'prod_desc' -%}
+                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
+                  {%- assign content = product.description -%}
+
+                  {%- if title != blank and content != blank -%}
+                    <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
+                    <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
+                      {{ content }}
+                    </div>
+                  {%- endif -%}
+              {%- endcase -%}
             {%- endfor -%}
           </x-tabs>
         </div>
@@ -186,6 +218,18 @@
           "id": "page",
           "label": "Page",
           "info": "Replaces inline content if specified."
+        }
+      ]
+    },
+    {
+      "type": "prod_desc",
+      "name": "Produktdetails",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Produktdetails"
         }
       ]
     }
