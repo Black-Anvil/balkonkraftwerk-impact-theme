@@ -1,0 +1,35 @@
+<div class="form_container">
+    <div class="form_header_text">
+        <h2 class="h2">{{ section.settings.heading }}</h2>
+        <p>{{ section.settings.text }}</p>
+    </div>
+    <div {% if section.settings.class_name %}class="{{ section.settings.class_name }}"{% endif %}></div>
+</div>
+
+{% schema %}
+{
+    "name": "Form container",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+        },
+        {
+            "type": "text",
+            "id": "class_name",
+            "label": "Form class name"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Form container"
+        }
+    ]
+}
+{% endschema %}

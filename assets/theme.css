@@ -9885,3 +9885,23 @@ div.video_container div.child {
     flex-direction: column;
   }
 }
+
+/* form-container.liquid */
+.form_container {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.form_header_text {
+  margin-top: 40px;
+}
+
+.form_container p {
+  margin-block-start: var(--spacing-8);
+}
+
+.kl-private-reset-css-Xuajs1 {
+  gap: 10px;
+}
