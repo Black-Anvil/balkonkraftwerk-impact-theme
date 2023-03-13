@@ -114,12 +114,10 @@
     "b4761fbe-39d6-4105-ad84-a0ecafd67aad": {
       "type": "tabs",
       "blocks": {
-        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-0": {
-          "type": "tab",
+        "f6f066de-fa2c-4ab0-9cd6-5809ce059079": {
+          "type": "prod_desc",
           "settings": {
-            "title": "Produktdetails",
-            "content": "{{ product.metafields.custom.product_details_impact | metafield_tag }}",
-            "page": ""
+            "title": "Produktdetails"
           }
         },
         "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1": {
@@ -132,7 +130,7 @@
         }
       },
       "block_order": [
-        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-0",
+        "f6f066de-fa2c-4ab0-9cd6-5809ce059079",
         "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1"
       ],
       "settings": {

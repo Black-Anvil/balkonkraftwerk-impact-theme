@@ -9853,3 +9853,35 @@ split-lines {
 .grecaptcha-badge { visibility: hidden; }
 
 
+/*////////////////////////////////////////
+//////////////////////////////////////////
+////////////// CUSTOM CSS ////////////////
+//////////////////////////////////////////
+////////////////////////////////////////*/
+
+/* tabs.liquid */
+.product_pdf {
+  display: flex;
+}
+
+.product_pdf img {
+  width: 20px;
+}
+
+.product_pdf a {
+  margin-left: 10px;
+}
+
+div.video_container div.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  div.video_container {
+    flex-direction: column;
+  }
+}
