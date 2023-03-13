@@ -120,8 +120,15 @@
             "title": "Produktdetails"
           }
         },
+        "04d078a7-0f72-4fdf-826d-2bf196eceb31": {
+          "type": "downloads",
+          "settings": {
+            "title": "Technische Details"
+          }
+        },
         "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Technische Details",
             "content": "{{ product.metafields.custom.pdf_download_block | metafield_tag }}",
@@ -131,6 +138,7 @@
       },
       "block_order": [
         "f6f066de-fa2c-4ab0-9cd6-5809ce059079",
+        "04d078a7-0f72-4fdf-826d-2bf196eceb31",
         "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1"
       ],
       "settings": {
