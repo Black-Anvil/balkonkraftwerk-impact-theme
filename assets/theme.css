@@ -9905,3 +9905,8 @@ div.video_container div.child {
 .kl-private-reset-css-Xuajs1 {
   gap: 10px;
 }
+
+/* custom-liquid.liquid */
+.video_container .child iframe {
+  aspect-ratio: 16/9;
+}
