@@ -9884,6 +9884,10 @@ div.video_container div.child {
   div.video_container {
     flex-direction: column;
   }
+  div.video_container div.child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 /* form-container.liquid */
