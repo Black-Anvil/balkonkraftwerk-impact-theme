@@ -126,116 +126,25 @@
         "input_text_color": ""
       }
     },
-    "f4ab9c51-8ade-4f5e-869e-53d8814b77e2": {
-      "type": "feature-chart",
-      "blocks": {
-        "template--16659687866595__f4ab9c51-8ade-4f5e-869e-53d8814b77e2-16780849092f88798d-0": {
-          "type": "headings",
-          "settings": {
-            "heading_1": "{{ product.metafields.custom.product_details_header_1.value }}",
-            "heading_2": "{{ product.metafields.custom.product_details_header_2.value }}",
-            "heading_3": "{{ product.metafields.custom.product_details_header_3.value }}",
-            "heading_4": "{{ product.metafields.custom.product_details_header_4.value }}",
-            "heading_5": "{{ product.metafields.custom.product_details_header_5.value }}",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
-          }
-        },
-        "template--16659687866595__f4ab9c51-8ade-4f5e-869e-53d8814b77e2-16780849092f88798d-1": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "{{ block.settings.product.metafields.custom.product_details_value_1 | metafield_tag }}",
-            "value_2": "{{ block.settings.product.metafields.custom.product_details_value_2 | metafield_tag }}",
-            "value_3": "{{ block.settings.product.metafields.custom.product_details_value_3 | metafield_tag }}",
-            "value_4": "{{ block.settings.product.metafields.custom.product_details_value_4 | metafield_tag }}",
-            "value_5": "{{ block.settings.product.metafields.custom.product_details_value_5 | metafield_tag }}",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16659687866595__f4ab9c51-8ade-4f5e-869e-53d8814b77e2-16780849092f88798d-0",
-        "template--16659687866595__f4ab9c51-8ade-4f5e-869e-53d8814b77e2-16780849092f88798d-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Eigenschaften",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 5,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
-        "viewing_product": "",
-        "show_product_swatch": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "#245da7",
-        "chart_text_color": "",
-        "chart_true_false_color": ""
-      }
-    },
     "a64d4e80-7009-485d-9b28-8f0219481f58": {
       "type": "tabs",
       "blocks": {
-        "template--16659730596067__a64d4e80-7009-485d-9b28-8f0219481f58-1678356566ef3e4caa-0": {
-          "type": "tab",
+        "0ac7767f-ee40-410e-a1d5-e15fede377d5": {
+          "type": "prod_desc",
           "settings": {
-            "title": "Produktdetails",
-            "content": "{{ product.metafields.custom.product_details_impact | metafield_tag }}",
-            "page": ""
+            "title": "Produktdetails"
           }
         },
-        "template--16659730596067__a64d4e80-7009-485d-9b28-8f0219481f58-1678356566ef3e4caa-1": {
-          "type": "tab",
+        "5a475e09-a704-4949-8ec2-5f3f89faf819": {
+          "type": "downloads",
           "settings": {
-            "title": "Technische Details zum Download",
-            "content": "{{ product.metafields.custom.pdf_download_block | metafield_tag }}",
-            "page": ""
+            "title": "Technische Details"
           }
         }
       },
       "block_order": [
-        "template--16659730596067__a64d4e80-7009-485d-9b28-8f0219481f58-1678356566ef3e4caa-0",
-        "template--16659730596067__a64d4e80-7009-485d-9b28-8f0219481f58-1678356566ef3e4caa-1"
+        "0ac7767f-ee40-410e-a1d5-e15fede377d5",
+        "5a475e09-a704-4949-8ec2-5f3f89faf819"
       ],
       "settings": {
         "full_width": true,
@@ -444,43 +353,12 @@
         "product_card_text_color": ""
       }
     },
-    "5db8b1c1-8816-4a06-b801-4a459a5a1135": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16659687866595__5db8b1c1-8816-4a06-b801-4a459a5a1135-1678090349171ee2c2-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Zum Newsletter anmelden",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16659687866595__5db8b1c1-8816-4a06-b801-4a459a5a1135-1678090349171ee2c2-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
-          }
-        },
-        "b1f1f05b-73cc-4aff-9905-7f29708c71c4": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16659687866595__5db8b1c1-8816-4a06-b801-4a459a5a1135-1678090349171ee2c2-1",
-        "template--16659687866595__5db8b1c1-8816-4a06-b801-4a459a5a1135-1678090349171ee2c2-2",
-        "b1f1f05b-73cc-4aff-9905-7f29708c71c4"
-      ],
+    "9f63fd34-0a0d-4319-bd97-7045804d6e92": {
+      "type": "form-container",
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "heading": "Zum Newsletter anmelden",
+        "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
+        "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
       }
     },
     "241f5803-fdbc-4942-952c-ad7b3bc062a6": {
@@ -530,14 +408,13 @@
   },
   "order": [
     "main",
-    "f4ab9c51-8ade-4f5e-869e-53d8814b77e2",
     "a64d4e80-7009-485d-9b28-8f0219481f58",
     "9af1bf81-1fb9-4eaf-a1fc-bd2824b4001b",
     "167825921842f4414e",
     "4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d",
     "3310016b-e6a2-4cca-9282-b774ee795bac",
     "related-products",
-    "5db8b1c1-8816-4a06-b801-4a459a5a1135",
+    "9f63fd34-0a0d-4319-bd97-7045804d6e92",
     "241f5803-fdbc-4942-952c-ad7b3bc062a6"
   ]
 }

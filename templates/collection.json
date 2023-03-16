@@ -36,49 +36,18 @@
         "open_first_filter_group": false
       }
     },
-    "62a2bb76-9347-4a7a-af15-cd27f566107b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Zum Newsletter anmelden",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
-          }
-        },
-        "85eb1e91-fbfa-4f45-91f8-8edaf70dfa70": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-1",
-        "template--16659255296227__62a2bb76-9347-4a7a-af15-cd27f566107b-1678347226fb93c9c3-2",
-        "85eb1e91-fbfa-4f45-91f8-8edaf70dfa70"
-      ],
+    "1e208f79-c053-4c15-a577-41803a9fad83": {
+      "type": "form-container",
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "heading": "Zum Newsletter anmelden",
+        "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
+        "class_name": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote."
       }
     }
   },
   "order": [
     "banner",
     "main",
-    "62a2bb76-9347-4a7a-af15-cd27f566107b"
+    "1e208f79-c053-4c15-a577-41803a9fad83"
   ]
 }

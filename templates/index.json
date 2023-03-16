@@ -258,7 +258,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-top: 2em;\nmargin-bottom: 1em;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\n    }\n--><\/style>\n<div class=\"video_container\">\n<div class=\"child\">\n\n<div class=\"video_container\">\n<div class=\"child\">\n<h3 class=\"h2\">Katrin aus Niedersachsen<\/h3><br>\n<p>Katrin hatte überhaupt keine Ahnung von Solarprodukten und hat mit Hilfe unserer individuellen, auf dich zugeschnittenen Beratung, das passende Produkt gefunden.<\/p>\n<p><a href=\"https:\/\/www.sunpower4u.de\/pages\/individuelle-beratung\">Zur Produktberatung<\/a><\/p>\n<\/div>\n<div class=\"child\"><iframe src=\"https:\/\/www.youtube.com\/embed\/S1FCs2VYZ0o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>",
+        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-top: 2em;\nmargin-bottom: 1em;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\n    }\n--><\/style>\n<div class=\"video_container\">\n<div class=\"child\">\n\n<div class=\"video_container\">\n<div class=\"child\">\n<h3 class=\"h2\">Katrin aus Niedersachsen<\/h3><br>\n<p>Katrin hatte überhaupt keine Ahnung von Solarprodukten und hat mit Hilfe unserer individuellen, auf dich zugeschnittenen Beratung, das passende Produkt gefunden.<\/p>\n<p><a href=\"https:\/\/www.sunpower4u.de\/pages\/individuelle-beratung\">Zur Produktberatung<\/a><\/p>\n<\/div>\n<div class=\"child\"><iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/S1FCs2VYZ0o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -590,49 +590,6 @@
         "accordion_text_color": ""
       }
     },
-    "87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Zum Newsletter anmelden",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
-          }
-        },
-        "6f86245c-61ce-40b5-b962-e346c61dd98e": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-1",
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-2",
-        "6f86245c-61ce-40b5-b962-e346c61dd98e"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "25564099-490f-41a0-a2d5-18af690353bc": {
       "type": "form-container",
       "settings": {
@@ -657,7 +614,6 @@
     "featured-product",
     "d13bb7e7-67d4-498b-ac9d-65105608048f",
     "faq",
-    "87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61",
     "25564099-490f-41a0-a2d5-18af690353bc"
   ]
 }

@@ -125,21 +125,11 @@
           "settings": {
             "title": "Technische Details"
           }
-        },
-        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1": {
-          "type": "tab",
-          "disabled": true,
-          "settings": {
-            "title": "Technische Details",
-            "content": "{{ product.metafields.custom.pdf_download_block | metafield_tag }}",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "f6f066de-fa2c-4ab0-9cd6-5809ce059079",
-        "04d078a7-0f72-4fdf-826d-2bf196eceb31",
-        "template--16659255558371__b4761fbe-39d6-4105-ad84-a0ecafd67aad-167834844827dbedbb-1"
+        "04d078a7-0f72-4fdf-826d-2bf196eceb31"
       ],
       "settings": {
         "full_width": true,
@@ -332,43 +322,12 @@
         "product_card_text_color": ""
       }
     },
-    "96e63a9b-0a08-4675-ae00-4638ce5de9be": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Zum Newsletter anmelden",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
-          }
-        },
-        "32da5613-cf56-4320-bb0d-1a3afac12d36": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-1",
-        "template--16659255558371__96e63a9b-0a08-4675-ae00-4638ce5de9be-1678349381b31dad3c-2",
-        "32da5613-cf56-4320-bb0d-1a3afac12d36"
-      ],
+    "8f0fe7e7-d15f-47ca-a15f-15972ffa199d": {
+      "type": "form-container",
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
+        "heading": "Zum Newsletter anmelden",
+        "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
+        "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
       }
     }
   },
@@ -380,6 +339,6 @@
     "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
     "76425803-a0c4-47c2-974b-716c027eb060",
     "related-products",
-    "96e63a9b-0a08-4675-ae00-4638ce5de9be"
+    "8f0fe7e7-d15f-47ca-a15f-15972ffa199d"
   ]
 }
