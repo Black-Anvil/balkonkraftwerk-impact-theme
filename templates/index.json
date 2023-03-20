@@ -91,7 +91,7 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "-19%: Alle Solarprodukte für den Haushalt ohne MwSt.!",
+        "text": "Spar die MwSt! - alle Solarprodukte für den Haushalt ohne MwSt - schnelle Lieferung und bester Service - mit Herz und Verstand aus Hamburg",
         "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
@@ -162,10 +162,10 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=V6OuoTWVuMY",
-        "poster": "shopify:\/\/shop_images\/brand_video_title.jpg",
+        "poster": "shopify:\/\/shop_images\/video_titel.jpg",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 20
       }
     },
     "eb669a9b-f3ba-4322-a342-6e406c9aed10": {
@@ -296,7 +296,7 @@
       "settings": {
         "full_width": true,
         "text": "Sei auch du Teil der Energiewende und erzeuge deinen eigenen Strom!",
-        "text_size": "large",
+        "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 8,

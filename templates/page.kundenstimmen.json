@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "397d59fc-a48b-46c4-b932-ed759f20747c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16667354038499__397d59fc-a48b-46c4-b932-ed759f20747c-16789603414e55632f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Kundenstimmen",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16667354038499__397d59fc-a48b-46c4-b932-ed759f20747c-16789603414e55632f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Erfahrungsberichte unserer Kunden"
+          }
+        }
+      },
+      "block_order": [
+        "template--16667354038499__397d59fc-a48b-46c4-b932-ed759f20747c-16789603414e55632f-1",
+        "template--16667354038499__397d59fc-a48b-46c4-b932-ed759f20747c-16789603414e55632f-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "125c1796-f09c-4928-b85a-9a2abe770e26": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-top: 2em;\nmargin-bottom: 1em;\nbackground-color:white;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\nvertical-align: top;\n    }\n--><\/style>\n<div class=\"video_container\">\n<div class=\"child\">\n<div class=\"video_container\">\n<div class=\"child\">\n<h4 class=\"h4\">Stefan, Familienvater aus Norddeutschland<\/h4>\n<br \/>\n<p>Stefan aus Norderstedt bei Hamburg berichtet über die Entwicklung der Strompreise in seiner Region und wie er mir einem Balkonkraftwerk von sunpower4U die Stromrechnung seiner Familie reduzieren kann.<\/p>\n<p><br><a href=\"https:\/\/www.sunpower4u.de\/collections\/balkonkraftwerk-komplettsets\/products\/balkonkraftwerk-600w-komplettset-mit-balkonhalterung\">Zum Balkonkraftwerk das Stefan gekauft hat<\/a><\/p>\n<\/div>\n<div class=\"child\"><iframe src=\"https:\/\/www.youtube.com\/embed\/xldn3zITJ5s\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>\n<div class=\"video_container\">\n<div class=\"child\">\n<h4 class=\"h4\">Katrin aus Niedersachsen<\/h4>\n<br \/>\n<p>Katrin hatte überhaupt keine Ahnung von Solarprodukten und hat mit Hilfe unserer individuellen, auf dich zugeschnittenen Beratung, das passende Produkt gefunden.<\/p>\n<p><br><a href=\"https:\/\/www.sunpower4u.de\/pages\/individuelle-beratung\">Zur Produktberatung<\/a><\/p>\n<\/div>\n<div class=\"child\"><iframe src=\"https:\/\/www.youtube.com\/embed\/S1FCs2VYZ0o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>\n<\/div>\n<\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "82fd9fd3-5b4d-4e71-82a9-62273727f165": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-komplettsets",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Unsere beliebtesten Produkte",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "397d59fc-a48b-46c4-b932-ed759f20747c",
+    "main",
+    "125c1796-f09c-4928-b85a-9a2abe770e26",
+    "82fd9fd3-5b4d-4e71-82a9-62273727f165"
+  ]
+}

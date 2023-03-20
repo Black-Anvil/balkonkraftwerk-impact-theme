@@ -60,11 +60,17 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "#245da7",
+            "show_payment_button": false,
+            "atc_button_background": "#ffcb00",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#ffcb00",
             "payment_button_text_color": "#ffffff"
+          }
+        },
+        "81f22768-b7a6-4ca2-9ebd-84a93176d76e": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
         },
         "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c": {
@@ -105,6 +111,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "81f22768-b7a6-4ca2-9ebd-84a93176d76e",
         "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c",
         "5dd39103-8866-46e6-bd0a-75bab2b511dc"
       ],
@@ -132,7 +139,8 @@
         "0ac7767f-ee40-410e-a1d5-e15fede377d5": {
           "type": "prod_desc",
           "settings": {
-            "title": "Produktdetails"
+            "title": "Produktdetails",
+            "text_align": "left"
           }
         },
         "5a475e09-a704-4949-8ec2-5f3f89faf819": {
@@ -275,8 +283,8 @@
         "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0": {
           "type": "item",
           "settings": {
-            "title": "Wie wir verschickt?",
-            "content": "<p>Die Balkonkraftwerkem Solarpanels oder Solar-Battreien verschicken wir augrrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehört wird per DHL und DPD versendet.<\/p>"
+            "title": "Wie wird verschickt?",
+            "content": "<p>Die Balkonkraftwerke und Solarpanels oder Solar-Batterien verschicken wir aufgrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehör wird per DHL und DPD versendet.<\/p><p>Du wird per E-Mail über den Stand deiner Bestellung informiert.<\/p>"
           }
         },
         "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1": {

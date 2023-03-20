@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "b066cc65-d230-42db-af29-c4df6fa1ed7a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16667339784419__b066cc65-d230-42db-af29-c4df6fa1ed7a-16789622582a480bf5-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Kostenlose Solar Beratung",
+            "heading_tag": "h1"
+          }
+        },
+        "34bcab2b-3cfd-45fc-ba3b-e8d1c9ee9a57": {
+          "type": "subheading",
+          "settings": {
+            "text": "Bitte beschreib uns dein Projekt und deine Fragen"
+          }
+        }
+      },
+      "block_order": [
+        "template--16667339784419__b066cc65-d230-42db-af29-c4df6fa1ed7a-16789622582a480bf5-1",
+        "34bcab2b-3cfd-45fc-ba3b-e8d1c9ee9a57"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Depositphotos_24609857_XL.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "96a593d1-088c-41ab-a2d1-cc6a40b4d70f": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Bitte beschreibe kurz dein geplantes Projekt und deine Fragen an uns.<\/p><p>Alternativ kannst Du uns auch gerne über WhatsApp über den Button unten rechts kontaktieren.<\/p><p>Wir melden uns dann schnellstmöglich zurück.<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b066cc65-d230-42db-af29-c4df6fa1ed7a",
+    "96a593d1-088c-41ab-a2d1-cc6a40b4d70f"
+  ]
+}

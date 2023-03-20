@@ -60,11 +60,17 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "#245da7",
+            "show_payment_button": false,
+            "atc_button_background": "#ffcb00",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#ffcb00",
             "payment_button_text_color": "#ffffff"
+          }
+        },
+        "613de3a2-5ac8-492e-b407-fdd88023f980": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
         },
         "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c": {
@@ -105,6 +111,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "613de3a2-5ac8-492e-b407-fdd88023f980",
         "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c",
         "5dd39103-8866-46e6-bd0a-75bab2b511dc"
       ],
@@ -132,7 +139,8 @@
         "24197fc6-ca7b-4b4f-81d1-acd957f04953": {
           "type": "prod_desc",
           "settings": {
-            "title": "Produktdetails"
+            "title": "Produktdetails",
+            "text_align": "left"
           }
         },
         "4f3d6945-5631-46f6-9317-194e01d51287": {
@@ -190,7 +198,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-top: 2em;\nmargin-bottom: 5em;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\n    }\n--><\/style>\n<div class=\"video_container\">\n<div class=\"child\">\n<h3>Montage des Balkonkraftwerk<\/h3>\n<\/div>\n<div class=\"child\"><iframe title=\"YouTube video player\" src=\"https:\/\/www.youtube.com\/embed\/_vucDrlqZw4\" height=\"315\" width=\"560\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" frameborder=\"0\"><\/iframe><\/div>\n<\/div>\n<div class=\"video_container\">\n<div class=\"child\">\n<h3>Einrichtung des WVC Wechselrichter im WLAN<\/h3>\n<\/div>\n<div class=\"child\"><iframe title=\"YouTube video player\" src=\"https:\/\/www.youtube.com\/embed\/xLi0_-HzeA8\" height=\"315\" width=\"560\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" frameborder=\"0\"><\/iframe><\/div>\n<\/div>",
+        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-top: 2em;\nmargin-bottom: 1em;\nbackground-color:white;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\nvertical-align: top;\n    }\n--><\/style>\n<div class=\"video_container\">\n  <div class=\"child\">\n\n    <div class=\"video_container\">\n      <div class=\"child\">\n        <h4 class=\"h4\">Montage des Balkonkraftwerks<\/h4><br>\n      <\/div>\n      <div class=\"child\">\n        <iframe src=\"https:\/\/www.youtube.com\/embed\/_vucDrlqZw4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>\n      <\/div>\n    <\/div>\n\n    <div class=\"video_container\">\n      <div class=\"child\">\n        <h4 class=\"h4\">Einrichtung des Balkonkraftwerks im WLAN<\/h4><br>\n      <\/div>\n      <div class=\"child\">\n        <iframe src=\"https:\/\/www.youtube.com\/embed\/xLi0_-HzeA8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>\n      <\/div>\n    <\/div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -219,12 +227,20 @@
             "title": "Wie kompliziert ist der Aufbau?",
             "content": "<p>Bitte schau dir für den Aufbau das Video auf dieser Seite an. Dort zeigt dir Sven, wie die einzelnen Komponenten verbunden werden. <br\/><br\/>Jeder der einen Nagel in die Wand hämmern kann schafft das auch.<\/p>"
           }
+        },
+        "de08c012-d05e-473d-9ec0-39b9c62abb9b": {
+          "type": "item",
+          "settings": {
+            "title": "Ist ein Balkonkraftwerk legal?",
+            "content": "<p>Der Gesetzgeber erlaubt generell Balkonkraftwerke bis zu einer Leistung von 600 Watt je Anschluss. Bedeutet also: Du hast einen Stromanschluss, also kannst Du ein Balkonkraftwerk betreiben. Hast Du zwei oder mehr Anschlüsse, kannst Du auch entsprechend viele Balkonkraftwerke betreiben - jeweils eines an einem Anschluss. Du musst das Balkonkraftwerk bei Deinem Netzbetreiber und bei der Bundesnetzagentur anmelden. Bei diesem Balkonkraftwerk bewegst Du Dich innerhalb des erlaubten Rahmens und wirst keine Probleme aufgrund des Balkonkraftwerkes selbst haben.<\/p><p>Teilweise wird gefragt, wie das denn sein kann, wenn die Panels mehr als 600 Watt Leistung haben. Relevant ist hierfür jedoch der Wechselrichter und die Leistung, die dieser in das Netz einspeisen kann. Am Wechselrichter sind die Panels angeschlossen, die gerne größer dimensioniert werden, um auch bei Verschattung und an weniger sonnigen Tagen in den Bereich der Maximalleistung zu kommen. Der Wechselrichter kompensiert eine etwaige Über-Belieferung durch die Panels und speist maximal die 600 Watt ein.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--16659687866595__81fc0073-4101-408e-ba50-093e46106beb-1678087069a175a4f6-2",
         "template--16659687866595__81fc0073-4101-408e-ba50-093e46106beb-1678087069a175a4f6-0",
-        "template--16659687866595__81fc0073-4101-408e-ba50-093e46106beb-1678087069a175a4f6-1"
+        "template--16659687866595__81fc0073-4101-408e-ba50-093e46106beb-1678087069a175a4f6-1",
+        "de08c012-d05e-473d-9ec0-39b9c62abb9b"
       ],
       "settings": {
         "full_width": true,
@@ -408,8 +424,8 @@
         "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0": {
           "type": "item",
           "settings": {
-            "title": "Wie wir verschickt?",
-            "content": "<p>Die Balkonkraftwerkem Solarpanels oder Solar-Battreien verschicken wir augrrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehört wird per DHL und DPD versendet.<\/p>"
+            "title": "Wie wird verschickt?",
+            "content": "<p>Die Balkonkraftwerke und Solarpanels oder Solar-Batterien verschicken wir aufgrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehör wird per DHL und DPD versendet.<\/p><p>Du wird per E-Mail über den Stand deiner Bestellung informiert.<\/p>"
           }
         },
         "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1": {

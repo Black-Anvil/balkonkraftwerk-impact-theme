@@ -60,11 +60,17 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "#245da7",
+            "show_payment_button": false,
+            "atc_button_background": "#ffcb00",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#ffcb00",
             "payment_button_text_color": "#ffffff"
+          }
+        },
+        "6f742d00-d3f7-4338-a10e-5124df25dff8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
         },
         "5dd39103-8866-46e6-bd0a-75bab2b511dc": {
@@ -92,6 +98,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "6f742d00-d3f7-4338-a10e-5124df25dff8",
         "5dd39103-8866-46e6-bd0a-75bab2b511dc"
       ],
       "settings": {
@@ -118,7 +125,8 @@
         "d41f6de1-7d18-47c5-aa5c-44c16c764245": {
           "type": "prod_desc",
           "settings": {
-            "title": "Produktdetails"
+            "title": "Produktdetails",
+            "text_align": "left"
           }
         },
         "c2c78eb0-4c4d-43f3-8774-561305a4accc": {
@@ -261,8 +269,8 @@
         "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0": {
           "type": "item",
           "settings": {
-            "title": "Wie wir verschickt?",
-            "content": "<p>Die Balkonkraftwerkem Solarpanels oder Solar-Battreien verschicken wir augrrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehört wird per DHL und DPD versendet.<\/p>"
+            "title": "Wie wird verschickt?",
+            "content": "<p>Die Balkonkraftwerke und Solarpanels oder Solar-Batterien verschicken wir aufgrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehör wird per DHL und DPD versendet.<\/p><p>Du wird per E-Mail über den Stand deiner Bestellung informiert.<\/p>"
           }
         },
         "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1": {
