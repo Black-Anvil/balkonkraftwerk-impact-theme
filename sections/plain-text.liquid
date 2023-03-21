@@ -1,0 +1,31 @@
+<div class="section" style="background-color: {{ section.settings.bg_color }};">
+    <div class="plain-text-wrapper">
+        {{- section.settings.content -}}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Plain text",
+    "tag": "section",
+    "class": "shopify-section--plain-text",
+    "settings": [
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+        },
+        {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background color",
+            "default": "transparent"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Plain text"
+        }
+    ]
+}
+{% endschema %}
