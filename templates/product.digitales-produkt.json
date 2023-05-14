@@ -14,10 +14,16 @@
             "heading_tag": "h2"
           }
         },
-        "0a39fe78-65ad-4539-b5a9-0c170b9cbb64": {
+        "bf20251f-c4c9-4983-a290-b6659c3c59b2": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.custom.short_description_product_page | metafield_tag }}"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
           }
         },
         "badges": {
@@ -29,17 +35,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
           }
         },
         "separator": {
@@ -65,40 +60,32 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "#245da7",
+            "show_payment_button": false,
+            "atc_button_background": "#ffcb00",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#ffcb00",
-            "payment_button_text_color": ""
+            "payment_button_text_color": "#ffffff"
           }
         },
-        "6faf7042-b794-4748-8082-e3a7be76c137": {
-          "type": "offer",
+        "6f742d00-d3f7-4338-a10e-5124df25dff8": {
+          "type": "liquid",
           "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-box",
-            "icon_width": 24,
-            "title": "Versand",
-            "content": "{{ product.metafields.custom.shipping_explanation | metafield_tag }}",
-            "background": "#eaf2ed",
-            "text_color": "#00a341"
+            "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "0a39fe78-65ad-4539-b5a9-0c170b9cbb64",
+        "bf20251f-c4c9-4983-a290-b6659c3c59b2",
+        "rating",
         "badges",
         "price",
-        "rating",
-        "payment_terms",
         "separator",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "6faf7042-b794-4748-8082-e3a7be76c137"
+        "6f742d00-d3f7-4338-a10e-5124df25dff8"
       ],
       "settings": {
         "full_width": true,
@@ -118,17 +105,17 @@
         "input_text_color": ""
       }
     },
-    "b4761fbe-39d6-4105-ad84-a0ecafd67aad": {
+    "27e158d9-654e-4dc0-8b2b-45ca35272ffa": {
       "type": "tabs",
       "blocks": {
-        "f6f066de-fa2c-4ab0-9cd6-5809ce059079": {
+        "d41f6de1-7d18-47c5-aa5c-44c16c764245": {
           "type": "prod_desc",
           "settings": {
             "title": "Produktdetails",
             "text_align": "left"
           }
         },
-        "04d078a7-0f72-4fdf-826d-2bf196eceb31": {
+        "c2c78eb0-4c4d-43f3-8774-561305a4accc": {
           "type": "downloads",
           "settings": {
             "title": "Technische Details"
@@ -136,8 +123,8 @@
         }
       },
       "block_order": [
-        "f6f066de-fa2c-4ab0-9cd6-5809ce059079",
-        "04d078a7-0f72-4fdf-826d-2bf196eceb31"
+        "d41f6de1-7d18-47c5-aa5c-44c16c764245",
+        "c2c78eb0-4c4d-43f3-8774-561305a4accc"
       ],
       "settings": {
         "full_width": true,
@@ -145,17 +132,17 @@
         "subheading": "",
         "title": "Produktdetails",
         "first_tab_open": false,
-        "background": "#ffffff",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
       }
     },
-    "0b83c33d-67e1-4980-8e10-0125b401bfed": {
+    "9af1bf81-1fb9-4eaf-a1fc-bd2824b4001b": {
       "type": "rich-text",
       "blocks": {
-        "template--16659255558371__0b83c33d-67e1-4980-8e10-0125b401bfed-1678349381b31dad3c-1": {
+        "template--16659730596067__9af1bf81-1fb9-4eaf-a1fc-bd2824b4001b-16782590185afadf53-1": {
           "type": "heading",
           "settings": {
             "text": "Produktbewertungen",
@@ -166,7 +153,7 @@
         }
       },
       "block_order": [
-        "template--16659255558371__0b83c33d-67e1-4980-8e10-0125b401bfed-1678349381b31dad3c-1"
+        "template--16659730596067__9af1bf81-1fb9-4eaf-a1fc-bd2824b4001b-16782590185afadf53-1"
       ],
       "settings": {
         "full_width": true,
@@ -177,17 +164,17 @@
         "text_color": ""
       }
     },
-    "1678349516a857a9b6": {
+    "167825921842f4414e": {
       "type": "apps",
       "blocks": {
-        "68d50607-a04f-40b1-86e9-7335d4bfc43d": {
+        "86e4343e-d969-49e1-beb4-e539765d9d2e": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }
       },
       "block_order": [
-        "68d50607-a04f-40b1-86e9-7335d4bfc43d"
+        "86e4343e-d969-49e1-beb4-e539765d9d2e"
       ],
       "settings": {
         "full_width": true,
@@ -203,10 +190,10 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31": {
+    "4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d": {
       "type": "text-with-icons",
       "blocks": {
-        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-0": {
+        "template--16659687866595__4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d-1678084989f9c895df-0": {
           "type": "item",
           "settings": {
             "icon": "picto-earth",
@@ -219,7 +206,7 @@
             "content": "<p>Wir sind ein deutscher Händler aus Hamburg.<\/p>"
           }
         },
-        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1": {
+        "template--16659687866595__4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d-1678084989f9c895df-1": {
           "type": "item",
           "settings": {
             "icon": "picto-love",
@@ -232,7 +219,7 @@
             "content": "<p>Du kannst uns jederzeit per E-Mail, Telefon oder WhatsApp erreichen. Auch nach deiner Bestellung.<\/p>"
           }
         },
-        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2": {
+        "template--16659687866595__4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d-1678084989f9c895df-2": {
           "type": "item",
           "settings": {
             "icon": "picto-lock",
@@ -247,9 +234,9 @@
         }
       },
       "block_order": [
-        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-0",
-        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1",
-        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2"
+        "template--16659687866595__4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d-1678084989f9c895df-0",
+        "template--16659687866595__4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d-1678084989f9c895df-1",
+        "template--16659687866595__4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d-1678084989f9c895df-2"
       ],
       "settings": {
         "full_width": true,
@@ -262,48 +249,64 @@
         "text_color": ""
       }
     },
-    "76425803-a0c4-47c2-974b-716c027eb060": {
-      "type": "rich-text",
+    "3310016b-e6a2-4cca-9282-b774ee795bac": {
+      "type": "faq",
       "blocks": {
-        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-1": {
-          "type": "heading",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0": {
+          "type": "item",
           "settings": {
-            "text": "Kostenlose Solarberatung",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "title": "Wie wird verschickt?",
+            "content": "<p>Die Balkonkraftwerke und Solarpanels oder Solar-Batterien verschicken wir aufgrund der Größe per Spedition auf Palette.<br\/><br\/>Kleinere Produkte wie Wechselrichter oder Zubehör wird per DHL und DPD versendet.<\/p><p>Du wird per E-Mail über den Stand deiner Bestellung informiert.<\/p>"
           }
         },
-        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-2": {
-          "type": "richtext",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1": {
+          "type": "item",
           "settings": {
-            "content": "<p>Wenn du Fragen hast, welches das richtige Solarprodukt für dich ist, komm gerne in unsere Solarberatung. Entweder per E-Mail über den Button oder einfach über WhatsApp schreiben, siehe Button unten rechts.<\/p>"
+            "title": "Kann ich die Ware auch abholen?",
+            "content": "<p>Ja auf jeden Fall! Du kannst die Ware auch bei uns im Lager in Nettetal abholen.<br\/><br\/>Im Bestellprozess kannst du \"Selbstabholung\" auswählen. Im Anschluss bekommst du dann eine E-Mail in welche du den Termin zur abholung buchen kannst.<\/p>"
           }
         },
-        "7e338f13-b561-4a03-8e58-36c30ec4c046": {
-          "type": "button",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-2": {
+          "type": "item",
           "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Zur Solarberatung",
-            "url": "shopify:\/\/pages\/individuelle-beratung",
-            "background": "#245da7",
-            "text_color": "#ffffff"
+            "title": "Wie ist das mit der Mehrwertsteuer bei Solarprodukten?",
+            "content": "<p>Seit dem 1.1.2023 hat der Gesetzgeber die Mehrwertsteuer bei Solaranlagen im \"wohnungsnahen\" Umfeld gestrichen, dies gilt für Anlagen bis 30 kwH, also 30.000 Watt.<\/p><p>Unsere Balkonkraftwerke und einzele Solarpanels werden alle ohne Mehrwertsteuer verkauft. <br\/><br\/>Bei einigen Produkten wie z.B. einer ganzen Palette von Solarpanels fondern wir einen Nachweis darüber an, dass diese \"wohungsnah\" eingesetzt werden und für die private Nutzung gedacht sind.<\/p>"
+          }
+        },
+        "651c8050-a92e-4af5-b986-3f73f4de077f": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es Zuschüsse für Balkonkraftwerke?",
+            "content": "<p>Die Zuschüsse von den Kommunen für Balkonraftwerke sind sehr unterscheidlich geregelt, es kommt darauf an wo du wohnst.<\/p><p>Schau mal <a href=\"\/blogs\/balkonkraftwerk-tipps\/diese-zuschusse-gibt-es-fur-balkonkraftwerke\" target=\"_blank\" title=\"Diese Zuschüsse gibt es für Balkonkraftwerke\">hier<\/a>, dort haben wir einen Blogbeitrag mit einer Auflistung je nach Bundesland erstellt.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-1",
-        "template--16659255558371__76425803-a0c4-47c2-974b-716c027eb060-1678349381b31dad3c-2",
-        "7e338f13-b561-4a03-8e58-36c30ec4c046"
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-0",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-1",
+        "template--16659344851171__3310016b-e6a2-4cca-9282-b774ee795bac-16780838730bf4f33c-2",
+        "651c8050-a92e-4af5-b986-3f73f4de077f"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "subheading": "",
+        "title": "Fragen zur Bestellung",
+        "content": "<p>Die häufigsten Fragen zur Bestellung unserer Produkte<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#245da7",
+        "accordion_text_color": "#ffffff"
       }
     },
     "related-products": {
@@ -330,23 +333,68 @@
         "product_card_text_color": ""
       }
     },
-    "8f0fe7e7-d15f-47ca-a15f-15972ffa199d": {
+    "b5fadef2-33ff-4f74-bafb-bbae7ba1bddf": {
       "type": "form-container",
       "settings": {
         "heading": "Zum Newsletter anmelden",
         "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
         "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
       }
+    },
+    "241f5803-fdbc-4942-952c-ad7b3bc062a6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16659730596067__241f5803-fdbc-4942-952c-ad7b3bc062a6-16782588718986a5cc-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Kostenlose Solarberatung",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16659730596067__241f5803-fdbc-4942-952c-ad7b3bc062a6-16782588718986a5cc-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wenn du Fragen hast, welches das richtige Balkonkraftwerk für dich ist komm gerne in unsere Solarberatung. Entweder per E-Mail über den Button oder einfach über WhatsApp schreiben, siehe Button unten rechts.<\/p>"
+          }
+        },
+        "569838f2-05f1-4608-ba89-48688cf75f30": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zur Solarberatung",
+            "url": "shopify:\/\/pages\/individuelle-beratung",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16659730596067__241f5803-fdbc-4942-952c-ad7b3bc062a6-16782588718986a5cc-1",
+        "template--16659730596067__241f5803-fdbc-4942-952c-ad7b3bc062a6-16782588718986a5cc-2",
+        "569838f2-05f1-4608-ba89-48688cf75f30"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "b4761fbe-39d6-4105-ad84-a0ecafd67aad",
-    "0b83c33d-67e1-4980-8e10-0125b401bfed",
-    "1678349516a857a9b6",
-    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
-    "76425803-a0c4-47c2-974b-716c027eb060",
+    "27e158d9-654e-4dc0-8b2b-45ca35272ffa",
+    "9af1bf81-1fb9-4eaf-a1fc-bd2824b4001b",
+    "167825921842f4414e",
+    "4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d",
+    "3310016b-e6a2-4cca-9282-b774ee795bac",
     "related-products",
-    "8f0fe7e7-d15f-47ca-a15f-15972ffa199d"
+    "b5fadef2-33ff-4f74-bafb-bbae7ba1bddf",
+    "241f5803-fdbc-4942-952c-ad7b3bc062a6"
   ]
 }

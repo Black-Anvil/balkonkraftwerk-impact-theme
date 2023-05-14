@@ -36,6 +36,7 @@
     },
     "6327d117-a567-4693-9b46-3796bbb8f655": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16667369144547__6327d117-a567-4693-9b46-3796bbb8f655-16789634570ba5123e-2": {
           "type": "richtext",
@@ -63,6 +64,13 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "3ae85e15-735c-4ca0-8dd2-00f70bd4f2ef": {
+      "type": "plain-text",
+      "settings": {
+        "content": "<p>sunpower4u ist ein Projekt von uns: Benjamin und Sven. Wir sind Familienväter und seit einigen Jahren im eCommerce tätig. <\/p><p>Spätestens seit dem wir Kinder haben, hat Nachhaltigkeit für uns eine neue Relevanz bekommen. <\/p><p>Dem Thema Energie kommt hierbei schon länger eine besondere Bedeutung zu. Elektrizität dient zum einen, um die sichtbaren elektrischen Verbraucher zu betreiben, aber kann eben auch dazu dienen, Wärme und Kälte zu produzieren und Mobilität bereitzustellen. <\/p><p>Solarenergie ist unserer Meinung ein wichtiger Baustein hierbei. Früher war das ein reines \"Expertenthema\", das nur wenige beherrscht haben und noch weniger Menschen für sich selber nutzen konnten. Doch in den letzten Jahren hat es hier extreme Entwicklungen gegeben und heute kann fast jeder Solarstrom selber erzeugen und für sich nutzen. <\/p><p>Unser Ziel ist, möglichst vielen Menschen, Familien, Unternehmen dabei zu helfen, dies umzusetzen. <\/p><p>In diesem Zusammenhang versuchen wir passende Produkte zusammenzustellen und anzubieten. <\/p><p>Neben dem passenden Angebot kennen wir als alte eCommerce Experten uns sehr gut aus mit der Logistik und wie man exzellenten Kundenservice bietet. Als unser Kunde profitierst Du hiervon.<\/p><p>sunpower4u ist ein Webshop der fantastic commerce GmbH. Dieses Unternehmen gehört Sven und ist in Hamburg ansässig, so wie auch all unsere angestellten Mitarbeiter:innen.<\/p><p>Bestimmte Services wie zB die Logistik führen mit unseren Partnerbetrieben in Deutschland durch. <\/p><p>Als deutsches Unternehmen unterliegen wir natürlich dem Verbraucherschutz, Mitarbeiterschutz und der Steuergesetzgebung hier in Deutschland. Das finden wir gut, den so entsteht ein sicherer Rahmen, in dem sich alle fair behandelt wissen. <\/p><p>Wenn Sie Fragen zu uns haben, senden Sie uns gerne eine Mail an <a href=\"mailto:support@sunpower4u.de\" title=\"mailto:support@sunpower4u.de\">support@sunpower4u.de<\/a> - wir haben keine Geheimnisse.<\/p>",
+        "bg_color": "transparent"
       }
     },
     "7cddc325-f69c-47b3-a588-bfb063f12da8": {
@@ -195,6 +203,7 @@
     "main",
     "8b48a064-b026-481d-8086-964a5dab9786",
     "6327d117-a567-4693-9b46-3796bbb8f655",
+    "3ae85e15-735c-4ca0-8dd2-00f70bd4f2ef",
     "7cddc325-f69c-47b3-a588-bfb063f12da8",
     "49e3c43d-f338-4169-862e-2d0b78068913",
     "6ee25e18-ece3-439a-b346-d2509cf1f0f5"
