@@ -9915,4 +9915,24 @@ div.video_container div.child {
   aspect-ratio: 16/9;
 }
 
-/*FUCK THIS FUCKING BULLSHIT!*/
+/* plain-text.liquid */
+.plain-text-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+.plain-text-wrapper p {
+  margin-block-start: var(--spacing-6);
+}
+@media screen and (max-width: 768px) {
+  .plain-text-wrapper {
+    width: 100%;
+  }
+}
+
+/* navigation-promo-block.liquid */
+.navigation-promo.navigation-promo--grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+.navigation-promo.navigation-promo--grid .content-over-media {
+  max-width: 200px;
+}

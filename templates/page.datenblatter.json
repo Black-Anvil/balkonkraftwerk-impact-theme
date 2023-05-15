@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "2d1dc868-c903-48c5-acc1-4a8f4fc14776": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Anleitungen & Datenblätter zu unseren Produkten",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Depositphotos_331275944_XL.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "55d57e18-440f-4e35-9c38-965246e1c733": {
+      "type": "faq",
+      "blocks": {
+        "0eaa7a57-f5cd-40ab-a4e4-99ccbab45ad9": {
+          "type": "item",
+          "settings": {
+            "title": "Wechselrichter - Deye SUN600",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_Deye.pdf?v=1682084047\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_Deye.pdf?v=1682084047\">Anleitung zum Aufbau<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Manual.pdf?v=1681996629\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Manual.pdf?v=1681996629\">Anleitung & Details zum Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/SPEC.pdf?v=1681996577\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/SPEC.pdf?v=1681996577\">Technische Spezifikationen<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye-MICRO_INVERTER_CE_2.pdf?v=1683185150\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye-MICRO_INVERTER_CE_2.pdf?v=1683185150\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_Einheitenzertifikat.pdf?v=1683185222\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_Einheitenzertifikat.pdf?v=1683185222\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/VDE4105_Certification.pdf?v=1681996664\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/VDE4105_Certification.pdf?v=1681996664\">VDE 4109 Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_NA_Schutz.pdf?v=1683185351\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_NA_Schutz.pdf?v=1683185351\">VDE 4109 NA-Schutzzertifikat<\/a><\/li><\/ul>"
+          }
+        },
+        "bb00dfe3-e8a0-4c84-ba23-6f3b272b1682": {
+          "type": "item",
+          "settings": {
+            "title": "Wechselrichter - WVC 600 (life)",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk.pdf?v=1679153152\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk.pdf?v=1679153152\">Anleitung zum Aufbau<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC_Anleitung_deutsch.pdf?v=1683273327\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC_Anleitung_deutsch.pdf?v=1683273327\">Anleitung & Details zum Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_inverter_WVC600.pdf?v=1683185771\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_inverter_WVC600.pdf?v=1683185771\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Einheitenzertifikat_WVC_600.pdf?v=1683273215\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Einheitenzertifikat_WVC_600.pdf?v=1683273215\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC-VDE.pdf?v=1683185849\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC-VDE.pdf?v=1683185849\">VDE 4109 Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/NA_Schutz_WVC_600.pdf?v=1683273151\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/NA_Schutz_WVC_600.pdf?v=1683273151\">VDE 4109 NA-Schutzzertifikat<\/a><\/li><\/ul><p><\/p>"
+          }
+        },
+        "60c0fc3f-5e02-4cbe-9021-525b2ca24ef5": {
+          "type": "item",
+          "settings": {
+            "title": "Solarpanel - SunEvo Evo5 400-420 Watt",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf?v=1681996363\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf?v=1681996363\">Datenblatt<\/a><\/li><\/ul>"
+          }
+        },
+        "284477d6-79d7-44ae-830d-d1364e20e732": {
+          "type": "item",
+          "settings": {
+            "title": "Solarpanel - 360 Watt",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Datenblatt_360W-Solar_Modul_CN-210M36040.pdf?v=1683273525\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Datenblatt_360W-Solar_Modul_CN-210M36040.pdf?v=1683273525\">Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_panel_360watt.png?v=1681659590\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_panel_360watt.png?v=1681659590\">CE Zertifikat<\/a><\/li><\/ul>"
+          }
+        },
+        "aeab1684-3eee-4392-9909-42de51fcb035": {
+          "type": "item",
+          "settings": {
+            "title": "Halterung - sunpower4u Balkonhalterung",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1679155434\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1679155434\">Aufbauanleitung<\/a><\/li><\/ul>"
+          }
+        },
+        "5667930f-f2b0-4f17-8e18-03f38ae3c979": {
+          "type": "item",
+          "settings": {
+            "title": "Anmeldung im Marktstammdatenregister",
+            "content": "<p>Zur Anmeldung des Balkonkraftwerks im  Marktstammdatenregister haben wir <a href=\"\/pages\/anmeldung-solaranlage\" target=\"_blank\" title=\"Anmeldung Solaranlage\">hier<\/a> eine Anleitung zusammengestellt.<\/p><p>Falls dein Netzbetreiber nicht im Marktstammdatenregister hinterlegt ist, kannst du die Anmeldung auch mit dem <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DGS_Anmeldeformular_Steckdosen-Solarmodul.pdf?v=1683184310&ref=q9mqdvzx\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DGS_Anmeldeformular_Steckdosen-Solarmodul.pdf?v=1683184310&ref=q9mqdvzx\">Vordruck vom GDS<\/a> machen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0eaa7a57-f5cd-40ab-a4e4-99ccbab45ad9",
+        "bb00dfe3-e8a0-4c84-ba23-6f3b272b1682",
+        "60c0fc3f-5e02-4cbe-9021-525b2ca24ef5",
+        "284477d6-79d7-44ae-830d-d1364e20e732",
+        "aeab1684-3eee-4392-9909-42de51fcb035",
+        "5667930f-f2b0-4f17-8e18-03f38ae3c979"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Falls du weitere Fragen zu unseren Produkten hast, schreib und gerne:",
+        "button_text": "Zum Kontaktformular",
+        "button_url": "shopify:\/\/pages\/contact",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2d1dc868-c903-48c5-acc1-4a8f4fc14776",
+    "55d57e18-440f-4e35-9c38-965246e1c733"
+  ]
+}

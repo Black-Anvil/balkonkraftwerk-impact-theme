@@ -87,11 +87,70 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "3ef4069b-2e72-40e1-8f50-0a3f0d274f97": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-earth",
+            "mobile_icon_width": 40,
+            "icon_width": 64,
+            "icon_background_type": "none",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "#00a341",
+            "title": "",
+            "content": "<p>Mit einem 600W Balkonkraftwerk erzeugst Du ca. 540 kwH Strom im Jahr<\/p>"
+          }
+        },
+        "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "mobile_icon_width": 40,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#ffcb00",
+            "title": "",
+            "content": "<p>Du sparst bis zu 205,20 € Stromkosten pro Jahr. (Bei 0,38 €\/kwH) <\/p>"
+          }
+        },
+        "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 40,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f83a3a",
+            "title": "",
+            "content": "<p>So vermeidest Du 226,8 kg CO2 im Jahr und trägst zur Energiewende bei.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-0",
+        "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-1",
+        "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Das kannst du mit einem Sunpower4u Balkonkraftwerk sparen",
+        "heading_tag": "h3",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "11188dde-94ef-4f3c-ab4a-5df926b8fdd4": {
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "-19%: Alle Solarprodukte für den Haushalt ohne MwSt.!",
+        "text": "Spar die MwSt! - alle Solarprodukte für den Haushalt ohne MwSt - schnelle Lieferung und bester Service - mit Herz und Verstand aus Hamburg",
         "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
@@ -100,6 +159,136 @@
         "background_gradient": "",
         "text_color": "#f7b035",
         "text_gradient": ""
+      }
+    },
+    "5ec05952-db1b-4d76-94f4-13d44ede4598": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Das beliebteste Produkt",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die meisten unserer Kunden entscheiden sich für dieses Balkonkraftwerk:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-1",
+        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "e4d9f690-f29f-434b-b7a4-ea123858d56e": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.custom.short_description_product_page | metafield_tag }}"
+          }
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity-selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "#ffcb00",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#ffcb00",
+            "payment_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "separator",
+        "e4d9f690-f29f-434b-b7a4-ea123858d56e",
+        "variant-picker",
+        "quantity-selector",
+        "buy-buttons"
+      ],
+      "settings": {
+        "full_width": true,
+        "product": "balkonkraftwerk-720w",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "featured-collection": {
@@ -116,7 +305,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Beliebte Solarprodukte",
+        "title": "Weitere beliebte Solarprodukte",
         "content": "",
         "link_url": "",
         "link_text": "Alle anzeigen",
@@ -162,10 +351,10 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=V6OuoTWVuMY",
-        "poster": "shopify:\/\/shop_images\/brand_video_title.jpg",
+        "poster": "shopify:\/\/shop_images\/video_titel.jpg",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 20
       }
     },
     "eb669a9b-f3ba-4322-a342-6e406c9aed10": {
@@ -291,21 +480,6 @@
         "text_color": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Sei auch du Teil der Energiewende und erzeuge deinen eigenen Strom!",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 8,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#ffcb00",
-        "text_gradient": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -326,7 +500,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "solar-batterien",
+            "collection": "solarpanels",
             "subheading": "",
             "title": "",
             "url": "",
@@ -340,7 +514,7 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "solarpanels",
+            "collection": "zubehor",
             "subheading": "",
             "title": "",
             "url": "",
@@ -372,136 +546,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "5ec05952-db1b-4d76-94f4-13d44ede4598": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Das beliebteste Produkt",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Die meisten unserer Kunden entscheiden sich für das Balkonkraftwerk ohne Halterungen:<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-1",
-        "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "e4d9f690-f29f-434b-b7a4-ea123858d56e": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.custom.short_description_product_page | metafield_tag }}"
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "#245da7",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "#ffcb00",
-            "payment_button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "separator",
-        "e4d9f690-f29f-434b-b7a4-ea123858d56e",
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "balkonkraftwerk-600w-set",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "d13bb7e7-67d4-498b-ac9d-65105608048f": {
@@ -590,49 +634,6 @@
         "accordion_text_color": ""
       }
     },
-    "87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Zum Newsletter anmelden",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.<\/p>"
-          }
-        },
-        "6f86245c-61ce-40b5-b962-e346c61dd98e": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"klaviyo-form-Xv4eED\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-1",
-        "template--16659255328995__87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61-1678084645d641591a-2",
-        "6f86245c-61ce-40b5-b962-e346c61dd98e"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "25564099-490f-41a0-a2d5-18af690353bc": {
       "type": "form-container",
       "settings": {
@@ -644,20 +645,19 @@
   },
   "order": [
     "slideshow",
+    "3ef4069b-2e72-40e1-8f50-0a3f0d274f97",
     "11188dde-94ef-4f3c-ab4a-5df926b8fdd4",
+    "5ec05952-db1b-4d76-94f4-13d44ede4598",
+    "featured-product",
     "featured-collection",
     "dd4b39a7-cba5-4921-aded-b23165d33a04",
     "eb669a9b-f3ba-4322-a342-6e406c9aed10",
     "17bad9c3-006a-46bf-bb1c-bfbdd4effc47",
     "038ec884-44c0-4393-8be6-1c0e511c68b7",
     "ec37d66d-e3b0-4e99-9903-e948546665a0",
-    "scrolling-text",
     "collection-list",
-    "5ec05952-db1b-4d76-94f4-13d44ede4598",
-    "featured-product",
     "d13bb7e7-67d4-498b-ac9d-65105608048f",
     "faq",
-    "87ce8ea1-6271-4d81-9ed3-9d9eb3d6aa61",
     "25564099-490f-41a0-a2d5-18af690353bc"
   ]
 }

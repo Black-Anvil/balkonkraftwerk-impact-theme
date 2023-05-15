@@ -12,10 +12,10 @@
     "header_text_color": "#1a1a1a",
     "footer_background": "#ffffff",
     "footer_text_color": "#1a1a1a",
-    "primary_button_background": "#245da7",
+    "primary_button_background": "#ffcb00",
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#303484",
-    "secondary_button_text_color": "#1a1a1a",
+    "secondary_button_text_color": "#ffffff",
     "product_card_text_color": "#1a1a1a",
     "product_primary_badge_background": "#803cee",
     "heading_font": "din_next_n7",
@@ -26,6 +26,7 @@
     "show_page_transition": false,
     "heading_apparition": "split_fade",
     "show_vendor": false,
+    "show_quick_buy": false,
     "show_product_rating": true,
     "discount_mode": "saving",
     "product_color_display": "swatch",
@@ -38,12 +39,6 @@
 
     ],
     "blocks": {
-      "16963237191767492405": {
-        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -53,6 +48,12 @@
       "18228966181090706294": {
         "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "16963237191767492405": {
+        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
+        "disabled": true,
         "settings": {
         }
       }

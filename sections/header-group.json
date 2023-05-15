@@ -5,8 +5,16 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "c18832bf-d6c7-4427-904c-d8645a9f254a": {
+          "type": "message",
+          "settings": {
+            "text": "🚚 Schneller Versand zu dir nach Hause 🚚",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Geprüfte Ware mit ❤️ aus Hamburg",
             "url": ""
@@ -28,6 +36,7 @@
         }
       },
       "block_order": [
+        "c18832bf-d6c7-4427-904c-d8645a9f254a",
         "message",
         "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b",
         "0c073df3-904c-46ec-b0b2-8b01b02ee0ed"
@@ -51,15 +60,63 @@
             "menu_item": "Produkte",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/BKW600-1s-Main.jpg",
             "image_heading_1": "",
-            "image_link_1": "",
-            "image_text_color_1": "#ffffff",
+            "image_link_1": "shopify:\/\/products\/balkonkraftwerk-720w",
+            "image_text_color_1": "#ffcb00",
             "image_heading_2": "",
             "image_link_2": "",
             "image_text_color_2": "#ffffff",
             "image_heading_3": "",
             "image_link_3": "",
             "image_text_color_3": "#ffffff",
+            "image_heading_4": "",
+            "image_link_4": "",
+            "image_text_color_4": "#ffffff",
+            "image_heading_5": "",
+            "image_link_5": "",
+            "image_text_color_5": "#ffffff",
+            "image_heading_6": "",
+            "image_link_6": "",
+            "image_text_color_6": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "69c50a6a-84ea-443c-850f-e097f6c3c01f": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Home",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/bkwposition.jpg",
+            "image_heading_1": "test 1",
+            "image_link_1": "shopify:\/\/collections\/alle-produkte",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/bkwposition.jpg",
+            "image_heading_2": "test 2",
+            "image_link_2": "shopify:\/\/collections\/balkonkraftwerk-komplettsets",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/bkwposition.jpg",
+            "image_heading_3": "test 3",
+            "image_link_3": "shopify:\/\/collections\/balkonkraftwerk-mit-halterung",
+            "image_text_color_3": "#ffffff",
+            "image_4": "shopify:\/\/shop_images\/bkwposition.jpg",
+            "image_heading_4": "test 4",
+            "image_link_4": "shopify:\/\/collections\/balkonkraftwerk-ohne-halterung",
+            "image_text_color_4": "#ffffff",
+            "image_5": "shopify:\/\/shop_images\/bkwposition.jpg",
+            "image_heading_5": "test 5",
+            "image_link_5": "shopify:\/\/collections\/solar-batterien",
+            "image_text_color_5": "#ffffff",
+            "image_6": "shopify:\/\/shop_images\/bkwposition.jpg",
+            "image_heading_6": "test 6",
+            "image_link_6": "shopify:\/\/collections\/balkonkraftwerk-inverter",
+            "image_text_color_6": "#ffffff",
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
@@ -83,6 +140,15 @@
             "image_heading_3": "",
             "image_link_3": "",
             "image_text_color_3": "#ffffff",
+            "image_heading_4": "",
+            "image_link_4": "",
+            "image_text_color_4": "#ffffff",
+            "image_heading_5": "",
+            "image_link_5": "",
+            "image_text_color_5": "#ffffff",
+            "image_heading_6": "",
+            "image_link_6": "",
+            "image_text_color_6": "#ffffff",
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
@@ -94,6 +160,7 @@
       },
       "block_order": [
         "e771d8e7-45b3-4c19-b450-e6483882dc05",
+        "69c50a6a-84ea-443c-850f-e097f6c3c01f",
         "0dd49317-beaf-4b03-8e54-44ba979adc6b"
       ],
       "settings": {

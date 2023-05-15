@@ -10,7 +10,7 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "auto",
+        "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "balkonkraftwerk-600w-set",
@@ -18,6 +18,38 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "bcf5e945-4895-4d96-ae65-0a90f6194701": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18902732374342__bcf5e945-4895-4d96-ae65-0a90f6194701-1683704876ddf43336-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke mit Wandhalterung",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18902732374342__bcf5e945-4895-4d96-ae65-0a90f6194701-1683704876ddf43336-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Wandhalterung eignet sich, um die Solarpanels direkt an einer Hauswand zu befestigen. <\/p><p>Die Halterung wird hierbei in der Wand fest verdübelt und die Panels an der Halterung in einem Winkel von ca 30 Grad befestigt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18902732374342__bcf5e945-4895-4d96-ae65-0a90f6194701-1683704876ddf43336-1",
+        "template--18902732374342__bcf5e945-4895-4d96-ae65-0a90f6194701-1683704876ddf43336-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "main": {
@@ -28,11 +60,11 @@
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": true,
-        "show_filters": true,
+        "show_filters": false,
         "show_filter_group_name": false,
-        "show_color_swatch": true,
+        "show_color_swatch": false,
         "show_empty_filter_values": false,
-        "show_filter_values_count": true,
+        "show_filter_values_count": false,
         "open_first_filter_group": false
       }
     },
@@ -47,6 +79,7 @@
   },
   "order": [
     "banner",
+    "bcf5e945-4895-4d96-ae65-0a90f6194701",
     "main",
     "1e208f79-c053-4c15-a577-41803a9fad83"
   ]

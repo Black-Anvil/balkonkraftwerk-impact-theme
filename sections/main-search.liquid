@@ -145,7 +145,7 @@
 
           {%- render 'pagination', paginate: paginate, facet: true, class: 'collection__pagination' -%}
         </div>
-      {%- endpaginate -%}
+      {% assign sp_paginate_by = paginate.page_size %}{%- endpaginate -%}
     </div>
   {%- else -%}
     <div class="empty-state">
@@ -162,7 +162,7 @@
   {%- endif -%}
 </div>
 
-{% schema %}
+{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{% schema %}
 {
   "name": "Search",
   "class": "shopify-section--main-search",
