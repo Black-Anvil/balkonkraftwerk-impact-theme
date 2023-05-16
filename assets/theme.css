@@ -9863,15 +9863,12 @@ split-lines {
 .product_pdf {
   display: flex;
 }
-
 .product_pdf img {
   width: 20px;
 }
-
 .product_pdf a {
   margin-left: 10px;
 }
-
 div.video_container div.child {
   display: flex;
   flex-direction: column;
@@ -9879,7 +9876,6 @@ div.video_container div.child {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 @media screen and (max-width: 768px) {
   div.video_container {
     flex-direction: column;
@@ -9897,15 +9893,12 @@ div.video_container div.child {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .form_header_text {
   margin-top: 40px;
 }
-
 .form_container p {
   margin-block-start: var(--spacing-8);
 }
-
 .kl-private-reset-css-Xuajs1 {
   gap: 10px;
 }
@@ -9931,8 +9924,20 @@ div.video_container div.child {
 
 /* navigation-promo-block.liquid */
 .navigation-promo.navigation-promo--grid {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
-.navigation-promo.navigation-promo--grid .content-over-media {
-  max-width: 200px;
+@media (max-width: 375px) {
+  .navigation-promo.navigation-promo--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 376px) and (max-width: 699px) {
+  .navigation-promo.navigation-promo--grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 700px) and (max-width: 1149px) {
+  .navigation-promo.navigation-promo--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
