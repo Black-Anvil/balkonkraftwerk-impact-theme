@@ -5505,7 +5505,7 @@ split-lines {
   display: grid;
 }
 
-.footer__block--text, .footer__block--newsletter {
+.footer__block--text, .footer__block--newsletter, .footer__block--image {
   grid-column: span 2;
 }
 
@@ -9942,5 +9942,16 @@ div.video_container div.child {
 @media (min-width: 700px) and (max-width: 1149px) {
   .navigation-promo.navigation-promo--grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* footer.liquid */
+.footer__block--image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__block--image {
+    flex-basis: 25%;
   }
 }

@@ -97,6 +97,10 @@
                     {%- endform -%}
                   </div>
                 </div>
+              {%- when 'image' -%}
+                <div class="footer__block--image">
+                  <img src="{{ block.settings.image | image_url: width: 500 }}">
+                </div>
             {%- endcase -%}
           {%- endfor -%}
         </div>
@@ -325,6 +329,17 @@
           "type": "richtext",
           "id": "content",
           "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select footer image"
         }
       ]
     }
