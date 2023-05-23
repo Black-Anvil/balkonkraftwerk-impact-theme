@@ -94,8 +94,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-earth",
-            "mobile_icon_width": 40,
-            "icon_width": 64,
+            "custom_icon": "shopify:\/\/shop_images\/Icon_-_Stromkosten.png",
+            "mobile_icon_width": 116,
+            "icon_width": 116,
             "icon_background_type": "none",
             "icon_background": "rgba(0,0,0,0)",
             "icon_color": "#00a341",
@@ -107,8 +108,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-money",
-            "mobile_icon_width": 40,
-            "icon_width": 60,
+            "custom_icon": "shopify:\/\/shop_images\/Icon_-_CO2.png",
+            "mobile_icon_width": 116,
+            "icon_width": 116,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#ffcb00",
@@ -120,8 +122,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-love",
-            "mobile_icon_width": 40,
-            "icon_width": 60,
+            "custom_icon": "shopify:\/\/shop_images\/Icon_-_Energiewende.png",
+            "mobile_icon_width": 116,
+            "icon_width": 116,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#f83a3a",
@@ -357,63 +360,79 @@
         "overlay_opacity": 20
       }
     },
-    "eb669a9b-f3ba-4322-a342-6e406c9aed10": {
-      "type": "text-with-icons",
+    "03b7a9cd-af00-4f67-9a88-eff2ef9db14a": {
+      "type": "multi-column",
       "blocks": {
-        "template--16659255328995__eb669a9b-f3ba-4322-a342-6e406c9aed10-1677950314c98abaa0-0": {
+        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-0": {
           "type": "item",
           "settings": {
-            "icon": "picto-truck",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Fairer Versand",
-            "content": "<p>Der Versand von Solaranlagen ist kompliziert und teurer als ein normales Paket. Wir geben die Versandkosten 1-zu-1 an dich weiter und schlagen nichts auf.<\/p>"
+            "image": "shopify:\/\/shop_images\/Anmeldbar.png",
+            "column_size": "4",
+            "title": "Sicherheit für Dich",
+            "heading_tag": "h4",
+            "content": "<p>Unsere Balkonkraftwerke lassen sich alle beim Netzbetreiber anmelden.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "template--16659255328995__eb669a9b-f3ba-4322-a342-6e406c9aed10-1677950314c98abaa0-1": {
-          "type": "item",
+        "deea919a-7cba-4537-9b9f-bb7f669293eb": {
+          "type": "spacer",
           "settings": {
-            "icon": "picto-happy",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Du stehst an erster Stelle",
-            "content": "<p>Wir sind immer für dich da, egal ob per E-Mail oder WhatsApp, auch nach dem Kauf.<\/p>"
+            "column_size": "12"
           }
         },
-        "template--16659255328995__eb669a9b-f3ba-4322-a342-6e406c9aed10-1677950314c98abaa0-2": {
+        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-1": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Sichere Bezahlung",
-            "content": "<p>Der Kauf bei uns ist absolut sicher! Du kannst per PayPal, Kreditkarte, Rechnung oder Sofrtüberweisung bezahlen.<\/p>"
+            "image": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
+            "column_size": "4",
+            "title": "Qualität & Langlebigkeit",
+            "heading_tag": "h4",
+            "content": "<p>30 Jahre Garantie auf die Solarpnels und 10 Jahre auf die Wechselrichter.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "a2a3dd5b-c824-4b9f-9e2d-07bd99df0f1f": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        },
+        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
+            "column_size": "4",
+            "title": "Sicherer Rechtsrahmen",
+            "heading_tag": "h4",
+            "content": "<p>Wir sitzen in Hamburg, sprechen deine Sprache und sind jederzeit zu erreichen.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "template--16659255328995__eb669a9b-f3ba-4322-a342-6e406c9aed10-1677950314c98abaa0-0",
-        "template--16659255328995__eb669a9b-f3ba-4322-a342-6e406c9aed10-1677950314c98abaa0-1",
-        "template--16659255328995__eb669a9b-f3ba-4322-a342-6e406c9aed10-1677950314c98abaa0-2"
+        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-0",
+        "deea919a-7cba-4537-9b9f-bb7f669293eb",
+        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-1",
+        "a2a3dd5b-c824-4b9f-9e2d-07bd99df0f1f",
+        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-2"
       ],
       "settings": {
         "full_width": true,
-        "title": "Unser Versprechen an dich",
-        "heading_tag": "h5",
+        "stack_on_mobile": false,
+        "gap": "medium",
         "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "#303484",
-        "background_gradient": "linear-gradient(30deg, rgba(36, 93, 167, 1) 1%, rgba(48, 52, 132, 1) 82%)",
-        "text_color": "#ffffff"
+        "subheading": "",
+        "title": "Deine Vorteile",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "17bad9c3-006a-46bf-bb1c-bfbdd4effc47": {
@@ -651,7 +670,7 @@
     "featured-product",
     "featured-collection",
     "dd4b39a7-cba5-4921-aded-b23165d33a04",
-    "eb669a9b-f3ba-4322-a342-6e406c9aed10",
+    "03b7a9cd-af00-4f67-9a88-eff2ef9db14a",
     "17bad9c3-006a-46bf-bb1c-bfbdd4effc47",
     "038ec884-44c0-4393-8be6-1c0e511c68b7",
     "ec37d66d-e3b0-4e99-9903-e948546665a0",
