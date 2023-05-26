@@ -4,7 +4,9 @@
   {%- when 'desk_only' -%}
     {% assign desktop_only = true %}
 {%- endcase -%}
-
+{%- if mega_menu_block.settings.large_block -%}
+  {%- assign large_block = true %}
+{%- endif -%}
  {%- assign is_promo_stretch = mega_menu_block.settings.stretch_promo -%}
 {%- assign promo_item_count = 0 -%}
 {%- capture promo_id -%}{{ 'now' | date: '%N' }}{%- endcapture -%}
@@ -211,7 +213,7 @@
   {%- endfor -%}
 
   {%- if mega_menu_block.settings.product != blank -%}
-    <div {% if is_promo_collage or is_promo_carousel %}style="grid-area: {% if is_promo_collage %}promo-{{ promo_item_count }}{% elsif is_promo_carousel %}1 / -1{% endif %}"{% endif %} class="align-self-stretch {% if mobile_only %}mobile-only{% elsif desktop_only %}desktop-only{% endif %}{% if is_promo_carousel and promo_item_count > 0 %}reveal-invisible{% endif %}">
+    <div {% if is_promo_collage or is_promo_carousel %}style="grid-area: {% if is_promo_collage %}promo-{{ promo_item_count }}{% elsif is_promo_carousel %}1 / -1{% endif %}"{% endif %} class="align-self-stretch {% if mobile_only %}mobile-only{% elsif desktop_only %}desktop-only{% endif %}{% if large_block %} large-block{% endif %}{% if is_promo_carousel and promo_item_count > 0 %} reveal-invisible{% endif %}">
       {%- if mega_menu_block.settings.quick_buy -%}
         {%- render 'product-card', product: mega_menu_block.settings.product, background: mega_menu_block.settings.product_card_background, text_color: mega_menu_block.settings.product_card_text_color, show_vendor: false, show_rating: false, show_badges: false, show_swatches: false, show_secondary_image: false, text_alignment: 'center', show_quick_buy: true -%}
       {%- else -%}
