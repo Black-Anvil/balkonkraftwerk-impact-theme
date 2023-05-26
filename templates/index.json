@@ -170,7 +170,7 @@
         "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-1": {
           "type": "heading",
           "settings": {
-            "text": "Das beliebteste Produkt",
+            "text": "Unser günstiges Einstiegsprodukt",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -179,7 +179,7 @@
         "template--16659255328995__5ec05952-db1b-4d76-94f4-13d44ede4598-1677958297ee1d2b5d-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Die meisten unserer Kunden entscheiden sich für dieses Balkonkraftwerk:<\/p>"
+            "content": "<p>Der einfache Start deinen eigenen Strom zu erzeugen<\/p>"
           }
         }
       },
@@ -311,7 +311,7 @@
         "title": "Weitere beliebte Solarprodukte",
         "content": "",
         "link_url": "",
-        "link_text": "Alle anzeigen",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -502,12 +502,73 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection-1": {
+        "4f42510c-ff8d-4d6f-bf69-c04c0178d776": {
           "type": "collection",
           "settings": {
-            "collection": "balkonkraftwerk-komplettsets",
+            "collection": "balkonkraftwerk-fur-den-garten",
+            "image": "shopify:\/\/shop_images\/Collection_Garten_-_Mobile_526dc608-5a90-49ae-b11a-9a5b9bf3881a.jpg",
             "subheading": "",
-            "title": "",
+            "title": "Garten",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "6046607f-b4bf-4450-a956-1b84b44716fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkonkraftwerk-fur-das-balkongitter",
+            "image": "shopify:\/\/shop_images\/Collection_Balkon_-_Mobile_9877bd17-3335-41db-bbac-3f9a51fa5be2.jpg",
+            "subheading": "",
+            "title": "Balkongitter",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "b6b3f809-5b58-4ecb-acfe-38ac8d953a6a": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkonkraftwerk-mit-halterung",
+            "image": "shopify:\/\/shop_images\/Collection_Flachdach_-_Mobile_e9b6eede-4550-4c30-8bfa-366001a183cf.jpg",
+            "subheading": "",
+            "title": "Flachdach",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "2ac3102b-7baa-4b10-82ad-8fa828e1333e": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkonkraftwerke-fur-schrage-dacher",
+            "image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_1b2e23e7-f3e6-4610-912d-a180e53e58b2.jpg",
+            "subheading": "",
+            "title": "Schräges Dach",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "4467dbc3-0a63-4dc6-b558-a46401dfd5e8": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkonkraftwerk-ohne-halterung",
+            "image": "shopify:\/\/shop_images\/Collection_Ohne_-_Mobile_84cd2527-4ea4-4f8a-b6bf-4f3ee840d75e.jpg",
+            "subheading": "",
+            "title": "Ohne Halterung",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -529,37 +590,26 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "zubehor",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
+        "4f42510c-ff8d-4d6f-bf69-c04c0178d776",
+        "6046607f-b4bf-4450-a956-1b84b44716fb",
+        "b6b3f809-5b58-4ecb-acfe-38ac8d953a6a",
+        "2ac3102b-7baa-4b10-82ad-8fa828e1333e",
+        "4467dbc3-0a63-4dc6-b558-a46401dfd5e8",
+        "collection-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_collections": false,
-        "collections_per_row": 3,
+        "collections_per_row": 4,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Produktkategorien",
+        "title": "Unsere Balkonkraftwerke",
         "content": "",
         "link_url": "",
-        "link_text": "Alle Anzeigen",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",

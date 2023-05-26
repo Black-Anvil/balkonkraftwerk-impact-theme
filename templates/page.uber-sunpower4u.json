@@ -70,7 +70,7 @@
       "type": "plain-text",
       "settings": {
         "content": "<p>sunpower4u ist ein Projekt von uns: Benjamin und Sven. Wir sind Familienväter und seit einigen Jahren im eCommerce tätig. <\/p><p>Spätestens seit dem wir Kinder haben, hat Nachhaltigkeit für uns eine neue Relevanz bekommen. <\/p><p>Dem Thema Energie kommt hierbei schon länger eine besondere Bedeutung zu. Elektrizität dient zum einen, um die sichtbaren elektrischen Verbraucher zu betreiben, aber kann eben auch dazu dienen, Wärme und Kälte zu produzieren und Mobilität bereitzustellen. <\/p><p>Solarenergie ist unserer Meinung ein wichtiger Baustein hierbei. Früher war das ein reines \"Expertenthema\", das nur wenige beherrscht haben und noch weniger Menschen für sich selber nutzen konnten. Doch in den letzten Jahren hat es hier extreme Entwicklungen gegeben und heute kann fast jeder Solarstrom selber erzeugen und für sich nutzen. <\/p><p>Unser Ziel ist, möglichst vielen Menschen, Familien, Unternehmen dabei zu helfen, dies umzusetzen. <\/p><p>In diesem Zusammenhang versuchen wir passende Produkte zusammenzustellen und anzubieten. <\/p><p>Neben dem passenden Angebot kennen wir als alte eCommerce Experten uns sehr gut aus mit der Logistik und wie man exzellenten Kundenservice bietet. Als unser Kunde profitierst Du hiervon.<\/p><p>sunpower4u ist ein Webshop der fantastic commerce GmbH. Dieses Unternehmen gehört Sven und ist in Hamburg ansässig, so wie auch all unsere angestellten Mitarbeiter:innen.<\/p><p>Bestimmte Services wie zB die Logistik führen mit unseren Partnerbetrieben in Deutschland durch. <\/p><p>Als deutsches Unternehmen unterliegen wir natürlich dem Verbraucherschutz, Mitarbeiterschutz und der Steuergesetzgebung hier in Deutschland. Das finden wir gut, den so entsteht ein sicherer Rahmen, in dem sich alle fair behandelt wissen. <\/p><p>Wenn Sie Fragen zu uns haben, senden Sie uns gerne eine Mail an <a href=\"mailto:support@sunpower4u.de\" title=\"mailto:support@sunpower4u.de\">support@sunpower4u.de<\/a> - wir haben keine Geheimnisse.<\/p>",
-        "bg_color": "transparent"
+        "bg_color": "#ffffff"
       }
     },
     "7cddc325-f69c-47b3-a588-bfb063f12da8": {
@@ -185,9 +185,78 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a9422bbe-9acc-46ed-ab58-19840a547134": {
+      "type": "media-with-text",
+      "blocks": {
+        "6b61b7fa-12a1-463f-b56f-46e6f73183d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DGS-Mitglied.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Mitglied in der DGS",
+            "content": "<p>Um den Ausbau und die Akzeptanz von Solarenergie in Deutschland zu stärken, sind wir mit Freude ordentliches Mitglied in der DGS (Deutsche Gesellschaft für Sonnenenergie e.V.)<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "6b61b7fa-12a1-463f-b56f-46e6f73183d4"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ac18a99f-6914-4764-be77-46c529ef8dcc": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--16667369144547__ac18a99f-6914-4764-be77-46c529ef8dcc-1684920655a538d6c4-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "balkonkraftwerk-tipps",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16667369144547__ac18a99f-6914-4764-be77-46c529ef8dcc-1684920655a538d6c4-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "Mehr zum Thema Solar & Balkonkraftwerke",
+        "content": "",
+        "link_url": "",
+        "link_text": "Alle Artikel",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "6ee25e18-ece3-439a-b346-d2509cf1f0f5": {
@@ -206,6 +275,8 @@
     "3ae85e15-735c-4ca0-8dd2-00f70bd4f2ef",
     "7cddc325-f69c-47b3-a588-bfb063f12da8",
     "49e3c43d-f338-4169-862e-2d0b78068913",
+    "a9422bbe-9acc-46ed-ab58-19840a547134",
+    "ac18a99f-6914-4764-be77-46c529ef8dcc",
     "6ee25e18-ece3-439a-b346-d2509cf1f0f5"
   ]
 }

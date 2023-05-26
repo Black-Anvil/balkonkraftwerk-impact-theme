@@ -40,7 +40,7 @@
         "5e109a8c-1330-42f8-bf14-ca3103811f40": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkl. 0% MwSt. + 49,00 € Versandkosten<\/p>"
+            "text": "<p>Inkl. 0% MwSt. bei Abgabe an Privatpersonen + 49,00 € Versandkosten<\/p>"
           }
         },
         "separator": {
@@ -91,6 +91,19 @@
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
+        },
+        "ca5589d2-a997-4224-b681-fb912535f3bb": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Lieferbar am 5.6.2023",
+            "content": "<p>25,00 € Vorbesteller Rabatt sichern mit Code: SONNE-25<\/p><p>Einfach in der Kasse aktivieren.<\/p>",
+            "background": "#f7dcb3",
+            "text_color": "#1a1a1a"
+          }
         }
       },
       "block_order": [
@@ -106,7 +119,8 @@
         "quantity_selector",
         "buy_buttons",
         "613de3a2-5ac8-492e-b407-fdd88023f980",
-        "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c"
+        "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c",
+        "ca5589d2-a997-4224-b681-fb912535f3bb"
       ],
       "settings": {
         "full_width": true,
@@ -640,13 +654,14 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "recommendations_count": 6,
+        "recommendations_count": 3,
         "products": [
-          "balkonkraftwerk-850w-all-black",
-          "balkonkraftwerk-720w",
-          "balkonkraftwerk-425w-all-black",
-          "balkonkraftwerk-360w",
-          "solarpanel-360w"
+          "sun-expert-800-balkon",
+          "balkonkraftwerk-fur-die-fassade-600w",
+          "sun-pro-600-fassade-flache-montage",
+          "sun-pro-600-flachdach-garten",
+          "sun-pro-600-ziegeldach",
+          "sun-pro-600-pur"
         ],
         "full_width": true,
         "stack_products": true,

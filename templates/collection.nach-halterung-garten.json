@@ -2,6 +2,9 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "custom_css": [
+        "h1 {font-size: 2.5em;}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -11,9 +14,11 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "sm",
-        "mobile_text_position": "place-self-center text-center",
+        "image": "shopify:\/\/shop_images\/Collection_Garten_-_Desktop_03b75350-6b34-441b-9f41-bd4e48256bdb.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Collection_Garten_-_Mobile_d4e96b5e-bd85-40b4-bd8a-96ff5136657b.jpg",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "featured_product": "balkonkraftwerk-600w-set",
+        "featured_product": "",
         "featured_product_heading": "Beliebtestes Produkt",
         "text_color": "#ffffff",
         "overlay_color": "#000000",

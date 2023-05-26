@@ -25,12 +25,19 @@
             "title": "Individuelle Solarberatung",
             "content": "<p>Beratung wird bei uns großgeschrieben! Wir möchten, dass du deine passende Solaranlage oder Balkonkraftwerk findest. <\/p><p>Wenn du Fragen hast, schreib uns gerne und wir helfen dir weiter!<\/p><p><a href=\"\/pages\/individuelle-beratung\" target=\"_blank\" title=\"Individuelle Beratung\">Zur Beratung<\/a><\/p>"
           }
+        },
+        "a72c9040-b7df-4598-b3eb-617b6f310006": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DGS-Mitglied.jpg"
+          }
         }
       },
       "block_order": [
         "links",
         "text",
-        "def04d68-e390-4c62-a611-7259cd697d78"
+        "def04d68-e390-4c62-a611-7259cd697d78",
+        "a72c9040-b7df-4598-b3eb-617b6f310006"
       ],
       "settings": {
         "show_social_media": true,
