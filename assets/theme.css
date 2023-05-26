@@ -9929,6 +9929,12 @@ div.video_container div.child {
 .navigation-promo.naviation-promo--grid {
   grid-template-columns: repeat(auto-fit, 1fr);
 }
+.navigation-promo .product-card__quick-buy.enabled {
+  display: block;
+}
+.align-self-stretch.desktop-only {
+  display: none;
+}
 @media (max-width: 375px) {
   .navigation-promo.navigation-promo--grid {
     grid-template-columns: repeat(2, 1fr);
@@ -9942,6 +9948,14 @@ div.video_container div.child {
 @media (min-width: 700px) and (max-width: 1149px) {
   .navigation-promo.navigation-promo--grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1150px) {
+  .align-self-stretch.mobile-only {
+    display: none;
+  }
+  .align-self-stretch.desktop-only {
+    display: block;
   }
 }
 
