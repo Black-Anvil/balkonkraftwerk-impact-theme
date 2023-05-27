@@ -84,6 +84,9 @@
             "large_block": true,
             "product_card_background": "",
             "product_card_text_color": "",
+            "icon": "",
+            "icon_heading": "",
+            "icon_text": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
             "drawer_link_image": "hide"
@@ -125,6 +128,9 @@
             "large_block": false,
             "product_card_background": "",
             "product_card_text_color": "",
+            "icon": "",
+            "icon_heading": "",
+            "icon_text": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
             "drawer_link_image": "hide"
@@ -160,6 +166,9 @@
             "large_block": false,
             "product_card_background": "",
             "product_card_text_color": "",
+            "icon": "",
+            "icon_heading": "",
+            "icon_text": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
             "drawer_link_image": "hide"

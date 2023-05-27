@@ -23,6 +23,10 @@
   {%- assign promo_item_count = promo_item_count | plus: 1 -%}
 {%- endif -%}
 
+{%- if mega_menu_block.settings.icon != blank -%}
+  {%- assign promo_item_count = promo_item_count | plus: 1 -%}
+{%- endif -%}
+
 {%- assign mega_menu_col = promo_item_count | plus: link_col -%}
 
 {% if force_carousel_mode or use_carousel_fallback_until %}
@@ -212,7 +216,7 @@
     {%- endif -%}
   {%- endfor -%}
 
-  {%- if mega_menu_block.settings.product != blank -%}
+  {%- if mega_menu_block.settings.product -%}
     <div {% if is_promo_collage or is_promo_carousel %}style="grid-area: {% if is_promo_collage %}promo-{{ promo_item_count }}{% elsif is_promo_carousel %}1 / -1{% endif %}"{% endif %} class="align-self-stretch {% if mobile_only %}mobile-only{% elsif desktop_only %}desktop-only{% endif %}{% if large_block %} large-block{% endif %}{% if is_promo_carousel and promo_item_count > 0 %} reveal-invisible{% endif %}">
       {%- if mega_menu_block.settings.quick_buy -%}
         {%- render 'product-card', product: mega_menu_block.settings.product, background: mega_menu_block.settings.product_card_background, text_color: mega_menu_block.settings.product_card_text_color, show_vendor: false, show_rating: false, show_badges: false, show_swatches: false, show_secondary_image: false, text_alignment: 'center', show_quick_buy: true -%}
@@ -220,6 +224,10 @@
         {%- render 'product-card', product: mega_menu_block.settings.product, background: mega_menu_block.settings.product_card_background, text_color: mega_menu_block.settings.product_card_text_color, show_vendor: false, show_rating: false, show_badges: false, show_swatches: false, show_secondary_image: false, text_alignment: 'center' -%}
       {%- endif -%}
     </div>
+  {%- endif -%}
+
+  {%- if mega_menu_block.settings.icon != blank or mega_menu_block.settings.icon_heading != blank or mega_menu_block.settings.icon_text != blank -%}
+    <h1>FUCKING ICON</h1>
   {%- endif -%}
 {%- endcapture -%}
 
