@@ -761,7 +761,7 @@ the underlying logic of the menu.
         },
         {
           "type": "select",
-          "id": "visible",
+          "id": "prod_visible",
           "label": "Visible on:",
           "options": [
             {
@@ -1064,6 +1064,11 @@ the underlying logic of the menu.
           ]
         },
         {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "Custom icon"
+        },
+        {
           "type": "text",
           "id": "icon_heading",
           "label": "Heading"
@@ -1072,6 +1077,25 @@ the underlying logic of the menu.
           "type": "richtext",
           "id": "icon_text",
           "label": "Content"
+        },
+        {
+          "type": "select",
+          "id": "icon_text_visible",
+          "label": "Visible on:",
+          "options": [
+            {
+              "value": "mob_desk",
+              "label": "Mobile & Desktop"
+            },
+            {
+              "value": "mob_only",
+              "label": "Mobile only"
+            },
+            {
+              "value": "desk_only",
+              "label": "Desktop only"
+            }
+          ]
         },
         {
           "type": "header",

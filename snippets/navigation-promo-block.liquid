@@ -1,8 +1,14 @@
-{%- case mega_menu_block.settings.visible -%}
+{%- case mega_menu_block.settings.prod_visible -%}
   {%- when 'mob_only' -%}
-    {% assign mobile_only = true %}
+    {%- assign prod_mobile_only = true -%}
   {%- when 'desk_only' -%}
-    {% assign desktop_only = true %}
+    {%- assign prod_desktop_only = true -%}
+{%- endcase -%}
+{%- case mega_menu_block.settings.icon_text_visible -%}
+  {%- when 'mob_only' -%}
+    {%- assign icon_text_mobile_only = true -%}
+  {%- when 'desk_only' -%}
+    {%- assign icon_text_desktop_only = true -%}
 {%- endcase -%}
 {%- if mega_menu_block.settings.large_block -%}
   {%- assign large_block = true %}
@@ -216,8 +222,8 @@
     {%- endif -%}
   {%- endfor -%}
 
-  {%- if mega_menu_block.settings.product -%}
-    <div {% if is_promo_collage or is_promo_carousel %}style="grid-area: {% if is_promo_collage %}promo-{{ promo_item_count }}{% elsif is_promo_carousel %}1 / -1{% endif %}"{% endif %} class="align-self-stretch {% if mobile_only %}mobile-only{% elsif desktop_only %}desktop-only{% endif %}{% if large_block %} large-block{% endif %}{% if is_promo_carousel and promo_item_count > 0 %} reveal-invisible{% endif %}">
+  {%- if mega_menu_block.settings.product != blank -%}
+    <div {% if is_promo_collage or is_promo_carousel %}style="grid-area: {% if is_promo_collage %}promo-{{ promo_item_count }}{% elsif is_promo_carousel %}1 / -1{% endif %}"{% endif %} class="align-self-stretch {% if prod_mobile_only %}mobile-only{% elsif prod_desktop_only %}desktop-only{% endif %}{% if large_block %} large-block{% endif %}{% if is_promo_carousel and promo_item_count > 0 %} reveal-invisible{% endif %}">
       {%- if mega_menu_block.settings.quick_buy -%}
         {%- render 'product-card', product: mega_menu_block.settings.product, background: mega_menu_block.settings.product_card_background, text_color: mega_menu_block.settings.product_card_text_color, show_vendor: false, show_rating: false, show_badges: false, show_swatches: false, show_secondary_image: false, text_alignment: 'center', show_quick_buy: true -%}
       {%- else -%}
@@ -226,8 +232,22 @@
     </div>
   {%- endif -%}
 
-  {%- if mega_menu_block.settings.icon != blank or mega_menu_block.settings.icon_heading != blank or mega_menu_block.settings.icon_text != blank -%}
-    <h1>FUCKING ICON</h1>
+  {%- if mega_menu_block.settings.icon != blank or mega_menu_block.settings.custom_icon != blank or mega_menu_block.settings.icon_heading != blank or mega_menu_block.settings.icon_text != blank -%}
+    <div class="mega-menu__icon-text {% if icon_text_mobile_only %}mobile-only{% elsif icon_text_desktop_only %}desktop-only{% endif %}">
+      {%- if mega_menu_block.settings.custom_icon != blank -%}
+        {{ mega_menu_block.settings.custom_icon | image_url: width: nil | image_tag }}
+      {%- elsif mega_menu_block.settings.icon != blank -%}
+        {%- render 'icon' with mega_menu_block.settings.icon -%}
+      {%- endif -%}
+      <div class="mega-menu__icon-text__text">
+        {%- if mega_menu_block.settings.icon_heading != blank -%}
+          <p class="h3">{{ mega_menu_block.settings.icon_heading }}</p>
+        {%- endif -%}
+        {%- if mega_menu_block.settings.icon_text != blank -%}
+          <p>{{ mega_menu_block.settings.icon_text }}</p>
+        {%- endif -%}
+      </div>
+    </div>
   {%- endif -%}
 {%- endcapture -%}
 
