@@ -82,6 +82,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <!-- Upsell & Cross Sell - Selleasy by Logbase - Starts -->
       <script src='https://upsell-app.logbase.io/lb-upsell.js?shop=balkonkraftwerk-rocks.myshopify.com' defer></script>
     <!-- Upsell & Cross Sell - Selleasy by Logbase - Ends -->
+
+	{{ shop.metafields.loox["global_html_head"] }}
 </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
@@ -129,5 +131,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 </script>
 <script type='text/javascript' src='https://euc-widget.freshworks.com/widgets/103000005362.js' async defer></script>
     
+
+	{{ shop.metafields.loox["global_html_body"] }}
 </body>
 </html>

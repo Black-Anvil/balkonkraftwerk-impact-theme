@@ -84,6 +84,11 @@
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -92,6 +97,7 @@
         "0a39fe78-65ad-4539-b5a9-0c170b9cbb64",
         "badges",
         "price",
+        "loox-rating",
         "rating",
         "payment_terms",
         "separator",
@@ -337,6 +343,25 @@
         "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
         "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
       }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -347,6 +372,7 @@
     "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
     "76425803-a0c4-47c2-974b-716c027eb060",
     "related-products",
-    "8f0fe7e7-d15f-47ca-a15f-15972ffa199d"
+    "8f0fe7e7-d15f-47ca-a15f-15972ffa199d",
+    "loox-product-reviews-app-section"
   ]
 }

@@ -8,8 +8,8 @@
         "c18832bf-d6c7-4427-904c-d8645a9f254a": {
           "type": "message",
           "settings": {
-            "text": "🚚 Schneller Versand zu dir nach Hause 🚚",
-            "url": ""
+            "text": "☀️ Balkonkraftwerke sofort lieferbar ☀️",
+            "url": "shopify:\/\/collections\/balkonkraftwerk-komplettsets"
           }
         },
         "message": {
@@ -23,7 +23,7 @@
         "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b": {
           "type": "message",
           "settings": {
-            "text": "⭐⭐⭐⭐⭐ aus über 100 Bewertungen",
+            "text": "⭐⭐⭐⭐⭐ sagen unsere Kunden",
             "url": ""
           }
         },
@@ -43,7 +43,7 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-base",
+        "text_size": "text-lg",
         "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#ffcb00",
@@ -94,15 +94,15 @@
             "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/Collection_Balkon_-_Mobile.jpg",
             "image_heading_1": "Balkon",
-            "image_link_1": "shopify:\/\/collections\/balkonkraftwerk-fur-das-balkongitter",
+            "image_link_1": "shopify:\/\/products\/sun-pro-600-balkon",
             "image_text_color_1": "#ffffff",
             "image_2": "shopify:\/\/shop_images\/Collection_Flachdach_-_Mobile.jpg",
             "image_heading_2": "Flachdach",
-            "image_link_2": "shopify:\/\/collections\/balkonkraftwerk-mit-halterung",
+            "image_link_2": "shopify:\/\/products\/sun-pro-600-flachdach-garten",
             "image_text_color_2": "#ffffff",
-            "image_3": "shopify:\/\/shop_images\/Collection_Schragdach_-_Mobile.jpg",
-            "image_heading_3": "Schrägdach",
-            "image_link_3": "shopify:\/\/collections\/balkonkraftwerke-fur-schrage-dacher",
+            "image_3": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_2.jpg",
+            "image_heading_3": "Ziegeldach",
+            "image_link_3": "shopify:\/\/products\/sun-pro-600-ziegeldach",
             "image_text_color_3": "#ffffff",
             "image_4": "shopify:\/\/shop_images\/Collection_Fassade_2_-_Mobile.jpg",
             "image_heading_4": "Fassade",
@@ -110,7 +110,7 @@
             "image_text_color_4": "#ffffff",
             "image_5": "shopify:\/\/shop_images\/Collection_Garten_-_Mobile.jpg",
             "image_heading_5": "Garten",
-            "image_link_5": "shopify:\/\/collections\/balkonkraftwerk-fur-den-garten",
+            "image_link_5": "shopify:\/\/products\/sun-pro-600-flachdach-garten",
             "image_text_color_5": "#ffffff",
             "image_6": "shopify:\/\/shop_images\/Collection_Ohne_-_Mobile.jpg",
             "image_heading_6": "Ohne Halterung",

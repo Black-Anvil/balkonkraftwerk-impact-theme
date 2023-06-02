@@ -4,9 +4,72 @@
       "type": "main-not-found",
       "settings": {
       }
+    },
+    "4f6b4e77-dea2-4cf3-8bfe-427def48e8f3": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-komplettsets",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Beliebte Produkte bei uns im Shop",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "4633f812-0a0e-4e9d-97fd-c73e40b4a291": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--16664628429027__4633f812-0a0e-4e9d-97fd-c73e40b4a291-1685349238376e9a95-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "balkonkraftwerk-tipps",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16664628429027__4633f812-0a0e-4e9d-97fd-c73e40b4a291-1685349238376e9a95-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Aktuelle Blog Artikel zu Balkonkraftwerken",
+        "content": "",
+        "link_url": "",
+        "link_text": "Alle ansehen",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4f6b4e77-dea2-4cf3-8bfe-427def48e8f3",
+    "4633f812-0a0e-4e9d-97fd-c73e40b4a291"
   ]
 }
