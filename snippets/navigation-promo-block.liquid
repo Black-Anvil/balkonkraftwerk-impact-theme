@@ -233,7 +233,7 @@
   {%- endif -%}
 
   {%- if mega_menu_block.settings.icon != blank or mega_menu_block.settings.custom_icon != blank or mega_menu_block.settings.icon_heading != blank or mega_menu_block.settings.icon_text != blank -%}
-    <div class="mega-menu__icon-text {% if icon_text_mobile_only %}mobile-only{% elsif icon_text_desktop_only %}desktop-only{% endif %}">
+    <div class="mega-menu__icon-text{% if mega_menu_block.settings.icon_layout == 'large_icon' %} large-icon{% endif %}{% if icon_text_mobile_only %} mobile-only{% elsif icon_text_desktop_only %} desktop-only{% endif %}">
       {%- if mega_menu_block.settings.custom_icon != blank -%}
         {{ mega_menu_block.settings.custom_icon | image_url: width: nil | image_tag }}
       {%- elsif mega_menu_block.settings.icon != blank -%}
