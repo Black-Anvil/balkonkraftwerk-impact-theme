@@ -91,19 +91,6 @@
             "background": "#eaf2ed",
             "text_color": "#00a341"
           }
-        },
-        "ca5589d2-a997-4224-b681-fb912535f3bb": {
-          "type": "offer",
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-coupon",
-            "icon_width": 24,
-            "title": "Lieferbar am 5.6.2023",
-            "content": "<p>25,00 € Vorbesteller Rabatt sichern mit Code: SONNE-25<\/p><p>Einfach in der Kasse aktivieren.<\/p>",
-            "background": "#f7dcb3",
-            "text_color": "#1a1a1a"
-          }
         }
       },
       "block_order": [
@@ -119,8 +106,7 @@
         "quantity_selector",
         "buy_buttons",
         "613de3a2-5ac8-492e-b407-fdd88023f980",
-        "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c",
-        "ca5589d2-a997-4224-b681-fb912535f3bb"
+        "f4aa5e9b-bb36-4654-af2e-9ba8ac6cef2c"
       ],
       "settings": {
         "full_width": true,
@@ -132,7 +118,7 @@
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
+        "max_image_zoom_level": 1,
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -292,43 +278,6 @@
         "text_color": ""
       }
     },
-    "7553a272-19be-46f6-9a55-2e83f19ceac8": {
-      "type": "rich-text",
-      "blocks": {
-        "20b28726-6039-4603-8aa2-705f712bf1b4": {
-          "type": "heading",
-          "settings": {
-            "text": "Videos zu diesem Produkt",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "20b28726-6039-4603-8aa2-705f712bf1b4"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "8268950b-6600-4457-a7f3-574113141d7a": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-bottom: 1em;\nbackground-color:white;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\nvertical-align: top;\n    }\n--><\/style>\n<div class=\"video_container\">\n  <div class=\"child\">\n\n    <div class=\"video_container\">\n      <div class=\"child\">\n        <h4 class=\"h4\">Montage des Balkonkraftwerks<\/h4><br>\n      <\/div>\n      <div class=\"child\">\n        <iframe src=\"https:\/\/www.youtube.com\/embed\/ZcXhcUGFdhY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>\n      <\/div>\n    <\/div>\n\n    <div class=\"video_container\">\n      <div class=\"child\">\n        <h4 class=\"h4\">Einrichtung des Balkonkraftwerks im WLAN<\/h4><br>\n      <\/div>\n      <div class=\"child\">\n        <iframe src=\"https:\/\/www.youtube.com\/embed\/P1tB60aupVA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>\n      <\/div>\n    <\/div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "81fc0073-4101-408e-ba50-093e46106beb": {
       "type": "faq",
       "blocks": {
@@ -421,76 +370,66 @@
         "accordion_text_color": ""
       }
     },
-    "d9678639-e8b3-4223-8d34-54e86bea58a3": {
-      "type": "multi-column",
+    "49a13fdd-9f2e-4929-a5d1-a1f707dafb78": {
+      "type": "text-with-icons",
       "blocks": {
-        "template--18867999375686__d9678639-e8b3-4223-8d34-54e86bea58a3-1684749309f592e787-0": {
+        "template--18867999375686__49a13fdd-9f2e-4929-a5d1-a1f707dafb78-1685562704c587d4ab-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Anmeldbar.png",
-            "column_size": "4",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Anmeldbar.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Sicherheit für Dich",
-            "heading_tag": "h4",
-            "content": "<p>Unsere Balkonkraftwerke lassen sich alle beim Netzbetreiber anmelden.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "content": "<p>Unsere Balkonkraftwerke lassen sich alle beim Netzbetreiber anmelden.<\/p>"
           }
         },
-        "d899d04b-e23a-40f5-bdcd-6e4866b6f825": {
-          "type": "spacer",
-          "settings": {
-            "column_size": "12"
-          }
-        },
-        "template--18867999375686__d9678639-e8b3-4223-8d34-54e86bea58a3-1684749309f592e787-1": {
+        "template--18867999375686__49a13fdd-9f2e-4929-a5d1-a1f707dafb78-1685562704c587d4ab-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
-            "column_size": "4",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Qualität & Langlebigkeit",
-            "heading_tag": "h4",
-            "content": "<p>30 Jahre Garantie auf die Solarpnels und 10 Jahre auf die Wechselrichter.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "content": "<p>30 Jahre Garantie auf die Solarpanels und 10 Jahre auf die Wechselrichter.<\/p>"
           }
         },
-        "520ef9ac-453f-4970-85ca-72bcf36db7a7": {
-          "type": "spacer",
-          "settings": {
-            "column_size": "12"
-          }
-        },
-        "template--18867999375686__d9678639-e8b3-4223-8d34-54e86bea58a3-1684749309f592e787-2": {
+        "template--18867999375686__49a13fdd-9f2e-4929-a5d1-a1f707dafb78-1685562704c587d4ab-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
-            "column_size": "4",
-            "title": "Sicherer Rechtsrahmen",
-            "heading_tag": "h4",
-            "content": "<p>Wir sitzen in Hamburg, sprechen deine Sprache und sind jederzeit zu erreichen.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Aus Hamburg für Dich",
+            "content": "<p>Wir sitzen in Hamburg, sprechen deine Sprache und sind jederzeit zu erreichen.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18867999375686__d9678639-e8b3-4223-8d34-54e86bea58a3-1684749309f592e787-0",
-        "d899d04b-e23a-40f5-bdcd-6e4866b6f825",
-        "template--18867999375686__d9678639-e8b3-4223-8d34-54e86bea58a3-1684749309f592e787-1",
-        "520ef9ac-453f-4970-85ca-72bcf36db7a7",
-        "template--18867999375686__d9678639-e8b3-4223-8d34-54e86bea58a3-1684749309f592e787-2"
+        "template--18867999375686__49a13fdd-9f2e-4929-a5d1-a1f707dafb78-1685562704c587d4ab-0",
+        "template--18867999375686__49a13fdd-9f2e-4929-a5d1-a1f707dafb78-1685562704c587d4ab-1",
+        "template--18867999375686__49a13fdd-9f2e-4929-a5d1-a1f707dafb78-1685562704c587d4ab-2"
+      ],
+      "custom_css": [
+        ".text-with-icons {font-size: 1.2em;}"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
+        "title": "Dene Vorteile",
+        "heading_tag": "h5",
         "text_alignment": "center",
-        "subheading": "",
-        "title": "Deine Vorteile",
-        "content": "",
+        "icon_spacing": "medium",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -656,7 +595,7 @@
       "settings": {
         "recommendations_count": 3,
         "products": [
-          "sun-expert-800-balkon",
+          "sun-pro-600-balkon",
           "balkonkraftwerk-fur-die-fassade-600w",
           "sun-pro-600-fassade-flache-montage",
           "sun-pro-600-flachdach-garten",
@@ -694,10 +633,8 @@
     "e15a9773-43fc-4c5d-93c5-53ea2d02c377",
     "836b41f8-8d15-4db5-8ef7-808ef3628d06",
     "381d38c5-df73-41e6-a251-ec90842a0554",
-    "7553a272-19be-46f6-9a55-2e83f19ceac8",
-    "8268950b-6600-4457-a7f3-574113141d7a",
     "81fc0073-4101-408e-ba50-093e46106beb",
-    "d9678639-e8b3-4223-8d34-54e86bea58a3",
+    "49a13fdd-9f2e-4929-a5d1-a1f707dafb78",
     "da1270e6-a249-4a6f-8e44-cf78e2d7e4b1",
     "167825955085f0e600",
     "06726c92-123c-4561-8942-4f17db51e1d2",

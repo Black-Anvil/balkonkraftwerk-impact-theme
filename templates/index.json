@@ -6,15 +6,15 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Depositphotos_604652796_XL.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Depositphotos_604652796_XL.jpg",
+            "image": "shopify:\/\/shop_images\/Homeage-Slider-Haus1-Desktop_93e20556-1542-48cc-b4ce-f669a24d0b31.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Homeage-Slider-Haus1-Mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "Grüner Strom selbst erzeugt",
             "title": "Balkonkraftwerke",
-            "heading_tag": "h0",
-            "button_text": "Jetzt Balkonkraftwerke etdecken",
+            "heading_tag": "h1",
+            "button_text": "Jetzt Balkonkraftwerke entdecken",
             "button_link": "shopify:\/\/collections\/balkonkraftwerk-komplettsets",
             "text_color": "#ffffff",
             "button_background": "#245da7",
@@ -29,7 +29,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Depositphotos_331275944_XL.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Depositphotos_331275944_XL.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Homeage-Slider-Familie-Mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -51,7 +51,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Depositphotos_24609857_XL.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Depositphotos_24609857_XL.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Homeage-Slider-Solarpanels-Mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -137,6 +137,9 @@
         "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-0",
         "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-1",
         "template--16664628855011__3ef4069b-2e72-40e1-8f50-0a3f0d274f97-168327130884a2a75c-2"
+      ],
+      "custom_css": [
+        ".text-with-icons {font-size: 1.2em;}"
       ],
       "settings": {
         "full_width": true,
@@ -360,76 +363,66 @@
         "overlay_opacity": 20
       }
     },
-    "03b7a9cd-af00-4f67-9a88-eff2ef9db14a": {
-      "type": "multi-column",
+    "b5b17ed9-cb5c-4150-aa04-f7873e99874e": {
+      "type": "text-with-icons",
       "blocks": {
-        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-0": {
+        "template--16664628855011__b5b17ed9-cb5c-4150-aa04-f7873e99874e-1685562704c587d4ab-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Anmeldbar.png",
-            "column_size": "4",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Anmeldbar.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Sicherheit für Dich",
-            "heading_tag": "h4",
-            "content": "<p>Unsere Balkonkraftwerke lassen sich alle beim Netzbetreiber anmelden.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "content": "<p>Unsere Balkonkraftwerke lassen sich alle beim Netzbetreiber anmelden.<\/p>"
           }
         },
-        "deea919a-7cba-4537-9b9f-bb7f669293eb": {
-          "type": "spacer",
-          "settings": {
-            "column_size": "12"
-          }
-        },
-        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-1": {
+        "template--16664628855011__b5b17ed9-cb5c-4150-aa04-f7873e99874e-1685562704c587d4ab-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
-            "column_size": "4",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
             "title": "Qualität & Langlebigkeit",
-            "heading_tag": "h4",
-            "content": "<p>30 Jahre Garantie auf die Solarpnels und 10 Jahre auf die Wechselrichter.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "content": "<p>30 Jahre Garantie auf die Solarpanels und 10 Jahre auf die Wechselrichter.<\/p>"
           }
         },
-        "a2a3dd5b-c824-4b9f-9e2d-07bd99df0f1f": {
-          "type": "spacer",
-          "settings": {
-            "column_size": "12"
-          }
-        },
-        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-2": {
+        "template--16664628855011__b5b17ed9-cb5c-4150-aa04-f7873e99874e-1685562704c587d4ab-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
-            "column_size": "4",
-            "title": "Sicherer Rechtsrahmen",
-            "heading_tag": "h4",
-            "content": "<p>Wir sitzen in Hamburg, sprechen deine Sprache und sind jederzeit zu erreichen.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Aus Hamburg für dich",
+            "content": "<p>Wir sitzen in Hamburg, sprechen deine Sprache und sind jederzeit zu erreichen.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-0",
-        "deea919a-7cba-4537-9b9f-bb7f669293eb",
-        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-1",
-        "a2a3dd5b-c824-4b9f-9e2d-07bd99df0f1f",
-        "template--16664628855011__03b7a9cd-af00-4f67-9a88-eff2ef9db14a-1684749309f592e787-2"
+        "template--16664628855011__b5b17ed9-cb5c-4150-aa04-f7873e99874e-1685562704c587d4ab-0",
+        "template--16664628855011__b5b17ed9-cb5c-4150-aa04-f7873e99874e-1685562704c587d4ab-1",
+        "template--16664628855011__b5b17ed9-cb5c-4150-aa04-f7873e99874e-1685562704c587d4ab-2"
+      ],
+      "custom_css": [
+        ".text-with-icons {font-size: 1.2em;}"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
         "title": "Deine Vorteile",
-        "content": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -442,7 +435,7 @@
           "type": "heading",
           "settings": {
             "text": "Das sagen unsere Kunden",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -455,9 +448,52 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "1685619204219e6525": {
+      "type": "apps",
+      "blocks": {
+        "e6f7941e-22dc-4afe-90f4-600f241f578a": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "desktopFontSize": 24,
+            "mobileFontSize": 20,
+            "maxNumberOfCharacters": 190,
+            "quoteMarkIcon": "style-3",
+            "reviewerNameColor": "#303484",
+            "textColor": "#000000",
+            "starsColor": "rgba(0,0,0,0)",
+            "quotesIconColor": "#ffcb00",
+            "arrows_iconColor": "#000000",
+            "arrows_hideOnMobile": true,
+            "pagination_active": true,
+            "pagination_selectedDotColor": "#000000",
+            "pagination_dotColor": "#000000",
+            "autoplay_active": true,
+            "autoplay_duration": 4,
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "e6f7941e-22dc-4afe-90f4-600f241f578a"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "038ec884-44c0-4393-8be6-1c0e511c68b7": {
@@ -467,7 +503,7 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-top: 2em;\nmargin-bottom: 1em;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\n    }\n--><\/style>\n<div class=\"video_container\">\n<div class=\"child\">\n\n<div class=\"video_container\">\n<div class=\"child\">\n<h3 class=\"h2\">Katrin aus Niedersachsen<\/h3><br>\n<p>Katrin hatte überhaupt keine Ahnung von Solarprodukten und hat mit Hilfe unserer individuellen, auf dich zugeschnittenen Beratung, das passende Produkt gefunden.<\/p>\n<p><a href=\"https:\/\/www.sunpower4u.de\/pages\/individuelle-beratung\">Zur Produktberatung<\/a><\/p>\n<\/div>\n<div class=\"child\"><iframe src=\"https:\/\/www.youtube.com\/embed\/S1FCs2VYZ0o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe><\/div>\n<\/div>",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -494,7 +530,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -551,9 +587,9 @@
           "type": "collection",
           "settings": {
             "collection": "balkonkraftwerke-fur-schrage-dacher",
-            "image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_1b2e23e7-f3e6-4610-912d-a180e53e58b2.jpg",
+            "image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_2.jpg",
             "subheading": "",
-            "title": "Schräges Dach",
+            "title": "Ziegeldach",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -720,8 +756,9 @@
     "featured-product",
     "featured-collection",
     "dd4b39a7-cba5-4921-aded-b23165d33a04",
-    "03b7a9cd-af00-4f67-9a88-eff2ef9db14a",
+    "b5b17ed9-cb5c-4150-aa04-f7873e99874e",
     "17bad9c3-006a-46bf-bb1c-bfbdd4effc47",
+    "1685619204219e6525",
     "038ec884-44c0-4393-8be6-1c0e511c68b7",
     "ec37d66d-e3b0-4e99-9903-e948546665a0",
     "collection-list",
