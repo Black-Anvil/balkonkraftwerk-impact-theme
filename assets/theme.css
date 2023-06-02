@@ -10004,6 +10004,9 @@ div.video_container div.child {
   .navigation-promo.navigation-promo--grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .mega-menu__icon-text.large-icon {
+    grid-column: 1/3;
+  }
 }
 @media (min-width: 1150px) {
   .navigation-promo.navigation-promo--grid {
