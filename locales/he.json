@@ -43,6 +43,9 @@
       "accept": "אשר",
       "decline": "דחה"
     },
+    "form": {
+      "max_characters": "{{ max_chars }} תווים מקסימום"
+    },
     "on_boarding": {
       "blog_post_category": "קטגוריה",
       "blog_post_title": "מאמר",
@@ -378,6 +381,12 @@
       "expires_on": "תאריך תפוגה: {{ expires_on }}",
       "expired": "תוקף כרטיס המתנה שלך פג או שהוא בוטל.",
       "add_to_apple_wallet": "הוספה ל-Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "אני רוצה לשלוח את זה במתנה",
+      "email_label": "אימייל של הנמען",
+      "name_label": "שם הנמען (אופציונלי)",
+      "message_label": "הודעה (אופציונלי)"
     }
   },
   "password": {

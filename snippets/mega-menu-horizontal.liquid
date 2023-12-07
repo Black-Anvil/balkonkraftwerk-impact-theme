@@ -5,6 +5,10 @@
         --mega-menu-nav-column-max-width: {% if mega_menu_block.settings.submenu_style == 'bold_text' %}{% if link.links.size <= 2 %}240px{% else %}200px{% endif %}{% else %}{% if link.links.size <= 2 %}180px{% else %}160px{% endif %}{% endif %};
         --mega-menu-justify-content: {% if link.links.size == 0 or mega_menu_block.settings.layout == 'horizontal_center' and mega_menu_block.settings.stretch_promo == false %}center{% else %}space-between{% endif %};
         --mega-menu-nav-gap: {% if mega_menu_block.settings.stretch_promo %}var(--spacing-12){% else %}var(--spacing-8){% endif %};
+
+        {% if link.links.size > 3 %}
+          --column-list-max-width: 75%;
+        {% endif %}
       }
     }
 
@@ -12,6 +16,12 @@
       #mega-menu-{{ mega_menu_block.id }} {
         --mega-menu-nav-column-max-width: {% if mega_menu_block.settings.submenu_style == 'bold_text' %}{% if link.links.size == 1 %}260px{% elsif link.links.size == 2 %}240px{% else %}210px{% endif %}{% else %}{% if link.links.size == 1 %}220px{% elsif link.links.size == 2 %}200px{% else %}180px{% endif %}{% endif %};
         --mega-menu-nav-gap: {% if mega_menu_block.settings.layout == 'horizontal_center' %}var(--spacing-12){% else %}var(--spacing-16){% endif %};
+
+        {% if link.links.size > 4 %}
+          --column-list-max-width: 75%;
+        {% else %}
+          --column-list-max-width: max-content;
+        {% endif %}
       }
     }
 
@@ -34,7 +44,7 @@
     <ul class="mega-menu__nav" role="list">
       {%- for sub_link in link.links -%}
         <li class="v-stack gap-4 justify-items-start">
-          <a {% if sub_link.url != '#' %}href="{{ sub_link.url }}"{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h6{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}>
+          <a {% if sub_link.url != '#' %}href="{{ sub_link.url }}"{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h5{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}>
             <span {% if sub_link.url != '#' %}class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}link-faded{% else %}reversed-link hover:show{% endif %}"{% endif %}>
               {{- sub_link.title -}}
             </span>
@@ -44,7 +54,7 @@
             <ul class="v-stack gap-2 justify-items-start" role="list">
               {%- for sub_sub_link in sub_link.links -%}
                 <li>
-                  <a href="{{ sub_sub_link.url }}" class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}h6{% else %}link-faded{% endif %}">
+                  <a href="{{ sub_sub_link.url }}" class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}h5{% else %}link-faded{% endif %}">
                     <span {% if mega_menu_block.settings.submenu_style == 'bold_text' %}class="reversed-link hover:show"{% endif %}>{{- sub_sub_link.title -}}</span>
                   </a>
                 </li>

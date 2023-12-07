@@ -1,0 +1,530 @@
+{
+  "sections": {
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk Komplettsets",
+            "heading_tag": "h1",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        },
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir wollen es dir mit unseren fertigen und erprobten Balkonkraftwerk-Sets für den sofortigen Einsatz so einfach wie möglich machen, ab sofort bares Geld zu sparen und dabei gleichzeitig die Umwelt zu schonen. Ohne komplizierte Konfiguration von dutzenden Einzelteilen.<br\/><br\/>Alle unsere Inverter (Wechselrichter) entsprechen selbstverständlich der deutschen Gesetzgebung.<br\/>Wir setzen bei all unseren Balkonkraftwerk-Sets auf hochwertige <strong>Hoymiles Inverter<\/strong> mit Relais für den NA-Schutz.<\/p>"
+          }
+        },
+        "b0e8a6b5-6b92-4aaa-9750-0640bfa9c13b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower4u_Badges_c6c60120-29ba-4bcf-884b-ba1c053c9544.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1",
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1",
+        "b0e8a6b5-6b92-4aaa-9750-0640bfa9c13b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "text_color": ""
+      }
+    },
+    "d9775e9b-0b65-42d4-a3bc-48098b274006": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19584197493062__d9775e9b-0b65-42d4-a3bc-48098b274006-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerke_1_ff70f173-f691-4226-a70d-b3592ce356be.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19584197493062__d9775e9b-0b65-42d4-a3bc-48098b274006-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerke_2_0a9947a2-5965-4c0e-84d3-f05930721bf6.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19584197493062__d9775e9b-0b65-42d4-a3bc-48098b274006-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerke_3_117f66b7-e0b7-455f-ba0b-d7c026744b55.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__d9775e9b-0b65-42d4-a3bc-48098b274006-item-1",
+        "template--19584197493062__d9775e9b-0b65-42d4-a3bc-48098b274006-item-2",
+        "template--19584197493062__d9775e9b-0b65-42d4-a3bc-48098b274006-item-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "x-large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "58881487-f120-4a9c-a093-233c40f0ab33": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__58881487-f120-4a9c-a093-233c40f0ab33-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Wo möchtest du dein Balkonkraftwerk montieren?",
+            "heading_tag": "h2",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__58881487-f120-4a9c-a093-233c40f0ab33-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "balkonkraftwerk-600w-set",
+        "featured_product_heading": "Beliebtestes Produkt",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-fur-das-balkongitter",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Balkongeländer",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "026c8b78-4206-4502-9432-f5af7c2a66b9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-fur-den-garten",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Garten oder Flachdach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "37293a2c-6a52-4321-9a84-574a697af8ef": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-fur-die-fassade",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Hausfassade",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "3c6d224c-b0ae-4219-b002-3a0c0e4fc24c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerke-fur-schrage-dacher",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Ziegeldach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "bde08c1a-191f-4f49-8113-50bfc90a7757": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-ohne-halterung",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ohne Halterung",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "19dfd66a-0816-4bb5-b050-c79846ae282e": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "speicher",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Speicherlösungen für Balkonkraftwerke",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "4d64908e-9f81-4b09-8d9f-a55240ba541c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__4d64908e-9f81-4b09-8d9f-a55240ba541c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Welches Balkonkraftwerk ist das richtige für dich?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__4d64908e-9f81-4b09-8d9f-a55240ba541c-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "71eb7940-4b8c-49ac-896c-334cde372e85": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19584197493062__71eb7940-4b8c-49ac-896c-334cde372e85-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solarberatung_Sunpower_4u_YouTube-Miniatur_46da6f7c-b367-4ea4-a9d9-3c61552ce4d9.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kostenlose Solarberatung",
+            "content": "<p>Wenn du wissen möchtest, welches das richtige Balkonkraftwerk für dich ist, oder du sonstige Fragen rund um deine Solaranlage hast, sind wir in unserer kostenlosen Solarberatung gerne für dich da.<\/p>",
+            "link_text": "Solarberatung",
+            "link_url": "shopify:\/\/pages\/individuelle-beratung",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#245da7",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__71eb7940-4b8c-49ac-896c-334cde372e85-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "2bade59d-e817-4b46-8e2a-a970d7ec645b": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Anmeldbar.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sicherheit & Prüfung",
+            "content": "<p>Unsere Balkonkraftwerke sind rechtskonform und lassen sich beim Netzbetreiber sofort anmelden.<\/p>"
+          }
+        },
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Balkonkraftwerk_Sunpower4u_3_fc751617-7f47-49b5-ac86-96ff09cf3c75.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Qualität & Service",
+            "content": "<p>Bei uns erhältst du 25 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
+          }
+        },
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Schnell & kompetent",
+            "content": "<p>Wir sprechen nicht nur deine Sprache, sondern lagern und versenden auch direkt aus Deutschland.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-1",
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-2",
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "Deine Vorteile bei SUNPOWER4U",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0ec6e517-ec07-4eef-b9b9-7d51946f1137": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"klaviyo-form-S77ypF\"><\/div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e48b3d13-e5e6-41a6-90e3-0895ff6d4525": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a9590d0d-56fb-44fe-8fd4-59a7016e7f37": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--19584197493062__a9590d0d-56fb-44fe-8fd4-59a7016e7f37-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Mehr lesen",
+            "content": "<p><strong>Das Balkonkraftwerk: Dein grüner Schritt zur eigenen Energieversorgung<br\/><\/strong><br\/>Ein Balkonkraftwerk, oft auch als Mini-Solaranlage oder Steckersolar bezeichnet, ist mehr als nur ein Trend. Es ist eine Antwort auf die wachsende Nachfrage nach nachhaltigen und unabhängigen Energielösungen. Aber was genau ist ein Balkonkraftwerk und warum sollte es dich interessieren?<\/p><p><strong><br\/>Die Vorteile eines Balkonkraftwerks:<\/strong><\/p><ul><li><strong>Umweltfreundlich:<\/strong> Mit einem Balkonkraftwerk produzierst du grünen Strom und reduzierst deinen CO2-Fußabdruck. Ein kleiner Beitrag mit großer Wirkung für unseren Planeten.<\/li><li><strong>Unabhängigkeit:<\/strong> Schütze dich vor steigenden Strompreisen und werde zum eigenen Energieversorger.<\/li><li><strong>Einfache Handhabung:<\/strong> Keine komplizierten Installationen. Einfach anschließen und loslegen!<\/li><\/ul><p><strong><br\/>Wie funktioniert ein Balkonkraftwerk?<\/strong><br\/><br\/>Ein Balkonkraftwerk besteht aus kleinen Solarmodulen, die Sonnenenergie in elektrischen Strom umwandeln. Im Gegensatz zu großen Solaranlagen benötigt es keine aufwendige Montage und kann direkt an eine herkömmliche Steckdose angeschlossen werden.<\/p><p><strong><br\/>Installation und Inbetriebnahme:<\/strong><\/p><ul><li><strong>Vorbereitung:<\/strong> Wähle einen sonnigen Platz auf deinem Balkon oder Terrasse.<\/li><li><strong>Anleitung:<\/strong> Befestige die Solarmodule, verbinde sie mit dem Wechselrichter und stecke das Gerät in die Steckdose. Fertig!<\/li><\/ul><p><strong><br\/>Kosten und Amortisation:<\/strong><br\/><br\/>Ein Balkonkraftwerk ist eine Investition in die Zukunft. Die Anschaffungskosten variieren je nach Modell und Größe. Doch dank der eingesparten Stromkosten hat sich die Investition oft schon nach wenigen Jahren amortisiert.<\/p><p><strong><br\/>Rechtliches und Fördermöglichkeiten:<\/strong><br\/>In Deutschland sind Balkonkraftwerke erlaubt, jedoch gibt es einige Vorschriften zu beachten. Wir informieren dich gern über lokale Bestimmungen. Zudem gibt es verschiedene Förderprogramme, die den Kauf eines Balkonkraftwerks unterstützen.<\/p><p><strong><br\/>Fazit:<\/strong><br\/>Ein Balkonkraftwerk ist nicht nur eine umweltfreundliche, sondern auch eine wirtschaftlich sinnvolle Lösung für alle, die unabhängig von großen Energieversorgern werden möchten.<\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets für das Balkongeländer:<\/strong><\/p><p><a href=\"\/products\/sun-expert-800-balkonhalterung\" title=\"Sun Expert 800 - Balkon\">Sun-Expert 800<\/a><br\/><a href=\"\/products\/sun-pro-600-balkon\" title=\"Sun Pro 600 - Balkon\">Sun-Pro 600<\/a><\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets für Garten oder Flachdach:<\/strong><\/p><p><a href=\"\/products\/sun-expert-800-flachdach-garten\" title=\"Sun Expert 800 - Flachdach & Garten\">Sun-Expert 800<\/a><br\/><a href=\"\/products\/sun-pro-600-flachdach-garten\" title=\"Sun Pro 600 - Flachdach & Garten\">Sun Pro 600<\/a><\/p><p><strong><br\/>Unsere Balkonkraftwerk-Sets für die Hauswand \/ Fassade:<\/strong><\/p><p><a href=\"\/products\/sun-expert-800-fassade-30-neigung\" title=\"Sun Expert 800 - Fassade 30° Neigung\">Sun-Expert 800 - Neigung<\/a><br\/><a href=\"\/products\/sun-expert-800-fassade-flache-montage\" title=\"Sun Expert 800 - Fassade flache Montage\">Sun-Expert 800 - Flach<\/a><br\/><a href=\"\/products\/sun-pro-600-fassade\" title=\"Sun Pro 600 - Fassade 30° Neigung\">Sun-Pro 600 - Neigung<\/a><br\/><a href=\"\/products\/sun-pro-600-fassade-flache-montage\" title=\"Sun Pro 600 - Fassade flache Montage\">Sun-Pro 600 - Flach<\/a><\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets für das Ziegeldach:<\/strong><\/p><p><a href=\"\/products\/sun-expert-800-ziegeldach\" title=\"Sun Expert 800 - Ziegeldach\">Sun-Expert 800<\/a><br\/><a href=\"\/products\/sun-pro-600-ziegeldach\" title=\"Sun Pro 600 - Ziegeldach\">Sun-Pro 600<\/a><\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets ohne Halterung:<\/strong><\/p><p><a href=\"\/products\/sun-expert-800-pur\" title=\"Sun Expert 800 - Pur\">Sun-Expert 800 - Pur<\/a><br\/><a href=\"\/products\/sun-pro-600-pur\" title=\"Sun Pro 600 - Pur\">Sun-Pro 600 - Pur<\/a><br\/><a href=\"\/products\/sun-pro-600-starter\" title=\"Sun Pro 600 - Starter\">Sun-Pro 600 - Starter<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__a9590d0d-56fb-44fe-8fd4-59a7016e7f37-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f0f0f0",
+        "accordion_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc",
+    "d9775e9b-0b65-42d4-a3bc-48098b274006",
+    "58881487-f120-4a9c-a093-233c40f0ab33",
+    "banner",
+    "main",
+    "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43",
+    "026c8b78-4206-4502-9432-f5af7c2a66b9",
+    "37293a2c-6a52-4321-9a84-574a697af8ef",
+    "3c6d224c-b0ae-4219-b002-3a0c0e4fc24c",
+    "bde08c1a-191f-4f49-8113-50bfc90a7757",
+    "19dfd66a-0816-4bb5-b050-c79846ae282e",
+    "4d64908e-9f81-4b09-8d9f-a55240ba541c",
+    "71eb7940-4b8c-49ac-896c-334cde372e85",
+    "2bade59d-e817-4b46-8e2a-a970d7ec645b",
+    "0ec6e517-ec07-4eef-b9b9-7d51946f1137",
+    "e48b3d13-e5e6-41a6-90e3-0895ff6d4525",
+    "a9590d0d-56fb-44fe-8fd4-59a7016e7f37"
+  ]
+}

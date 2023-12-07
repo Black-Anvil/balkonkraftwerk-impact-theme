@@ -43,6 +43,9 @@
       "accept": "قبول",
       "decline": "رفض"
     },
+    "form": {
+      "max_characters": "{{max_chars}} من الأحرف كحد أقصى"
+    },
     "on_boarding": {
       "blog_post_category": "الفئة",
       "blog_post_title": "المقال",
@@ -378,6 +381,12 @@
       "expires_on": "تنتهي صلاحيته في: {{ expires_on }}",
       "expired": "لقد انتهت صلاحية بطاقة هديتك أو تم إيقافها.",
       "add_to_apple_wallet": "الإضافة إلى Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "أريد أن أرسل هذا كهدية",
+      "email_label": "البريد الإلكتروني المستلم",
+      "name_label": "اسم المستلم (اختياري)",
+      "message_label": "الرسالة (اختياري)"
     }
   },
   "password": {

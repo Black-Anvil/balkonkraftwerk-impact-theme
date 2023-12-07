@@ -43,6 +43,9 @@
       "accept": "Acceptă",
       "decline": "Refuză"
     },
+    "form": {
+      "max_characters": "Maximum {{ max_chars }} (de) caractere"
+    },
     "on_boarding": {
       "blog_post_category": "Categorie",
       "blog_post_title": "Articol",
@@ -378,6 +381,12 @@
       "expires_on": "Expiră pe: {{ expires_on }}",
       "expired": "Cardul tău cadou a expirat sau a fost dezactivat.",
       "add_to_apple_wallet": "Adaugă în Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Vreau să trimit acest lucru drept cadou",
+      "email_label": "Adresă de e-mail destinatar",
+      "name_label": "Nume destinatar (opțional)",
+      "message_label": "Mesaj (opțional)"
     }
   },
   "password": {

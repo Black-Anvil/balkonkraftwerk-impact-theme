@@ -9,6 +9,7 @@
     },
     "contact": {
       "type": "contact",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "Kontakt",
@@ -26,10 +27,125 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "4f9b1447-f58f-4c8a-a7e9-99c44d3608ac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19582588649798__4f9b1447-f58f-4c8a-a7e9-99c44d3608ac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Wir sind für dich da!",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "4e93d461-b050-45f9-9f9b-df60f4783d4f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bei allen Fragen rund um dein Balkonkraftwerk, deine Solarplanung oder deine Bestellung kannst du uns ganz einfach erreichen:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19582588649798__4f9b1447-f58f-4c8a-a7e9-99c44d3608ac-heading-1",
+        "4e93d461-b050-45f9-9f9b-df60f4783d4f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "text_color": ""
+      }
+    },
+    "928dc179-d7ab-4488-9bd2-61569f5a67da": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19582588649798__928dc179-d7ab-4488-9bd2-61569f5a67da-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-envelope",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "#245da7",
+            "icon_color": "#ffffff",
+            "title": "E-Mail",
+            "content": "<p><a href=\"mailto:service@sunpower4u.de\" title=\"mailto:service@sunpower4u.de\">service@sunpower4u.de<\/a><\/p>"
+          }
+        },
+        "template--19582588649798__928dc179-d7ab-4488-9bd2-61569f5a67da-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "#245da7",
+            "icon_color": "#ffffff",
+            "title": "Telefon",
+            "content": "<p><a href=\"tel:+4933769410999\" target=\"_blank\" title=\"tel:+4933769410999\">+49 (0)33769 410 999<\/a><\/p>"
+          }
+        },
+        "template--19582588649798__928dc179-d7ab-4488-9bd2-61569f5a67da-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-mobile-phone",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "#245da7",
+            "icon_color": "#ffffff",
+            "title": "WhatsApp",
+            "content": "<p><a href=\"https:\/\/api.whatsapp.com\/send?phone=49015202597943\" target=\"_blank\" title=\"WhatsApp schicken\">+49 (0)152 02597943<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19582588649798__928dc179-d7ab-4488-9bd2-61569f5a67da-item-1",
+        "template--19582588649798__928dc179-d7ab-4488-9bd2-61569f5a67da-item-3",
+        "template--19582588649798__928dc179-d7ab-4488-9bd2-61569f5a67da-item-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "749ba520-51d5-4591-b857-7f4cea896f8c": {
+      "type": "contact",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Oder sende uns ganz einfach deine Anfrage über dieses Formular:<\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#245da7",
+        "button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
-    "contact"
+    "contact",
+    "4f9b1447-f58f-4c8a-a7e9-99c44d3608ac",
+    "928dc179-d7ab-4488-9bd2-61569f5a67da",
+    "749ba520-51d5-4591-b857-7f4cea896f8c"
   ]
 }

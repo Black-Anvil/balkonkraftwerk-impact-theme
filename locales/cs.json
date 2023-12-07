@@ -43,6 +43,9 @@
       "accept": "Přijmout",
       "decline": "Odmítnout"
     },
+    "form": {
+      "max_characters": "Maximální počet znaků: {{ max_chars }}"
+    },
     "on_boarding": {
       "blog_post_category": "Kategorie",
       "blog_post_title": "Článek",
@@ -390,6 +393,12 @@
       "expires_on": "Platnost do: {{ expires_on }}",
       "expired": "Váš dárkový poukaz vypršel nebo byl deaktivován.",
       "add_to_apple_wallet": "Přidat do Apple peněženky"
+    },
+    "recipient": {
+      "checkbox": "Chci zboží poslat jako dárek",
+      "email_label": "E-mail příjemce",
+      "name_label": "Jméno příjemce (volitelné)",
+      "message_label": "Zpráva (volitelné)"
     }
   },
   "password": {

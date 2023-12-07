@@ -43,6 +43,9 @@
       "accept": "許可する",
       "decline": "拒否する"
     },
+    "form": {
+      "max_characters": "最大{{ max_chars }}文字"
+    },
     "on_boarding": {
       "blog_post_category": "カテゴリー",
       "blog_post_title": "記事",
@@ -188,7 +191,7 @@
       "name": "氏名",
       "email": "メールアドレス",
       "message": "メッセージ",
-      "submit": "提出",
+      "submit": "送信する",
       "success_message": "あなたのメールは送信されました"
     }
   },
@@ -378,6 +381,12 @@
       "expires_on": "有効期限: {{ expires_on }}",
       "expired": "あなたのギフトカードの有効期限は {{expiry}} にて切れました",
       "add_to_apple_wallet": "Apple Walletへの登録"
+    },
+    "recipient": {
+      "checkbox": "ギフトとしてこれを送る",
+      "email_label": "受信者のメール",
+      "name_label": "受信者の名前 (任意）",
+      "message_label": "メッセージ (任意)"
     }
   },
   "password": {

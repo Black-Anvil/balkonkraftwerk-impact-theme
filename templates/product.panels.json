@@ -1,0 +1,705 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "0e8ff17e-310c-444f-8283-a90933e2f795": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower4u_Badges.jpg",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "fd11004d-df91-4f2c-9ae4-cc5e3d3c17bb": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "67e70e6b-8cb5-47da-becd-8f1bce6d94c6": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "+ Schnelle Lieferung",
+            "content": "<p>Das Balkonkraftwerk wird per Spedition geliefert und ist in ca. 3-5 Werktagen bei dir.<\/p>"
+          }
+        },
+        "22ad3c38-9577-4af7-b9d9-b8488f14eb00": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "+ 30 Jahre Garantie",
+            "content": "<p>Du erhältst 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
+          }
+        },
+        "69b80789-e0e9-4909-b563-5ab4d1082c0d": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "+ Montageservice",
+            "content": "<p>Solltest du bei der Montage Fragen haben, sind wir telefonisch für dich von Montag bis Freitag zwischen 8:00 und 16:00 Uhr erreichbar und unterstützen dich gern.<\/p>"
+          }
+        },
+        "e56a7fd7-52dd-4d7d-9947-2220a0e9f19e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Mit deinem Balkonkraftwerk vermeidest du mehr als 225 kg (bei 600W) und mehr als 290 kg (bei 800W) CO² bei durchschnittlich <strong>2000<\/strong> Sonnenstunden pro Jahr in Deutschland.<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "1773ca05-2098-4c09-9770-47da0a95437b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inkl. 0% MwSt. bei Abgabe an Privatpersonen gem § 12 Abs. 3 UStG<\/p>"
+          }
+        },
+        "93510ab7-286c-4fa4-a40e-3ede249ab39b": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "dropdown",
+            "color_mode": "dropdown",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#245da7",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#ffcb00",
+            "payment_button_text_color": ""
+          }
+        },
+        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"ultimate-countdown\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "0e8ff17e-310c-444f-8283-a90933e2f795",
+        "loox-rating",
+        "fd11004d-df91-4f2c-9ae4-cc5e3d3c17bb",
+        "67e70e6b-8cb5-47da-becd-8f1bce6d94c6",
+        "22ad3c38-9577-4af7-b9d9-b8488f14eb00",
+        "69b80789-e0e9-4909-b563-5ab4d1082c0d",
+        "e56a7fd7-52dd-4d7d-9947-2220a0e9f19e",
+        "price",
+        "1773ca05-2098-4c09-9770-47da0a95437b",
+        "93510ab7-286c-4fa4-a40e-3ede249ab39b",
+        "buy_buttons",
+        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "4625968d-0033-4807-bfa7-05c3ca1606c5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19851865948486__4625968d-0033-4807-bfa7-05c3ca1606c5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower4u_Balkonkraftwerke_1.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19851865948486__4625968d-0033-4807-bfa7-05c3ca1606c5-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower4u_Balkonkraftwerke_2.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19851865948486__4625968d-0033-4807-bfa7-05c3ca1606c5-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower4u_Balkonkraftwerke_3.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "a127916d-7326-4ca5-ba3e-078ae3e78930": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower_Badges_500_x_187_px.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19851865948486__4625968d-0033-4807-bfa7-05c3ca1606c5-item-1",
+        "template--19851865948486__4625968d-0033-4807-bfa7-05c3ca1606c5-item-2",
+        "template--19851865948486__4625968d-0033-4807-bfa7-05c3ca1606c5-item-3",
+        "a127916d-7326-4ca5-ba3e-078ae3e78930"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Bekannt aus",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "aa386ebc-5ee0-4823-b55f-c3061f0cb6e9": {
+      "type": "rich-text",
+      "blocks": {
+        "f7a389e4-2410-4ab7-82fa-9252d62f9e7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solar_Panels_Details.webp",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "9df15aaf-79d1-49b2-bf7b-8996a11834fb": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Premium Solarmodule in Qualität & Leistung",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "76174b68-2143-4418-9305-f807257d3601": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-star",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#245da7"
+          }
+        },
+        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Spitzen-Effizienz<\/strong><br\/>Mit einer Leistungsausbeute von mehr als 94% und einem Wirkungsgrad von bis zu 21,8% gehören unsere Solarpanels zu den effizientesten PV-Modulen überhaupt.<\/p>"
+          }
+        },
+        "868a5367-b44f-42e0-8fcd-f1830ebf02a9": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-validation",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#245da7"
+          }
+        },
+        "82515c53-8418-4fc3-af36-fbd960f38260": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Sicherheit<\/strong><br\/>Alle Solarmodule sind selbstverständlich CE, TÜV, VDE, ISO & IEC zertifiziert und auf ihre Qualität geprüft.<\/p>"
+          }
+        },
+        "0ff88328-9a93-48c5-a1ae-da297e754d94": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-jewelry",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#245da7"
+          }
+        },
+        "f2f38d29-3d42-4e75-86c9-d68c17a4af97": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>30 Jahre Garantie<\/strong><br\/>Wir geben auf alle unsere Solarmodule 30 Jahre Garantie für extra lineare Ausgangsleistung und 12 Jahre Garantie auf Material und Verarbeitung.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f7a389e4-2410-4ab7-82fa-9252d62f9e7a",
+        "9df15aaf-79d1-49b2-bf7b-8996a11834fb",
+        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-heading-1",
+        "76174b68-2143-4418-9305-f807257d3601",
+        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-richtext-1",
+        "868a5367-b44f-42e0-8fcd-f1830ebf02a9",
+        "82515c53-8418-4fc3-af36-fbd960f38260",
+        "0ff88328-9a93-48c5-a1ae-da297e754d94",
+        "f2f38d29-3d42-4e75-86c9-d68c17a4af97"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "80393bba-89d8-491f-a3f6-e2b951ad6b9d": {
+      "type": "rich-text",
+      "blocks": {
+        "d7ae4e73-8073-4ecd-876c-b97b143f1be9": {
+          "type": "heading",
+          "settings": {
+            "text": "Technische Daten Solarpanel",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19853288702278__80393bba-89d8-491f-a3f6-e2b951ad6b9d-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Für die genauen technischen Daten zu diesem Solarpanel schau dir bitte die verlinkten PDF Dateien an.<\/p>"
+          }
+        },
+        "92f00170-00dc-4097-abe9-24ee5de9414e": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "5453b627-2370-4eac-8c51-caf4a5ed1d01": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.custom.product_pdf1_file %}\n<ul>\n  <div class=\"product_pdf\">\n    <li>\n    <a href=\"{{ product.metafields.custom.product_pdf1_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf1_description %}\n        {{ product.metafields.custom.product_pdf1_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf2_file %}\n  <div class=\"product_pdf\">\n  <li>\n    <a href=\"{{ product.metafields.custom.product_pdf2_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf2_description %}\n        {{ product.metafields.custom.product_pdf2_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf3_file %}\n  <div class=\"product_pdf\">\n    <li>\n    <a href=\"{{ product.metafields.custom.product_pdf3_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf3_description %}\n        {{ product.metafields.custom.product_pdf3_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf4_file %}\n  <div class=\"product_pdf\">\n    <li>\n    <a href=\"{{ product.metafields.custom.product_pdf4_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf4_description %}\n        {{ product.metafields.custom.product_pdf4_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf5_file %}\n  <div class=\"product_pdf\">\n  <li>\n    <a href=\"{{ product.metafields.custom.product_pdf5_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf5_description %}\n        {{ product.metafields.custom.product_pdf5_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n  <\/ul>\n{% endif %}"
+          }
+        }
+      },
+      "block_order": [
+        "d7ae4e73-8073-4ecd-876c-b97b143f1be9",
+        "template--19853288702278__80393bba-89d8-491f-a3f6-e2b951ad6b9d-richtext-1",
+        "92f00170-00dc-4097-abe9-24ee5de9414e",
+        "5453b627-2370-4eac-8c51-caf4a5ed1d01"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-earth",
+            "custom_icon": "shopify:\/\/shop_images\/Anmeldbar.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "",
+            "title": "Sicherheit & Prüfung",
+            "content": "<p>Unsere Balkonkraftwerke sind rechtskonform und lassen sich beim Netzbetreiber sofort anmelden.<\/p>"
+          }
+        },
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "custom_icon": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "",
+            "title": "Qualität & Service",
+            "content": "<p>Bei uns erhältst du 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
+          }
+        },
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "",
+            "title": "Deutscher Händler",
+            "content": "<p>Wir sprechen nicht nur deine Sprache, sondern lagern und versenden auch direkt aus Deutschland.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-0",
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1",
+        "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2"
+      ],
+      "custom_css": [
+        ".text-with-icons {font-size: 1.2em;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "Deine Vorteile bei SUNPOWER4U",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d9bc84a7-3961-42ae-8296-1414786a38f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19853288702278__d9bc84a7-3961-42ae-8296-1414786a38f9-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19853288702278__d9bc84a7-3961-42ae-8296-1414786a38f9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19853288702278__d9bc84a7-3961-42ae-8296-1414786a38f9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19853288702278__d9bc84a7-3961-42ae-8296-1414786a38f9-subheading-1",
+        "template--19853288702278__d9bc84a7-3961-42ae-8296-1414786a38f9-heading-1",
+        "template--19853288702278__d9bc84a7-3961-42ae-8296-1414786a38f9-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "5be8a123-4473-421c-b841-267dea6244d4": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19851865948486__5be8a123-4473-421c-b841-267dea6244d4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solarberatung_Sunpower_4u_YouTube-Miniatur_1.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kostenlose Solarberatung",
+            "content": "<p>Wenn du wissen möchtest, welches das richtige Balkonkraftwerk für dich ist, oder du sonstige Fragen rund um deine Solaranlage hast, sind wir in unserer kostenlosen Solarberatung gerne für dich da.<\/p>",
+            "link_text": "Solarberatung",
+            "link_url": "shopify:\/\/pages\/individuelle-beratung",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#245da7",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19851865948486__5be8a123-4473-421c-b841-267dea6244d4-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ähnliche Produkte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "1696860869a715048b": {
+      "type": "apps",
+      "blocks": {
+        "53b85898-397e-459b-b8c9-b0d6108eaec6": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 10,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "18b68e3b-e3b7-4845-a83f-ea655b726fc1": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-trust-badge\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "layout": "horizontal",
+            "alignment": "center",
+            "scheme-type": "default",
+            "review-title": "reviews",
+            "rating-icon": true,
+            "average-rating": true,
+            "review-count": false,
+            "open-reviews": true,
+            "show-border": true,
+            "border-radius": 8,
+            "font-size": 20,
+            "background-color": "#ffffff",
+            "secondary-background-color": "#ffffff",
+            "text-color": "#1a1a1a",
+            "rating-icon-color": "#ffcb00",
+            "border-color": ""
+          }
+        }
+      },
+      "block_order": [
+        "53b85898-397e-459b-b8c9-b0d6108eaec6",
+        "18b68e3b-e3b7-4845-a83f-ea655b726fc1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2b7753e7-9046-4729-8045-ff73fef1d237": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19851865948486__2b7753e7-9046-4729-8045-ff73fef1d237-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Häufig gestellte Fragen und Antworten (FAQ)",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "5a7e72dd-3d65-4fbf-a128-ae4b296be3ca": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"flex: 1; padding-right: 20px;\">\n    <p>\n      Wenn du gerade beginnst, dich mit dem Thema \"Balkonkraftwerk\" auseinanderzusetzen, hast du sicher sehr viele Fragen dazu. \n    <\/p>\n    <p>\n      In unserem FAQ-Bereich versuchen wir die wichtigsten Fragen und Antworten rund um dein neues Balkonkraftwerk für dich zusammenzustellen und zu beantworten:\n    <\/p><b>\n    <ul>\n      ▶ <a href=\"https:\/\/www.sunpower4u.de\/pages\/faq\">SUNPOWER4U Fragen & Antworten<\/a><\/b><\/li>\n    <\/ul>\n    <p><br>\n      Gerne kannst du dir auch einige unserer Videos zu dem Thema anschauen und folge uns für weitere Tipps & Tricks auch gerne auf Social-Media:\n    <\/p>\n    <ul><b>\n      ▶ <a href=\"https:\/\/www.youtube.com\/@SUNPOWER-4U\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf YouTube<\/a><\/li>\n<br>▶ <a href=\"https:\/\/www.facebook.com\/profile.php?id=61550315574069\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf Facebook<\/a><\/li>\n<br>▶ <a href=\"https:\/\/www.instagram.com\/sunpower4u\/\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf Instagram<\/a><\/li><\/b>\n\n    <\/ul>\n    <\/p>\n  <\/div>"
+          }
+        },
+        "0dc45e9f-75db-46bd-be5c-182dda8c17a1": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "569860b8-f7c9-4a82-8f12-0384d802f7ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sunpower4u_1_6184e385-2b05-476f-b6b1-1d323419266f.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "0966f03f-cc22-40e7-a1ab-09cd2d10a4df": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Solltest du weitere Fragen haben, ist Diana im Kundenservice selbstverständlich jederzeit gerne für dich per E-Mail, aber auch telefonisch da. Solltest du uns einmal nicht direkt erreichen, melden wir uns natürlich so schnell wie möglich bei dir zurück.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19851865948486__2b7753e7-9046-4729-8045-ff73fef1d237-heading-1",
+        "5a7e72dd-3d65-4fbf-a128-ae4b296be3ca",
+        "0dc45e9f-75db-46bd-be5c-182dda8c17a1",
+        "569860b8-f7c9-4a82-8f12-0384d802f7ac",
+        "0966f03f-cc22-40e7-a1ab-09cd2d10a4df"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e19ac1ce-8942-465c-bfe8-3f07d2c593c5": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"klaviyo-form-S77ypF\"><\/div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4625968d-0033-4807-bfa7-05c3ca1606c5",
+    "aa386ebc-5ee0-4823-b55f-c3061f0cb6e9",
+    "80393bba-89d8-491f-a3f6-e2b951ad6b9d",
+    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
+    "d9bc84a7-3961-42ae-8296-1414786a38f9",
+    "loox-product-reviews-app-section",
+    "5be8a123-4473-421c-b841-267dea6244d4",
+    "related-products",
+    "1696860869a715048b",
+    "2b7753e7-9046-4729-8045-ff73fef1d237",
+    "e19ac1ce-8942-465c-bfe8-3f07d2c593c5"
+  ]
+}

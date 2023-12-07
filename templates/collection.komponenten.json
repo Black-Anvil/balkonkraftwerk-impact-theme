@@ -1,0 +1,316 @@
+{
+  "sections": {
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk Komponenten",
+            "heading_tag": "h1",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        },
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wähle hier deine einzelnen Komponenten zum Ausbau deines Balkonkraftwerkes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1",
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "balkonkraftwerk-600w-set",
+        "featured_product_heading": "Beliebtestes Produkt",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-halterungen",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Panel-Halterungen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "026c8b78-4206-4502-9432-f5af7c2a66b9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "solarpanels",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Einzelne Solarpanele",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "37293a2c-6a52-4321-9a84-574a697af8ef": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "wechselrichter",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Wechselrichter (Inverter)",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "3c6d224c-b0ae-4219-b002-3a0c0e4fc24c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "zubehor",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Solar-Zubehör",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "4d64908e-9f81-4b09-8d9f-a55240ba541c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__4d64908e-9f81-4b09-8d9f-a55240ba541c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Welches Balkonkraftwerk ist das richtige für dich?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__4d64908e-9f81-4b09-8d9f-a55240ba541c-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "71eb7940-4b8c-49ac-896c-334cde372e85": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19584197493062__71eb7940-4b8c-49ac-896c-334cde372e85-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solarberatung_Sunpower_4u_YouTube-Miniatur_73cb32d9-3620-44a1-aad6-d540105c3bc9.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kostenlose Solarberatung",
+            "content": "<p>Wenn du wissen möchtest, welches das richtige Balkonkraftwerk für dich ist, oder du sonstige Fragen rund um deine Solaranlage hast, sind wir in unserer kostenlosen Solarberatung gerne für dich da.<\/p>",
+            "link_text": "Solarberatung",
+            "link_url": "shopify:\/\/pages\/individuelle-beratung",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#245da7",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__71eb7940-4b8c-49ac-896c-334cde372e85-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "2bade59d-e817-4b46-8e2a-a970d7ec645b": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Anmeldbar.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sicherheit & Prüfung",
+            "content": "<p>Unsere Balkonkraftwerke sind rechtskonform und lassen sich beim Netzbetreiber sofort anmelden.<\/p>"
+          }
+        },
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Qualität & Service",
+            "content": "<p>Bei uns erhältst du 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
+          }
+        },
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Schnell & kompetent",
+            "content": "<p>Wir sprechen nicht nur deine Sprache, sondern lagern und versenden auch direkt aus Deutschland.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-1",
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-2",
+        "template--19584197493062__2bade59d-e817-4b46-8e2a-a970d7ec645b-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "Deine Vorteile bei SUNPOWER4U",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc",
+    "banner",
+    "main",
+    "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43",
+    "026c8b78-4206-4502-9432-f5af7c2a66b9",
+    "37293a2c-6a52-4321-9a84-574a697af8ef",
+    "3c6d224c-b0ae-4219-b002-3a0c0e4fc24c",
+    "4d64908e-9f81-4b09-8d9f-a55240ba541c",
+    "71eb7940-4b8c-49ac-896c-334cde372e85",
+    "2bade59d-e817-4b46-8e2a-a970d7ec645b"
+  ]
+}

@@ -7,36 +7,8 @@
         "content_width": "80ch"
       }
     },
-    "8b48a064-b026-481d-8086-964a5dab9786": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16667369144547__8b48a064-b026-481d-8086-964a5dab9786-16789622582a480bf5-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Über sunpower4u",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16667369144547__8b48a064-b026-481d-8086-964a5dab9786-16789622582a480bf5-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "md",
-        "image": "shopify:\/\/shop_images\/Depositphotos_331275944_XL.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "6327d117-a567-4693-9b46-3796bbb8f655": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16667369144547__6327d117-a567-4693-9b46-3796bbb8f655-16789634570ba5123e-2": {
           "type": "richtext",
@@ -57,6 +29,7 @@
         "template--16667369144547__6327d117-a567-4693-9b46-3796bbb8f655-16789634570ba5123e-2",
         "cddf3979-d95a-41d2-b101-09646471d8d3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -66,11 +39,36 @@
         "text_color": ""
       }
     },
-    "3ae85e15-735c-4ca0-8dd2-00f70bd4f2ef": {
-      "type": "plain-text",
+    "a9852640-25bb-4f24-8476-e6da8dce1ac2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19582589567302__a9852640-25bb-4f24-8476-e6da8dce1ac2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Wir über uns",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19582589567302__a9852640-25bb-4f24-8476-e6da8dce1ac2-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Schön, dass du bei uns \"hinter die Kulissen\" schaust, um ein wenig mehr über die Menschen hinter SUNPOWER4U zu lesen und zu erfahren, warum wir lieben, was wir tun.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19582589567302__a9852640-25bb-4f24-8476-e6da8dce1ac2-heading-1",
+        "template--19582589567302__a9852640-25bb-4f24-8476-e6da8dce1ac2-richtext-1"
+      ],
       "settings": {
-        "content": "<p>sunpower4u ist ein Projekt von uns: Benjamin und Sven. Wir sind Familienväter und seit einigen Jahren im eCommerce tätig. <\/p><p>Spätestens seit dem wir Kinder haben, hat Nachhaltigkeit für uns eine neue Relevanz bekommen. <\/p><p>Dem Thema Energie kommt hierbei schon länger eine besondere Bedeutung zu. Elektrizität dient zum einen, um die sichtbaren elektrischen Verbraucher zu betreiben, aber kann eben auch dazu dienen, Wärme und Kälte zu produzieren und Mobilität bereitzustellen. <\/p><p>Solarenergie ist unserer Meinung ein wichtiger Baustein hierbei. Früher war das ein reines \"Expertenthema\", das nur wenige beherrscht haben und noch weniger Menschen für sich selber nutzen konnten. Doch in den letzten Jahren hat es hier extreme Entwicklungen gegeben und heute kann fast jeder Solarstrom selber erzeugen und für sich nutzen. <\/p><p>Unser Ziel ist, möglichst vielen Menschen, Familien, Unternehmen dabei zu helfen, dies umzusetzen. <\/p><p>In diesem Zusammenhang versuchen wir passende Produkte zusammenzustellen und anzubieten. <\/p><p>Neben dem passenden Angebot kennen wir als alte eCommerce Experten uns sehr gut aus mit der Logistik und wie man exzellenten Kundenservice bietet. Als unser Kunde profitierst Du hiervon.<\/p><p>sunpower4u ist ein Webshop der fantastic commerce GmbH. Dieses Unternehmen gehört Sven und ist in Hamburg ansässig, so wie auch all unsere angestellten Mitarbeiter:innen.<\/p><p>Bestimmte Services wie zB die Logistik führen mit unseren Partnerbetrieben in Deutschland durch. <\/p><p>Als deutsches Unternehmen unterliegen wir natürlich dem Verbraucherschutz, Mitarbeiterschutz und der Steuergesetzgebung hier in Deutschland. Das finden wir gut, den so entsteht ein sicherer Rahmen, in dem sich alle fair behandelt wissen. <\/p><p>Wenn Sie Fragen zu uns haben, senden Sie uns gerne eine Mail an <a href=\"mailto:support@sunpower4u.de\" title=\"mailto:support@sunpower4u.de\">support@sunpower4u.de<\/a> - wir haben keine Geheimnisse.<\/p>",
-        "bg_color": "#ffffff"
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "text_color": ""
       }
     },
     "7cddc325-f69c-47b3-a588-bfb063f12da8": {
@@ -79,15 +77,15 @@
         "template--16667369144547__7cddc325-f69c-47b3-a588-bfb063f12da8-1678963205f1ca4287-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_5579_Square_2.jpg",
-            "media_width": 30,
+            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sunpower4u_14_2c4e53d6-7b49-4b70-b3e2-2eaa1f9f5018.jpg",
+            "media_width": 40,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Benjamin",
-            "content": "<p>Benjamin ist selber Solar Bastler der ersten Stunde und bezieht schon seit langem einen Großteil seiner KWh durch seine Solarbauteile. <\/p><p>Er lebt mit seiner Frau und seinen beiden Töchtern auf dem Land in einem Haus mit Garten.<\/p>",
+            "title": "",
+            "content": "<p>Wir sind <strong>Benjamin Ronnenberg<\/strong> und <strong>Enrique Schinkel<\/strong>.<br\/>Die Gründer von SUNPOWER4U. <\/p><p>Zusammen bringen wir 91 Lebensjahre, mehr als 45 Jahre E-Commerce Erfahrung, 347 cm Körpergröße, 179 kg Gewicht, 2 Ehefrauen, über 35 Jahre Ehe, 4 Kinder, 5 Katzen und 2 Hunde mit in unser Unternehmen, das wir im Sommer 2023 aus tiefster Überzeugung gemeinsam gegründet haben: Die \"<strong>BRES Green Tech Solutions Ltd<\/strong>\".<\/p><p>Privat sind wir Freunde mit vielen Gemeinsamkeiten. Beruflich ein Team, das sich aufgrund seiner Unterschiede sehr gut ergänzt.<\/p><p>Und wer das Impressum unseres Shops gelesen hat, der ahnt: Wir leben beide mit unseren Familien seit vielen Jahren auf der Insel Zypern. Dem östlichsten Land der Europäischen Union.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -98,18 +96,40 @@
             "button_text_color": ""
           }
         },
-        "e0fbe18e-25da-40d4-a10d-67867d8af8ea": {
+        "839f3412-a8af-4581-8c0d-c54a3236c2da": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-11-16_um_16.32.12.png",
-            "media_width": 30,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "image": "shopify:\/\/shop_images\/BRES_Green_Tech_Solutions.jpg",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Sven",
-            "content": "<p>Sven ist noch recht neu im Solargame und experimentiert aktuell noch mit Balkonkraftwerken rum. <\/p><p>Quasi unser Testpilot für alles was wir uns neu anschauen. Mit seiner Frau, Tochter und Hund lebt er in einer Eigentumswohnung in einer Großstadt.<\/p>",
+            "title": "",
+            "content": "<p>Wir beide haben seit vielen Jahren unsere Wurzeln im E-Commerce. Wenn wir auch in völlig unterschiedlichen Branchen unterwegs waren, so hat uns eines immer verbunden: Die Liebe zu unseren Familien, unseren Kindern und der Natur.<\/p><p>Und so ist es nicht verwunderlich, dass wir seit Jahren in unseren jeweiligen Unternehmen versuchen, jeden Tag ein wenig besser zu werden in Themen wie Umweltschutz und Nachhaltigkeit. Begonnen beim fairen und energiesparendem Produzieren, kurzen Lieferketten und recycelten Verpackungen, bis hin zu CO²-neutralem Versand.<\/p><p>Und auch in den eigenen vier Wänden haben wir uns immer schon beide viele Gedanken darüber gemacht, wie man Energieverbrauch vielleicht nicht immer vermeiden, aber dafür Strom selbst und damit nachhaltig produzieren kann.<\/p><p>Und um das alles zu bündeln und zu optimieren und uns gemeinsam für \"grüne Energie\" und eine saubere Umwelt in der Zukunft unserer Kinder einzusetzen, haben wir die BRES Green Tech Solutions gegründet, deren 100%ige Tochter u.a. der SUNPOWER4U-Balkonkraftwerk-Shop ist.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "5bff3b7d-d582-4eb7-bcc8-739a06fdba51": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRES_Green_Tech_Solutions_1.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Was uns antreibt, ist unsere Mission der Minimierung von CO². <br\/>Wir wollen - gemeinsam mit dir - bis zum Jahr 2025 insgesamt <strong>5 Millionen Tonnen<\/strong> CO² einsparen! <\/p><p>Klingt viel? Ja, vielleicht. Aber es ist machbar! <\/p><p>Wenn du überlegst, dass du alleine schon mit einem 800W-Balkonkraftwerk ca. 290 kg CO² pro Jahr einsparst und das multiplizierst mit den anderen, die das auch wollen,... dann kann diese Vision tatsächlich Wirklichkeit werden.<\/p><p>Zugegeben: Wir haben bei uns auf der Insel mit ca. 330 Sonnentagen pro Jahr ideale Bedingungen. Und genau diese nutzen wir auch jeden Tag für unsere Solar-Experimente und Entwicklungen.<\/p><p>Aber auch du hast mit durchschnittlich 2000 Sonnenstunden pro Jahr in Deutschland echt super Voraussetzungen, uns bei unserer Mission zu unterstützen.<\/p><p><strong>Für eine sichere Zukunft und eine saubere Umwelt.<br\/>SUNPOWER4U.<br\/><br\/><\/strong><em>Benjamin Ronnenberg & Enrique Schinkel<\/em><\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -123,11 +143,11 @@
       },
       "block_order": [
         "template--16667369144547__7cddc325-f69c-47b3-a588-bfb063f12da8-1678963205f1ca4287-0",
-        "e0fbe18e-25da-40d4-a10d-67867d8af8ea"
+        "839f3412-a8af-4581-8c0d-c54a3236c2da",
+        "5bff3b7d-d582-4eb7-bcc8-739a06fdba51"
       ],
       "settings": {
-        "full_width": false,
-        "enable_parallax": true,
+        "full_width": true,
         "spacing": "small"
       }
     },
@@ -179,8 +199,10 @@
         "template--16667369144547__49e3c43d-f338-4169-862e-2d0b78068913-16789630282fa2548c-1",
         "template--16667369144547__49e3c43d-f338-4169-862e-2d0b78068913-16789630282fa2548c-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
+        "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h5",
         "text_alignment": "center",
@@ -188,6 +210,40 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "ac18a99f-6914-4764-be77-46c529ef8dcc": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--16667369144547__ac18a99f-6914-4764-be77-46c529ef8dcc-1684920655a538d6c4-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "balkonkraftwerk-tipps",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16667369144547__ac18a99f-6914-4764-be77-46c529ef8dcc-1684920655a538d6c4-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "Mehr zum Thema Solar & Balkonkraftwerke",
+        "content": "",
+        "link_url": "",
+        "link_text": "Alle anzeigen",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "a9422bbe-9acc-46ed-ab58-19840a547134": {
@@ -221,62 +277,17 @@
       ],
       "settings": {
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
-      }
-    },
-    "ac18a99f-6914-4764-be77-46c529ef8dcc": {
-      "type": "blog-posts",
-      "blocks": {
-        "template--16667369144547__ac18a99f-6914-4764-be77-46c529ef8dcc-1684920655a538d6c4-0": {
-          "type": "blog",
-          "settings": {
-            "blog": "balkonkraftwerk-tipps",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16667369144547__ac18a99f-6914-4764-be77-46c529ef8dcc-1684920655a538d6c4-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": false,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": false,
-        "subheading": "",
-        "title": "Mehr zum Thema Solar & Balkonkraftwerke",
-        "content": "",
-        "link_url": "",
-        "link_text": "Alle Artikel",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "6ee25e18-ece3-439a-b346-d2509cf1f0f5": {
-      "type": "form-container",
-      "settings": {
-        "heading": "Solar Newsletter",
-        "text": "Wenn du möchtest, trag dich gerne in unseren Newsletter ein. Wir schicken Dir Tipps zum Energiesparen und Angebote rund um unsere Solarprodukte.",
-        "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
       }
     }
   },
   "order": [
     "main",
-    "8b48a064-b026-481d-8086-964a5dab9786",
     "6327d117-a567-4693-9b46-3796bbb8f655",
-    "3ae85e15-735c-4ca0-8dd2-00f70bd4f2ef",
+    "a9852640-25bb-4f24-8476-e6da8dce1ac2",
     "7cddc325-f69c-47b3-a588-bfb063f12da8",
     "49e3c43d-f338-4169-862e-2d0b78068913",
-    "a9422bbe-9acc-46ed-ab58-19840a547134",
     "ac18a99f-6914-4764-be77-46c529ef8dcc",
-    "6ee25e18-ece3-439a-b346-d2509cf1f0f5"
+    "a9422bbe-9acc-46ed-ab58-19840a547134"
   ]
 }

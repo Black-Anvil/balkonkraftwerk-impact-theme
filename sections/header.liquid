@@ -149,7 +149,7 @@ the underlying logic of the menu.
                             {{- link.title -}} {%- render 'icon' with 'chevron-bottom' -%}
                           </summary>
 
-                          <div class="dropdown-menu">
+                          <div class="dropdown-menu {% if link.levels <= 1 %}dropdown-menu--restrictable{% endif %}">
                             <ul class="contents" role="list">
                               {%- for sub_link in link.links -%}
                                 <li>
@@ -451,13 +451,13 @@ the underlying logic of the menu.
     },
     {
       "type": "header",
-      "content": "Social media"
+      "content": "Social media",
+      "info": "This will only show in the drawer navigation."
     },
     {
       "type": "checkbox",
       "id": "show_social_media",
       "label": "Show social media",
-      "info": "To configure social media, go to your social media settings.",
       "default": true
     },
     {
@@ -664,84 +664,6 @@ the underlying logic of the menu.
         {
           "type": "color",
           "id": "image_text_color_3",
-          "label": "Heading",
-          "default": "#ffffff"
-        },
-        {
-          "type": "header",
-          "content": "Image 4"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_4",
-          "label": "Image",
-          "info": "1200 x 1200px .jpg recommended"
-        },
-        {
-          "type": "text",
-          "id": "image_heading_4",
-          "label": "Heading"
-        },
-        {
-          "type": "url",
-          "id": "image_link_4",
-          "label": "Link"
-        },
-        {
-          "type": "color",
-          "id": "image_text_color_4",
-          "label": "Heading",
-          "default": "#ffffff"
-        },
-        {
-          "type": "header",
-          "content": "Image 5"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_5",
-          "label": "Image",
-          "info": "1200 x 1200px .jpg recommended"
-        },
-        {
-          "type": "text",
-          "id": "image_heading_5",
-          "label": "Heading"
-        },
-        {
-          "type": "url",
-          "id": "image_link_5",
-          "label": "Link"
-        },
-        {
-          "type": "color",
-          "id": "image_text_color_5",
-          "label": "Heading",
-          "default": "#ffffff"
-        },
-        {
-          "type": "header",
-          "content": "Image 6"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_6",
-          "label": "Image",
-          "info": "1200 x 1200px .jpg recommended"
-        },
-        {
-          "type": "text",
-          "id": "image_heading_6",
-          "label": "Heading"
-        },
-        {
-          "type": "url",
-          "id": "image_link_6",
-          "label": "Link"
-        },
-        {
-          "type": "color",
-          "id": "image_text_color_6",
           "label": "Heading",
           "default": "#ffffff"
         },

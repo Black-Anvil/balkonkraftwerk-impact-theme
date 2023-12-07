@@ -14,8 +14,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Desktop_2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_2.jpg",
+        "image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Desktop_2_77626325-4b70-42c1-a6de-57d81fbd4045.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_2_5cddc987-05ee-4a94-bf1a-50d8efc3c84c.jpg",
         "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -40,19 +40,10 @@
         "show_filter_values_count": false,
         "open_first_filter_group": false
       }
-    },
-    "1e208f79-c053-4c15-a577-41803a9fad83": {
-      "type": "form-container",
-      "settings": {
-        "heading": "Zum Newsletter anmelden",
-        "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
-        "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
-      }
     }
   },
   "order": [
     "banner",
-    "main",
-    "1e208f79-c053-4c15-a577-41803a9fad83"
+    "main"
   ]
 }

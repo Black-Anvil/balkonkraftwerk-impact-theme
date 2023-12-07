@@ -35,19 +35,10 @@
         "show_filter_values_count": false,
         "open_first_filter_group": false
       }
-    },
-    "1e208f79-c053-4c15-a577-41803a9fad83": {
-      "type": "form-container",
-      "settings": {
-        "heading": "Zum Newsletter anmelden",
-        "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
-        "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
-      }
     }
   },
   "order": [
     "banner",
-    "main",
-    "1e208f79-c053-4c15-a577-41803a9fad83"
+    "main"
   ]
 }

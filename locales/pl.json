@@ -43,6 +43,9 @@
       "accept": "Zgoda",
       "decline": "Odrzuć"
     },
+    "form": {
+      "max_characters": "Maks. {{ max_chars }} znaki(-ów)"
+    },
     "on_boarding": {
       "blog_post_category": "Kategoria",
       "blog_post_title": "Artykuł",
@@ -387,6 +390,12 @@
       "expires_on": "Wygasa w dniu: {{ expires_on }}",
       "expired": "Twoja karta podarunkowa wygasła lub została dezaktywowana.",
       "add_to_apple_wallet": "Dodaj do Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Chcę to wysłać jako prezent",
+      "email_label": "E-mail odbiorcy",
+      "name_label": "Nazwa odbiorcy (opcjonalnie)",
+      "message_label": "Wiadomość (opcjonalna)"
     }
   },
   "password": {

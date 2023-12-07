@@ -43,6 +43,9 @@
       "accept": "Accepter",
       "decline": "Refuser"
     },
+    "form": {
+      "max_characters": "{{ max_chars }} caractères au maximum"
+    },
     "on_boarding": {
       "blog_post_category": "Catégorie",
       "blog_post_title": "Article",
@@ -378,6 +381,12 @@
       "expires_on": "Expires on: {{ expires_on }}",
       "expired": "Votre carte cadeau a expiré ou a été désactivé.",
       "add_to_apple_wallet": "Ajouter à Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Je veux envoyer ce produit comme cadeau",
+      "email_label": "E‑mail du destinataire",
+      "name_label": "Nom du destinataire (facultatif)",
+      "message_label": "Message (facultatif)"
     }
   },
   "password": {

@@ -43,6 +43,9 @@
       "accept": "Принять",
       "decline": "Отклонить"
     },
+    "form": {
+      "max_characters": "Не больше {{ max_chars }} симв."
+    },
     "on_boarding": {
       "blog_post_category": "Категория",
       "blog_post_title": "Статья",
@@ -378,6 +381,12 @@
       "expires_on": "Срок действия: {{ expires_on }}",
       "expired": "Срок действия подарочной карты истек, либо карта была заблокирована.",
       "add_to_apple_wallet": "Добавить в Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Я хочу отправить это в качестве подарка",
+      "email_label": "Электронный адрес получателя",
+      "name_label": "Имя получателя (необязательно)",
+      "message_label": "Сообщение (необязательно)"
     }
   },
   "password": {

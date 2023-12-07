@@ -43,6 +43,9 @@
       "accept": "Accepteren",
       "decline": "Weigeren"
     },
+    "form": {
+      "max_characters": "Maximaal {{ max_chars }} tekens"
+    },
     "on_boarding": {
       "blog_post_category": "Categorie",
       "blog_post_title": "Artikel",
@@ -378,6 +381,12 @@
       "expires_on": "Verloopt op: {{ expires_on }}",
       "expired": "Je cadeaubon is verlopen of is uitgeschakeld.",
       "add_to_apple_wallet": "Toevoegen aan Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Ik wil dit als cadeau sturen",
+      "email_label": "E-mailadres ontvanger",
+      "name_label": "Naam ontvanger (optioneel)",
+      "message_label": "Bericht (optioneel)"
     }
   },
   "password": {

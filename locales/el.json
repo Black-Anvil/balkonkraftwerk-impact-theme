@@ -43,6 +43,9 @@
       "accept": "Αποδοχή",
       "decline": "Απόρριψη"
     },
+    "form": {
+      "max_characters": "Έως {{ max_chars }} χαρακτήρες"
+    },
     "on_boarding": {
       "blog_post_category": "Κατηγορία",
       "blog_post_title": "Άρθρο",
@@ -378,6 +381,12 @@
       "expires_on": "Λήγει στις: {{ expires_on }}",
       "expired": "Η δωροκάρτα σας έχει λήξει ή έχει απενεργοποιηθεί.",
       "add_to_apple_wallet": "Προσθήκη στο Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Θέλω να το στείλω ως δώρο",
+      "email_label": "Email παραλήπτη",
+      "name_label": "Όνομα παραλήπτη (προαιρετικά)",
+      "message_label": "Μήνυμα (προαιρετικά)"
     }
   },
   "password": {

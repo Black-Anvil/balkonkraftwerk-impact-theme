@@ -43,6 +43,9 @@
       "accept": "Hyväksy",
       "decline": "Hylkää"
     },
+    "form": {
+      "max_characters": "enintään {{ max_chars }} merkkiä"
+    },
     "on_boarding": {
       "blog_post_category": "Luokka",
       "blog_post_title": "Artikkeli",
@@ -378,6 +381,12 @@
       "expires_on": "Vanhenee: {{ expires_on }}",
       "expired": "Lahjakorttisi on vanhentunut tai se on poistettu käytöstä.",
       "add_to_apple_wallet": "Lisää Apple Lompakkoon"
+    },
+    "recipient": {
+      "checkbox": "Haluan lähettää tämän lahjaksi",
+      "email_label": "Vastaanottajan sähköpostiosoite",
+      "name_label": "Vastaanottajan sähköpostiosoite (valinnainen)",
+      "message_label": "Viesti (valinnainen)"
     }
   },
   "password": {

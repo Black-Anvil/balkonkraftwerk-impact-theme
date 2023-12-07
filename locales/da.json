@@ -43,6 +43,9 @@
       "accept": "Accepter",
       "decline": "Afvis"
     },
+    "form": {
+      "max_characters": "Højst {{ max_chars }} tegn"
+    },
     "on_boarding": {
       "blog_post_category": "Kategori",
       "blog_post_title": "Artikel",
@@ -378,6 +381,12 @@
       "expires_on": "Udløber den: {{ expires_on }}",
       "expired": "Dit gavekort er udløbet eller er blevet deaktiveret.",
       "add_to_apple_wallet": "Føj til Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Jeg vil sende som en gave",
+      "email_label": "Modtagers mailadresse",
+      "name_label": "Modtagerens navn (valgfrit)",
+      "message_label": "Besked (valgfrit)"
     }
   },
   "password": {

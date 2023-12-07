@@ -43,6 +43,9 @@
       "accept": "Accetta",
       "decline": "Rifiuta"
     },
+    "form": {
+      "max_characters": "Massimo {{ max_chars }} caratteri"
+    },
     "on_boarding": {
       "blog_post_category": "Categoria",
       "blog_post_title": "Articolo",
@@ -378,6 +381,12 @@
       "expires_on": "Il tuo buono regalo scade il: {{ expires_on }}",
       "expired": "Il tuo buono regalo è scaduto o è stato disattivato",
       "add_to_apple_wallet": "Aggiungi all'Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Voglio inviarlo come regalo",
+      "email_label": "Email destinatario",
+      "name_label": "Nome destinatario (facoltativo)",
+      "message_label": "Messaggio (facoltativo)"
     }
   },
   "password": {
