@@ -34,6 +34,67 @@
         "overlay_opacity": 30
       }
     },
+    "54feac06-e1f6-4bb9-9e44-88b3a1270c6b": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19005043638598__54feac06-e1f6-4bb9-9e44-88b3a1270c6b-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/google-play.png",
+            "column_size": "3",
+            "title": "Google Play",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.hm.hemaiInstall1",
+            "link_text": "Zum Download",
+            "link_style": "button"
+          }
+        },
+        "748123f0-6a11-41d9-9cc2-506c17dfec1e": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        },
+        "template--19005043638598__54feac06-e1f6-4bb9-9e44-88b3a1270c6b-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app-store.png",
+            "column_size": "3",
+            "title": "Apple App Store",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/apps.apple.com\/de\/app\/s-miles-installer\/id1544207772",
+            "link_text": "Zum Download",
+            "link_style": "button"
+          }
+        },
+        "8bbd1e68-c7c6-4049-bcc9-fe043e9b8c16": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "template--19005043638598__54feac06-e1f6-4bb9-9e44-88b3a1270c6b-item-1",
+        "748123f0-6a11-41d9-9cc2-506c17dfec1e",
+        "template--19005043638598__54feac06-e1f6-4bb9-9e44-88b3a1270c6b-item-3",
+        "8bbd1e68-c7c6-4049-bcc9-fe043e9b8c16"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Hoymiles HM-600 & HM-800",
+        "content": "<p>Hoymiles stellt die S-Miles Installer App zum Überwachen des Balkonkraftwerks zur Verfügung<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "7d4af0d8-9622-473b-8363-f4ea53a29fe3": {
       "type": "multi-column",
       "blocks": {
@@ -146,6 +207,7 @@
   "order": [
     "main",
     "2d1dc868-c903-48c5-acc1-4a8f4fc14776",
+    "54feac06-e1f6-4bb9-9e44-88b3a1270c6b",
     "7d4af0d8-9622-473b-8363-f4ea53a29fe3",
     "0be4fde1-70d0-4449-9485-284dd2c3c453"
   ]

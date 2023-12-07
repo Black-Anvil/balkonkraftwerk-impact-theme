@@ -43,6 +43,9 @@
       "accept": "Potvrdiť",
       "decline": "Odmietnuť"
     },
+    "form": {
+      "max_characters": "Maximálny počet znakov: {{ max_chars }}"
+    },
     "on_boarding": {
       "blog_post_category": "Kategória",
       "blog_post_title": "Článok",
@@ -391,6 +394,12 @@
       "expires_on": "Platnosť končí dňa: {{ expires_on }}",
       "expired": "Platnosť vašej darčekovej karty vypršala alebo bola zablokovaná.",
       "add_to_apple_wallet": "Pridať do Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Chcem to poslať ako darček",
+      "email_label": "E-mail príjemcu",
+      "name_label": "Meno príjemcu (voliteľné)",
+      "message_label": "Správa (voliteľné)"
     }
   },
   "password": {

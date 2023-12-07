@@ -43,6 +43,9 @@
       "accept": "Aceitar",
       "decline": "Rejeitar"
     },
+    "form": {
+      "max_characters": "Máximo de {{ max_chars }} caracteres"
+    },
     "on_boarding": {
       "blog_post_category": "Categoria",
       "blog_post_title": "Artigo",
@@ -378,6 +381,12 @@
       "expires_on": "Expira em: {{ expires_on }}",
       "expired": "Seu cartão-presente expirou ou foi desativado.",
       "add_to_apple_wallet": "Adicionar à Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Quero enviar como presente",
+      "email_label": "E-mail do destinatário",
+      "name_label": "Nome do destinatário (opcional)",
+      "message_label": "Mensagem (opcional)"
     }
   },
   "password": {

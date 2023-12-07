@@ -5,48 +5,61 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "c18832bf-d6c7-4427-904c-d8645a9f254a": {
+        "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b": {
           "type": "message",
           "settings": {
-            "text": "☀️ Balkonkraftwerke sofort lieferbar ☀️",
-            "url": "shopify:\/\/collections\/balkonkraftwerk-komplettsets"
+            "text": "150,00 € sparen auf alle 1700W Balkonkraftwerke mit Code WINTER-150",
+            "url": "https:\/\/www.sunpower4u.de\/collections\/1700w-balkonkraftwerke"
           }
         },
         "message": {
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "Geprüfte Ware mit ❤️ aus Hamburg",
-            "url": ""
-          }
-        },
-        "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b": {
-          "type": "message",
-          "settings": {
-            "text": "⭐⭐⭐⭐⭐ sagen unsere Kunden",
-            "url": ""
+            "text": "⚡ NEU: 1700 Watt Balkonkraftwerk für maximale Leistung ⚡",
+            "url": "shopify:\/\/collections\/1700w-balkonkraftwerke"
           }
         },
         "0c073df3-904c-46ec-b0b2-8b01b02ee0ed": {
           "type": "message",
           "settings": {
-            "text": "Kostenlose Beratung zu Solarprodukten",
-            "url": "shopify:\/\/pages\/individuelle-beratung"
+            "text": "Schneller Versand - Bereits in 3-5 Tagen bei dir!",
+            "url": ""
+          }
+        },
+        "c262b027-976d-4c1b-95ca-617795b34dba": {
+          "type": "message",
+          "settings": {
+            "text": "Bis zu 30 Jahre Garantie!",
+            "url": ""
+          }
+        },
+        "c18832bf-d6c7-4427-904c-d8645a9f254a": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Balkonkraftwerke sofort lieferbar",
+            "url": "shopify:\/\/collections\/balkonkraftwerk-komplettsets"
           }
         }
       },
       "block_order": [
-        "c18832bf-d6c7-4427-904c-d8645a9f254a",
-        "message",
         "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b",
-        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed"
+        "message",
+        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed",
+        "c262b027-976d-4c1b-95ca-617795b34dba",
+        "c18832bf-d6c7-4427-904c-d8645a9f254a"
+      ],
+      "disabled": true,
+      "custom_css": [
+
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-lg",
+        "text_size": "text-base",
         "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#ffcb00",
+        "background": "#245da7",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -54,30 +67,21 @@
     "header": {
       "type": "header",
       "blocks": {
-        "e771d8e7-45b3-4c19-b450-e6483882dc05": {
+        "957c1272-e5b6-4739-91b7-c53a34055ded": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Komponenten",
-            "layout": "horizontal_center",
+            "menu_item": "Balkonkraftwerk-Sets",
+            "layout": "horizontal",
             "submenu_style": "bold_heading",
-            "image_heading_1": "",
-            "image_link_1": "shopify:\/\/products\/balkonkraftwerk-720w",
-            "image_text_color_1": "#ffcb00",
-            "image_heading_2": "",
-            "image_link_2": "",
+            "image_heading_1": "Test 1",
+            "image_link_1": "shopify:\/\/collections\/bkw-sets-balkongelander",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "Test 2",
+            "image_link_2": "shopify:\/\/collections\/balkonkraftwerk-fur-die-fassade",
             "image_text_color_2": "#ffffff",
             "image_heading_3": "",
             "image_link_3": "",
             "image_text_color_3": "#ffffff",
-            "image_heading_4": "",
-            "image_link_4": "",
-            "image_text_color_4": "#ffffff",
-            "image_heading_5": "",
-            "image_link_5": "",
-            "image_text_color_5": "#ffffff",
-            "image_heading_6": "",
-            "image_link_6": "",
-            "image_text_color_6": "#ffffff",
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
@@ -86,49 +90,11 @@
             "drawer_link_image": "hide"
           }
         },
-        "69c50a6a-84ea-443c-850f-e097f6c3c01f": {
+        "a009b171-4d5a-40f6-af5b-2e943d10365b": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Balkonkraftwerke",
+            "menu_item": "Komponenten & Zubehör",
             "layout": "horizontal",
-            "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/Collection_Balkon_-_Mobile.jpg",
-            "image_heading_1": "Balkon",
-            "image_link_1": "shopify:\/\/products\/sun-pro-600-balkon",
-            "image_text_color_1": "#ffffff",
-            "image_2": "shopify:\/\/shop_images\/Collection_Flachdach_-_Mobile.jpg",
-            "image_heading_2": "Flachdach",
-            "image_link_2": "shopify:\/\/products\/sun-pro-600-flachdach-garten",
-            "image_text_color_2": "#ffffff",
-            "image_3": "shopify:\/\/shop_images\/Collection_Ziegeldach_-_Mobile_2.jpg",
-            "image_heading_3": "Ziegeldach",
-            "image_link_3": "shopify:\/\/products\/sun-pro-600-ziegeldach",
-            "image_text_color_3": "#ffffff",
-            "image_4": "shopify:\/\/shop_images\/Collection_Fassade_2_-_Mobile.jpg",
-            "image_heading_4": "Fassade",
-            "image_link_4": "shopify:\/\/collections\/balkonkraftwerk-fur-die-fassade",
-            "image_text_color_4": "#ffffff",
-            "image_5": "shopify:\/\/shop_images\/Collection_Garten_-_Mobile.jpg",
-            "image_heading_5": "Garten",
-            "image_link_5": "shopify:\/\/products\/sun-pro-600-flachdach-garten",
-            "image_text_color_5": "#ffffff",
-            "image_6": "shopify:\/\/shop_images\/Collection_Ohne_-_Mobile.jpg",
-            "image_heading_6": "Ohne Halterung",
-            "image_link_6": "shopify:\/\/collections\/balkonkraftwerk-ohne-halterung",
-            "image_text_color_6": "#ffffff",
-            "product": "",
-            "product_card_background": "",
-            "product_card_text_color": "",
-            "promo_content_layout": "grid",
-            "stretch_promo": false,
-            "drawer_link_image": "hide"
-          }
-        },
-        "0dd49317-beaf-4b03-8e54-44ba979adc6b": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "Service",
-            "layout": "horizontal_center",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
             "image_link_1": "",
@@ -139,15 +105,52 @@
             "image_heading_3": "",
             "image_link_3": "",
             "image_text_color_3": "#ffffff",
-            "image_heading_4": "",
-            "image_link_4": "",
-            "image_text_color_4": "#ffffff",
-            "image_heading_5": "",
-            "image_link_5": "",
-            "image_text_color_5": "#ffffff",
-            "image_heading_6": "",
-            "image_link_6": "",
-            "image_text_color_6": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "8d82128e-68a7-4115-b5be-37f1574ce098": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Service",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "752fb2f2-6804-4d38-b61a-68530442ac6a": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Kontakt",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
             "product": "",
             "product_card_background": "",
             "product_card_text_color": "",
@@ -158,21 +161,22 @@
         }
       },
       "block_order": [
-        "e771d8e7-45b3-4c19-b450-e6483882dc05",
-        "69c50a6a-84ea-443c-850f-e097f6c3c01f",
-        "0dd49317-beaf-4b03-8e54-44ba979adc6b"
+        "957c1272-e5b6-4739-91b7-c53a34055ded",
+        "a009b171-4d5a-40f6-af5b-2e943d10365b",
+        "8d82128e-68a7-4115-b5be-37f1574ce098",
+        "752fb2f2-6804-4d38-b61a-68530442ac6a"
       ],
       "settings": {
-        "enable_sticky": true,
-        "hide_on_scroll": false,
+        "enable_sticky": false,
+        "hide_on_scroll": true,
         "logo": "{{shop.brand.logo}}",
-        "logo_max_width": 235,
+        "logo_max_width": 170,
         "logo_mobile_max_width": 100,
-        "menu": "mega-menu",
+        "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "hover",
-        "opening_from": "bottom",
+        "opening_from": "left",
         "layout": "logo_left_navigation_center",
         "show_social_media": false,
         "show_locale_selector": false,

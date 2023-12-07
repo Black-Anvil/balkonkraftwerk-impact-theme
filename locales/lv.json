@@ -43,6 +43,9 @@
       "accept": "Pieņemt",
       "decline": "Noraidīt"
     },
+    "form": {
+      "max_characters": "{{ max_chars }} rakstzīmes maks"
+    },
     "on_boarding": {
       "blog_post_category": "Kategorija",
       "blog_post_title": "Raksts",
@@ -378,6 +381,12 @@
       "expires_on": "Derīguma termiņš: {{ expires_on }}",
       "expired": "Jūsu dāvanu karte vairs nav derīga vai arī ir bloķēta.",
       "add_to_apple_wallet": "Pievienot Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Gribu šo nosūtīt kā dāvanu",
+      "email_label": "Saņēmēja e-pasts",
+      "name_label": "Saņēmēja vārds (neobligāti)",
+      "message_label": "Ziņojums (pēc izvēles)"
     }
   },
   "password": {

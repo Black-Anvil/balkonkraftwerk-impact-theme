@@ -24,6 +24,7 @@
             {%- if section.settings.subheading != blank -%}
               <p class="bold">{{ section.settings.subheading | escape }}</p>
             {%- endif -%}
+
             {%- if section.settings.title != blank -%}
               <p class="h2">{%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}</p>
             {%- endif -%}
@@ -33,120 +34,22 @@
         <div class="tabs-container">
           <div class="sm:hidden">
             {%- for block in section.blocks -%}
-              {%- case block.type -%}
-                {%- when 'tab' -%}
-                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
-                  {%- assign content = block.settings.page.content | default: block.settings.content -%}
+              {%- assign title = block.settings.title | default: block.settings.page.title -%}
+              {%- assign content = block.settings.page.content | default: block.settings.content -%}
 
-                  {%- if title and content -%}
-                    {%- assign open = false -%}
+              {%- if title and content -%}
+                {%- assign open = false -%}
 
-                    {%- if forloop.first and section.settings.first_tab_open -%}
-                      {%- assign open = true -%}
-                    {%- endif -%}
+                {%- if forloop.first and section.settings.first_tab_open -%}
+                  {%- assign open = true -%}
+                {%- endif -%}
 
-                    {%- capture accordion_content -%}
-                      <div class="prose">{{ content }}</div>
-                    {%- endcapture -%}
+                {%- capture accordion_content -%}
+                  <div class="prose">{{ content }}</div>
+                {%- endcapture -%}
 
-                    {%- render 'accordion', title: title, content: accordion_content, open: open -%}
-                  {%- endif -%}
-                {%- when 'prod_desc' -%}
-                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
-                  {%- assign content = product.description -%}
-
-                  {%- if title and content -%}
-                    {%- assign open = false -%}
-
-                    {%- if forloop.first and section.settings.first_tab_open -%}
-                      {%- assign open = true -%}
-                    {%- endif -%}
-
-                    {%- capture accordion_content -%}
-                      <div style="text-align: {{ block.settings.text_align}};" class="prose">{{ content }}</div>
-                    {%- endcapture -%}
-
-                    {%- render 'accordion', title: title, content: accordion_content, open: open -%}
-                  {%- endif -%}
-                {%- when 'downloads' -%}
-                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
-                  {%- capture content -%}
-                    {% if product.metafields.custom.product_pdf1_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf1_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf1_description %}
-                            {{ product.metafields.custom.product_pdf1_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf2_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf2_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf2_description %}
-                            {{ product.metafields.custom.product_pdf2_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf3_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf3_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf3_description %}
-                            {{ product.metafields.custom.product_pdf3_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf4_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf4_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf4_description %}
-                            {{ product.metafields.custom.product_pdf4_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf5_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf5_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf5_description %}
-                            {{ product.metafields.custom.product_pdf5_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                  {%- endcapture -%}
-
-                  {%- if title and content -%}
-                    {%- assign open = false -%}
-
-                    {%- if forloop.first and section.settings.first_tab_open -%}
-                      {%- assign open = true -%}
-                    {%- endif -%}
-
-                    {%- capture accordion_content -%}
-                      <div class="prose">{{ content }}</div>
-                    {%- endcapture -%}
-
-                    {%- render 'accordion', title: title, content: accordion_content, open: open -%}
-                  {%- endif -%}
-              {%- endcase -%}
+                {%- render 'accordion', title: title, content: accordion_content, open: open -%}
+              {%- endif -%}
             {%- endfor -%}
           </div>
 
@@ -157,99 +60,15 @@
             </template>
 
             {%- for block in section.blocks -%}
-              {%- case block.type -%}
-                {%- when 'tab' -%}
-                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
-                  {%- assign content = block.settings.page.content | default: block.settings.content -%}
+              {%- assign title = block.settings.title | default: block.settings.page.title -%}
+              {%- assign content = block.settings.page.content | default: block.settings.content -%}
 
-                  {%- if title != blank and content != blank -%}
-                    <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
-                    <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
-                      {{ content }}
-                    </div>
-                  {%- endif -%}
-                {%- when 'prod_desc' -%}
-                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
-                  {%- assign content = product.description -%}
-
-                  {%- if title != blank and content != blank -%}
-                    <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
-                    <div role="tabpanel" class="tab-content prose" slot="content" style="text-align: {{ block.settings.text_align }};" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
-                      {{ content }}
-                    </div>
-                  {%- endif -%}
-                {%- when 'downloads' -%}
-                  {%- assign title = block.settings.title | default: block.settings.page.title -%}
-                  {%- capture content -%}
-                    {% if product.metafields.custom.product_pdf1_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf1_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf1_description %}
-                            {{ product.metafields.custom.product_pdf1_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf2_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf2_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf2_description %}
-                            {{ product.metafields.custom.product_pdf2_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf3_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf3_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf3_description %}
-                            {{ product.metafields.custom.product_pdf3_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf4_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf4_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf4_description %}
-                            {{ product.metafields.custom.product_pdf4_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                    {% if product.metafields.custom.product_pdf5_file %}
-                      <div class="product_pdf">
-                        <img src="{{ 'PDF_icon.png' | asset_url }}" alt="PDF file type icon">
-                        <a href="{{ product.metafields.custom.product_pdf5_file | file_url }}" target="_blank">
-                          {% if product.metafields.custom.product_pdf5_description %}
-                            {{ product.metafields.custom.product_pdf5_description }}
-                          {% else %}
-                            Product Specifications
-                          {% endif %}
-                        </a>
-                      </div>
-                    {% endif %}
-                  {%- endcapture -%}
-
-                  {%- if title != blank and content != blank -%}
-                    <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
-                    <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
-                      {{ content }}
-                    </div>
-                  {%- endif -%}
-              {%- endcase -%}
+              {%- if title != blank and content != blank -%}
+                <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
+                <div role="tabpanel" class="tab-content prose" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
+                  {{ content }}
+                </div>
+              {%- endif -%}
             {%- endfor -%}
           </x-tabs>
         </div>
@@ -367,45 +186,6 @@
           "id": "page",
           "label": "Page",
           "info": "Replaces inline content if specified."
-        }
-      ]
-    },
-    {
-      "type": "prod_desc",
-      "name": "Produktdetails",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Produktdetails"
-        },
-        {
-          "type": "select",
-          "id": "text_align",
-          "label": "Text alignment",
-          "options": [
-            {
-              "label": "left",
-              "value": "left"
-            },
-            {
-              "label": "center",
-              "value": "center"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "downloads",
-      "name": "Technische Details",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Technische Details"
         }
       ]
     }

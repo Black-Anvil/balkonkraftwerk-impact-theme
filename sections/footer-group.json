@@ -5,51 +5,68 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "links": {
-          "type": "links",
+        "4653945a-5817-4412-a5a9-402aaa61b77e": {
+          "type": "text",
           "settings": {
-            "menu": "footer",
-            "show_menu_title": true
+            "title": "Folge uns",
+            "content": "<p>➡️ <a href=\"https:\/\/www.instagram.com\/sunpower4u\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/sunpower4u\/\">Instagram<br\/><\/a>➡️ <a href=\"https:\/\/www.facebook.com\/profile.php?id=61550315574069\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/profile.php?id=61550315574069\">Facebook<br\/><\/a>➡️ <a href=\"https:\/\/www.youtube.com\/@SUNPOWER-4U\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/@SUNPOWER-4U\">YouTube<\/a><br\/>➡️ <a href=\"https:\/\/www.tiktok.com\/@sunpower4u\" target=\"_blank\" title=\"https:\/\/www.tiktok.com\/@sunpower4u\">TikTok<\/a><\/p>",
+            "enable_follow_on_shop": false
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "title": "Über sunpower4u",
-            "content": "<p>Mit sunpower4u möchten wir unseren Beitrag zur CO2-Reduktion und zum Schutz des Klimas leisten. <\/p><p>Gemeinsam arbeiten wir daran, dass in Deutschland mehr grüner Strom erzeugt wird!<\/p><p><a href=\"\/pages\/uber-uns\" target=\"_blank\" title=\"Über sunpower4u\">Mehr über uns<\/a><\/p>"
+            "title": "Über SUNPOWER4U",
+            "content": "<p>Mit SUNPOWER4U möchten wir unseren Beitrag zur CO²-Reduktion und zum Schutz des Klimas leisten. <\/p><p>Gemeinsam arbeiten wir daran, dass in Deutschland mehr grüner Strom erzeugt wird.<\/p><p><a href=\"\/pages\/uber-uns\" target=\"_blank\" title=\"Über sunpower4u\">Mehr über uns<\/a><\/p>",
+            "enable_follow_on_shop": false
           }
         },
         "def04d68-e390-4c62-a611-7259cd697d78": {
           "type": "text",
           "settings": {
             "title": "Individuelle Solarberatung",
-            "content": "<p>Beratung wird bei uns großgeschrieben! Wir möchten, dass du deine passende Solaranlage oder Balkonkraftwerk findest. <\/p><p>Wenn du Fragen hast, schreib uns gerne und wir helfen dir weiter!<\/p><p><a href=\"\/pages\/individuelle-beratung\" target=\"_blank\" title=\"Individuelle Beratung\">Zur Beratung<\/a><\/p>"
+            "content": "<p>Wir möchten, dass du schnell und einfach das für dich optimale Balkonkraftwerk oder deine passende Solaranlage findest. <\/p><p>Wenn du Fragen hast, sind wir jederzeit gerne für dich da.<\/p><p><a href=\"\/pages\/individuelle-beratung\" target=\"_blank\" title=\"Individuelle Beratung\">Zur Beratung<\/a><\/p>",
+            "enable_follow_on_shop": false
           }
         },
-        "a72c9040-b7df-4598-b3eb-617b6f310006": {
-          "type": "image",
+        "links": {
+          "type": "links",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DGS-Mitglied.jpg"
+            "menu": "footer",
+            "show_menu_title": true
           }
         }
       },
       "block_order": [
-        "links",
+        "4653945a-5817-4412-a5a9-402aaa61b77e",
         "text",
         "def04d68-e390-4c62-a611-7259cd697d78",
-        "a72c9040-b7df-4598-b3eb-617b6f310006"
+        "links"
       ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_country_selector": true,
-        "show_country_flag": true,
-        "show_country_name": true,
-        "show_locale_selector": true
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
+      }
+    },
+    "4b056252-270b-46af-b05d-0af728610ee7": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<img class=\"energiemagazin\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/energiemagazin.png?v=1697372582\" alt=\"Klare Kaufempfehlung energiemagazin.com\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
-    "footer"
+    "footer",
+    "4b056252-270b-46af-b05d-0af728610ee7"
   ]
 }

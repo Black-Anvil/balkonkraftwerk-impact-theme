@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ff7b9ac2-1871-4bee-8dc2-af29b5d5cf09": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20131528507718__ff7b9ac2-1871-4bee-8dc2-af29b5d5cf09-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Jetzt Black Week Angebote sichern",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20131528507718__ff7b9ac2-1871-4bee-8dc2-af29b5d5cf09-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die größten Rabatte des Jahres, nur gültig vom 20.11.23 bis inkl. 27.11.23<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20131528507718__ff7b9ac2-1871-4bee-8dc2-af29b5d5cf09-heading-1",
+        "template--20131528507718__ff7b9ac2-1871-4bee-8dc2-af29b5d5cf09-richtext-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/black_week_3_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/black_week_1_mobile.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "e7e73414-60a3-40ab-af75-63fa16234161": {
+      "type": "featured-collection",
+      "custom_css": [
+        "div {margin-bottom: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "balkonkraftwerk-sun-expert-1700-balkon",
+          "balkonkraftwerk-sun-expert-1700-fassade-neigung",
+          "balkonkraftwerk-sun-expert-1700-fassade-flache",
+          "balkonkraftwerk-sun-expert-1700-flachdach-garten",
+          "balkonkraftwerk-sun-expert-1700-pur",
+          "balkonkraftwerk-sun-expert-1700-ziegeldach"
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "200,00 € Rabatt auf 1700W Balkonkraftwerke mit Zendure SolarFlow 960Wh Akku Speicher",
+        "content": "<p>Rabattcode: <strong>SUNPOWER4U-BLACK-200<\/strong> (Einfach im Warenkorb aktivieren)<\/p>",
+        "link_url": "https:\/\/www.sunpower4u.de\/products\/sun-expert-1700-balkon?variant=48766328045894",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "5e4d0a81-2909-4041-b2ef-3c63810c2dea": {
+      "type": "featured-collection",
+      "custom_css": [
+        "div {border-top-left-radius: 0px; border-top-right-radius: 0px; margin-bottom: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "balkonkraftwerk-sun-starter-600-balkon",
+          "balkonkraftwerk-sun-starter-600-fassade-30-neigung",
+          "balkonkraftwerk-sun-starter-600-fassade-flache-montage",
+          "balkonkraftwerk-sun-starter-600-flachdach-garten",
+          "balkonkraftwerk-sun-starter-600-pur",
+          "balkonkraftwerk-sun-starter-600-ziegeldach"
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Unsere günstigen Einsteigersets ab 449,00 €",
+        "content": "<p>Kein Code notwendig, Preis ist bereits reduziert<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "1db1a615-ba0b-4470-974e-b8379d9a7b29": {
+      "type": "featured-collection",
+      "custom_css": [
+        "div {border-top-left-radius: 0px; border-top-right-radius: 0px; margin-bottom: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "balkonkraftwerk-sun-expert-1700-fassade-neigung",
+          "balkonkraftwerk-sun-expert-1700-flachdach-garten"
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "150,00 € Rabatt auf diese Sun Expert 1700 Balkonkraftwerke",
+        "content": "<p>Rabattcode: <strong>SUNPOWER4U-BLACK-150<\/strong> (Einfach im Warenkorb aktivieren)<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "f99c2f38-de55-47c1-80c0-6b8f36a8ea65": {
+      "type": "featured-collection",
+      "custom_css": [
+        "div {border-top-left-radius: 0px; border-top-right-radius: 0px; margin-bottom: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "balkonkraftwerk-sun-expert-800-balkonhalterung",
+          "balkonkraftwerk-sun-expert-800-fassade-flache-montage"
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "100,00 € Rabatt auf diese Sun Expert 800 Balkonkraftwerke",
+        "content": "<p>Rabattcode: <strong>SUNPOWER4U-BLACK-100<\/strong> (Einfach im Warenkorb aktivieren)<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "8088ccd2-07a4-4df7-b24e-0fec1f5d400f": {
+      "type": "featured-collection",
+      "custom_css": [
+        "div {border-top-left-radius: 0px; border-top-right-radius: 0px;}"
+      ],
+      "settings": {
+        "collection": "",
+        "products": [
+          "balkonkraftwerk-sun-pro-600-fassade-flache-montage",
+          "balkonkraftwerk-sun-pro-600-ziegeldach"
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "75,00 € Rabatt auf diese Sun Pro 600 Balkonkraftwerke",
+        "content": "<p>Rabattcode: <strong>SUNPOWER4U-BLACK-75<\/strong> (Einfach im Warenkorb aktivieren)<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "495a9784-f32a-492c-a920-31b9a2e373fd": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h3 class=\"h3\" style=\"text-align: center; margin-bottom:2em;\">Trag dich in unseren Deal Newsletter ein um keine Balkonkraftwerk Angebote mehr zu verpassen<\/h3>\n\n<div class=\"klaviyo-form-S77ypF\"><\/div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ff7b9ac2-1871-4bee-8dc2-af29b5d5cf09",
+    "e7e73414-60a3-40ab-af75-63fa16234161",
+    "5e4d0a81-2909-4041-b2ef-3c63810c2dea",
+    "1db1a615-ba0b-4470-974e-b8379d9a7b29",
+    "f99c2f38-de55-47c1-80c0-6b8f36a8ea65",
+    "8088ccd2-07a4-4df7-b24e-0fec1f5d400f",
+    "495a9784-f32a-492c-a920-31b9a2e373fd"
+  ]
+}

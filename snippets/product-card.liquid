@@ -102,7 +102,7 @@ Supported variables
               </div>
             {%- endform -%}
           {%- else -%}
-            {%- capture quick_buy_id -%}quick-buy-{{ 'now' | date: '%N' }}{%- endcapture -%}
+            {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
             <div class="pointer-fine:hidden">
               <button type="button" aria-controls="{{ quick_buy_id }}" aria-expanded="false" aria-label="{{ quick_add_label | escape }}" is="custom-button" class="product-card__mobile-quick-buy-button">
@@ -158,6 +158,24 @@ Supported variables
       {%- endif -%}
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+      {% if product.metafields.custom.craig_test != blank %}
+        {{ product.metafields.custom.craig_test | metafield_tag }}
+      {% endif %}
+      {% form 'product', product %}
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        <input type="hidden" name="quantity" value="1">
+        {%- if product.selected_or_first_available_variant.available -%}
+          {%- if product.template_suffix contains 'pre-order' -%}
+            {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
+          {%- else -%}
+            {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
+          {%- endif -%}
+        {%- else -%}
+          {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
+          {%- assign button_disabled = true -%}
+        {%- endif -%}
+        {% render 'button',  content: button_content, type: 'submit', size: 'S', disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color %}
+      {% endform %}
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
@@ -171,7 +189,7 @@ Supported variables
       {%- for color_label in color_label_list -%}
         {%- if product.options_by_name[color_label] != blank -%}
           {%- assign product_option = product.options_by_name[color_label] -%}
-          {%- capture name -%}swatch-{{ 'now' | date: '%N' }}{%- endcapture -%}
+          {%- capture name -%}swatch-{{ section.id }}-{{ product.id }}-{{ product_option.position }}{%- endcapture -%}
 
           <div class="product-card__aside">
             {%- case settings.product_color_display -%}

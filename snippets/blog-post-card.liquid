@@ -71,7 +71,12 @@ Supported parameters
             </div>
           {%- endif -%}
 
-
+          {%- if show_author -%}
+            <div class="text-with-icon link-faded">
+              {%- render 'icon' with 'blog-author' -%}
+              <span class="text-sm">{{- article.author | default: 'John D.' -}}</span>
+            </div>
+          {%- endif -%}
 
           {%- if show_comments_count and article.comments_enabled? -%}
             <div class="text-with-icon link-faded">
