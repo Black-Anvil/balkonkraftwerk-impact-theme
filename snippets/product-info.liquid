@@ -358,6 +358,27 @@
           }
           shipDate({{ block.settings.days }});
         </script>
+      {%- when 'coupon_code' -%}
+        <div class="coupon-code__wrapper">
+          <div class="coupon-code__inner-upper">
+            <div class="coupon-icon__container">
+              {% render 'tag-discount-icon' %}
+            </div>
+            <p class="coupon-message">Coupon message<p>
+          </div>
+          <div class="coupon-code__inner-lower">
+            <div class="coupon-button">
+              <div class="coupon-button__upper">
+                <p class="coupon-code__outer">"<span class="coupon-code__inner">CODE</span>"</p>
+              </div>
+              <div class="coupon-button__lower">
+                <div class="copy-message">
+                  <div>Copy coupon</div>
+                  <div class="copy-clipboard-icon__container">{% render 'copy-clipboard-icon' %}</div>
+              </div>
+            </div>
+          </div>
+        </div>
     {%- endcase -%}
   {%- endfor -%}
 
