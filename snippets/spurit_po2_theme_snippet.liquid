@@ -1,81 +1,62 @@
 <script>
-    if(typeof(Spurit) === 'undefined'){
-        var Spurit = {};
-    }
-    if(!Spurit.Preorder2){
-        Spurit.Preorder2 = {};
-    }
-    if(!Spurit.Preorder2.snippet){
-      Spurit.Preorder2.snippet = {};
-    }
-    if(!Spurit.Preorder2.snippet.products){
-      Spurit.Preorder2.snippet.products = {};
-    }
-    Spurit.Preorder2.snippet.shopHash = '3720140446805cd5df67010827f0622c';
-    Spurit.Preorder2.snippet.cacheTimestamp = 1681722771;
+    if(!window.PomFirstLoad){
+        if(typeof(Spurit) === 'undefined'){
+            var Spurit = {};
+        }
+        if(!Spurit.Preorder2){
+            Spurit.Preorder2 = {};
+        }
+        if(!Spurit.Preorder2.snippet){
+        Spurit.Preorder2.snippet = {};
+        }
+        if(!Spurit.Preorder2.snippet.products){
+        Spurit.Preorder2.snippet.products = {};
+        }
+        Spurit.Preorder2.snippet.shopHash = '3720140446805cd5df67010827f0622c';
+        Spurit.Preorder2.snippet.cacheTimestamp = 1698294827;
 
-    if(typeof(Spurit.globalSnippet) === 'undefined'){
-        Spurit.globalSnippet = {
-            shop_currency: '{{ shop.currency }}',
-            money_format: '{{ shop.money_format }}',
-            cart: {{ cart | json }},
-            customer_id: '{{ customer.id }}'
-        };
+        if(typeof(Spurit.globalSnippet) === 'undefined'){
+            Spurit.globalSnippet = {
+                shop_currency: '{{ shop.currency }}',
+                money_format: '{{ shop.money_format }}',
+                cart: {{ cart | json }},
+                customer_id: '{{ customer.id }}'
+            };
+        }
+
+        {% for line_item in cart.items %}
+            {% render 'spurit_po2_product_details_snippet', product: line_item.product %}
+        {% endfor %}
+
+        {% assign pageType = template | split: '.' | first %}
+
+        {% if pageType == 'product' %}
+            {% render 'spurit_po2_product_details_snippet', product: product %}
+        {% elsif pageType == 'search' %}
+            {% render 'spurit_po2_products_list_snippet', products: search.results %}
+        {% elsif pageType == 'collection' %}
+            {% paginate collection.products %}
+                {% for product in collection.products %}
+                    {% render 'spurit_po2_product_details_snippet', product: product %}
+                {% endfor %}
+            {% endpaginate %}
+        {%endif%}
     }
-
-    {% for line_item in cart.items %}
-        {% render 'spurit_po2_product_details_snippet', product: line_item.product %}
-    {% endfor %}
-
-    {% assign pageType = template | split: '.' | first %}
-
-    {% if pageType == 'product' %}
-        {% render 'spurit_po2_product_details_snippet', product: product %}
-    {% elsif pageType == 'search' %}
-        {% render 'spurit_po2_products_list_snippet', products: search.results %}
-    {% elsif pageType == 'collection' %}
-        {% paginate collection.products %}
-            {% for product in collection.products %}
-                {% render 'spurit_po2_product_details_snippet', product: product %}
-            {% endfor %}
-        {% endpaginate %}
-    {%endif%}
 </script>
 
-<style> /* Safely hide ATC button */
-    body:not(.spo-loaded) [data-shopify="payment-button"], 
-body:not(.spo-loaded).template-product form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded).template-collection form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded).template-index form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded) form[action="/cart/add"] [type=submit] {opacity: 0; pointer-events: none}
-    body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) button, 
-body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) input[type="submit"], 
-body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) input[type="button"], 
-body:not(.spo-loaded) [name="checkout"], 
-body:not(.spo-loaded) [name="goto_pp"], 
-body:not(.spo-loaded) [name="goto_amazon_payments"] {opacity: 0; pointer-events: none}
-</style>
-<noscript>
-    <style> /* if no javascript: get back ATC button */
-        body:not(.spo-loaded) [data-shopify="payment-button"], 
-body:not(.spo-loaded).template-product form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded).template-collection form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded).template-index form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded) form[action="/cart/add"] [type=submit] {opacity: 1; pointer-events: all}
-        body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) button, 
-body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) input[type="submit"], 
-body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) input[type="button"], 
-body:not(.spo-loaded) [name="checkout"], 
-body:not(.spo-loaded) [name="goto_pp"], 
-body:not(.spo-loaded) [name="goto_amazon_payments"] {opacity: 1; pointer-events: all}
-    </style>
-</noscript>
 <script>
   (function() {
     setTimeout(() => document.querySelector('body').classList.add('spo-loaded'), 5000)
   })();
 </script>
 
-    <script src="https://amaicdn.com/preorder2/common.js"></script>
+    <script>
+        if(!window.PomFirstLoad){
+            window.PomFirstLoad = true;
+            let script = document.createElement("script");  // create a script DOM node
+            script.src = "https://amaicdn.com/preorder2/common.js";  // set its src to the provided URL
+            document.head.appendChild(script);
+        }
+    </script>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LeTRAoeAAAAACKeCUlhSkXvVTIwv0_OgDTqgYsa"></script>
+
