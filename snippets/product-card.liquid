@@ -161,7 +161,7 @@ Supported variables
       {% if product.metafields.custom.craig_test != blank %}
         {{ product.metafields.custom.craig_test | metafield_tag }}
       {% endif %}
-      {% form 'product', product %}
+      {% comment %} {% form 'product', product %}
         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
         <input type="hidden" name="quantity" value="1">
         {%- if product.selected_or_first_available_variant.available -%}
@@ -175,7 +175,8 @@ Supported variables
           {%- assign button_disabled = true -%}
         {%- endif -%}
         {% render 'button',  content: button_content, type: 'submit', size: 'S', disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color %}
-      {% endform %}
+      {% endform %} {% endcomment %}
+      {%- render 'buy-buttons', product: product -%}
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}

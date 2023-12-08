@@ -338,6 +338,26 @@
             {%- render 'icon' with 'share' -%} {{- 'general.social.share' | t -}}
           </button>
         </div>
+      {%- when 'shipping_time' -%}
+        <p>{{ block.settings.text }} <span id="shipping-date"></span></p>
+        <script>
+          function shipDate(numDays) {
+            const currentDate = new Date();
+            for (let i = 0; i < numDays; i++) {
+              currentDate.setDate(currentDate.getDate() + 1);
+              if (currentDate.getDay() === 6) {
+                currentDate.setDate(currentDate.getDate() + 2);
+              }
+              else if (currentDate.getDay() === 0) {
+                currentDate.setDate(currentDate.getDate() + 1);
+              }
+            }
+            const shippingEl = document.querySelector('#shipping-date');
+            const options = { weekday: 'long', month: 'short', day: 'numeric' };
+            shippingEl.innerText = currentDate.toLocaleDateString('de-DE', options);
+          }
+          shipDate({{ block.settings.days }});
+        </script>
     {%- endcase -%}
   {%- endfor -%}
 

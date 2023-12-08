@@ -103,6 +103,13 @@
           "settings": {
             "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
+        },
+        "50c1b7ac-7cdc-45c5-82a4-89379c9c0f60": {
+          "type": "shipping_time",
+          "settings": {
+            "days": 4,
+            "text": "Bestellen Sie jetzt und erhalten Sie es bis"
+          }
         }
       },
       "block_order": [
@@ -118,7 +125,8 @@
         "1773ca05-2098-4c09-9770-47da0a95437b",
         "ef653e66-b223-4e74-80f0-35c521810775",
         "buy_buttons",
-        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715"
+        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715",
+        "50c1b7ac-7cdc-45c5-82a4-89379c9c0f60"
       ],
       "settings": {
         "full_width": false,
