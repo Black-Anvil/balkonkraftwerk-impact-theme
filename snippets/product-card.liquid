@@ -158,24 +158,9 @@ Supported variables
       {%- endif -%}
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
-      {% if product.metafields.custom.craig_test != blank %}
-        {{ product.metafields.custom.craig_test | metafield_tag }}
+      {% if product.metafields.custom.product_card_description != blank %}
+        {{ product.metafields.custom.product_card_description | metafield_tag }}
       {% endif %}
-      {% comment %} {% form 'product', product %}
-        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-        <input type="hidden" name="quantity" value="1">
-        {%- if product.selected_or_first_available_variant.available -%}
-          {%- if product.template_suffix contains 'pre-order' -%}
-            {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
-          {%- else -%}
-            {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
-          {%- endif -%}
-        {%- else -%}
-          {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
-          {%- assign button_disabled = true -%}
-        {%- endif -%}
-        {% render 'button',  content: button_content, type: 'submit', size: 'S', disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color %}
-      {% endform %} {% endcomment %}
       {%- render 'buy-buttons', product: product -%}
     </div>
 

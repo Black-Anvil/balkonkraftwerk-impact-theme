@@ -59,9 +59,9 @@ Supported variables
         {{- variant.compare_at_price | money -}}
       {%- endif -%}
     </compare-at-price>
-    {% if product.metafields.custom.craig_test_3 != blank %}
-      <div class="promotion-pill" style="background-color: {{ product.metafields.custom.craig_test_2 | metafield_text }}">
-        <span>{{ product.metafields.custom.craig_test_3 | metafield_text }}</span>
+    {% if product.metafields.custom.promotion_pill_name != blank %}
+      <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
+        <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
       </div>
     {% endif %}
   {%- elsif line_item != blank -%}
@@ -122,9 +122,9 @@ Supported variables
             {{- cheapest_variant.compare_at_price | money -}}
           {%- endif -%}
         </compare-at-price>
-        {% if product.metafields.custom.craig_test_3 != blank %}
-          <div class="promotion-pill" style="background-color: {{ product.metafields.custom.craig_test_2 | metafield_text }}">
-            <span>{{ product.metafields.custom.craig_test_3 | metafield_text }}</span>
+        {% if product.metafields.custom.promotion_pill_name != blank %}
+          <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
+            <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
           </div>
         {% endif %}
       {%- else -%}
@@ -153,9 +153,9 @@ Supported variables
           {{- product.compare_at_price | money -}}
         {%- endif -%}
       </compare-at-price>
-      {% if product.metafields.custom.craig_test_3 != blank %}
-        <div class="promotion-pill" style="background-color: {{ product.metafields.custom.craig_test_2 | metafield_text }}">
-          <span>{{ product.metafields.custom.craig_test_3 | metafield_text }}</span>
+      {% if product.metafields.custom.promotion_pill_name != blank %}
+        <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
+          <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
         </div>
       {% endif %}
     {%- elsif product.price_varies -%}

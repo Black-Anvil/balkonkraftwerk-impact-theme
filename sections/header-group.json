@@ -27,13 +27,6 @@
             "url": ""
           }
         },
-        "c262b027-976d-4c1b-95ca-617795b34dba": {
-          "type": "message",
-          "settings": {
-            "text": "Bis zu 30 Jahre Garantie!",
-            "url": ""
-          }
-        },
         "c18832bf-d6c7-4427-904c-d8645a9f254a": {
           "type": "message",
           "disabled": true,
@@ -41,16 +34,21 @@
             "text": "Balkonkraftwerke sofort lieferbar",
             "url": "shopify:\/\/collections\/balkonkraftwerk-komplettsets"
           }
+        },
+        "f65cabdb-47a0-4e32-a2b6-39a2b7be53f9": {
+          "type": "html_msg",
+          "settings": {
+            "content": "<b>Test HTML message with long text...Test HTML message with long text...Test HTML message with long text...<br>\nbreaks and <a href=\"\/collections\/all\" style=\"color: #FFCB00; text-decoration: underline;\">links<\/a><b><\/b><\/b>"
+          }
         }
       },
       "block_order": [
         "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b",
         "message",
         "0c073df3-904c-46ec-b0b2-8b01b02ee0ed",
-        "c262b027-976d-4c1b-95ca-617795b34dba",
-        "c18832bf-d6c7-4427-904c-d8645a9f254a"
+        "c18832bf-d6c7-4427-904c-d8645a9f254a",
+        "f65cabdb-47a0-4e32-a2b6-39a2b7be53f9"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
