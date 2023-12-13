@@ -110,6 +110,14 @@
             "days": 4,
             "text": "Bestellen Sie jetzt und erhalten Sie es bis"
           }
+        },
+        "3ef5618c-8552-4536-9cb9-6a3582efc8cf": {
+          "type": "coupon_code",
+          "settings": {
+            "color_primary": "#245DA7",
+            "color_secondary": "#FFFFFF",
+            "color_tertiary": "#dd1d1d"
+          }
         }
       },
       "block_order": [
@@ -126,7 +134,8 @@
         "ef653e66-b223-4e74-80f0-35c521810775",
         "buy_buttons",
         "106aad91-0cf6-4e8d-ae1c-ba2f473dd715",
-        "69957d9f-c27d-4146-80cc-848a60b179b5"
+        "69957d9f-c27d-4146-80cc-848a60b179b5",
+        "3ef5618c-8552-4536-9cb9-6a3582efc8cf"
       ],
       "settings": {
         "full_width": false,
