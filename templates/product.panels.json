@@ -42,11 +42,12 @@
           "type": "collapsible_text",
           "settings": {
             "title": "+ Schnelle Lieferung",
-            "content": "<p>Das Balkonkraftwerk wird per Spedition geliefert und ist in ca. 3-5 Werktagen bei dir.<\/p>"
+            "content": "<p>Das Solarpanel wird per Spedition geliefert und ist in ca. 3-5 Werktagen bei dir.<\/p>"
           }
         },
         "22ad3c38-9577-4af7-b9d9-b8488f14eb00": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "+ 30 Jahre Garantie",
             "content": "<p>Du erhältst 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
