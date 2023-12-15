@@ -38,7 +38,8 @@
         "f65cabdb-47a0-4e32-a2b6-39a2b7be53f9": {
           "type": "html_msg",
           "settings": {
-            "content": "<b>Test HTML message with long text...Test HTML message with long text...Test HTML message with long text...<br>\nbreaks and <a href=\"\/collections\/all\" style=\"color: #FFCB00; text-decoration: underline;\">links<\/a><b><\/b><\/b>"
+            "content": "<b>Test HTML message with long text...Test HTML message with long text...Test HTML message with long text...<br>\nbreaks and <span style=\"color: #FFCB00; text-decoration: underline; font-size: 2rem;\">styles<\/span><\/b>",
+            "url": "shopify:\/\/pages\/balkonkraftwerk-angebote"
           }
         }
       },

@@ -38,13 +38,17 @@
                 {%- when 'message' -%}
                   <p class="bold {{ section.settings.text_size }}" {{ block.shopify_attributes }}>
                     {%- if block.settings.url != blank -%}
-                      <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
+                      <a href="{{ block.settings.url }}" class="full-width-link">{{ block.settings.text | escape }}</a>
                     {%- else -%}
                       {{ block.settings.text | escape }}
                     {%- endif -%}
                   </p>
                 {%- when 'html_msg' -%}
-                  {{- block.settings.content -}}
+                  {%- if block.settings.url != blank -%}
+                    <a href="{{ block.settings.url }}" class="full-width-link">{{- block.settings.content -}}</a>
+                  {%- else -%}
+                    {{- block.settings.content -}}
+                  {%- endif -%}
               {%- endcase -%}
               <span class="shape-circle shape--sm"></span>
             {%- endfor -%}
@@ -69,15 +73,25 @@
               {%- for block in section.blocks -%}
                 {%- case block.type -%}
                   {%- when 'message' -%}
-                    <p class="bold {{ section.settings.text_size }} {% unless forloop.first %}reveal-invisible{% endunless %}" {{ block.shopify_attributes }}>
+                    <p class="bold {{ section.settings.text_size }}{% if block.settings.url != blank %} full-height-link{% endif %}{% unless forloop.first %} reveal-invisible{% endunless %}" {{ block.shopify_attributes }}>
                       {%- if block.settings.url != blank -%}
-                        <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
+                        <a href="{{ block.settings.url }}" class="full-width-link">
+                          <span class="centered-message">{{ block.settings.text | escape }}</span>
+                        </a>
                       {%- else -%}
                         {{ block.settings.text | escape }}
                       {%- endif -%}
                     </p>
                   {%- when 'html_msg' -%}
-                    <div class="{% unless forloop.first %}reveal-invisible{% endunless %}">{{- block.settings.content -}}</div>
+                    {%- if block.settings.url != blank -%}
+                      <div class="{% unless forloop.first %}reveal-invisible{% endunless %} full-size-div">
+                        <a href="{{ block.settings.url }}" class="full-width-link">
+                          {{- block.settings.content -}}
+                        </a>
+                      </div>
+                    {%- else -%}
+                      <div class="{% unless forloop.first %}reveal-invisible{% endunless %}">{{- block.settings.content -}}</div>
+                    {%- endif -%}
                 {%- endcase -%}
               {%- endfor -%}
             </announcement-bar>
@@ -130,6 +144,11 @@
           "type": "textarea",
           "id": "content",
           "label": "HTML Content"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
         }
       ]
     }

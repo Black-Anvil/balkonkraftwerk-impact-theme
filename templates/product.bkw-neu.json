@@ -107,15 +107,16 @@
         "69957d9f-c27d-4146-80cc-848a60b179b5": {
           "type": "shipping_time",
           "settings": {
+            "text_1": "text before",
             "days": 4,
-            "text": "Bestellen Sie jetzt und erhalten Sie es bis"
+            "text_2": "text after"
           }
         },
         "3ef5618c-8552-4536-9cb9-6a3582efc8cf": {
           "type": "coupon_code",
           "settings": {
-            "color_primary": "#245DA7",
-            "color_secondary": "#FFFFFF",
+            "color_primary": "#245da7",
+            "color_secondary": "#ffffff",
             "color_tertiary": "#dd1d1d"
           }
         }

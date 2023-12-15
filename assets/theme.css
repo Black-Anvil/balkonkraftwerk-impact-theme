@@ -9743,11 +9743,6 @@ split-lines {
   width: 100%;
 }
 
-.text-base a {
-  display: inline-block;
-  width: 100%;
-}
-
 .text-lg {
   font-size: var(--text-lg);
   line-height: 1.6;
@@ -9931,7 +9926,8 @@ split-lines {
   text-align: center;
   font-size: var(--text-sm);
   letter-spacing: var(--text-letter-spacing);
-  padding: 0.2rem;
+  line-height: 1;
+  padding: 0.4rem;
   border-radius: 10px;
 }
 
@@ -10036,4 +10032,28 @@ split-lines {
 .checkmark-icon__container svg {
   width: 100%;
   height: 100%;
+}
+
+/* announcement-bar.liquid */
+
+.full-height-link {
+  height: 100%;
+}
+
+.full-size-div {
+  width: 100%;
+  height: 100%;
+}
+.full-width-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.centered-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
