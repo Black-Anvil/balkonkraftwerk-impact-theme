@@ -139,12 +139,35 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "9d8e9b8a-f63e-4035-9c97-3a4f8bf72f3e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipant_logo_1.png",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "1 Balkonkraftwerk = 1 Baum",
+            "content": "<p>Wir arbeiten mit der gemeinnützigen Organisation I plant a tree zusammen und setzen uns für die Wiederaufforstung von deutschen Wäldern ein.<br\/><br\/><strong>Für jedes SUNPOWER4U Balkonkraftwerk pflanzen wir gemeinsam mit I plant a tree einen Baum in Deutschland.<\/strong><br\/><br\/>Wir setzten auf naturnahe Mischwälder in Deutschland, da auch wir hierherkommen und die meisten unserer Kunden in Deutschland leben. Die Wälder binden langfristig CO2 und leistet so einen wichtigen Beitrag zum Klimaschutz und als Naherholungsgebiet für heutige und zukünftige Generationen.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16667369144547__7cddc325-f69c-47b3-a588-bfb063f12da8-1678963205f1ca4287-0",
         "839f3412-a8af-4581-8c0d-c54a3236c2da",
-        "5bff3b7d-d582-4eb7-bcc8-739a06fdba51"
+        "5bff3b7d-d582-4eb7-bcc8-739a06fdba51",
+        "9d8e9b8a-f63e-4035-9c97-3a4f8bf72f3e"
       ],
       "settings": {
         "full_width": true,
@@ -275,6 +298,7 @@
       "block_order": [
         "6b61b7fa-12a1-463f-b56f-46e6f73183d4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
