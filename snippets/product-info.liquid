@@ -339,7 +339,9 @@
           </button>
         </div>
       {%- when 'shipping_time' -%}
-        <p>{{ block.settings.text_1 }} <span id="shipping-date"></span> {{ block.settings.text_2}}</p>
+        {%- if block.settings.days != 0 -%}
+          <p>{{ block.settings.text_1 }} <span id="shipping-date"></span> {{ block.settings.text_2}}</p>
+        {%- endif -%}
         <script>
           function shipDate(numDays) {
             const currentDate = new Date();
