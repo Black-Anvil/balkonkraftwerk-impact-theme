@@ -47,11 +47,11 @@
         "template--19582588453190__6c78aa68-d727-4611-8fba-6337627d839a-richtext-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "background": "#ffffff",
+        "background_gradient": "",
         "text_color": ""
       }
     },
@@ -72,13 +72,13 @@
       ],
       "settings": {
         "full_width": false,
-        "show_excerpt": false,
-        "show_date": false,
+        "show_excerpt": true,
+        "show_date": true,
         "show_author": false,
         "show_comments_count": false,
         "show_category": false,
         "subheading": "",
-        "title": "",
+        "title": "Aktuelle Beiträge rund um Balkonkraftwerke",
         "content": "",
         "link_url": "",
         "link_text": "",

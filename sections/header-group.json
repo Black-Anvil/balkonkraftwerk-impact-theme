@@ -16,7 +16,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "🎅 XMAS SALE: 450,00 € sparen und Versandkostenfreier Versand! 🎁🎄",
+            "text": "🎅 XMAS SALE: Über 500,00 € sparen und kostenloser Versand! 🎁🎄",
             "url": "shopify:\/\/pages\/balkonkraftwerk-angebote"
           }
         },
@@ -41,7 +41,7 @@
           "disabled": true,
           "settings": {
             "text": "Balkonkraftwerke sofort lieferbar",
-            "url": "shopify:\/\/collections\/balkonkraftwerk-komplettsets"
+            "url": "shopify:\/\/collections\/balkonkrafttwerk-komplettset"
           }
         }
       },
@@ -75,7 +75,7 @@
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "Test 1",
-            "image_link_1": "shopify:\/\/collections\/bkw-sets-balkongelander",
+            "image_link_1": "shopify:\/\/collections\/balkonkraftwerk-balkongelaender",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "Test 2",
             "image_link_2": "shopify:\/\/collections\/balkonkraftwerk-fur-die-fassade",

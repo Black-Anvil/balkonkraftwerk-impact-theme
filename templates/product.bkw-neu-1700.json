@@ -973,64 +973,9 @@
         "spacing": "small"
       }
     },
-    "2b7753e7-9046-4729-8045-ff73fef1d237": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19851865948486__2b7753e7-9046-4729-8045-ff73fef1d237-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Häufig gestellte Fragen und Antworten (FAQ)",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "5a7e72dd-3d65-4fbf-a128-ae4b296be3ca": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"flex: 1; padding-right: 20px;\">\n    <p>\n      Wenn du gerade beginnst, dich mit dem Thema \"Balkonkraftwerk\" auseinanderzusetzen, hast du sicher sehr viele Fragen dazu. \n    <\/p>\n    <p>\n      In unserem FAQ-Bereich versuchen wir die wichtigsten Fragen und Antworten rund um dein neues Balkonkraftwerk für dich zusammenzustellen und zu beantworten:\n    <\/p><b>\n    <ul>\n      ▶ <a href=\"https:\/\/www.sunpower4u.de\/pages\/faq\">SUNPOWER4U Fragen & Antworten<\/a><\/b><\/li>\n    <\/ul>\n    <p><br>\n      Gerne kannst du dir auch einige unserer Videos zu dem Thema anschauen und folge uns für weitere Tipps & Tricks auch gerne auf Social-Media:\n    <\/p>\n    <ul><b>\n      ▶ <a href=\"https:\/\/www.youtube.com\/@SUNPOWER-4U\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf YouTube<\/a><\/li>\n<br>▶ <a href=\"https:\/\/www.facebook.com\/profile.php?id=61550315574069\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf Facebook<\/a><\/li>\n<br>▶ <a href=\"https:\/\/www.instagram.com\/sunpower4u\/\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf Instagram<\/a><\/li><\/b>\n\n    <\/ul>\n    <\/p>\n  <\/div>"
-          }
-        },
-        "0dc45e9f-75db-46bd-be5c-182dda8c17a1": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "569860b8-f7c9-4a82-8f12-0384d802f7ac": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sunpower4u_1_6184e385-2b05-476f-b6b1-1d323419266f.png",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "0966f03f-cc22-40e7-a1ab-09cd2d10a4df": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Solltest du weitere Fragen haben, ist Diana im Kundenservice selbstverständlich jederzeit gerne für dich per E-Mail, aber auch telefonisch da. Solltest du uns einmal nicht direkt erreichen, melden wir uns natürlich so schnell wie möglich bei dir zurück.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19851865948486__2b7753e7-9046-4729-8045-ff73fef1d237-heading-1",
-        "5a7e72dd-3d65-4fbf-a128-ae4b296be3ca",
-        "0dc45e9f-75db-46bd-be5c-182dda8c17a1",
-        "569860b8-f7c9-4a82-8f12-0384d802f7ac",
-        "0966f03f-cc22-40e7-a1ab-09cd2d10a4df"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "e0887830-db79-4413-a030-441bec459eeb": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 4,
         "products": [
@@ -1044,6 +989,33 @@
         "subheading": "",
         "title": "Empfohlene andere Produkte",
         "content": "<p>Alternative Produkte zum \"{{ product.title }}\" Balkonkraftwerk:<\/p>",
+        "background": "#245da7",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "b349e51f-3498-4ca5-b8cd-b7d09ca93a40": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-1700w",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Empfohlene andere Produkte",
+        "content": "<p>Alternative Produkte zum \"{{ product.title }}\" Balkonkraftwerk:<\/p>",
+        "link_url": "",
+        "link_text": "Alle ansehen",
         "background": "#245da7",
         "background_gradient": "",
         "text_color": "#ffffff",
@@ -1089,8 +1061,8 @@
     "5be8a123-4473-421c-b841-267dea6244d4",
     "related-products",
     "61ee5abf-d7b2-41d0-9108-18b5bd85a553",
-    "2b7753e7-9046-4729-8045-ff73fef1d237",
     "e0887830-db79-4413-a030-441bec459eeb",
+    "b349e51f-3498-4ca5-b8cd-b7d09ca93a40",
     "e19ac1ce-8942-465c-bfe8-3f07d2c593c5"
   ]
 }

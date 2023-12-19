@@ -472,58 +472,6 @@
         "spacing": "small"
       }
     },
-    "2eb878cc-bcbb-45f4-a3bf-14b594c08376": {
-      "type": "rich-text",
-      "blocks": {
-        "7950958f-ce4a-4fb0-99f9-61cda89d9482": {
-          "type": "image",
-          "settings": {
-            "image": "{{ product.metafields.custom.halterung_bild.value }}",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "22fd4913-c499-4a1a-935c-ff5786d6dcc3": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "8bf77cc4-9cde-4f97-a558-fb020f24c7d2": {
-          "type": "heading",
-          "settings": {
-            "text": "{{ product.metafields.custom.halterungsname.value }}",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "e630c3de-2fc2-4a2b-81dd-b82dc10f8758": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin-top:0;\">\n<p>\n{{ product.metafields.custom.halterung_text | metafield_tag }}\n<\/p>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "7950958f-ce4a-4fb0-99f9-61cda89d9482",
-        "22fd4913-c499-4a1a-935c-ff5786d6dcc3",
-        "8bf77cc4-9cde-4f97-a558-fb020f24c7d2",
-        "e630c3de-2fc2-4a2b-81dd-b82dc10f8758"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": false,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "4b2a3177-117b-4865-8099-fb6a9151d581": {
       "type": "media-with-text",
       "blocks": {
@@ -715,7 +663,7 @@
             "icon_background": "rgba(0,0,0,0)",
             "icon_color": "",
             "title": "Schnell & Kompetent",
-            "content": "<p>Deine Stecker-Solaranlage ist schon in wenigen Tagen bei dir bei allen Fragen sind wir telefonisch für dich da.<\/p>"
+            "content": "<p>Deine Stecker-Solaranlage ist schon in wenigen Tagen bei dir und bei allen Fragen sind wir telefonisch für dich da.<\/p>"
           }
         }
       },
@@ -1154,6 +1102,7 @@
     },
     "e0887830-db79-4413-a030-441bec459eeb": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 4,
         "products": [
@@ -1167,6 +1116,33 @@
         "subheading": "",
         "title": "Empfohlene andere Produkte",
         "content": "<p>Alternative Produkte zum \"{{ product.title }}\" Balkonkraftwerk:<\/p>",
+        "background": "#245da7",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "6b755196-c32a-4cf6-8aef-3da4ed544671": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-1700w",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Empfohlene andere Produkte",
+        "content": "<p>Alternative Produkte zum \"{{ product.title }}\" Balkonkraftwerk:<\/p>",
+        "link_url": "",
+        "link_text": "Alle ansehen",
         "background": "#245da7",
         "background_gradient": "",
         "text_color": "#ffffff",
@@ -1197,7 +1173,6 @@
     "210e556e-42d9-4a88-9154-692fb3f8d467",
     "80393bba-89d8-491f-a3f6-e2b951ad6b9d",
     "ef7ded03-2106-4310-a465-60323349c610",
-    "2eb878cc-bcbb-45f4-a3bf-14b594c08376",
     "4b2a3177-117b-4865-8099-fb6a9151d581",
     "03ebe7dc-f633-4ad6-86b0-b0b3be215751",
     "50df181f-06bf-458a-ab14-5f4187806d70",
@@ -1214,6 +1189,7 @@
     "b0fce019-db46-415a-b267-4e4d05e2672a",
     "related-products",
     "e0887830-db79-4413-a030-441bec459eeb",
+    "6b755196-c32a-4cf6-8aef-3da4ed544671",
     "e19ac1ce-8942-465c-bfe8-3f07d2c593c5"
   ]
 }

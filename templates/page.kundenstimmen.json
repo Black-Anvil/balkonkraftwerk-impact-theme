@@ -56,7 +56,7 @@
       "type": "apps",
       "blocks": {
         "39741d18-1c9d-4997-a706-dab81d14aee0": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "hide_thumbnails": false,
@@ -87,7 +87,7 @@
     "82fd9fd3-5b4d-4e71-82a9-62273727f165": {
       "type": "featured-collection",
       "settings": {
-        "collection": "balkonkraftwerk-komplettsets",
+        "collection": "balkonkrafttwerk-komplettset",
         "products": [
 
         ],

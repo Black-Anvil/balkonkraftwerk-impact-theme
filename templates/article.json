@@ -20,24 +20,28 @@
         "navigation",
         "comments"
       ],
+      "custom_css": [
+        "h1 {font-size: 2em;}",
+        "@media screen and (max-width: 600px) {h1 {font-size: 1.3em; }}"
+      ],
       "settings": {
         "allow_transparent_header": false,
         "layout": "content_first",
         "show_author": false,
-        "show_date": false,
+        "show_date": true,
         "show_comments_count": false,
         "show_share_buttons": true,
         "banner_background": "#245da7",
         "banner_text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "content_width": "950px"
+        "content_width": "1150px"
       }
     },
     "725533fb-68d1-475d-b784-a3c653e21618": {
       "type": "featured-collection",
       "settings": {
-        "collection": "balkonkraftwerk-komplettsets",
+        "collection": "balkonkrafttwerk-komplettset",
         "products": [
 
         ],

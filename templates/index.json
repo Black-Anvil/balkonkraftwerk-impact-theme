@@ -287,7 +287,7 @@
             "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_1_073a13b8-5221-4954-bd83-5bf539a11b67.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/bkw-sets-balkongelander",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-balkongelaender",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -309,7 +309,7 @@
             "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_2_82aa2d6e-12f9-4ac0-adc3-a01ea0d50416.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/bkw-sets-ziegeldach",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-ziegeldach",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -331,7 +331,7 @@
             "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_3_74a55d2e-9e9f-4698-bb32-6b724fbf6c7c.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/bkw-sets-flachdach-garten",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-flachdach-garten",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -353,7 +353,7 @@
             "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_4_073ec803-8e5d-40aa-a74f-c07a7745e7a2.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/collections\/bkw-sets-fassade",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-wand-flach",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -396,7 +396,7 @@
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify:\/\/collections\/bkw-sets-balkongelander",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-balkongelaender",
             "link_text": "WEITER",
             "link_style": "button"
           }
@@ -409,7 +409,7 @@
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify:\/\/collections\/bkw-sets-ziegeldach",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-ziegeldach",
             "link_text": "WEITER",
             "link_style": "button"
           }
@@ -422,7 +422,7 @@
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify:\/\/collections\/bkw-sets-flachdach-garten",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-flachdach-garten",
             "link_text": "WEITER",
             "link_style": "button"
           }
@@ -435,7 +435,7 @@
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_url": "shopify:\/\/collections\/bkw-sets-fassade",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-wand-flach",
             "link_text": "WEITER",
             "link_style": "button"
           }
