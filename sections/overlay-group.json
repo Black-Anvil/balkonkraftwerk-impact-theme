@@ -30,13 +30,12 @@
         "show_shipping_text": true,
         "show_view_cart_button": true,
         "show_checkout_button": true,
-        "recommendations_title": "Unsere beliebtesten Produkte",
+        "recommendations_title": "Unser Service für dich:",
         "products": [
-          "balkonkraftwerk-720w",
-          "balkonkraftwerk-600w-set"
+          "balkonkraftwerk-anmelden"
         ],
-        "product_card_background": "#f2f2f2",
-        "product_card_text_color": "rgba(0,0,0,0)"
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#1a1a1a"
       }
     },
     "search-drawer": {

@@ -28,7 +28,7 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'text' -%}
-                {%- if block.settings.title != blank or block.settings.content != blank -%}
+                {%- if block.settings.title != blank or block.settings.content != blank or shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
                   <div class="footer__block footer__block--text" {{ block.shopify_attributes }}>
                     {%- if block.settings.title != blank -%}
                       <p class="bold">{{ block.settings.title | escape }}</p>
@@ -37,6 +37,12 @@
                     {%- if block.settings.content != blank -%}
                       <div class="prose text-subdued">
                         {{- block.settings.content -}}
+                      </div>
+                    {%- endif -%}
+
+                    {%- if shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
+                      <div class="follow-on-shop">
+                        {{- shop | login_button: action: 'follow' -}}
                       </div>
                     {%- endif -%}
                   </div>
@@ -96,10 +102,6 @@
                       {%- endif -%}
                     {%- endform -%}
                   </div>
-                </div>
-              {%- when 'image' -%}
-                <div class="footer__block--image">
-                  <img src="{{ block.settings.image | image_url: width: 500 }}">
                 </div>
             {%- endcase -%}
           {%- endfor -%}
@@ -248,6 +250,13 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_follow_on_shop",
+          "label": "Show Follow on Shop",
+          "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
+          "default": true
         }
       ]
     },
@@ -329,17 +338,6 @@
           "type": "richtext",
           "id": "content",
           "label": "Content"
-        }
-      ]
-    },
-    {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Select footer image"
         }
       ]
     }

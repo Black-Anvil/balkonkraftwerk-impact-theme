@@ -21,6 +21,7 @@
       "block_order": [
         "template--16662977970403__2d1dc868-c903-48c5-acc1-4a8f4fc14776-16783593984e8ecbe6-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -34,28 +35,162 @@
         "overlay_opacity": 30
       }
     },
+    "8163da3e-a2ff-4055-b530-d094d46b4e6f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19582589436230__8163da3e-a2ff-4055-b530-d094d46b4e6f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Downloads & Datenblätter",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19582589436230__8163da3e-a2ff-4055-b530-d094d46b4e6f-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hier findest du alle notwendigen Anmeldedokumente und Datenblätter zu unseren Produkten.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19582589436230__8163da3e-a2ff-4055-b530-d094d46b4e6f-heading-1",
+        "template--19582589436230__8163da3e-a2ff-4055-b530-d094d46b4e6f-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "text_color": ""
+      }
+    },
+    "7da4e8b9-abdb-49ab-ba19-77010c0ebd05": {
+      "type": "faq",
+      "blocks": {
+        "635022f0-2b1c-4319-a4b2-cc07bb2e7add": {
+          "type": "item",
+          "settings": {
+            "title": "Sun Expert 1700",
+            "content": "<p><strong>Anleitungen<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Sun_Expert_1700.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Sun_Expert_1700.pdf\">Hoymiles HM-800 Wechselrichter Anleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Sun_Expert_1700.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Sun_Expert_1700.pdf\">Anleitung zum Zusammenbau der 2 Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\">DTU-WLite WLAN Stick Bedienungsanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\">DTU-WLite Schnellstartanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\">DTU-WLite Netzwerkeinrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\">Hoymiles Account Einrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_Leistungsbegrenzung.pdf?v=1689841273\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_Leistungsbegrenzung.pdf?v=1689841273\">Anleitung zum Drosseln der Hoymiles Wechselrichter<\/a><\/li><\/ul><p><strong>Technische Daten<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\">Hoymiles HM-800 Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\">Hoymiles HM-800 Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\">Hoymiles HM-800 NA Schutz Zertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\">Hoymiles HM-800 CE Zertifizierung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\">DTU W-Lite Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf\">SunEvo 5 Solarpanel Datenblatt<\/a><\/li><\/ul>"
+          }
+        },
+        "0f5e4960-09a8-46db-8e39-a103d3990915": {
+          "type": "item",
+          "settings": {
+            "title": "Sun Expert 800",
+            "content": "<p><strong>Anleitungen<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Sun_Expert_1700.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Sun_Expert_1700.pdf\">Hoymiles HM-800 Wechselrichter Anleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\">DTU-WLite WLAN Stick Bedienungsanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\">DTU-WLite Schnellstartanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\">DTU-WLite Netzwerkeinrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\">Hoymiles Account Einrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_Leistungsbegrenzung.pdf?v=1689841273\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_Leistungsbegrenzung.pdf?v=1689841273\">Anleitung zum Drosseln der Hoymiles Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\">Aufbauanleitung Balkonhalterung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\">Aufbauanleitung Ziegeldachhalterung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\">Aufbauanleitung Universalhatlerung für Flachdach, Garten & Balkon<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\">Aufbauanleitung für die flache Montage an der Fassade<\/a><\/li><\/ul><p><strong>Technische Daten<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\">Hoymiles HM-800 Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\">Hoymiles HM-800 Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\">Hoymiles HM-800 NA Schutz Zertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\">Hoymiles HM-800 CE Zertifizierung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\">DTU W-Lite Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf\">SunEvo 5 Solarpanel Datenblatt<\/a><\/li><\/ul>"
+          }
+        },
+        "73e1b9b2-2248-4299-bdcf-3305b27e36fb": {
+          "type": "item",
+          "settings": {
+            "title": "Sun Pro 600",
+            "content": "<p><strong>Anleitungen<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\">Hoymiles HM-600 Wechselrichter Anleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\">DTU-WLite WLAN Stick Bedienungsanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\">DTU-WLite Schnellstartanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\">DTU-WLite Netzwerkeinrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\">Hoymiles Account Einrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\">Aufbauanleitung Balkonhalterung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\">Aufbauanleitung Ziegeldachhalterung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\">Aufbauanleitung Universalhatlerung für Flachdach, Garten & Balkon<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\">Aufbauanleitung für die flache Montage an der Fassade<\/a><\/li><\/ul><p><strong>Technische Daten<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\">Hoymiles HM-600 Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\">Hoymiles HM-600 Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\">Hoymiles HM-800 NA Schutz Zertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\">Hoymiles HM-600 CE Zertifizierung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\">DTU W-Lite Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf\">SunEvo 5 Solarpanel Datenblatt<\/a><\/li><\/ul>"
+          }
+        },
+        "be920593-4980-4147-99c9-a795da561758": {
+          "type": "item",
+          "settings": {
+            "title": "Sun Starter 600",
+            "content": "<p><strong>Anleitungen<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\">Hoymiles HM-600 Wechselrichter Anleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\">DTU-WLite WLAN Stick Bedienungsanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\">DTU-WLite Schnellstartanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\">DTU-WLite Netzwerkeinrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\">Hoymiles Account Einrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\">Aufbauanleitung Balkonhalterung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\">Aufbauanleitung Ziegeldachhalterung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\">Aufbauanleitung Universalhatlerung für Flachdach, Garten & Balkon<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\">Aufbauanleitung für die flache Montage an der Fassade<\/a><\/li><\/ul><p><strong>Technische Daten<\/strong><\/p><ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\">Hoymiles HM-600 Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\">Hoymiles HM-600 Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\">Hoymiles HM-800 NA Schutz Zertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\">Hoymiles HM-600 CE Zertifizierung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf\">DTU W-Lite Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Datenblatt_360W-Solar_Modul_CN-210M36040.pdf?v=1683273525\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Datenblatt_360W-Solar_Modul_CN-210M36040.pdf?v=1683273525\">Solarpanel Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_panel_360watt.png?v=1681659590\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_panel_360watt.png?v=1681659590\">Solarpanel CE Zertifikat<\/a><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "635022f0-2b1c-4319-a4b2-cc07bb2e7add",
+        "0f5e4960-09a8-46db-8e39-a103d3990915",
+        "73e1b9b2-2248-4299-bdcf-3305b27e36fb",
+        "be920593-4980-4147-99c9-a795da561758"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Anleitungen für die Sunpower4U Balkonkraftwerke",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "55d57e18-440f-4e35-9c38-965246e1c733": {
       "type": "faq",
       "blocks": {
+        "88610812-56ab-49ad-a791-8d63d1853e1d": {
+          "type": "item",
+          "settings": {
+            "title": "Sun Expert 1700",
+            "content": ""
+          }
+        },
+        "f03d6f6c-9d30-42d1-a0e1-89c72b93d063": {
+          "type": "item",
+          "settings": {
+            "title": "Sun Expert 800",
+            "content": ""
+          }
+        },
+        "46006c0b-beab-4bd2-9f64-c1e03693f303": {
+          "type": "item",
+          "settings": {
+            "title": "Wechselrichter Hoymiles HM-800",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\">Anleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\">Datenblatt<\/a> <\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\">NA Schutz Zertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\">CE Zertifizierung<\/a><\/li><\/ul>"
+          }
+        },
+        "8258578e-f175-40b7-80f5-ca217c663e22": {
+          "type": "item",
+          "settings": {
+            "title": "Wechselrichter Hoymiles HM-600",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Anleitung.pdf?v=1689842372\">Anleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM-800_Datenblatt.pdf?v=1689778900\">Datenblatt<\/a> <\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_Einheitenzertifikat.pdf?v=1689841282\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM600_HM800_-_NA_Schutz_Zertifikat.pdf?v=1689841280\">NA Schutz Zertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_HM800_CE_Zertifikat.pdf?v=1689841284\">CE Zertifizierung<\/a><\/li><\/ul>"
+          }
+        },
+        "de0f1749-010e-43ee-8a3c-ac6b26d14b2d": {
+          "type": "item",
+          "settings": {
+            "title": "Hoymiles DTU-WLite",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_DE.pdf?v=1689841276\">Bedienungsanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_Leistungsbegrenzung.pdf?v=1689841273\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Hoymiles_DTU-Wlite_Leistungsbegrenzung.pdf?v=1689841273\">Anleitung zum Drosseln der Hoymiles Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf?v=1691657233\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-datenblatt.pdf?v=1691657233\">Datenblatt<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-schnellstartanleitung.pdf?v=1691657224\">Schnellstartanleitung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-account-anleitung.pdf?v=1691657235\">Hoymiles Account Einrichtung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/hoymiles-dtu-netzwerkeinrichtung.pdf?v=1691657234\">Netzwerkeinrichtung<\/a><\/li><\/ul>"
+          }
+        },
+        "f52acd9c-a738-4f00-bbe3-afc76ab14974": {
+          "type": "item",
+          "settings": {
+            "title": "Wechselrichter Deye SUN-M80G3-EU-Q0",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye_DY-SUN800G3EU_Benutzerhandbuch_v230602.pdf?v=1688731894\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye_DY-SUN800G3EU_Benutzerhandbuch_v230602.pdf?v=1688731894\">Anleitung zum Wechselrichter (DE)<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_Manual.pdf\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_Manual.pdf\">Anleitung zum Wechselrichter (EN)<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_Technische_Details.pdf?v=1686579224\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_Technische_Details.pdf?v=1686579224\">Technische Spezifikationen<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_CE_Certification.pdf?v=1686578795\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_CE_Certification.pdf?v=1686578795\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_VDE4105.pdf?v=1686578800\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/deye-sun-m800g3_VDE4105.pdf?v=1686578800\">VDE 4105 Konformitätserklärung<\/a><\/li><\/ul>"
+          }
+        },
         "0eaa7a57-f5cd-40ab-a4e4-99ccbab45ad9": {
           "type": "item",
           "settings": {
             "title": "Wechselrichter - Deye SUN600",
-            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_Deye.pdf?v=1682084047\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_Deye.pdf?v=1682084047\">Anleitung zum Aufbau<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Manual.pdf?v=1681996629\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Manual.pdf?v=1681996629\">Anleitung & Details zum Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/SPEC.pdf?v=1681996577\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/SPEC.pdf?v=1681996577\">Technische Spezifikationen<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye-MICRO_INVERTER_CE_2.pdf?v=1683185150\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye-MICRO_INVERTER_CE_2.pdf?v=1683185150\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_Einheitenzertifikat.pdf?v=1683185222\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_Einheitenzertifikat.pdf?v=1683185222\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/VDE4105_Certification.pdf?v=1681996664\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/VDE4105_Certification.pdf?v=1681996664\">VDE 4109 Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_NA_Schutz.pdf?v=1683185351\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_NA_Schutz.pdf?v=1683185351\">VDE 4109 NA-Schutzzertifikat<\/a><\/li><\/ul>"
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_Deye.pdf?v=1697701242\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_Deye.pdf?v=1697701242\">Anleitung zum Aufbau<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Manual.pdf?v=1681996629\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Manual.pdf?v=1681996629\">Anleitung & Details zum Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/SPEC.pdf?v=1681996577\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/SPEC.pdf?v=1681996577\">Technische Spezifikationen<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye-MICRO_INVERTER_CE_2.pdf?v=1683185150\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Deye-MICRO_INVERTER_CE_2.pdf?v=1683185150\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_Einheitenzertifikat.pdf?v=1683185222\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_Einheitenzertifikat.pdf?v=1683185222\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/VDE4105_Certification.pdf?v=1681996664\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/VDE4105_Certification.pdf?v=1681996664\">VDE 4105 Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_NA_Schutz.pdf?v=1683185351\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/DEYE_SUNxxxG3-EU-230_NA_Schutz.pdf?v=1683185351\">VDE 4105 NA-Schutzzertifikat<\/a><\/li><\/ul>"
           }
         },
         "bb00dfe3-e8a0-4c84-ba23-6f3b272b1682": {
           "type": "item",
           "settings": {
             "title": "Wechselrichter - WVC 600 (life)",
-            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk.pdf?v=1679153152\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk.pdf?v=1679153152\">Anleitung zum Aufbau<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC_Anleitung_deutsch.pdf?v=1683273327\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC_Anleitung_deutsch.pdf?v=1683273327\">Anleitung & Details zum Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_inverter_WVC600.pdf?v=1683185771\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_inverter_WVC600.pdf?v=1683185771\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Einheitenzertifikat_WVC_600.pdf?v=1683273215\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Einheitenzertifikat_WVC_600.pdf?v=1683273215\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC-VDE.pdf?v=1683185849\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC-VDE.pdf?v=1683185849\">VDE 4109 Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/NA_Schutz_WVC_600.pdf?v=1683273151\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/NA_Schutz_WVC_600.pdf?v=1683273151\">VDE 4109 NA-Schutzzertifikat<\/a><\/li><\/ul><p><\/p>"
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_WVC.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonkraftwerk_WVC.pdf?v=1697700882\">Anleitung zum Aufbau<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC_Anleitung_deutsch.pdf?v=1683273327\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC_Anleitung_deutsch.pdf?v=1683273327\">Anleitung & Details zum Wechselrichter<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_inverter_WVC600.pdf?v=1683185771\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/CE_inverter_WVC600.pdf?v=1683185771\">CE Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Einheitenzertifikat_WVC_600.pdf?v=1683273215\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Einheitenzertifikat_WVC_600.pdf?v=1683273215\">Einheitenzertifikat<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC-VDE.pdf?v=1683185849\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/WVC-VDE.pdf?v=1683185849\">VDE 4105 Konformitätserklärung<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/NA_Schutz_WVC_600.pdf?v=1683273151\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/NA_Schutz_WVC_600.pdf?v=1683273151\">VDE 4105 NA-Schutzzertifikat<\/a><\/li><\/ul><p><\/p>"
           }
         },
         "60c0fc3f-5e02-4cbe-9021-525b2ca24ef5": {
           "type": "item",
           "settings": {
-            "title": "Solarpanel - SunEvo Evo5 400-420 Watt",
-            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf?v=1681996363\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Evo5-Series-108-Half-Cells-Ultra-Black-400-420W.pdf?v=1681996363\">Datenblatt<\/a><\/li><\/ul>"
+            "title": "Solarpanel - SunEvo Evo5 400-425 Watt",
+            "content": "<ul><li><a href=\"https:\/\/www.sunpower4u.de\/cdn\/shop\/files\/SunEvo-425.pdf\" target=\"_blank\" title=\"https:\/\/www.sunpower4u.de\/cdn\/shop\/files\/SunEvo-425.pdf\">Datenblatt<\/a><\/li><\/ul>"
           }
         },
         "284477d6-79d7-44ae-830d-d1364e20e732": {
@@ -69,7 +204,28 @@
           "type": "item",
           "settings": {
             "title": "Halterung - sunpower4u Balkonhalterung",
-            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1679155434\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1679155434\">Aufbauanleitung<\/a><\/li><\/ul>"
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Balkonhalterung.pdf?v=1697700883\">Aufbauanleitung Modell 1<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Balkongelander.pdf?v=1697701007\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Balkongelander.pdf?v=1697701007\">Aufbauanleitung Modell 2<\/a><\/li><\/ul>"
+          }
+        },
+        "8a2ba7a0-d66c-426d-8b75-38cb1a490147": {
+          "type": "item",
+          "settings": {
+            "title": "Halterung - Sunpower4u für das Ziegeldach",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Ziegeldach.pdf?v=1697700883\">Aufbauanleitung<\/a><\/li><\/ul>"
+          }
+        },
+        "62ca2bdc-7e32-4cbd-8ee4-c837877dce18": {
+          "type": "item",
+          "settings": {
+            "title": "Halterung - Sunpower4U Unversalhalterung für Flachdach, Garten, Fassade & Balkon",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Halterung_Universal.pdf?v=1697700882\">Aufbauanleitung<\/a><\/li><\/ul>"
+          }
+        },
+        "4749fdef-5638-4618-a68c-b016ca965c6e": {
+          "type": "item",
+          "settings": {
+            "title": "Halterung - Sunpoer4U für die Fassade (flache Montage)",
+            "content": "<ul><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0665\/0095\/2291\/files\/Sunpower4u_Anleitung_Z-Bracket.pdf?v=1697700882\">Aufbauanleitung<\/a><\/li><\/ul>"
           }
         },
         "5667930f-f2b0-4f17-8e18-03f38ae3c979": {
@@ -81,22 +237,31 @@
         }
       },
       "block_order": [
+        "88610812-56ab-49ad-a791-8d63d1853e1d",
+        "f03d6f6c-9d30-42d1-a0e1-89c72b93d063",
+        "46006c0b-beab-4bd2-9f64-c1e03693f303",
+        "8258578e-f175-40b7-80f5-ca217c663e22",
+        "de0f1749-010e-43ee-8a3c-ac6b26d14b2d",
+        "f52acd9c-a738-4f00-bbe3-afc76ab14974",
         "0eaa7a57-f5cd-40ab-a4e4-99ccbab45ad9",
         "bb00dfe3-e8a0-4c84-ba23-6f3b272b1682",
         "60c0fc3f-5e02-4cbe-9021-525b2ca24ef5",
         "284477d6-79d7-44ae-830d-d1364e20e732",
         "aeab1684-3eee-4392-9909-42de51fcb035",
+        "8a2ba7a0-d66c-426d-8b75-38cb1a490147",
+        "62ca2bdc-7e32-4cbd-8ee4-c837877dce18",
+        "4749fdef-5638-4618-a68c-b016ca965c6e",
         "5667930f-f2b0-4f17-8e18-03f38ae3c979"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
-        "title": "",
+        "title": "Datenblätter & Anleitung für Einzelkomponenten",
         "content": "",
-        "team_avatar_width": 160,
+        "team_avatar_width": 130,
         "support_hours": "",
-        "answer_time": "Falls du weitere Fragen zu unseren Produkten hast, schreib und gerne:",
-        "button_text": "Zum Kontaktformular",
+        "answer_time": "Wenn du weitere Fragen zu unseren Produkten hast, schreib uns gerne:",
+        "button_text": "Kontakt",
         "button_url": "shopify:\/\/pages\/contact",
         "text_position": "center",
         "background": "#ffffff",
@@ -104,8 +269,8 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
+        "button_background": "#245da7",
+        "button_text_color": "#ffffff",
         "accordion_background": "",
         "accordion_text_color": ""
       }
@@ -114,6 +279,8 @@
   "order": [
     "main",
     "2d1dc868-c903-48c5-acc1-4a8f4fc14776",
+    "8163da3e-a2ff-4055-b530-d094d46b4e6f",
+    "7da4e8b9-abdb-49ab-ba19-77010c0ebd05",
     "55d57e18-440f-4e35-9c38-965246e1c733"
   ]
 }

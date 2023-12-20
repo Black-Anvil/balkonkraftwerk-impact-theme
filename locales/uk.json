@@ -43,6 +43,9 @@
       "accept": "Прийняти",
       "decline": "Відхилити"
     },
+    "form": {
+      "max_characters": "Не больше {{ max_chars }} симв."
+    },
     "on_boarding": {
       "blog_post_category": "Категорія",
       "blog_post_title": "Стаття",
@@ -378,6 +381,12 @@
       "expires_on": "Термін дії: {{ expires_on }}",
       "expired": "Термін дії вашої подарункової картки закінчився, або її скасовано.",
       "add_to_apple_wallet": "Додати в Гаманець Apple"
+    },
+    "recipient": {
+      "checkbox": "Я хочу отправить это в качестве подарка",
+      "email_label": "Электронный адрес получателя",
+      "name_label": "Имя получателя (необязательно)",
+      "message_label": "Сообщение (необязательно)"
     }
   },
   "password": {

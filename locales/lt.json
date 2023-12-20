@@ -43,6 +43,9 @@
       "accept": "Priimti",
       "decline": "Atmesti"
     },
+    "form": {
+      "max_characters": "Daugiausia {{ max_chars }} simbolių"
+    },
     "on_boarding": {
       "blog_post_category": "Kategorija",
       "blog_post_title": "Straipsnis",
@@ -384,6 +387,12 @@
       "expires_on": "Baigia galioti: {{ expires_on }}",
       "expired": "Jūsų dovanų kortelė nebegalioja arba buvo uždrausta.",
       "add_to_apple_wallet": "Įtraukti į „Apple Wallet“"
+    },
+    "recipient": {
+      "checkbox": "Noriu siųsti kaip dovaną",
+      "email_label": "Gavėjo el. pašto adresas",
+      "name_label": "Gavėjo vardas (pasirinktinai)",
+      "message_label": "Žinutė (pasirinktinai)"
     }
   },
   "password": {

@@ -12,7 +12,7 @@
     </h1>
   {%- endif -%}
 
-  {%- if section.settings.show_collection_description -%}
+  {%- if section.settings.show_collection_description and collection.description != blank -%}
     <div class="prose">
       {{- collection.description -}}
     </div>

@@ -3,7 +3,7 @@
     "name": "theme_info",
     "theme_name": "Impact",
     "theme_author": "Maestrooo",
-    "theme_version": "4.0.3",
+    "theme_version": "4.3.4",
     "theme_documentation_url": "https:\/\/support.maestrooo.com\/",
     "theme_support_url": "https:\/\/support.maestrooo.com\/article\/203-contact-us"
   },
@@ -777,6 +777,26 @@
         "default": "popover"
       },
       {
+        "type": "select",
+        "id": "cart_icon",
+        "label": "Cart icon",
+        "options": [
+          {
+            "value": "shopping_basket",
+            "label": "Shopping basket"
+          },
+          {
+            "value": "tote_bag",
+            "label": "Tote bag"
+          },
+          {
+            "value": "shopping_cart",
+            "label": "Shopping cart"
+          }
+        ],
+        "default": "shopping_basket"
+      },
+      {
         "type": "url",
         "id": "cart_empty_button_link",
         "label": "Empty button link",
@@ -817,7 +837,12 @@
       {
         "type": "url",
         "id": "social_twitter",
-        "label": "Twitter"
+        "label": "X (formerly Twitter)"
+      },
+      {
+        "type": "url",
+        "id": "social_threads",
+        "label": "Threads"
       },
       {
         "type": "url",
@@ -833,6 +858,11 @@
         "type": "url",
         "id": "social_vimeo",
         "label": "Vimeo"
+      },
+      {
+        "type": "url",
+        "id": "social_whatsapp",
+        "label": "WhatsApp"
       },
       {
         "type": "url",

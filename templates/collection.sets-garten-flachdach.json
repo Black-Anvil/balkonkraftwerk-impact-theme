@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk Komplettsets für Garten & Flachdach",
+            "heading_tag": "h1",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        },
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Alle Inverter (Wechselrichter) entsprechen der deutschen Gesetzgebung.<br\/>Wir setzen bei all unseren Balkonkraftwerk-Sets auf hochwertige <strong>Hoymiles Inverter<\/strong>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1",
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "balkonkraftwerk-600w-set",
+        "featured_product_heading": "Beliebtestes Produkt",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "026c8b78-4206-4502-9432-f5af7c2a66b9": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "balkonkraftwerk-fur-den-garten",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Garten oder Flachdach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(240, 240, 240, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-description-1": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-price-1": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-rating-1": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-buy_buttons-1": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-title-1",
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-description-1",
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-price-1",
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-rating-1",
+        "template--19850343809350__c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d-buy_buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "product": "balkonkraftwerk-sun-expert-800-flachdach-garten",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "f2489f71-a862-4306-8986-85e2a6b8099f": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerk-fur-den-garten",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc",
+    "banner",
+    "main",
+    "026c8b78-4206-4502-9432-f5af7c2a66b9",
+    "c5db454c-9ab3-4fa2-b2ae-89ca14d1b10d",
+    "f2489f71-a862-4306-8986-85e2a6b8099f"
+  ]
+}

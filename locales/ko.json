@@ -43,6 +43,9 @@
       "accept": "수락",
       "decline": "거절"
     },
+    "form": {
+      "max_characters": "최대 {{ max_chars }}자"
+    },
     "on_boarding": {
       "blog_post_category": "카테고리",
       "blog_post_title": "게시글",
@@ -378,6 +381,12 @@
       "expires_on": "만료: {{ expires_on }}",
       "expired": "기프트 카드가 만료되었거나 사용할 수 없습니다.",
       "add_to_apple_wallet": "Apple Wallet에 추가"
+    },
+    "recipient": {
+      "checkbox": "선물로 보내고 싶습니다.",
+      "email_label": "수신자 이메일",
+      "name_label": "수신자 이름(선택 사항)",
+      "message_label": "메시지(선택 사항)"
     }
   },
   "password": {

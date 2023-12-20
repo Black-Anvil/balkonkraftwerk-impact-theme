@@ -43,6 +43,9 @@
       "accept": "Kabul Et",
       "decline": "Reddet"
     },
+    "form": {
+      "max_characters": "Maksimum {{ max_chars }} karakter"
+    },
     "on_boarding": {
       "blog_post_category": "Kategori",
       "blog_post_title": "Makale",
@@ -378,6 +381,12 @@
       "expires_on": "{{ expires_on }} tarihinde süresi doluyor",
       "expired": "Hediye kartınızın süresi doldu veya devre dışı bırakıldı.",
       "add_to_apple_wallet": "Apple Cüzdan'a ekleyin"
+    },
+    "recipient": {
+      "checkbox": "Bunu hediye olarak göndermek istiyorum",
+      "email_label": "Alıcı e-postası",
+      "name_label": "Alıcı adı (isteğe bağlı)",
+      "message_label": "Mesaj (isteğe bağlı)"
     }
   },
   "password": {

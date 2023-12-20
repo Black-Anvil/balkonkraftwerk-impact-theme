@@ -43,6 +43,9 @@
       "accept": "Accept",
       "decline": "Decline"
     },
+    "form": {
+      "max_characters": "{{ max_chars }} characters max"
+    },
     "on_boarding": {
       "blog_post_category": "Category",
       "blog_post_title": "Article",
@@ -378,6 +381,12 @@
       "expires_on": "Expires on: {{ expires_on }}",
       "expired": "Your gift card has expired or has been disabled.",
       "add_to_apple_wallet": "Add to Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "I want to send this as a gift",
+      "email_label": "Recipient email",
+      "name_label": "Recipient name (optional)",
+      "message_label": "Message (optional)"
     }
   },
   "password": {

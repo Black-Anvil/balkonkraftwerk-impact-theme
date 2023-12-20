@@ -27,8 +27,8 @@
 
 #shopify-product-reviews .spr-container {
   max-width: var(--spr-max-width);
-  width: 100%;
   border: none;
+  width: 100%;
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
@@ -188,13 +188,13 @@
 }
 
 #shopify-product-reviews .spr-pagination > div {
-  width: max-content;
   padding: var(--spacing-2) var(--spacing-3);
   background: rgb(var(--background));
   border-radius: var(--rounded-button);
   border-width: 1px;
   justify-content: center;
   align-items: center;
+  width: max-content;
   margin-block-start: var(--spacing-8);
   margin-inline-start: auto;
   margin-inline-end: auto;

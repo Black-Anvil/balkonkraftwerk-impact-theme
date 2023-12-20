@@ -43,6 +43,9 @@
       "accept": "Akzeptieren",
       "decline": "Verweigern"
     },
+    "form": {
+      "max_characters": "Maximal {{ max_chars }} Zeichen"
+    },
     "on_boarding": {
       "blog_post_category": "Kategorie",
       "blog_post_title": "Artikel",
@@ -128,7 +131,7 @@
   },
   "collection": {
     "general": {
-      "empty_collection": "Diese Kategorie ist leer",
+      "empty_collection": "Wir bereiten hierzu gerade die neuen Balkonkraftwerk-Sets vor...",
       "all_collections": "Alle Kategorien",
       "no_collections": "Dieser Shop hat keine Kategorien.",
       "continue_shopping": "Weiter einkaufen"
@@ -262,7 +265,7 @@
       "taxes_excluded": "zzgl. MwSt.",
       "total_duties": "Zoll",
       "refunded_amount": "Erstattungsbetrag",
-      "total": "Gesamtbetrag",
+      "total": "Gesamt",
       "shipping_address": "Lieferadresse",
       "billing_address": "Rechnungsadresse"
     },
@@ -297,7 +300,7 @@
       "continue_shopping": "Weiter einkaufen",
       "weight": "Gewicht",
       "subtotal": "Zwischensumme",
-      "total": "Gesamtbetrag",
+      "total": "Gesamt",
       "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand<\/a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
       "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand <\/a> wird beim Checkout berechnet",
@@ -308,11 +311,11 @@
       "save_note": "Speichern",
       "view_cart": "Warenkorb ansehen",
       "checkout": "Zur Kasse",
-      "we_accept": "Wir akzeptieren"
+      "we_accept": " "
     },
     "order": {
       "product": "Produkt",
-      "total": "Summe",
+      "total": "Gesamt",
       "quantity": "Anzahl",
       "change_quantity": "Anzahl ändern",
       "increase_quantity": "Anzahl erhöhen",
@@ -378,6 +381,12 @@
       "expires_on": "Läuft ab am: {{ expires_on }}",
       "expired": "Dein Geschenkgutschein ist abgelaufen oder wurde deaktiviert.",
       "add_to_apple_wallet": "Zu deinem Apple Wallet hinzufügen"
+    },
+    "recipient": {
+      "checkbox": "Ich möchte dies als Geschenk senden",
+      "email_label": "Empfänger E-Mail",
+      "name_label": "Name des Empfängers (optional)",
+      "message_label": "Nachricht (optional)"
     }
   },
   "password": {
@@ -403,6 +412,22 @@
         "zero": "Dieses Produkt hat noch keine Bewertungen.",
         "one": "Es hat {{ count }} Bewertung erhalten.",
         "other": "Es hat {{ count }} Bewertungen erhalten."
+      }
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "phone_tooltip": "Wichtig zur Vereinbarung der Speditionsanlieferung!",
+        "phone_label": "Telefon-Nummer (Wichtig für Lieferankündigung!)",
+        "address1_label": "Straße und Hausnummer"
+      },
+      "order_summary": {
+        "discount_label": "Hast du einen Gutscheincode?",
+        "partial_total_label": "Gesamt"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Wähle entweder den Express Checkout oder gebe im nächsten Schritt deine Lieferanschrift und Zahlungsmethode ein (empfohlen). Solltest du den Express Checkout wählen, achte bitte darauf, dass deine Lieferanschrift und Telefonnummer dort richtig hinterlegt sind!"
       }
     }
   }

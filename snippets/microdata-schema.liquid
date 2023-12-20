@@ -104,7 +104,7 @@ or change the format of some info
     "description": {{ article.excerpt_or_content | strip_html | truncatewords: 25 | json }},
     "dateCreated": "{{ article.created_at | date: '%Y-%m-%dT%T' }}",
     "datePublished": "{{ article.published_at | date: '%Y-%m-%dT%T' }}",
-    "dateModified": "{{ article.published_at | date: '%Y-%m-%dT%T' }}",
+    "dateModified": "{{ article.updated_at | date: '%Y-%m-%dT%T' }}",
     "image": {
       "@type": "ImageObject",
       "url": "https:{{ page_image | image_url: width: 1024 }}",

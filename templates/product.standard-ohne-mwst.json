@@ -135,25 +135,6 @@
     },
     "a64d4e80-7009-485d-9b28-8f0219481f58": {
       "type": "tabs",
-      "blocks": {
-        "0ac7767f-ee40-410e-a1d5-e15fede377d5": {
-          "type": "prod_desc",
-          "settings": {
-            "title": "Produktdetails",
-            "text_align": "left"
-          }
-        },
-        "5a475e09-a704-4949-8ec2-5f3f89faf819": {
-          "type": "downloads",
-          "settings": {
-            "title": "Technische Details"
-          }
-        }
-      },
-      "block_order": [
-        "0ac7767f-ee40-410e-a1d5-e15fede377d5",
-        "5a475e09-a704-4949-8ec2-5f3f89faf819"
-      ],
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -361,14 +342,6 @@
         "product_card_text_color": ""
       }
     },
-    "9f63fd34-0a0d-4319-bd97-7045804d6e92": {
-      "type": "form-container",
-      "settings": {
-        "heading": "Zum Newsletter anmelden",
-        "text": "Meld dich zu unserem Newsletter an und erhalte wertvolle Tipps zum Energiesparen im Haushalt und aktuelle Solar Angebote.",
-        "class_name": "klaviyo-form-Xv4eED klaviyo-form form-version-cid-1"
-      }
-    },
     "241f5803-fdbc-4942-952c-ad7b3bc062a6": {
       "type": "rich-text",
       "blocks": {
@@ -422,7 +395,6 @@
     "4e2ee15e-e31f-4d50-bf3f-a23ce5888c5d",
     "3310016b-e6a2-4cca-9282-b774ee795bac",
     "related-products",
-    "9f63fd34-0a0d-4319-bd97-7045804d6e92",
     "241f5803-fdbc-4942-952c-ad7b3bc062a6"
   ]
 }

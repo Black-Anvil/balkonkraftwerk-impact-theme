@@ -43,6 +43,9 @@
       "accept": "Godkänn",
       "decline": "Neka"
     },
+    "form": {
+      "max_characters": "Max. {{ max_chars }} tecken"
+    },
     "on_boarding": {
       "blog_post_category": "Kategori",
       "blog_post_title": "Artikel",
@@ -378,6 +381,12 @@
       "expires_on": "Går ut den: {{ expires_on }}",
       "expired": "Ditt presentkort har löpt ut eller har inaktiverats.",
       "add_to_apple_wallet": "Lägg till i Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Jag vill skicka detta som en gåva",
+      "email_label": "Mottagarens e-postadress",
+      "name_label": "Mottagarens namn (valfritt)",
+      "message_label": "Meddelande (valfritt)"
     }
   },
   "password": {

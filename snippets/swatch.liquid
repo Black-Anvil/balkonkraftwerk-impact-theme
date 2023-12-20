@@ -33,7 +33,7 @@ Color swatch specific parameters:
 * show_tooltip: if set to true, display a tooltip on hover
 {%- endcomment -%}
 
-{%- capture id -%}swatch-{{ 'now' | date: '%N' }}{%- endcapture -%}
+{%- capture id -%}swatch-{{ section.id }}-{{ form }}-{{ context }}-{{ name | handle }}-{{ value | handle }}{%- endcapture -%}
 
 {%- if swatch == 'color' or swatch == 'block' and show_color -%}
   {%- assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
@@ -83,10 +83,13 @@ Color swatch specific parameters:
     {%- endif -%}
 
   {%- when 'block' -%}
+    {%- assign white_label = 'general.label.white' | t | downcase -%}
+    {%- assign value_downcase = value | downcase -%}
+
     {%- if href -%}
       <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
         {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          <span class="block-swatch__color {% if white_label == value_downcase %}ring-inset{% endif %}" style="{{ swatch_style }}"></span>
         {%- endif -%}
 
         <span>{{ value }}</span>
@@ -95,7 +98,7 @@ Color swatch specific parameters:
     {%- else -%}
       <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
-          <span class="block-swatch__color" style="{{ swatch_style }}"></span>
+          <span class="block-swatch__color {% if white_label == value_downcase %}ring-inset{% endif %}" style="{{ swatch_style }}"></span>
         {%- endif -%}
 
         <span>{{ value }}</span>

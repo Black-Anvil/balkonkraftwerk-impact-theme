@@ -18,7 +18,7 @@
     "label": {
       "color": "Color",
       "white": "Blanco",
-      "size": "Talla"
+      "size": "Talla,Tamaño"
     },
     "social": {
       "follow_on": "Síguenos en {{ social_media }}",
@@ -42,6 +42,9 @@
     "privacy_bar": {
       "accept": "Aceptar",
       "decline": "Rechazar"
+    },
+    "form": {
+      "max_characters": "{{ max_chars }} caracteres máx."
     },
     "on_boarding": {
       "blog_post_category": "Categoría",
@@ -378,6 +381,12 @@
       "expires_on": "Caduca el: {{ expires_on }}",
       "expired": "Tu tarjeta de regalo ha caducado o se ha desactivado.",
       "add_to_apple_wallet": "Añadir a Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Quiero enviar esto como un regalo.",
+      "email_label": "Correo electrónico de la persona destinataria",
+      "name_label": "Nombre de la persona destinataria (opcional)",
+      "message_label": "Mensaje (opcional)"
     }
   },
   "password": {

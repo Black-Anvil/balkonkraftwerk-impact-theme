@@ -126,6 +126,18 @@
         "input_text_color": ""
       }
     },
+    "a43917af-823a-45b9-a2e4-95805e66f62f": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style><!--\ndiv.video_container {\n    \tdisplay: flex;  \/* <---------- required *\/\nmargin-bottom: 1em;\nbackground-color:white;\n\n    }\n    \n    div.child {\n    \tflex: 1;  \/* <---------------- required *\/\nvertical-align: top;\n    }\n--><\/style>\n<div class=\"video_container\">\n  <div class=\"child\">\n\n    <div class=\"video_container\">\n      <div class=\"child\">\n        <h4 class=\"h4\">Montage des Balkonkraftwerks<\/h4><br>\n      <\/div>\n      <div class=\"child\">\n        <iframe src=\"https:\/\/www.youtube.com\/embed\/ZcXhcUGFdhY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>\n      <\/div>\n    <\/div>\n\n    <div class=\"video_container\">\n      <div class=\"child\">\n        <h4 class=\"h4\">Einrichtung des Balkonkraftwerks im WLAN<\/h4><br>\n      <\/div>\n      <div class=\"child\">\n        <iframe src=\"https:\/\/www.youtube.com\/embed\/P1tB60aupVA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>\n      <\/div>\n    <\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -191,7 +203,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -205,6 +217,7 @@
   },
   "order": [
     "main",
+    "a43917af-823a-45b9-a2e4-95805e66f62f",
     "related-products",
     "3310016b-e6a2-4cca-9282-b774ee795bac"
   ]

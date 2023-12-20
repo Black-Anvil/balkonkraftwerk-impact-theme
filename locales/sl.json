@@ -43,6 +43,9 @@
       "accept": "Sprejmi",
       "decline": "Zavrni"
     },
+    "form": {
+      "max_characters": "Največje št. znakov: {{ max_chars }}"
+    },
     "on_boarding": {
       "blog_post_category": "Kategorija",
       "blog_post_title": "Članek",
@@ -390,6 +393,12 @@
       "expires_on": "Datum poteka veljavnosti: {{ expires_on }}",
       "expired": "Veljavnost vašega darilnega bona je potekla ali pa je darilni bon onemogočen.",
       "add_to_apple_wallet": "Dodaj v Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Želim poslati kot darilo",
+      "email_label": "E-poštni naslov prejemnika",
+      "name_label": "Ime prejemnika (izbirno)",
+      "message_label": "Sporočilo (izbirno)"
     }
   },
   "password": {

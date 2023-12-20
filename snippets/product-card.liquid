@@ -102,7 +102,7 @@ Supported variables
               </div>
             {%- endform -%}
           {%- else -%}
-            {%- capture quick_buy_id -%}quick-buy-{{ 'now' | date: '%N' }}{%- endcapture -%}
+            {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
             <div class="pointer-fine:hidden">
               <button type="button" aria-controls="{{ quick_buy_id }}" aria-expanded="false" aria-label="{{ quick_add_label | escape }}" is="custom-button" class="product-card__mobile-quick-buy-button">
@@ -171,7 +171,7 @@ Supported variables
       {%- for color_label in color_label_list -%}
         {%- if product.options_by_name[color_label] != blank -%}
           {%- assign product_option = product.options_by_name[color_label] -%}
-          {%- capture name -%}swatch-{{ 'now' | date: '%N' }}{%- endcapture -%}
+          {%- capture name -%}swatch-{{ section.id }}-{{ product.id }}-{{ product_option.position }}{%- endcapture -%}
 
           <div class="product-card__aside">
             {%- case settings.product_color_display -%}

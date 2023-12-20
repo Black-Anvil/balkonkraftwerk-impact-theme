@@ -43,6 +43,9 @@
       "accept": "Godta",
       "decline": "Avslå"
     },
+    "form": {
+      "max_characters": "Maks. {{ max_chars }} tegn"
+    },
     "on_boarding": {
       "blog_post_category": "Kategori",
       "blog_post_title": "Artikkel",
@@ -378,6 +381,12 @@
       "expires_on": "Utløper: {{ expires_on }}",
       "expired": "Gavekortet ditt har utløpt eller blitt deaktivert.",
       "add_to_apple_wallet": "Legg til i Apple Wallet"
+    },
+    "recipient": {
+      "checkbox": "Jeg vil sende dette som en gave",
+      "email_label": "Mottakerens e-post",
+      "name_label": "Mottakerens navn (valgfritt)",
+      "message_label": "Melding (valgfritt)"
     }
   },
   "password": {

@@ -53,11 +53,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
-
-  <script>
-    window.dataLayer = window.dataLayer || [];
-</script>
   
+	{{ shop.metafields.loox["global_html_head"] }}
+ 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -65,32 +63,12 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-N5X66FV');</script>
     <!-- End Google Tag Manager -->
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11029053188"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'AW-11029053188');
-    </script>
-
-  <meta name="google-site-verification" content="-ZnxUb6XNJ-hLWwkBQxrGpLmOFueu75ZultI-5nnYcU" />  
   
-  <div id='popper_app'>{% include 'popper_app.liquid' %}</div>
-    <!-- Upsell & Cross Sell - Selleasy by Logbase - Starts -->
-      <script src='https://upsell-app.logbase.io/lb-upsell.js?shop=balkonkraftwerk-rocks.myshopify.com' defer></script>
-    <!-- Upsell & Cross Sell - Selleasy by Logbase - Ends -->
-</head>
+<meta name="google-site-verification" content="ttjidbmtyMqFRXPHXISDIXjinUMEkRXpr0GEo2cBBHA" />  
+  
+  <div id='popper_app'>{% include 'popper_app.liquid' %}</div></head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5X66FV"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->    
-    
     {%- render 'shadow-dom-templates' -%}
 
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -119,15 +97,75 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-  {% render 'spurit_po2_theme_snippet' %}
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+{% render 'spurit_po2_theme_snippet' %}
+{% comment %}START ADCELL APP | DONT REMOVE THIS!{% endcomment %}<script type="text/javascript" src="https://t.adcell.com/js/trad.js?s=shopify&v=1.1.8"></script>
+<script>Adcell.Tracking.track();</script>
 
-<script>
-	window.fwSettings={
-	'widget_id':103000005362
-	};
-	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
-</script>
-<script type='text/javascript' src='https://euc-widget.freshworks.com/widgets/103000005362.js' async defer></script>
-    
-</body>
+
+
+  {%- if template contains 'index' -%}
+    <script type="text/javascript" src="https://t.adcell.com/js/inlineretarget.js?s=shopify&v=1.1.8&method=track&pid=11751&type=startpage" async="async"></script>
+  {%- endif -%}
+
+  {%- if template contains 'collection' -%}
+    {%- assign sku_list = '' -%}
+    {%- for product in collection.products -%}
+      {%- assign sku_list = sku_list | append: product.variants.first.sku | append: ';' -%}
+    {%- endfor -%}
+    <script type="text/javascript"
+      src="https://t.adcell.com/js/inlineretarget.js?s=shopify&v=1.1.8&method=category&pid=11751&categoryName={{collection.title}}&categoryId={{collection.id}}&productIds={{sku_list}}&productSeparator=;"
+      async="async"></script>
+  {%- endif -%}
+
+  {%- if template contains 'product' -%}
+    <script type="text/javascript" src="https://t.adcell.com/js/inlineretarget.js?s=shopify&v=1.1.8&method=product&pid=11751&productId={{product.variants.first.sku}}&productName={{product.title}}&categoryId={{product.collections[0].id}}&productSeparator=;" async="async"></script>
+  {%- endif -%}
+
+  {%- if template contains 'search' -%}
+    {%- assign search_products = search.results | where: "object_type", "product" -%}
+    {%- assign sku_list = '' -%}
+    {%- for product in search_products -%}
+      {%- assign sku_list = sku_list | append: product.variants.first.sku | append: ';' -%}
+    {%- endfor -%}
+    {%- assign search_product_ids_string = sku_list -%}
+
+    <script type="text/javascript" src="https://t.adcell.com/js/inlineretarget.js?s=shopify&v=1.1.8&method=search&pid=11751&search={{search.terms}}&productIds={{search_product_ids_string}}&productSeparator=;" async="async"></script>
+  {%- endif -%}
+
+  {%- if template contains 'cart' -%}
+    {%- assign cart_items_ids = cart.items | map: 'sku' | join: ';' -%}
+    {%- assign cart_items_quantities = cart.items | map: 'quantity' | join: ';' -%}
+    {%- assign cart_items_count = cart.items.size -%}
+
+    {%- if cart.taxes_included -%}
+      {% assign tax_times = 0 | divided_by: 100.0 | plus: 1 %}
+    {% else %}
+      {% assign tax_times = 1 %}
+    {% endif %}
+
+    {%- assign total = 0 -%}
+    {%- for item in cart.items -%}
+      {%- assign total = total | plus: item.original_line_price -%}
+    {%- endfor -%}
+    {% assign total = total | minus: checkout.discounts_amount %}
+
+    {%- assign ds = include.ds | default: ',' -%}
+    {%- assign numdecimals = include.decimals | default: 2 -%}
+    {%- assign parts = total | divided_by: tax_times |  minus: checkout.shipping_price | round: numdecimals | split:'.' -%}
+    {%- assign digits = parts[0] | split:'' -%}
+
+    {%- for digit in digits -%}
+        {%- assign twoFromEnd = digits.size | minus: forloop.index -%}
+        {%- if twoFromEnd == 1 and forloop.index != 0 -%}
+            {%- assign format_price = format_price | append: ds -%}
+            {%- assign format_price = format_price | append: digit -%}
+        {%- else -%}
+            {%- assign format_price = format_price | append: digit -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    <script type="text/javascript" src="https://t.adcell.com/js/inlineretarget.js?s=shopify&v=1.1.8&method=basket&pid=11751&productIds={{cart_items_ids}}&productSeparator=;&quantities={{cart_items_quantities}}&basketProductCount={{cart.item_count}}&basketTotal={{ format_price }}" async="async"></script>
+  {%- endif -%}{% comment %}DONT REMOVE THIS | END ADCELL APP{% endcomment %}</body>
 </html>
