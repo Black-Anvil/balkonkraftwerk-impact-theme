@@ -338,6 +338,101 @@
             {%- render 'icon' with 'share' -%} {{- 'general.social.share' | t -}}
           </button>
         </div>
+      {%- when 'shipping_time' -%}
+        {%- if block.settings.days != 0 -%}
+          <p>{{ block.settings.text_1 }} <span id="shipping-date"></span> {{ block.settings.text_2}}</p>
+        {%- endif -%}
+        <script>
+          function shipDate(numDays) {
+            const currentDate = new Date();
+            for (let i = 0; i < numDays; i++) {
+              currentDate.setDate(currentDate.getDate() + 1);
+              if (currentDate.getDay() === 6) {
+                currentDate.setDate(currentDate.getDate() + 2);
+              }
+              else if (currentDate.getDay() === 0) {
+                currentDate.setDate(currentDate.getDate() + 1);
+              }
+            }
+            const shippingEl = document.querySelector('#shipping-date');
+            const options = { weekday: 'long', month: 'short', day: 'numeric' };
+            shippingEl.innerText = currentDate.toLocaleDateString('de-DE', options);
+          }
+          shipDate({{ block.settings.days }});
+        </script>
+      {%- when 'coupon_code' -%}
+        {%- if product.metafields.custom.discount_code -%}
+          <div class="coupon-code__wrapper">
+            <div class="coupon-code__inner-upper">
+              <div class="coupon-icon__container">
+                {% render 'tag-discount-icon' %}
+              </div>
+              <p class="coupon-message">{{- product.metafields.custom.discount_code_message -}}<p>
+            </div>
+            <div class="coupon-code__inner-lower">
+              <div class="coupon-button">
+                <div class="coupon-button__upper">
+                  <div class="coupon-code__outer">"<span class="coupon-code__inner">{{- product.metafields.custom.discount_code -}}</span>"</div>
+                  <div class="checkmark-icon__container">{% render 'checkmark-icon' %}</div>
+                </div>
+                <button class="coupon-button__lower">
+                  <div class="copy-message">
+                    <div>Code kopieren</div>
+                    <div class="copy-clipboard-icon__container">{% render 'copy-clipboard-icon' %}</div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {% style %}
+            .coupon-code__wrapper {
+              border: 2px dashed {{ block.settings.color_primary }};
+              color: {{ block.settings.color_primary }};
+              background-color: {{ block.settings.color_secondary }};
+            }
+            .coupon-button__upper {
+              border-top: 1px solid {{ block.settings.color_primary }};
+              border-left: 1px solid {{ block.settings.color_primary }};
+              border-right: 1px solid {{ block.settings.color_primary }};
+              border-top-left-radius: var(--rounded-button);
+              border-top-right-radius: var(--rounded-button);
+            }
+            .coupon-button__lower {
+              color: {{- block.settings.color_secondary -}};
+              background-color: {{ block.settings.color_primary }};
+            }
+            .coupon-code__inner.bold {
+              font-weight: bold;
+              color: {{ block.settings.color_tertiary }};
+              transition: 0.5s;
+            }
+            .coupon-icon__container svg {
+              fill: {{ block.settings.color_primary }};
+            }
+            .checkmark-icon__container svg {
+              fill: {{ block.settings.color_tertiary }};
+            }
+            .copy-clipboard-icon__container svg {
+              fill: {{ block.settings.color_secondary }};
+            }
+
+          {% endstyle %}
+          <script>
+            function couponCode() {
+              const couponButton = document.querySelector('.coupon-button__lower');
+              couponButton.addEventListener('click', () => {
+                const couponCode = document.querySelector('.coupon-code__inner');
+                const couponCodeOuter = document.querySelector('.coupon-code__outer');
+                const checkmarkIcon = document.querySelector('.checkmark-icon__container');
+                navigator.clipboard.writeText(couponCode.innerText);
+                couponCodeOuter.classList.add('translate-x');
+                couponCode.classList.add('bold');
+                checkmarkIcon.classList.add('visible');
+              })
+            }
+            couponCode();
+          </script>
+        {%- endif -%}
     {%- endcase -%}
   {%- endfor -%}
 

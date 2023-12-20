@@ -103,6 +103,22 @@
           "settings": {
             "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
+        },
+        "69957d9f-c27d-4146-80cc-848a60b179b5": {
+          "type": "shipping_time",
+          "settings": {
+            "text_1": "",
+            "days": 0,
+            "text_2": ""
+          }
+        },
+        "3ef5618c-8552-4536-9cb9-6a3582efc8cf": {
+          "type": "coupon_code",
+          "settings": {
+            "color_primary": "#245da7",
+            "color_secondary": "#ffffff",
+            "color_tertiary": "#239704"
+          }
         }
       },
       "block_order": [
@@ -118,7 +134,9 @@
         "1773ca05-2098-4c09-9770-47da0a95437b",
         "ef653e66-b223-4e74-80f0-35c521810775",
         "buy_buttons",
-        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715"
+        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715",
+        "69957d9f-c27d-4146-80cc-848a60b179b5",
+        "3ef5618c-8552-4536-9cb9-6a3582efc8cf"
       ],
       "settings": {
         "full_width": false,
