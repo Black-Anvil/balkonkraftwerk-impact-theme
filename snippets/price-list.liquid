@@ -59,11 +59,6 @@ Supported variables
         {{- variant.compare_at_price | money -}}
       {%- endif -%}
     </compare-at-price>
-    {% if product.metafields.custom.promotion_pill_name != blank %}
-      <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
-        <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
-      </div>
-    {% endif %}
   {%- elsif line_item != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
@@ -113,6 +108,7 @@ Supported variables
           <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
           {{- 'product.price.from_price_html' | t: price_min: price_min -}}
         </sale-price>
+
         <compare-at-price class="{{ compare_at_price_classes }}">
           <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
 
@@ -122,11 +118,6 @@ Supported variables
             {{- cheapest_variant.compare_at_price | money -}}
           {%- endif -%}
         </compare-at-price>
-        {% if product.metafields.custom.promotion_pill_name != blank %}
-          <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
-            <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
-          </div>
-        {% endif %}
       {%- else -%}
         <sale-price class="{{ regular_price_classes }}">
           <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
@@ -153,11 +144,6 @@ Supported variables
           {{- product.compare_at_price | money -}}
         {%- endif -%}
       </compare-at-price>
-      {% if product.metafields.custom.promotion_pill_name != blank %}
-        <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
-          <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
-        </div>
-      {% endif %}
     {%- elsif product.price_varies -%}
       {%- capture price_min -%}
         {%- if settings.currency_code_enabled -%}

@@ -312,20 +312,6 @@ the underlying logic of the menu.
 
 <script>
   document.documentElement.style.setProperty('--header-height', Math.round(document.getElementById('shopify-section-{{ section.id }}').clientHeight) + 'px');
-  
-  // Increase size / visibility of phone number in Meteor app
-  document.addEventListener('DOMContentLoaded', () => {
-    const navListItemLinks = document.querySelectorAll('#meteor-desktop-nav li a');
-    if (navListItemLinks) {
-      for (link of navListItemLinks) {
-        const href = link.getAttribute('href');
-        if (href.includes('tel')) {
-          link.setAttribute('style', 'font-size: 24px; font-weight: bold; text-transform: none;');
-        }
-      }
-    }
-  });
-
 </script>
 
 {% schema %}
