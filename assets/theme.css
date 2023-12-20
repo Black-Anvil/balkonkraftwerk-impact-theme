@@ -4245,6 +4245,7 @@ split-lines {
   text-align: center;
   place-items: center;
   display: grid;
+  width: 100%;
 }
 
 .announcement-bar__static-list > * {
