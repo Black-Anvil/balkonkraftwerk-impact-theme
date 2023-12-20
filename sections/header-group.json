@@ -7,6 +7,7 @@
       "blocks": {
         "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "150,00 € sparen auf alle 1700W Balkonkraftwerke mit Code WINTER-150",
             "url": "https:\/\/www.sunpower4u.de\/collections\/1700w-balkonkraftwerke"
@@ -14,16 +15,24 @@
         },
         "message": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "⚡ NEU: 1700 Watt Balkonkraftwerk für maximale Leistung ⚡",
-            "url": "shopify:\/\/collections\/1700w-balkonkraftwerke"
+            "text": "🎅 XMAS SALE: Über 500,00 € sparen und kostenloser Versand! 🎁🎄",
+            "url": "shopify:\/\/pages\/balkonkraftwerk-angebote"
           }
         },
         "0c073df3-904c-46ec-b0b2-8b01b02ee0ed": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Schneller Versand - Bereits in 3-5 Tagen bei dir!",
+            "url": ""
+          }
+        },
+        "c262b027-976d-4c1b-95ca-617795b34dba": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Bis zu 30 Jahre Garantie!",
             "url": ""
           }
         },
@@ -32,14 +41,7 @@
           "disabled": true,
           "settings": {
             "text": "Balkonkraftwerke sofort lieferbar",
-            "url": "shopify:\/\/collections\/balkonkraftwerk-komplettsets"
-          }
-        },
-        "f65cabdb-47a0-4e32-a2b6-39a2b7be53f9": {
-          "type": "html_msg",
-          "settings": {
-            "content": "<b>Test HTML message with long text...Test HTML message with long text...Test HTML message with long text...<br>\nbreaks and <span style=\"color: #FFCB00; text-decoration: underline; font-size: 2rem;\">styles<\/span><\/b>",
-            "url": "shopify:\/\/pages\/balkonkraftwerk-angebote"
+            "url": "shopify:\/\/collections\/balkonkrafttwerk-komplettset"
           }
         }
       },
@@ -47,8 +49,8 @@
         "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b",
         "message",
         "0c073df3-904c-46ec-b0b2-8b01b02ee0ed",
-        "c18832bf-d6c7-4427-904c-d8645a9f254a",
-        "f65cabdb-47a0-4e32-a2b6-39a2b7be53f9"
+        "c262b027-976d-4c1b-95ca-617795b34dba",
+        "c18832bf-d6c7-4427-904c-d8645a9f254a"
       ],
       "custom_css": [
 
@@ -73,7 +75,7 @@
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "Test 1",
-            "image_link_1": "shopify:\/\/collections\/bkw-sets-balkongelander",
+            "image_link_1": "shopify:\/\/collections\/balkonkraftwerk-balkongelaender",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "Test 2",
             "image_link_2": "shopify:\/\/collections\/balkonkraftwerk-fur-die-fassade",
