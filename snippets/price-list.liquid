@@ -60,7 +60,7 @@ Supported variables
       {%- endif -%}
     </compare-at-price>
     {% if product.metafields.custom.promotion_pill_name != blank %}
-      <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
+      <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}; border-radius: 10px;">
         <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
       </div>
     {% endif %}
@@ -123,7 +123,7 @@ Supported variables
           {%- endif -%}
         </compare-at-price>
         {% if product.metafields.custom.promotion_pill_name != blank %}
-          <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
+          <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}; border-radius: 10px;">
             <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
           </div>
         {% endif %}
@@ -154,7 +154,7 @@ Supported variables
         {%- endif -%}
       </compare-at-price>
       {% if product.metafields.custom.promotion_pill_name != blank %}
-        <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}">
+        <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}; border-radius: 10px;">
           <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
         </div>
       {% endif %}

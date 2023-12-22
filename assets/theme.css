@@ -9932,14 +9932,22 @@ split-lines {
   letter-spacing: var(--text-letter-spacing);
   line-height: 1;
   padding: 0.4rem;
-  border-radius: 10px;
 }
 
 /* header.liquid */
 
-.large-phone-number {
+/* .large-phone-number {
   font-size: 24px;
   font-weight: bold;
+} */
+
+.hi-vis-telephone .tmenu_image img {
+  width: 2rem !important;
+}
+
+.hi-vis-telephone .tmenu_item_text {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
 }
 
 /* product-info.liquid */
@@ -9964,10 +9972,6 @@ split-lines {
 .coupon-message {
   padding: 1rem;
   text-align: center;
-}
-
-.coupon-code__inner-lower {
-
 }
 
 .coupon-button {
