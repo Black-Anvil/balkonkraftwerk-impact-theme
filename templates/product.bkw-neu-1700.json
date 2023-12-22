@@ -103,6 +103,14 @@
           "settings": {
             "liquid": "<div class=\"ultimate-countdown\"><\/div>"
           }
+        },
+        "eb39f16a-3ddb-4590-aae2-92ac74bbe2ea": {
+          "type": "shipping_time",
+          "settings": {
+            "text_1": "Wenn du heute bestellst, erhältst du dein Balkonkraftwerk am",
+            "days": 4,
+            "text_2": ""
+          }
         }
       },
       "block_order": [
@@ -118,7 +126,8 @@
         "1773ca05-2098-4c09-9770-47da0a95437b",
         "ef653e66-b223-4e74-80f0-35c521810775",
         "buy_buttons",
-        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715"
+        "106aad91-0cf6-4e8d-ae1c-ba2f473dd715",
+        "eb39f16a-3ddb-4590-aae2-92ac74bbe2ea"
       ],
       "settings": {
         "full_width": false,

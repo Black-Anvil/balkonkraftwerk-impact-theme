@@ -107,8 +107,8 @@
         "69957d9f-c27d-4146-80cc-848a60b179b5": {
           "type": "shipping_time",
           "settings": {
-            "text_1": "",
-            "days": 0,
+            "text_1": "Wenn du heute bestellst, erhältst du dein Balkonkraftwerk am",
+            "days": 4,
             "text_2": ""
           }
         },
