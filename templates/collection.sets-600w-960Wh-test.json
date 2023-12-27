@@ -1,0 +1,571 @@
+{
+  "sections": {
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ collection.title }}",
+            "heading_tag": "h1",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        },
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "bb3dacc7-fe93-43e3-a8ff-83a7e5863bd1": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- if collection.description != blank -%}\n  <p>{{ collection.description }}<\/p>\n{%- endif -%}"
+          }
+        },
+        "33940684-732a-4660-ae1e-f7c2ce64a86c": {
+          "type": "image",
+          "settings": {
+            "image": "{{ collection.metafields.custom.badge_image.value }}",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1",
+        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1",
+        "bb3dacc7-fe93-43e3-a8ff-83a7e5863bd1",
+        "33940684-732a-4660-ae1e-f7c2ce64a86c"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "balkonkraftwerk-600w-set",
+        "featured_product_heading": "Beliebtestes Produkt",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "{{ collection }}",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "default_variant": "Zendure SolarFlow 960Wh",
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "e66637f5-5b6c-411c-a599-921b783f43f7": {
+      "type": "media-with-text",
+      "blocks": {
+        "b0d220cd-0588-47d8-aa78-12df5e8d1126": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/V8K2XCNJIGI5HLPR.mp4",
+            "external_video_url": "",
+            "poster_image": "shopify:\/\/shop_images\/Sunpower_4u_Balkonkraftwerk_Videobild_YouTube-Miniatur.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Balkonkraftwerk? Stecker-Solaranlage? Wie funktioniert das?<\/h4><p>Egal, ob am Balkon, auf dem Ziegel- oder Flachdach, an der Hauswand oder in deinem Garten. Mit nur wenigen Handgriffen ist dein eigenes Balkonkraftwerk einsatzbereit und du sparst Geld und senkst deine persönlichen CO²-Emissionen.<\/p><p>Wir machen das<strong> einfach.<\/strong><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "b0d220cd-0588-47d8-aa78-12df5e8d1126"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "7e982731-f647-4967-9261-74bf9202bfdd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19584197493062__7e982731-f647-4967-9261-74bf9202bfdd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Häufig gestellte Fragen und Antworten (FAQ)",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19584197493062__7e982731-f647-4967-9261-74bf9202bfdd-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "69e179f9-5390-408c-b69d-3fd3241b6c43": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section style=\"display: flex; justify-content: space-between; align-items: start; padding: 20px 0;\">\n  <!-- Linke Spalte -->\n  <div style=\"flex: 1; padding-right: 20px;\">\n    <p>\n      Wenn du gerade beginnst, dich mit dem Thema \"Balkonkraftwerk\" auseinanderzusetzen, hast du sicher sehr viele Fragen dazu. \n    <\/p>\n    <p><br>\n      In unserem FAQ-Bereich versuchen wir die wichtigsten Fragen und Antworten rund um dein neues Balkonkraftwerk für dich zusammenzustellen und zu beantworten:\n    <\/p><br><b>\n    <ul>\n      <li>▶ <a href=\"https:\/\/www.sunpower4u.de\/pages\/faq\">SUNPOWER4U Fragen & Antworten<\/a><\/b><\/li>\n    <\/ul>\n    <p><br>\n      Gerne kannst du dir auch einige unserer Videos zu dem Thema anschauen und folge uns für weitere Tipps & Tricks auch gerne auf Social-Media:\n    <\/p><br>\n    <ul><b>\n      <li>▶ <a href=\"https:\/\/www.youtube.com\/@SUNPOWER-4U\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf YouTube<\/a><\/li>\n<li>▶ <a href=\"https:\/\/www.facebook.com\/profile.php?id=61550315574069\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf Facebook<\/a><\/li>\n<li>▶ <a href=\"https:\/\/www.instagram.com\/sunpower4u\/\" target=\"_blank\" rel=\"noopener noreferrer\">SUNPOWER4U auf Instagram<\/a><\/li><\/b>\n\n    <\/ul>\n    <p><br>\n      Solltest du weitere Fragen haben, ist Diana im Kundenservice selbstverständlich jederzeit gerne für dich per E-Mail, aber auch telefonisch da. Solltest du uns einmal nicht direkt erreichen, melden wir uns natürlich so schnell wie möglich bei dir zurück.\n    <\/p>\n  <\/div>\n\n  <!-- Rechte Spalte -->\n  <div style=\"flex: 1; display: flex; flex-direction: column; align-items: center;\">\n    <img src=\"https:\/\/www.sunpower4u.de\/cdn\/shop\/files\/Diana_Team_1.png?v=1695121719&width=400\" alt=\"Platzhalter Bild\" style=\"max-width: 100%; height: auto;\">\n    <p style=\"margin-top: 20px;\">Diana | Kundenservice<\/p>\n    <p>E-Mail: <a href=\"mailto:diana@sunpower4u.de\">diana@sunpower4u.de<\/a><\/p>\n  <\/div>\n<\/section>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7910e01a-4dbf-4979-8b74-ef0e48fe10ff": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20106623975750__7910e01a-4dbf-4979-8b74-ef0e48fe10ff-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_1_c748909d-784e-4a81-bea2-49ddb232a2e0.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sicherheit & Prüfung",
+            "content": "<p>Dein Balkonkraftwerk ist nach deutschen Normen geprüft und beim Netzbetreiber sofort anmeldbar.<\/p>"
+          }
+        },
+        "template--20106623975750__7910e01a-4dbf-4979-8b74-ef0e48fe10ff-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_2_5c732524-26f7-4821-8b2c-2e18e1f6e17c.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Qualität & Service",
+            "content": "<p>Du erhältst bis zu 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
+          }
+        },
+        "template--20106623975750__7910e01a-4dbf-4979-8b74-ef0e48fe10ff-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_3_33232804-4b6f-4ab4-b7c9-eff4419b5f74.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Schnell & kompetent",
+            "content": "<p>Deine Stecker-Solaranlage ist schon in wenigen Tagen bei dir bei allen Fragen sind wir telefonisch für dich da.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20106623975750__7910e01a-4dbf-4979-8b74-ef0e48fe10ff-item-1",
+        "template--20106623975750__7910e01a-4dbf-4979-8b74-ef0e48fe10ff-item-2",
+        "template--20106623975750__7910e01a-4dbf-4979-8b74-ef0e48fe10ff-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "title": "Deine Vorteile bei SUNPOWER4U",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "de36c976-8bb0-4e7c-8287-30a6733844c9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% if collection.metafields.custom.seo_text %}\n\n\n<div class=\"section   section-blends section-full\">\n  <div class=\"section-stack section-stack--horizontal \"><div class=\"section-stack__main\">\n        <div class=\"accordion-box rounded bg-custom\" style=\"--background: 240 240 240;\"><details class=\" accordion  group\" aria-expanded=\"false\" is=\"accordion-disclosure\" style=\"overflow: visible; height: auto;\">\n  <summary><div class=\"accordion__toggle bold\"><span>Mehr lesen<\/span><span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\"><svg role=\"presentation\" focusable=\"false\" width=\"8\" height=\"6\" class=\"icon icon-chevron-bottom-small\" viewBox=\"0 0 8 6\">\n        <path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><\/path>\n      <\/svg><\/span>\n    <\/div>\n  <\/summary>\n\n  <div class=\"accordion__content\" style=\"opacity: 0; transform: translateY(-4px);\">\n\n\n  {{ collection.metafields.custom.seo_text | metafield_tag }}\n\n\n\n  <\/div>\n<\/details><\/div>\n      <\/div><\/div>\n<\/div>\n\n{% endif %}",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5ddd71e9-3e74-4de0-904a-74c8578cca1b": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20106623975750__5ddd71e9-3e74-4de0-904a-74c8578cca1b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sunpower4u_15.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Kostenlose Solarberatung<\/h4><p>Deine Energiekosten<strong> <\/strong>senken, den eigenen Strom produzieren und dabei gleichzeitig die Umwelt schonen. <\/p><p><strong>Klingt kompliziert?<\/strong> <br\/>Ist aber ganz einfach.<\/p><p>Wenn du wissen möchtest, welches das richtige Balkonkraftwerk für dich ist, oder du sonstige Fragen rund um deine Stecker-Solaranlage hast, sind wir in unserer kostenlosen Solarberatung gerne für dich da.<\/p>",
+            "link_text": "Solarberatung",
+            "link_url": "shopify:\/\/pages\/individuelle-beratung",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#245da7",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20106623975750__5ddd71e9-3e74-4de0-904a-74c8578cca1b-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "459b9946-15b0-468d-b73c-2d99a7d170ac": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20187807023430__459b9946-15b0-468d-b73c-2d99a7d170ac-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diana_1500_x_1500_px.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Häufige Fragen (FAQ)",
+            "content": "<p>Wenn du gerade beginnst, dich mit dem Thema \"Balkonkraftwerk\" auseinanderzusetzen, hast du sicher sehr viele Fragen dazu. In unserem FAQ-Bereich beantworten wir dazu die wichtigsten:<strong><br\/><\/strong><a href=\"https:\/\/www.sunpower4u.de\/pages\/faq\"><strong>· SUNPOWER4U Fragen & Antworten<\/strong><\/a><\/p><p>Folge uns für weitere Tipps & Tricks auch gerne auf Social-Media:<br\/><a href=\"https:\/\/www.youtube.com\/@SUNPOWER-4U\" target=\"_blank\"><strong>· SUNPOWER4U auf YouTube<br\/><\/strong><\/a><strong>· <\/strong><a href=\"https:\/\/www.facebook.com\/profile.php?id=61550315574069\" target=\"_blank\"><strong>SUNPOWER4U auf Facebook<br\/><\/strong><\/a><strong>· <\/strong><a href=\"https:\/\/www.instagram.com\/sunpower4u\/\" target=\"_blank\"><strong>SUNPOWER4U auf Instagram<\/strong><\/a><\/p><p>Solltest du weitere Fragen haben, ist Diana im Kundenservice selbstverständlich jederzeit gerne für dich da.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20187807023430__459b9946-15b0-468d-b73c-2d99a7d170ac-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "95f7d8a3-55a3-4455-9ebf-cb22af95a4cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20106623975750__95f7d8a3-55a3-4455-9ebf-cb22af95a4cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Bekannt aus:",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20106623975750__95f7d8a3-55a3-4455-9ebf-cb22af95a4cc-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4cdc09a0-1281-460d-b490-b75ab587ac2f": {
+      "type": "media-grid",
+      "blocks": {
+        "template--20106623975750__4cdc09a0-1281-460d-b490-b75ab587ac2f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_29.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20106623975750__4cdc09a0-1281-460d-b490-b75ab587ac2f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_3_d156e9ec-0346-4c58-8fa9-cf8cfe1bccaa.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20106623975750__4cdc09a0-1281-460d-b490-b75ab587ac2f-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_2_dab5196d-6652-44f9-967b-43c758911ac0.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "ea7618de-12dc-4434-a4f3-ddab97f2a414": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sunpower4u_bekannt_aus.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20106623975750__4cdc09a0-1281-460d-b490-b75ab587ac2f-image-1",
+        "template--20106623975750__4cdc09a0-1281-460d-b490-b75ab587ac2f-image-2",
+        "template--20106623975750__4cdc09a0-1281-460d-b490-b75ab587ac2f-image-3",
+        "ea7618de-12dc-4434-a4f3-ddab97f2a414"
+      ],
+      "settings": {
+        "full_width": false,
+        "reduce_width": false,
+        "desktop_row_height": 150,
+        "mobile_row_height": 120,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "ca8d81e1-c9cf-4ac2-8d36-995b785815fe": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20106623975750__ca8d81e1-c9cf-4ac2-8d36-995b785815fe-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Macwelt_TEST_1b400252-94af-4538-9e02-051b3d5abb7e.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Balkonkraftwerk von SUNPOWER4U im Test",
+            "title": "MACWELT 11\/23:",
+            "content": "<p><\/p><ul><li>\"<em>Gelungenes Gesamtpaket aus hochwertigen Komponenten mit langen Garantiezeiten, einfacher Montage und freundlichem Support.<\/em>\"<\/li><\/ul><p><\/p><ul><li>\"<em>Einfache Installation dank gut durchdachter Komponenten.<\/em>\"<\/li><\/ul><p><\/p><ul><li>\"<em>Alle Anlagen bestehen aus hochwertigen Komponenten mit langjährigen Garantiezeiten.<\/em>\"<\/li><\/ul><p><a href=\"https:\/\/www.macwelt.de\/article\/2121655\/balkonkraftwerk-von-sunpower4u-im-test.html\" target=\"_blank\" title=\"https:\/\/www.macwelt.de\/article\/2121655\/balkonkraftwerk-von-sunpower4u-im-test.html\"><strong>Zum Artikel<\/strong><\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#245da7",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20106623975750__ca8d81e1-c9cf-4ac2-8d36-995b785815fe-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "2eb22255-7c51-46b6-9f26-adff6f1d3683": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"klaviyo-form-S77ypF\"><\/div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "889bc7c4-e5e7-4f9f-9f78-7a072aa98343": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--20106623975750__889bc7c4-e5e7-4f9f-9f78-7a072aa98343-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Mehr lesen",
+            "content": "<h4><strong>Das Balkonkraftwerk: Dein grüner Schritt zur eigenen Energieversorgung<\/strong><\/h4><p>Ein Balkonkraftwerk, oft auch als Mini-Solaranlage oder Steckersolaranlage bezeichnet, ist mehr als nur ein Trend. Es ist eine Antwort auf die wachsende Nachfrage nach nachhaltigen und unabhängigen Energielösungen. Aber was genau ist ein Balkonkraftwerk und warum sollte es dich interessieren?<\/p><h4><strong><br\/>Die Vorteile eines Balkonkraftwerks:<\/strong><\/h4><p><strong>Umweltfreundlich<\/strong><br\/>Mit einem Balkonkraftwerk produzierst du grünen Strom und reduzierst deinen CO2-Fußabdruck. Ein kleiner Beitrag mit großer Wirkung für unseren Planeten.<\/p><p><strong>Unabhängigkeit<\/strong><br\/>Schütze dich vor steigenden Strompreisen und werde zum eigenen Energieversorger.<\/p><p><strong>Einfache Handhabung<\/strong><br\/>Keine komplizierten Installationen. Einfach anschließen und loslegen!<\/p><h4><strong><br\/>Wie funktioniert ein Balkonkraftwerk?<\/strong><\/h4><p>Ein Balkonkraftwerk besteht aus kleinen Solarmodulen, die Sonnenenergie in elektrischen Strom umwandeln. Im Gegensatz zu großen Solaranlagen benötigt es keine aufwendige Montage und kann direkt an eine herkömmliche Steckdose angeschlossen werden.<\/p><h4><strong><br\/>Installation und Inbetriebnahme:<\/strong><\/h4><p><strong>Vorbereitung<\/strong><br\/>Wähle einen sonnigen Platz auf deinem Balkon oder Terrasse.<\/p><p><strong>Anleitung<\/strong><br\/>Befestige die Solarmodule, verbinde sie mit dem Wechselrichter und stecke das Gerät in die Steckdose. Fertig!<\/p><h4><strong><br\/>Kosten und Amortisation:<\/strong><\/h4><p>Ein Balkonkraftwerk ist eine Investition in die Zukunft. Die Anschaffungskosten variieren je nach Modell und Größe. Doch dank der eingesparten Stromkosten hat sich die Investition oft schon nach wenigen Jahren amortisiert.<\/p><h4><strong><br\/><br\/>Rechtliches und Fördermöglichkeiten:<\/strong><\/h4><p>In Deutschland sind Balkonkraftwerke erlaubt, jedoch gibt es einige Vorschriften zu beachten. Wir informieren dich gern über lokale Bestimmungen. Zudem gibt es verschiedene Förderprogramme, die den Kauf eines Balkonkraftwerks unterstützen.<\/p><h4><strong><br\/>Fazit:<\/strong><\/h4><p>Ein Balkonkraftwerk ist nicht nur eine umweltfreundliche, sondern auch eine wirtschaftlich sinnvolle Lösung für alle, die unabhängig von großen Energieversorgern werden möchten.<\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets für das Balkongeländer:<\/strong><\/p><p><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-expert-800-balkonhalterung\" title=\"Sun Expert 800 - Balkon\">Sun-Expert 800<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-balkon\" title=\"Sun Pro 600 - Balkon\">Sun-Pro 600<\/a><\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets für Garten oder Flachdach:<\/strong><\/p><p><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-expert-800-flachdach-garten\" title=\"Sun Expert 800 - Flachdach & Garten\">Sun-Expert 800<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-flachdach-garten\" title=\"Sun Pro 600 - Flachdach & Garten\">Sun Pro 600<\/a><\/p><p><strong><br\/>Unsere Balkonkraftwerk-Sets für die Hauswand \/ Fassade:<\/strong><\/p><p><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-expert-800-fassade-30-neigung\" title=\"Sun Expert 800 - Fassade 30° Neigung\">Sun-Expert 800 - Neigung<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-expert-800-fassade-flache-montage\" title=\"Sun Expert 800 - Fassade flache Montage\">Sun-Expert 800 - Flach<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-fassade\" title=\"Sun Pro 600 - Fassade 30° Neigung\">Sun-Pro 600 - Neigung<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-fassade-flache-montage\" title=\"Sun Pro 600 - Fassade flache Montage\">Sun-Pro 600 - Flach<\/a><\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets für das Ziegeldach:<\/strong><\/p><p><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-expert-800-ziegeldach\" title=\"Sun Expert 800 - Ziegeldach\">Sun-Expert 800<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-ziegeldach\" title=\"Sun Pro 600 - Ziegeldach\">Sun-Pro 600<\/a><\/p><p><br\/><strong>Unsere Balkonkraftwerk-Sets ohne Halterung:<\/strong><\/p><p><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-expert-800-pur\" title=\"Sun Expert 800 - Pur\">Sun-Expert 800 - Pur<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-pur\" title=\"Sun Pro 600 - Pur\">Sun-Pro 600 - Pur<\/a><br\/><a href=\"https:\/\/www.sunpower4u.de\/products\/sun-pro-600-starter\" title=\"Sun Pro 600 - Starter\">Sun-Pro 600 - Starter<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20106623975750__889bc7c4-e5e7-4f9f-9f78-7a072aa98343-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "rgba(0,0,0,0)",
+        "heading_gradient": "",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "accordion_background": "#f0f0f0",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc",
+    "banner",
+    "main",
+    "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43",
+    "e66637f5-5b6c-411c-a599-921b783f43f7",
+    "7e982731-f647-4967-9261-74bf9202bfdd",
+    "69e179f9-5390-408c-b69d-3fd3241b6c43",
+    "7910e01a-4dbf-4979-8b74-ef0e48fe10ff",
+    "de36c976-8bb0-4e7c-8287-30a6733844c9",
+    "5ddd71e9-3e74-4de0-904a-74c8578cca1b",
+    "459b9946-15b0-468d-b73c-2d99a7d170ac",
+    "95f7d8a3-55a3-4455-9ebf-cb22af95a4cc",
+    "4cdc09a0-1281-460d-b490-b75ab587ac2f",
+    "ca8d81e1-c9cf-4ac2-8d36-995b785815fe",
+    "2eb22255-7c51-46b6-9f26-adff6f1d3683",
+    "889bc7c4-e5e7-4f9f-9f78-7a072aa98343"
+  ]
+}

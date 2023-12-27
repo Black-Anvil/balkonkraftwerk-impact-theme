@@ -97,29 +97,93 @@ Supported variables
     PRODUCT CASE (used on card)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
-    {%- if product.price_varies and product.compare_at_price -%}
-      {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
-
-      {%- capture price_min -%}
-        {%- if settings.currency_code_enabled -%}
-          {{- cheapest_variant.price | money_with_currency -}}
-        {%- else -%}
-          {{- cheapest_variant.price | money -}}
-        {%- endif -%}
-      {%- endcapture -%}
-
-      {%- if cheapest_variant.price < cheapest_variant.compare_at_price -%}
+    {%- if default_variant -%}
+      {%- if default_variant.price < default_variant.compare_at_price -%}
         <sale-price class="{{ on_sale_price_classes }}">
           <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-          {{- 'product.price.from_price_html' | t: price_min: price_min -}}
+
+          {%- if settings.currency_code_enabled -%}
+            {{- default_variant.price | money_with_currency -}}
+          {%- else -%}
+            {{- default_variant.price | money -}}
+          {%- endif -%}
         </sale-price>
+
         <compare-at-price class="{{ compare_at_price_classes }}">
           <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
 
           {%- if settings.currency_code_enabled -%}
-            {{- cheapest_variant.compare_at_price | money_with_currency -}}
+            {{- default_variant.compare_at_price | money_with_currency -}}
           {%- else -%}
-            {{- cheapest_variant.compare_at_price | money -}}
+            {{- default_variant.compare_at_price | money -}}
+          {%- endif -%}
+        </compare-at-price>
+      {%- else -%}
+        <sale-price class="{{ regular_price_classes }}">
+          <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+
+          {%- if settings.currency_code_enabled -%}
+            {{- default_variant.price | money_with_currency -}}
+          {%- else -%}
+            {{- default_variant.price | money -}}
+          {%- endif -%}
+        </sale-price>
+      {%- endif -%}
+    {%- else -%}
+      {%- if product.price_varies and product.compare_at_price -%}
+        {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
+
+        {%- capture price_min -%}
+          {%- if settings.currency_code_enabled -%}
+            {{- cheapest_variant.price | money_with_currency -}}
+          {%- else -%}
+            {{- cheapest_variant.price | money -}}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- if cheapest_variant.price < cheapest_variant.compare_at_price -%}
+          <sale-price class="{{ on_sale_price_classes }}">
+            <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+            {{- 'product.price.from_price_html' | t: price_min: price_min -}}
+          </sale-price>
+          <compare-at-price class="{{ compare_at_price_classes }}">
+            <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+
+            {%- if settings.currency_code_enabled -%}
+              {{- cheapest_variant.compare_at_price | money_with_currency -}}
+            {%- else -%}
+              {{- cheapest_variant.compare_at_price | money -}}
+            {%- endif -%}
+          </compare-at-price>
+          {% if product.metafields.custom.promotion_pill_name != blank %}
+            <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}; border-radius: 10px;">
+              <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
+            </div>
+          {% endif %}
+        {%- else -%}
+          <sale-price class="{{ regular_price_classes }}">
+            <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+            {{- 'product.price.from_price_html' | t: price_min: price_min -}}
+          </sale-price>
+        {%- endif -%}
+      {%- elsif product.price < product.compare_at_price -%}
+        <sale-price class="{{ on_sale_price_classes }}">
+          <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+
+          {%- if settings.currency_code_enabled -%}
+            {{- product.price | money_with_currency -}}
+          {%- else -%}
+            {{- product.price | money -}}
+          {%- endif -%}
+        </sale-price>
+
+        <compare-at-price class="{{ compare_at_price_classes }}">
+          <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+
+          {%- if settings.currency_code_enabled -%}
+            {{- product.compare_at_price | money_with_currency -}}
+          {%- else -%}
+            {{- product.compare_at_price | money -}}
           {%- endif -%}
         </compare-at-price>
         {% if product.metafields.custom.promotion_pill_name != blank %}
@@ -127,68 +191,38 @@ Supported variables
             <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
           </div>
         {% endif %}
+      {%- elsif product.price_varies -%}
+        {%- capture price_min -%}
+          {%- if settings.currency_code_enabled -%}
+            {{ product.price_min | money_with_currency }}
+          {%- else -%}
+            {{ product.price_min | money }}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- capture price_max -%}
+          {%- if settings.currency_code_enabled -%}
+            {{- product.price_max | money_with_currency -}}
+          {%- else -%}
+            {{- product.price_max | money -}}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        <sale-price class="{{ regular_price_classes }}">
+          <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+          {{- 'product.price.from_price_html' | t: price_min: price_min, price_max: price_max -}}
+        </sale-price>
       {%- else -%}
         <sale-price class="{{ regular_price_classes }}">
           <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-          {{- 'product.price.from_price_html' | t: price_min: price_min -}}
+
+          {%- if settings.currency_code_enabled -%}
+            {{- product.price | money_with_currency -}}
+          {%- else -%}
+            {{- product.price | money -}}
+          {%- endif -%}
         </sale-price>
       {%- endif -%}
-    {%- elsif product.price < product.compare_at_price -%}
-      <sale-price class="{{ on_sale_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price | money_with_currency -}}
-        {%- else -%}
-          {{- product.price | money -}}
-        {%- endif -%}
-      </sale-price>
-
-      <compare-at-price class="{{ compare_at_price_classes }}">
-        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.compare_at_price | money_with_currency -}}
-        {%- else -%}
-          {{- product.compare_at_price | money -}}
-        {%- endif -%}
-      </compare-at-price>
-      {% if product.metafields.custom.promotion_pill_name != blank %}
-        <div class="promotion-pill" style="background-color: {{ product.metafields.custom.promotion_pill_color | metafield_text }}; border-radius: 10px;">
-          <span>{{ product.metafields.custom.promotion_pill_name | metafield_text }}</span>
-        </div>
-      {% endif %}
-    {%- elsif product.price_varies -%}
-      {%- capture price_min -%}
-        {%- if settings.currency_code_enabled -%}
-          {{ product.price_min | money_with_currency }}
-        {%- else -%}
-          {{ product.price_min | money }}
-        {%- endif -%}
-      {%- endcapture -%}
-
-      {%- capture price_max -%}
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price_max | money_with_currency -}}
-        {%- else -%}
-          {{- product.price_max | money -}}
-        {%- endif -%}
-      {%- endcapture -%}
-
-      <sale-price class="{{ regular_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-        {{- 'product.price.from_price_html' | t: price_min: price_min, price_max: price_max -}}
-      </sale-price>
-    {%- else -%}
-      <sale-price class="{{ regular_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price | money_with_currency -}}
-        {%- else -%}
-          {{- product.price | money -}}
-        {%- endif -%}
-      </sale-price>
     {%- endif -%}
   {%- endif -%}
 

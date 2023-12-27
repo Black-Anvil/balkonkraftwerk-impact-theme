@@ -9934,6 +9934,10 @@ split-lines {
   padding: 0.4rem;
 }
 
+.default-variant__title {
+  display: block;
+}
+
 /* header.liquid */
 
 /* .large-phone-number {
