@@ -107,6 +107,15 @@
         }
         return false;
     }
+
+    function checkNewUser(configuration,id){
+       if(typeof configuration.showToNewUsersOnly == 'undefined' || !configuration.showToNewUsersOnly ||
+          ((typeof ShopifyAnalytics != "undefined" && typeof ShopifyAnalytics.meta.page.customerId == 'undefined') || localStorage.getItem("popup_"+id) == null))
+         return true;
+      
+        return false;
+    }
+    
 {% if popper_popup_json %}
     PopperAnglerfox.variables.haveToShowPopup = false;
     PopperAnglerfox.variables.popper_popup_json = {{popper_popup_json}};
@@ -126,7 +135,8 @@
                 checkCartAmount(configuration.cart_value_condition, configuration.cart_value_amount) &&
                 checkCartDiscount(configuration.show_if_no_discount_on_cart) &&
                 checkCustomerTags(configuration.show_to_customer_tags, configuration.customer_tags) &&
-                checkProductCollection(configuration.show_on_cart_product_collection,configuration.cart_check_type, configuration.cart_check)
+                checkProductCollection(configuration.show_on_cart_product_collection,configuration.cart_check_type, configuration.cart_check) &&
+                checkNewUser(configuration,popup.id)
             ){
                 PopperAnglerfox.variables.haveToShowPopup=true
             }
