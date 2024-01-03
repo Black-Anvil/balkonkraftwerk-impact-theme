@@ -428,6 +428,9 @@
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Wähle entweder den Express Checkout oder gebe im nächsten Schritt deine Lieferanschrift und Zahlungsmethode ein (empfohlen). Solltest du den Express Checkout wählen, achte bitte darauf, dass deine Lieferanschrift und Telefonnummer dort richtig hinterlegt sind!"
+      },
+      "customer_account": {
+        "have_an_account_label": "Hast du bei uns ein Kundenkonto (optional)?"
       }
     }
   }

@@ -3,6 +3,32 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
+        "collections": [
+          "balkonkraftwerk-teile",
+          "balkonkraftwerk-halterungen",
+          "balkonkraftwerk-balkongelaender",
+          "balkonkraftwerk-ziegeldach",
+          "balkonkraftwerk-wand-flach",
+          "balkonkraftwerk-wand-neigung",
+          "balkonkraftwerk-flachdach-garten",
+          "balkonkraftwerk-1700w",
+          "balkonkraftwerk-600w",
+          "balkonkraftwerk-800w",
+          "balkonkraftwerk-ohne-halterung",
+          "balkonkrafttwerk-komplettset",
+          "best-selling-products",
+          "guenstige-balkonkraftwerke",
+          "newest-products",
+          "solarpanels",
+          "balkonkraftwerk-speicher",
+          "800w-balkonkraftwerke",
+          "wechselrichter-balkonkraftwerk",
+          "balkonkraftwerk-zubehoer"
+        ],
+        "collections_per_row": 3,
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },

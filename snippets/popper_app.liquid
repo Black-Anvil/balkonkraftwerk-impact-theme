@@ -1,5 +1,34 @@
-{% assign popper_popup_json = shop.metafields['5648753'].popups %}
-            <script>var PopperAnglerfox={variables:{shop: 'balkonkraftwerk-rocks.myshopify.com',app_url:'https://popup.anglerfox.com'}};    {% assign collectionList = '' %}
+{%liquid
+assign popper_popup_json = shop.metafields['5648753'].popups
+assign popper_settings = shop.metafields['5648753'].shop_metadata
+if popper_settings.value.frontend_ga_code
+    assign popper_ga_code = popper_settings.value.frontend_ga_code
+endif
+%}
+{% if popper_ga_code %}
+<script async src='https://www.googletagmanager.com/gtag/js?id={{popper_ga_code}}'></script>
+<script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{popper_ga_code}}', {
+    'cookie_flags': 'samesite=none;secure'
+});
+window.popper_ga = (type, event, eventCategory, eventAction, eventLabel, eventValue) => {
+    let date = Date.now();
+    gtag('event', event, {
+        'time': date,
+        'type': type,
+        'event' : event,
+        'category': eventCategory,
+        'action': eventAction,
+        'label': eventLabel,
+        'value': eventValue
+    })
+}
+</script>
+{% else %}
+<script>window.popper_ga = (type, event, category, action, label, value) => {return false;}</script>
+{% endif %}<script>var PopperAnglerfox={variables:{shop: 'balkonkraftwerk-rocks.myshopify.com',app_url:'https://popup.anglerfox.com'}};    {% assign collectionList = '' %}
     {% for cartItem in cart.items %}
         {% for collection in cartItem.product.collections %}
         {% if forloop.first == true %}
@@ -107,6 +136,14 @@
         }
         return false;
     }
+
+    function checkNewUser(configuration,id){
+       if(typeof configuration.showToNewUsersOnly == 'undefined' || !configuration.showToNewUsersOnly ||
+          ((typeof ShopifyAnalytics != "undefined" && typeof ShopifyAnalytics.meta.page.customerId == 'undefined') || localStorage.getItem("popup_"+id) == null))
+         return true;
+
+        return false;
+    }
 {% if popper_popup_json %}
     PopperAnglerfox.variables.haveToShowPopup = false;
     PopperAnglerfox.variables.popper_popup_json = {{popper_popup_json}};
@@ -126,7 +163,8 @@
                 checkCartAmount(configuration.cart_value_condition, configuration.cart_value_amount) &&
                 checkCartDiscount(configuration.show_if_no_discount_on_cart) &&
                 checkCustomerTags(configuration.show_to_customer_tags, configuration.customer_tags) &&
-                checkProductCollection(configuration.show_on_cart_product_collection,configuration.cart_check_type, configuration.cart_check)
+                checkProductCollection(configuration.show_on_cart_product_collection,configuration.cart_check_type, configuration.cart_check) &&
+                checkNewUser(configuration,popup.id)
             ){
                 PopperAnglerfox.variables.haveToShowPopup=true
             }

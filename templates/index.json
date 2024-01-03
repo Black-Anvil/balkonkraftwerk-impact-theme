@@ -870,6 +870,7 @@
             "review-title": "Bewertungen",
             "rating-icon": true,
             "average-rating": true,
+            "loox-branding": true,
             "review-count": false,
             "open-reviews": false,
             "show-border": true,

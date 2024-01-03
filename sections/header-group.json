@@ -15,6 +15,7 @@
         },
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "🎅 XMAS SALE: Über 500,00 € sparen und kostenloser Versand! 🎁🎄",
             "url": "shopify:\/\/pages\/balkonkraftwerk-angebote"
@@ -22,7 +23,6 @@
         },
         "0c073df3-904c-46ec-b0b2-8b01b02ee0ed": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Schneller Versand - Bereits in 3-5 Tagen bei dir!",
             "url": ""
@@ -30,7 +30,6 @@
         },
         "c262b027-976d-4c1b-95ca-617795b34dba": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Bis zu 30 Jahre Garantie!",
             "url": ""
@@ -168,7 +167,7 @@
         "752fb2f2-6804-4d38-b61a-68530442ac6a"
       ],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": true,
         "logo": "{{shop.brand.logo}}",
         "logo_max_width": 170,
