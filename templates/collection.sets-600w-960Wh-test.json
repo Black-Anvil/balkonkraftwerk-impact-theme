@@ -124,10 +124,19 @@
         "collection": "",
         "heading": "Product Inquiry Form",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "first_name": "First name",
-        "last_name": "Last name",
-        "product_select": "Product of interest:",
-        "btn_text": "Submit"
+        "image": "shopify:\/\/shop_images\/solarpanel-wintersonne.jpg",
+        "first_name": "First name*",
+        "last_name": "Last name*",
+        "email": "Email*",
+        "address": "Street & House Number*",
+        "phone": "Phone*",
+        "zip": "Zip*",
+        "city": "City*",
+        "product_select": "Product of interest*",
+        "comments": "Comments",
+        "btn_text": "Submit",
+        "button_text_color": "",
+        "button_background": ""
       }
     },
     "e66637f5-5b6c-411c-a599-921b783f43f7": {
