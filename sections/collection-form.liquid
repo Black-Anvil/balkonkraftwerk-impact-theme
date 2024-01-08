@@ -59,7 +59,8 @@
                         <label for="collection-product">{{ section.settings.product_select }}</label>
                         <select id="collection-product" name="contact[product]" required>
                             <option value="">---</option>
-                            {% for product in collection.products %}
+                            {% assign products = collection.products | sort: 'title' %}
+                            {% for product in products  %}
                                 <option value="{{ product.title }}">{{ product.title }}</option>
                             {% endfor %}
                         </select>
