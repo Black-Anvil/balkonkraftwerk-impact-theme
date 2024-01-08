@@ -25,6 +25,7 @@
             "pattern": "[rating] - [count] Bewertungen",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
@@ -41,8 +42,8 @@
         "67e70e6b-8cb5-47da-becd-8f1bce6d94c6": {
           "type": "collapsible_text",
           "settings": {
-            "title": "+ Schnelle Lieferung",
-            "content": "<p>Das Balkonkraftwerk wird per Spedition geliefert und ist in ca. 3-5 Werktagen bei dir.<\/p>"
+            "title": "+ Schnelle & kostenlose Lieferung",
+            "content": "<p>Das Balkonkraftwerk wird per Spedition geliefert und ist in ca. 3-5 Werktagen bei dir. Die Versandkosten übernehmen wir für dich!<\/p>"
           }
         },
         "22ad3c38-9577-4af7-b9d9-b8488f14eb00": {
@@ -261,7 +262,7 @@
         "template--20187808465222__1173d43f-d6ff-4ae6-93f0-f107c2947025-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hoymiles.webp",
+            "image": "shopify:\/\/shop_images\/Hoymiles_Wechselrichter.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",

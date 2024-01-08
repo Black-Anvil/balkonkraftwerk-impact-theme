@@ -5,26 +5,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "150,00 € sparen auf alle 1700W Balkonkraftwerke mit Code WINTER-150",
-            "url": "https:\/\/www.sunpower4u.de\/collections\/1700w-balkonkraftwerke"
-          }
-        },
-        "message": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "🎅 XMAS SALE: Über 500,00 € sparen und kostenloser Versand! 🎁🎄",
-            "url": "shopify:\/\/pages\/balkonkraftwerk-angebote"
-          }
-        },
-        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed": {
+        "4fedcb53-0a1d-4114-83d1-4d66caf5c7da": {
           "type": "message",
           "settings": {
-            "text": "Schneller Versand - Bereits in 3-5 Tagen bei dir!",
+            "text": "🚚 Kostenloser Versand für alle Balkonkraftwerke 🚚",
             "url": ""
           }
         },
@@ -32,6 +16,13 @@
           "type": "message",
           "settings": {
             "text": "Bis zu 30 Jahre Garantie!",
+            "url": ""
+          }
+        },
+        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed": {
+          "type": "message",
+          "settings": {
+            "text": "Schneller Versand - Bereits in 3-5 Tagen bei dir!",
             "url": ""
           }
         },
@@ -45,10 +36,9 @@
         }
       },
       "block_order": [
-        "3bc7425a-7ef7-42f6-a3f4-4cbe5d06726b",
-        "message",
-        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed",
+        "4fedcb53-0a1d-4114-83d1-4d66caf5c7da",
         "c262b027-976d-4c1b-95ca-617795b34dba",
+        "0c073df3-904c-46ec-b0b2-8b01b02ee0ed",
         "c18832bf-d6c7-4427-904c-d8645a9f254a"
       ],
       "custom_css": [
