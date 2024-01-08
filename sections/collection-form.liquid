@@ -1,0 +1,190 @@
+<div class="section section-boxed bg-custom white-background">
+    <div class="collection-form__container">
+        <div class="collection-form__text-image">
+            {% if section.settings.heading != blank or section.settings.description != blank %}
+                <div class="collection-form__text prose">
+                    <h2 class="h3">{{ section.settings.heading }}</h2>
+                    <p>{{ section.settings.description }}</p>
+                </div>
+            {% endif %}
+            {% if section.settings.image != blank %}
+                <div class="collection-form__image">
+                    <img src="{{ section.settings.image | image_url: width: nil }}" />
+                </div>
+            {% endif %}
+        </div>
+        <div class="collection-form__form">
+            {% form 'contact', id: "collection-inquiry", class: 'form' %}
+                {% liquid 
+                    if section.settings.collection != blank
+                        assign collection = section.settings.collection
+                    endif
+                %}
+                <div class="fieldset">
+                    <div class="input-row">
+                        <div class="form__label-input">
+                            <label for="first-name">{{ section.settings.first_name }}</label>
+                            <input name="contact[first-name]" id="first-name" type="text" value="{{ customer.first_name }}" required />
+                        </div>
+                        <div class="form__label-input">
+                            <label for="last-name">{{ section.settings.last_name }}</label>
+                            <input name="contact[last-name]" id="last-name" type="text" value="{{ customer.last_name }}" required />
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="form__label-input">
+                            <label for="email">{{ section.settings.email }}</label>
+                            <input name="contact[email]" id="email" type="email" value="{{ customer.email }}" required >
+                        </div>
+                        <div class="form__label-input">
+                            <label for="phone">{{ section.settings.phone }}</label>
+                            <input name="contact[phone]" id="phone" type="tel" value="{{ customer.phone }}" required />
+                        </div>
+                    </div>
+                    <div class="form__label-input">
+                        <label for="address">{{ section.settings.address }}</label>
+                        <input name="contact[address]" id="address" type="text" value="{{ customer.default_address.address1 }}" required />
+                    </div>
+                    <div class="input-row">
+                        <div class="form__label-input">
+                            <label for="zip">{{ section.settings.zip }}</label>
+                            <input name="contact[zip]" id="zip" type="text" value="{{ customer.default_address.zip}}" required />
+                        </div>
+                        <div class="form__label-input">
+                            <label for="city">{{ section.settings.city }}</label>
+                            <input name="contact[city]" id="city" type="text" value="{{ customer.default_address.city }}" required />
+                        </div>
+                    </div>
+                    <div class="form__label-input">
+                        <label for="collection-product">{{ section.settings.product_select }}</label>
+                        <select id="collection-product" name="contact[product]" required>
+                            <option value="">---</option>
+                            {% assign products = collection.products | sort: 'title' %}
+                            {% for product in products  %}
+                                <option value="{{ product.title }}">{{ product.title }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form__label-input">
+                        <label for="comments">{{ section.settings.comments }}</label>
+                        <textarea name="contact[comments]" id="comments" rows="5"></textarea>
+                    </div>
+                    {%- if form.posted_successfully? -%}
+                        {%- capture content -%}{{- 'contact.form.success_message' | t -}}{%- endcapture -%}
+                        {%- render 'banner', status: 'success', content: content -%}
+                    {%- endif -%}
+                    {%- if form.errors -%}
+                        {%- capture content -%}{{ form.errors.translated_fields[form.errors.first] | capitalize }} {{ form.errors.messages[form.errors.first] }}{%- endcapture -%}
+                        {%- render 'banner', status: 'error', content: content -%}
+                    {%- endif -%}
+                </div>
+                <div class="justify-self-center">
+                    {%- capture button_content -%}{{ section.settings.btn_text }}{%- endcapture -%}
+                    {%- render 'button', content: button_content, type: 'submit', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                </div>
+            {% endform %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Collection form",
+    "settings": [
+        {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection",
+            "info": "This can be left blank in a collection page template to use the pre-assigned collection"
+        },
+        {
+            "type": "header",
+            "content": "Left side (desktop) / Top (mobile)"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "Form description"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "header",
+            "content": "Right side (desktop) / Bottom (mobile)"
+        },
+        {
+            "type": "text",
+            "id": "first_name",
+            "label": "First name label"
+        },
+        {
+            "type": "text",
+            "id": "last_name",
+            "label": "Last name label"
+        },
+        {
+            "type": "text",
+            "id": "email",
+            "label": "Email label"
+        },
+        {
+            "type": "text",
+            "id": "address",
+            "label": "Address label"
+        },
+        {
+            "type": "text",
+            "id": "phone",
+            "label": "Telephone label"
+        },
+        {
+            "type": "text",
+            "id": "zip",
+            "label": "Zip label"
+        },
+        {
+            "type": "text",
+            "id": "city",
+            "label": "City label"
+        },
+        {
+            "type": "text",
+            "id": "product_select",
+            "label": "Product select label"
+        },
+        {
+            "type": "text",
+            "id": "comments",
+            "label": "Comments label"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text content"
+        },
+        {
+            "type": "color",
+            "id": "button_text_color",
+            "label": "Button text color"
+        },
+        {
+            "type": "color",
+            "id": "button_background",
+            "label": "Button background color"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Collection form"
+        }
+    ]
+}
+{% endschema %}

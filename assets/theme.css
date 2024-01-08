@@ -9934,12 +9934,11 @@ split-lines {
   padding: 0.4rem;
 }
 
-/* header.liquid */
+.default-variant__title {
+  display: block;
+}
 
-/* .large-phone-number {
-  font-size: 24px;
-  font-weight: bold;
-} */
+/* header.liquid */
 
 .hi-vis-telephone .tmenu_image img {
   width: 2rem !important;
@@ -10053,6 +10052,7 @@ split-lines {
   width: 100%;
   height: 100%;
 }
+
 .full-width-link {
   display: flex;
   width: 100%;
@@ -10063,4 +10063,66 @@ split-lines {
 
 .full-width-link > * {
   text-decoration: underline;
+}
+
+/* collection-form.liquid */
+
+.white-background {
+  background-color: #FFFFFF;
+}
+
+.white-background input,
+.white-background select,
+.white-background textarea {
+  background-color: rgb(240, 240, 240);;
+}
+
+.collection-form__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.collection-form__text-image {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 35%;
+}
+
+.collection-form__form {
+  width: 55%;
+  padding: 0;
+}
+
+.form__label-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.form__label-input input,
+.form__label-input select,
+.form__label-input textarea {
+  border-radius: var(--rounded-input);
+  padding-block-start: var(--spacing-4);
+  padding-block-end: var(--spacing-4);
+  padding-inline-start: var(--input-padding-inline);
+  padding-inline-end: var(--input-padding-inline);
+  width: 100%;
+}
+
+.form__label-input input {
+  height: var(--input-height);
+}
+
+@media screen and (max-width: 768px) {
+  .collection-form__container {
+      flex-direction: column;
+      gap: 2rem;
+  }
+  .collection-form__text-image,
+  .collection-form__form {
+      width: 100%;
+  }
 }

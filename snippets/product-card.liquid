@@ -65,7 +65,22 @@ Supported variables
 
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
-      <a href="{{ product.url }}" data-instant>
+      {%- if section.settings.default_variant != blank -%}
+        {% liquid 
+          for variant in product.variants
+            for option in variant.options
+              if option == section.settings.default_variant
+                assign default_variant = variant
+              endif
+            endfor
+          endfor
+        %}
+      {%- endif -%}
+      {%- if default_variant -%}
+        <a href="{{ product.url | append: '?variant=' | append: default_variant.id }}" data-instant>
+      {%- else -%}
+        <a href="{{ product.url }}" data-instant>
+      {%- endif -%}
         {%- capture sizes -%}
           {%- if stacked -%}
             (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }} - 40px), (max-width: 1200px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop }} - 64px), calc(min(100vw - 96px, {{ settings.page_width }}px) / {{ section.settings.products_per_row_desktop }} - (24px / {{ section.settings.products_per_row_desktop }} * {{ section.settings.products_per_row_desktop | minus: 1 }}))
@@ -146,7 +161,16 @@ Supported variables
     <div class="v-stack gap-0.5 w-full {% if text_alignment == 'center' %}justify-items-center{% endif %}">
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
-          <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+          {%- if default_variant -%}
+            <span class="product-card__title">
+              <a href="{{ product.url | append: '?variant=' | append: default_variant.id }}" class="bold" data-instant>
+                <span>{{ product.title }}</span>
+                <span class="default-variant__title text-sm text-subdued">{{ default_variant.title }}</span>
+              </a>
+            </span>
+          {%- else -%}
+            <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+          {%- endif -%}
 
           {%- if text_alignment != 'center' -%}
             {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
@@ -154,14 +178,30 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+        {%- if default_variant -%}
+          <span class="product-card__title">
+            <a href="{{ product.url | append: '?variant=' | append: default_variant.id }}" class="bold" data-instant>
+              <span>{{ product.title }}</span>
+              <span class="default-variant__title text-sm text-subdued">{{ default_variant.title }}</span>
+            </a>
+          </span>
+        {%- else -%}
+          <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+        {%- endif -%}
       {%- endif -%}
-
-      {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+      {%- if default_variant -%}
+        {%- render 'price-list', product: product, text_alignment: text_alignment, default_variant: default_variant -%}
+      {%- else -%}
+        {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+      {%- endif -%}
       {% if product.metafields.custom.product_card_description != blank %}
         {{ product.metafields.custom.product_card_description | metafield_tag }}
       {% endif %}
-      {%- render 'buy-buttons', product: product -%}
+      {%- if default_variant -%}
+        {%- render 'buy-buttons', product: product, default_variant: default_variant -%}
+      {%- else -%}
+        {%- render 'buy-buttons', product: product -%}
+      {%- endif -%}
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}

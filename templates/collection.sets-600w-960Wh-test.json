@@ -100,6 +100,7 @@
         "full_width": false,
         "stack_products": true,
         "show_progress_bar": false,
+        "default_variant": "Zendure SolarFlow 960Wh",
         "products_count": 50,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
@@ -115,6 +116,27 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "bf8c5f10-e90e-4bf4-9c1e-14df8312ad26": {
+      "type": "collection-form",
+      "settings": {
+        "collection": "",
+        "heading": "Product Inquiry Form",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "image": "shopify:\/\/shop_images\/solarpanel-wintersonne.jpg",
+        "first_name": "First name*",
+        "last_name": "Last name*",
+        "email": "Email*",
+        "address": "Street & House Number*",
+        "phone": "Phone*",
+        "zip": "Zip*",
+        "city": "City*",
+        "product_select": "Product of interest*",
+        "comments": "Comments",
+        "btn_text": "Submit",
+        "button_text_color": "",
+        "button_background": ""
       }
     },
     "e66637f5-5b6c-411c-a599-921b783f43f7": {
@@ -554,6 +576,7 @@
     "banner",
     "main",
     "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43",
+    "bf8c5f10-e90e-4bf4-9c1e-14df8312ad26",
     "e66637f5-5b6c-411c-a599-921b783f43f7",
     "7e982731-f647-4967-9261-74bf9202bfdd",
     "69e179f9-5390-408c-b69d-3fd3241b6c43",
