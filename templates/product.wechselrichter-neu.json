@@ -49,8 +49,8 @@
         "22ad3c38-9577-4af7-b9d9-b8488f14eb00": {
           "type": "collapsible_text",
           "settings": {
-            "title": "+ 30 Jahre Garantie",
-            "content": "<p>30 Jahre Garantie auf die Solarpanels.<\/p>"
+            "title": "+ 12 Jahre Garantie",
+            "content": "<p>12 Jahre Garantie auf die Wechselrichter von Hoymiles.<\/p>"
           }
         },
         "69b80789-e0e9-4909-b563-5ab4d1082c0d": {
@@ -222,7 +222,7 @@
         "f7a389e4-2410-4ab7-82fa-9252d62f9e7a": {
           "type": "image",
           "settings": {
-            "image": "{{ product.metafields.custom.technische_daten_bild.value }}",
+            "image": "shopify:\/\/shop_images\/hoymiles.webp",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -236,7 +236,7 @@
         "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Premium Solarmodule in Qualität & Leistung",
+            "text": "Wechselrichter der neuesten technischen Generation",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -245,7 +245,7 @@
         "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "{{ product.metafields.custom.technische_details | metafield_tag }}"
+            "content": "<p><strong>Zertifiziert<\/strong><br\/>100% sicher und getestet entsprechen alle unsere Hoymiles Inverter deutschen Gesetzen. Selbstverständlich inklusive Relais für NA-Schutz!<\/p><p><strong>Smart-Home<\/strong><br\/>Mit dem mitgelieferten DTU Lite Modul zum Auslesen der Leistung und visualisieren auf dem Smartphone. Datenspeicherung in der Hoymiles S-Cloud.<\/p><p><strong>12 Jahre Garantie<\/strong><br\/>Auf alle unsere Hoymiles Inverter erhältst du 12 Jahre Herstellergarantie. Ohne wenn und aber.<\/p>"
           }
         }
       },
@@ -270,7 +270,7 @@
         "d7ae4e73-8073-4ecd-876c-b97b143f1be9": {
           "type": "heading",
           "settings": {
-            "text": "Technische Daten Solarpanel",
+            "text": "Technische Daten",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -279,7 +279,7 @@
         "template--19853288702278__80393bba-89d8-491f-a3f6-e2b951ad6b9d-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Für die genauen technischen Daten zu diesem Solarpanel schau dir bitte die verlinkten PDF Dateien an.<\/p>"
+            "content": "<p>Für die genauen technischen Daten zu diesem Wechselrichter schau dir bitte die verlinkten PDF Dateien an.<\/p>"
           }
         },
         "92f00170-00dc-4097-abe9-24ee5de9414e": {

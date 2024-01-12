@@ -1,41 +1,18 @@
 {
   "sections": {
-    "main": {
-      "type": "main-blog",
-      "disabled": true,
-      "settings": {
-        "allow_transparent_header": false,
-        "content": "<p>Aktuelles rund um Balkonkraftwerke und Solaranlagen<\/p>",
-        "show_newsletter_form": false,
-        "show_tags": false,
-        "banner_background": "#f0f0f0",
-        "banner_text_color": "#ffffff",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "",
-        "articles_per_page": 24,
-        "feature_first_article": false,
-        "feature_article_background": "#ffffff",
-        "feature_article_text_color": "",
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": false
-      }
-    },
-    "6c78aa68-d727-4611-8fba-6337627d839a": {
+    "c74d6ce7-e326-44b6-9abb-48dccc165135": {
       "type": "rich-text",
       "blocks": {
-        "template--19582588453190__6c78aa68-d727-4611-8fba-6337627d839a-heading-1": {
+        "template--20187806400838__c74d6ce7-e326-44b6-9abb-48dccc165135-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Balkonkraftwerk-Tipps",
+            "text": "Balkonkraftwerk News & Infos",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
         },
-        "template--19582588453190__6c78aa68-d727-4611-8fba-6337627d839a-richtext-1": {
+        "template--20187806400838__c74d6ce7-e326-44b6-9abb-48dccc165135-richtext-1": {
           "type": "richtext",
           "settings": {
             "content": "<p>Informationen und Tipps rund um die Themen Balkonkraftwerk und Solarenergie findest du in unserem Solar-Blog.<\/p>"
@@ -43,16 +20,38 @@
         }
       },
       "block_order": [
-        "template--19582588453190__6c78aa68-d727-4611-8fba-6337627d839a-heading-1",
-        "template--19582588453190__6c78aa68-d727-4611-8fba-6337627d839a-richtext-1"
+        "template--20187806400838__c74d6ce7-e326-44b6-9abb-48dccc165135-heading-1",
+        "template--20187806400838__c74d6ce7-e326-44b6-9abb-48dccc165135-richtext-1"
       ],
       "settings": {
         "full_width": false,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "",
+        "show_newsletter_form": false,
+        "show_tags": false,
+        "banner_background": "#ffffff",
+        "banner_text_color": "#1a1a1a",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "",
+        "articles_per_page": 24,
+        "feature_first_article": false,
+        "feature_article_background": "#ffffff",
+        "feature_article_text_color": "",
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false
       }
     },
     "d7c07a0b-4ce3-442a-9cda-89a76245a137": {
@@ -70,10 +69,11 @@
       "block_order": [
         "template--19582588453190__d7c07a0b-4ce3-442a-9cda-89a76245a137-blog-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
-        "show_excerpt": true,
-        "show_date": true,
+        "show_excerpt": false,
+        "show_date": false,
         "show_author": false,
         "show_comments_count": false,
         "show_category": false,
@@ -91,8 +91,8 @@
     }
   },
   "order": [
+    "c74d6ce7-e326-44b6-9abb-48dccc165135",
     "main",
-    "6c78aa68-d727-4611-8fba-6337627d839a",
     "d7c07a0b-4ce3-442a-9cda-89a76245a137"
   ]
 }

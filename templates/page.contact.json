@@ -52,8 +52,8 @@
         "4e93d461-b050-45f9-9f9b-df60f4783d4f"
       ],
       "settings": {
-        "full_width": true,
-        "content_width": "small",
+        "full_width": false,
+        "content_width": "large",
         "text_position": "center",
         "background": "",
         "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
@@ -124,12 +124,12 @@
       "type": "contact",
       "settings": {
         "full_width": false,
-        "subheading": "",
+        "subheading": "Oder sende uns ganz einfach deine Anfrage über dieses Formular:",
         "title": "",
-        "content": "<p>Oder sende uns ganz einfach deine Anfrage über dieses Formular:<\/p>",
+        "content": "",
         "text_position": "center",
         "contact_form_size": "large",
-        "background": "#f0f0f0",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",

@@ -1,49 +1,32 @@
 {
   "sections": {
-    "d4a1e063-50b9-4ed4-b395-0b1c361612f3": {
+    "abc9fcf1-ed14-4623-8200-80e659fa2116": {
       "type": "rich-text",
       "blocks": {
-        "template--19851865948486__d4a1e063-50b9-4ed4-b395-0b1c361612f3-heading-1": {
+        "template--20187808235846__abc9fcf1-ed14-4623-8200-80e659fa2116-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Der SUNPOWER4U Anmeldeservice für dein Balkonkraftwerk",
+            "text": "Balkonkraftwerk Anmeldeservice",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
         },
-        "template--19851865948486__d4a1e063-50b9-4ed4-b395-0b1c361612f3-richtext-1": {
+        "template--20187808235846__abc9fcf1-ed14-4623-8200-80e659fa2116-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Bei der Installation eines Balkonkraftwerks sind einige rechtliche und behördliche Aspekte zu beachten und es sind sowohl die Anmeldung im <strong>Marktstammdatenregister<\/strong>, als auch bei deinem<strong> zuständigen Netzanbieter <\/strong>erforderlich. <\/p><p>Unser Service-Team nimmt dir mit dem SUNPOWER4U-Anmeldeservice für Balkonkraftwerke alle lästigen behördlichen Erledigungen ab und dein Balkonkraftwerk ist sofort einsatzbereit.<\/p>"
-          }
-        },
-        "c32e8dcc-4305-4778-a976-206accc7e9aa": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "ba5f17f5-d3aa-443c-81a6-079fc1313759": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sunpower4u.png",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
+            "content": "<p>Um dein Balkonkraftwerk von Beginn an rechtssicher zu betreiben, bedarf es der Anmeldung im Markstammdatenregister und bei deinem Energieversorger. Mit dem SUNPOWER4U Anmeldeservice nehmen wir dir diese Anmeldungen gerne ab. <\/p>"
           }
         }
       },
       "block_order": [
-        "template--19851865948486__d4a1e063-50b9-4ed4-b395-0b1c361612f3-heading-1",
-        "template--19851865948486__d4a1e063-50b9-4ed4-b395-0b1c361612f3-richtext-1",
-        "c32e8dcc-4305-4778-a976-206accc7e9aa",
-        "ba5f17f5-d3aa-443c-81a6-079fc1313759"
+        "template--20187808235846__abc9fcf1-ed14-4623-8200-80e659fa2116-heading-1",
+        "template--20187808235846__abc9fcf1-ed14-4623-8200-80e659fa2116-richtext-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "content_width": "large",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -118,6 +101,7 @@
             "pattern": "",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
@@ -563,6 +547,7 @@
             "review-title": "reviews",
             "rating-icon": true,
             "average-rating": true,
+            "loox-branding": true,
             "review-count": false,
             "open-reviews": true,
             "show-border": true,
@@ -690,7 +675,7 @@
     }
   },
   "order": [
-    "d4a1e063-50b9-4ed4-b395-0b1c361612f3",
+    "abc9fcf1-ed14-4623-8200-80e659fa2116",
     "3fd9f3f4-2819-4312-b60b-a4d6e2fdcd86",
     "main",
     "46cb99f7-5a71-45db-a8f1-307f4425191d",

@@ -59,11 +59,33 @@
         "template--19582589436230__8163da3e-a2ff-4055-b530-d094d46b4e6f-richtext-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "content_width": "medium",
         "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cccd8a83-8dda-4649-bf97-5a5ce497d87b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20187807842630__cccd8a83-8dda-4649-bf97-5a5ce497d87b-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20187807842630__cccd8a83-8dda-4649-bf97-5a5ce497d87b-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "background_gradient": "",
         "text_color": ""
       }
     },
@@ -108,7 +130,7 @@
       "settings": {
         "full_width": false,
         "subheading": "",
-        "title": "Anleitungen für die Sunpower4U Balkonkraftwerke",
+        "title": "Anleitungen für die SUNPOWER4U Balkonkraftwerke",
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "",
@@ -125,6 +147,28 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "9fb9c647-5f93-47a8-a214-9ee8023778e2": {
+      "type": "rich-text",
+      "blocks": {
+        "70306144-0439-4a86-b2e0-acea4a784869": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "70306144-0439-4a86-b2e0-acea4a784869"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "55d57e18-440f-4e35-9c38-965246e1c733": {
@@ -280,7 +324,9 @@
     "main",
     "2d1dc868-c903-48c5-acc1-4a8f4fc14776",
     "8163da3e-a2ff-4055-b530-d094d46b4e6f",
+    "cccd8a83-8dda-4649-bf97-5a5ce497d87b",
     "7da4e8b9-abdb-49ab-ba19-77010c0ebd05",
+    "9fb9c647-5f93-47a8-a214-9ee8023778e2",
     "55d57e18-440f-4e35-9c38-965246e1c733"
   ]
 }

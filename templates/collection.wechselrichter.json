@@ -21,7 +21,7 @@
         "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Wir setzen aus Sicherheitsgründen ausschließlich auf die hochwertigen und mehrfachen Testsieger von Hoymiles.<\/strong><\/p>"
+            "content": "<p><strong>Wir setzen aus Sicherheitsgründen ausschließlich auf die hochwertigen und mehrfach ausgezeichneten Wechselrichter von Hoymiles.<\/strong><\/p>"
           }
         },
         "8a70f8fa-3d15-4e37-afe3-b84819724bd5": {
@@ -42,7 +42,7 @@
       ],
       "settings": {
         "full_width": false,
-        "content_width": "medium",
+        "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
@@ -94,19 +94,20 @@
         "products": [
 
         ],
-        "full_width": true,
+        "full_width": false,
         "stack_products": true,
         "show_progress_bar": false,
+        "default_variant": "",
         "products_count": 2,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 2,
         "subheading": "",
-        "title": "Wechselrichter (Inverter)",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
-        "background_gradient": "linear-gradient(180deg, rgba(240, 240, 240, 1), rgba(255, 255, 255, 1) 100%)",
+        "background": "#ffffff",
+        "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",

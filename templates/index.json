@@ -467,39 +467,39 @@
         "template--20033326022982__c7b518dc-0534-41c1-941a-d770ef785b19-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_1_915afa5c-5654-437b-bf35-19f6b0b1fbba.png",
+            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sets_2.jpg",
             "column_size": "3",
             "title": "600W Einsteiger",
             "heading_tag": "h4",
             "content": "<p>Das fertige Komplettset<br\/><strong>Sun Expert 600 Pur<\/strong><br\/>mit zwei Solarpanels und<br\/>einem Wechselrichter.<\/p>",
-            "link_url": "shopify:\/\/products\/balkonkraftwerk-sun-starter-600-pur",
-            "link_text": "ZUM SET",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-600w",
+            "link_text": "ANSEHEN",
             "link_style": "button"
           }
         },
         "template--20033326022982__c7b518dc-0534-41c1-941a-d770ef785b19-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_2_a7e25980-8dde-4c96-92e6-910d1792bf5e.png",
+            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sets_1.jpg",
             "column_size": "3",
             "title": "800W Allrounder",
             "heading_tag": "h4",
             "content": "<p>Das fertige Komplettset<br\/><strong>Sun Expert 800 Pur<\/strong><br\/>mit zwei Solarpanels und<br\/>einem Wechselrichter.<\/p>",
-            "link_url": "shopify:\/\/products\/balkonkraftwerk-sun-expert-800-pur",
-            "link_text": "ZUM SET",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-800w",
+            "link_text": "ANSEHEN",
             "link_style": "button"
           }
         },
         "template--20033326022982__c7b518dc-0534-41c1-941a-d770ef785b19-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_3_75c64366-f11b-4f13-ba5f-a27a368ea33a.png",
+            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_Sets.jpg",
             "column_size": "3",
             "title": "1700W Maxipower",
             "heading_tag": "h4",
             "content": "<p>Das fertige Komplettset<br\/><strong>Sun Expert 1700 Pur<\/strong><br\/>mit vier Solarpanels und<br\/>zwei Wechselrichtern.<\/p>",
-            "link_url": "shopify:\/\/products\/balkonkraftwerk-sun-expert-1700-pur",
-            "link_text": "ZUM SET",
+            "link_url": "shopify:\/\/collections\/balkonkraftwerk-1700w",
+            "link_text": "ANSEHEN",
             "link_style": "button"
           }
         }
@@ -564,6 +564,7 @@
         "full_width": false,
         "stack_products": true,
         "show_progress_bar": false,
+        "default_variant": "",
         "products_count": 3,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
@@ -990,7 +991,7 @@
         "title": "",
         "content": "",
         "link_url": "shopify:\/\/blogs\/balkonkraftwerk-tipps",
-        "link_text": "",
+        "link_text": "Alle anzeigen",
         "background": "#245da7",
         "background_gradient": "",
         "text_color": "#ffffff",

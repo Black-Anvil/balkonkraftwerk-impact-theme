@@ -7,50 +7,48 @@
         "content_width": "80ch"
       }
     },
-    "b066cc65-d230-42db-af29-c4df6fa1ed7a": {
-      "type": "image-with-text-overlay",
+    "0c654053-4e31-4108-b68f-4a4caa023e0b": {
+      "type": "rich-text",
       "blocks": {
-        "template--16667339784419__b066cc65-d230-42db-af29-c4df6fa1ed7a-16789622582a480bf5-1": {
+        "template--20187808006470__0c654053-4e31-4108-b68f-4a4caa023e0b-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Kostenlose Solar Beratung",
-            "heading_tag": "h1"
+            "text": "Kostenlose Beratung zum Balkonkraftwerk",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "34bcab2b-3cfd-45fc-ba3b-e8d1c9ee9a57": {
-          "type": "subheading",
+        "template--20187808006470__0c654053-4e31-4108-b68f-4a4caa023e0b-richtext-1": {
+          "type": "richtext",
           "settings": {
-            "text": "Bitte beschreib uns dein Projekt und deine Fragen"
+            "content": "<p>Wenn du dir nicht sicher bist, welches Balkonkraftwerk für deine Bedürfnisse die ideale Lösung ist, sind wir von SUNPOWER4U mit unserer kostenlosen Solarberatung gerne für dich da.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16667339784419__b066cc65-d230-42db-af29-c4df6fa1ed7a-16789622582a480bf5-1",
-        "34bcab2b-3cfd-45fc-ba3b-e8d1c9ee9a57"
+        "template--20187808006470__0c654053-4e31-4108-b68f-4a4caa023e0b-heading-1",
+        "template--20187808006470__0c654053-4e31-4108-b68f-4a4caa023e0b-richtext-1"
       ],
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/Depositphotos_24609857_XL.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "96a593d1-088c-41ab-a2d1-cc6a40b4d70f": {
       "type": "contact",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "title": "",
         "content": "<p>Bitte beschreibe kurz dein geplantes Projekt und deine Fragen an uns.<\/p><p>Wir melden uns dann schnellstmöglich zurück.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -64,7 +62,7 @@
   },
   "order": [
     "main",
-    "b066cc65-d230-42db-af29-c4df6fa1ed7a",
+    "0c654053-4e31-4108-b68f-4a4caa023e0b",
     "96a593d1-088c-41ab-a2d1-cc6a40b4d70f"
   ]
 }

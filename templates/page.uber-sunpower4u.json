@@ -63,10 +63,10 @@
         "template--19582589567302__a9852640-25bb-4f24-8476-e6da8dce1ac2-richtext-1"
       ],
       "settings": {
-        "full_width": true,
-        "content_width": "medium",
+        "full_width": false,
+        "content_width": "large",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
         "text_color": ""
       }
@@ -242,7 +242,7 @@
           "type": "blog",
           "settings": {
             "blog": "balkonkraftwerk-tipps",
-            "posts_count": 3,
+            "posts_count": 6,
             "stack_items": false
           }
         }
@@ -260,7 +260,7 @@
         "subheading": "",
         "title": "Mehr zum Thema Solar & Balkonkraftwerke",
         "content": "",
-        "link_url": "",
+        "link_url": "shopify:\/\/blogs\/balkonkraftwerk-tipps",
         "link_text": "Alle anzeigen",
         "background": "#ffffff",
         "background_gradient": "",

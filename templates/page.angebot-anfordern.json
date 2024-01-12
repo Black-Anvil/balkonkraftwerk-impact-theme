@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "c10cb396-d859-4e4d-a041-ec6cecf6c9b9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20552685093190__c10cb396-d859-4e4d-a041-ec6cecf6c9b9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Angebot für Balkonkraftwerk Fördergelder",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20552685093190__c10cb396-d859-4e4d-a041-ec6cecf6c9b9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Viele Städte, Kommunen und Gemeinden bieten Förderungen beim Kauf eines Balkonkraftwerkes an.<br\/>Um diese Förderung zu beantragen, erstellen wir dir gerne ein Angebot für deinen Förderantrag.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20552685093190__c10cb396-d859-4e4d-a041-ec6cecf6c9b9-heading-1",
+        "template--20552685093190__c10cb396-d859-4e4d-a041-ec6cecf6c9b9-richtext-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5bc78c02-4482-4ec1-a2ba-309acca608f5": {
+      "type": "collection-form",
+      "custom_css": [
+        "div {margin-top: 0px;}"
+      ],
+      "settings": {
+        "collection": "balkonkrafttwerk-komplettset",
+        "heading": "Angebot für dein Balkonkraftwerk anfordern",
+        "description": "<p>Wähle einfach das gewünschte Balkonkraftwerk aus der Liste aus und wir erstellen dir ein individuelles Angebot, das du dann zur Förderung einreichen kannst.<\/p>\n\n<p>Wenn du ein Balkonkraftwerk mit Speicher haben möchtest, dann nimm dies bitte in deine Nachricht mit auf.<\/p>",
+        "image": "shopify:\/\/shop_images\/kostenrechnung-solaranlage.jpg",
+        "first_name": "Vorname",
+        "last_name": "Nachname",
+        "email": "E-Mail Adresse",
+        "address": "Adresse",
+        "phone": "Telefon",
+        "zip": "PLZ",
+        "city": "Stadt",
+        "product_select": "Balkonkraftwerk auswählen",
+        "comments": "Deine Nachricht an uns",
+        "btn_text": "Angebot Anfordern",
+        "button_text_color": "",
+        "button_background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c10cb396-d859-4e4d-a041-ec6cecf6c9b9",
+    "5bc78c02-4482-4ec1-a2ba-309acca608f5"
+  ]
+}

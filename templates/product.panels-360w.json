@@ -301,12 +301,12 @@
         "5453b627-2370-4eac-8c51-caf4a5ed1d01"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "content_width": "small",
         "text_position": "start",
-        "background": "#245da7",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": ""
       }
     },
     "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31": {
@@ -316,42 +316,42 @@
           "type": "item",
           "settings": {
             "icon": "picto-earth",
-            "custom_icon": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_1_c748909d-784e-4a81-bea2-49ddb232a2e0.png",
+            "custom_icon": "shopify:\/\/shop_images\/Anmeldbar.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "circle",
             "icon_background": "rgba(0,0,0,0)",
             "icon_color": "",
             "title": "Sicherheit & Prüfung",
-            "content": "<p>Dein Balkonkraftwerk ist nach deutschen Normen geprüft und beim Netzbetreiber sofort anmeldbar.<\/p>"
+            "content": "<p>Unsere Balkonkraftwerke sind rechtskonform und lassen sich beim Netzbetreiber sofort anmelden.<\/p>"
           }
         },
         "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-1": {
           "type": "item",
           "settings": {
             "icon": "picto-love",
-            "custom_icon": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_2_5c732524-26f7-4821-8b2c-2e18e1f6e17c.png",
+            "custom_icon": "shopify:\/\/shop_images\/30_Jahre_Garantie.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "circle",
             "icon_background": "rgba(0,0,0,0)",
             "icon_color": "",
             "title": "Qualität & Service",
-            "content": "<p>Du erhältst bis zu 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
+            "content": "<p>Bei uns erhältst du 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
           }
         },
         "template--16659255558371__6e4cd277-2096-4c1b-9ae5-8ad0dee80d31-167834973981c9b48f-2": {
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify:\/\/shop_images\/SUNPOWER4U_Balkonkraftwerk_3_33232804-4b6f-4ab4-b7c9-eff4419b5f74.png",
+            "custom_icon": "shopify:\/\/shop_images\/Deutscher_Haendler.png",
             "mobile_icon_width": 120,
             "icon_width": 120,
             "icon_background_type": "circle",
             "icon_background": "rgba(0,0,0,0)",
             "icon_color": "",
-            "title": "Schnell & Kompetent",
-            "content": "<p>Deine Stecker-Solaranlage ist schon in wenigen Tagen bei dir und bei allen Fragen sind wir telefonisch für dich da.<\/p>"
+            "title": "Deutscher Händler",
+            "content": "<p>Wir sprechen nicht nur deine Sprache, sondern lagern und versenden auch direkt aus Deutschland.<\/p>"
           }
         }
       },
@@ -365,7 +365,7 @@
       ],
       "settings": {
         "full_width": false,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "title": "Deine Vorteile bei SUNPOWER4U",
         "heading_tag": "h5",
         "text_alignment": "center",

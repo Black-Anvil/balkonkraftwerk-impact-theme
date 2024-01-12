@@ -12,13 +12,13 @@
             "gradient": ""
           }
         },
-        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1": {
-          "type": "richtext",
+        "9bff10e7-bc44-4357-beae-13a281ae22ed": {
+          "type": "liquid",
           "settings": {
-            "content": "<p>Hier findest du verschiedene Solarpanel-Halterungen für dein Balkonkraftwerk:<br\/>Balkongeländer, Ziegeldach, Flachdach, Fassade \/ Wand oder Garten.<\/p>"
+            "liquid": "{%- if collection.description != blank -%}\n  <p>{{ collection.description }}<\/p>\n{%- endif -%}"
           }
         },
-        "76132c64-b5f7-43aa-a653-0f348d8f31ec": {
+        "b70a9b8e-d62d-465c-867a-a61afd83ecb4": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Sunpower4u_Badges_c6c60120-29ba-4bcf-884b-ba1c053c9544.png",
@@ -30,15 +30,15 @@
       },
       "block_order": [
         "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-heading-1",
-        "template--19584197493062__7ed64fbf-2d77-4ce7-ac47-1bdbdcda04cc-richtext-1",
-        "76132c64-b5f7-43aa-a653-0f348d8f31ec"
+        "9bff10e7-bc44-4357-beae-13a281ae22ed",
+        "b70a9b8e-d62d-465c-867a-a61afd83ecb4"
       ],
       "settings": {
         "full_width": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) 100%)",
+        "background_gradient": "",
         "text_color": ""
       }
     },
@@ -83,7 +83,7 @@
     "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43": {
       "type": "featured-collection",
       "settings": {
-        "collection": "balkonkraftwerk-halterungen",
+        "collection": "balkonkraftwerk-speicher",
         "products": [
 
         ],
@@ -147,10 +147,10 @@
         "text_color": ""
       }
     },
-    "63a97d25-c601-47e7-9556-b46b1ae51331": {
+    "601ff95f-174e-401e-a6b9-38aedc9cabd4": {
       "type": "accordion-content",
       "blocks": {
-        "template--20187806564678__63a97d25-c601-47e7-9556-b46b1ae51331-item-3": {
+        "template--20033325728070__601ff95f-174e-401e-a6b9-38aedc9cabd4-item-1": {
           "type": "item",
           "settings": {
             "title": "Mehr lesen",
@@ -159,7 +159,7 @@
         }
       },
       "block_order": [
-        "template--20187806564678__63a97d25-c601-47e7-9556-b46b1ae51331-item-3"
+        "template--20033325728070__601ff95f-174e-401e-a6b9-38aedc9cabd4-item-1"
       ],
       "settings": {
         "full_width": true,
@@ -171,10 +171,10 @@
         "text_position": "start",
         "background": "",
         "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "heading_color": "rgba(0,0,0,0)",
+        "text_color": "",
+        "heading_color": "",
         "heading_gradient": "",
-        "button_background": "rgba(0,0,0,0)",
+        "button_background": "",
         "button_text_color": "",
         "accordion_background": "#f0f0f0",
         "accordion_text_color": ""
@@ -188,6 +188,6 @@
     "33242b4e-fbfc-4a0d-a6a0-2ecd6405ca43",
     "7e982731-f647-4967-9261-74bf9202bfdd",
     "69e179f9-5390-408c-b69d-3fd3241b6c43",
-    "63a97d25-c601-47e7-9556-b46b1ae51331"
+    "601ff95f-174e-401e-a6b9-38aedc9cabd4"
   ]
 }

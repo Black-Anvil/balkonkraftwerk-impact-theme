@@ -39,31 +39,11 @@
             "collapse_content": false
           }
         },
-        "67e70e6b-8cb5-47da-becd-8f1bce6d94c6": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "+ Schnelle & kostenlose Lieferung",
-            "content": "<p>Das Balkonkraftwerk wird per Spedition geliefert und ist in ca. 3-5 Werktagen bei dir. Die Versandkosten übernehmen wir für dich!<\/p>"
-          }
-        },
-        "22ad3c38-9577-4af7-b9d9-b8488f14eb00": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "+ 30 Jahre Garantie",
-            "content": "<p>Du erhältst 30 Jahre Garantie auf die Solarpanels und 12 Jahre Garantie auf die Wechselrichter.<\/p>"
-          }
-        },
         "69b80789-e0e9-4909-b563-5ab4d1082c0d": {
           "type": "collapsible_text",
           "settings": {
             "title": "+ Montageservice",
             "content": "<p>Solltest du bei der Montage Fragen haben, sind wir telefonisch für dich von Montag bis Freitag zwischen 8:00 und 16:00 Uhr erreichbar und unterstützen dich gern.<\/p>"
-          }
-        },
-        "e56a7fd7-52dd-4d7d-9947-2220a0e9f19e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Mit deinem Balkonkraftwerk vermeidest du mehr als 225 kg (bei 600W) und mehr als 290 kg (bei 800W) CO² bei durchschnittlich <strong>2000<\/strong> Sonnenstunden pro Jahr in Deutschland.<\/p>"
           }
         },
         "price": {
@@ -107,6 +87,7 @@
         },
         "69957d9f-c27d-4146-80cc-848a60b179b5": {
           "type": "shipping_time",
+          "disabled": true,
           "settings": {
             "text_1": "Wenn du heute bestellst, erhältst du dein Balkonkraftwerk am",
             "days": 4,
@@ -127,10 +108,7 @@
         "0e8ff17e-310c-444f-8283-a90933e2f795",
         "loox-rating",
         "fd11004d-df91-4f2c-9ae4-cc5e3d3c17bb",
-        "67e70e6b-8cb5-47da-becd-8f1bce6d94c6",
-        "22ad3c38-9577-4af7-b9d9-b8488f14eb00",
         "69b80789-e0e9-4909-b563-5ab4d1082c0d",
-        "e56a7fd7-52dd-4d7d-9947-2220a0e9f19e",
         "price",
         "1773ca05-2098-4c09-9770-47da0a95437b",
         "ef653e66-b223-4e74-80f0-35c521810775",
@@ -157,425 +135,24 @@
         "input_text_color": ""
       }
     },
-    "aa386ebc-5ee0-4823-b55f-c3061f0cb6e9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Wechselrichter der neuesten technischen Generation",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "76174b68-2143-4418-9305-f807257d3601": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-validation",
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#245da7"
-          }
-        },
-        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Zertifiziert<\/strong><br\/>100% sicher und getestet entsprechen alle unsere Hoymiles Inverter deutschen Gesetzen. Selbstverständlich inklusive Relais für NA-Schutz!<\/p>"
-          }
-        },
-        "868a5367-b44f-42e0-8fcd-f1830ebf02a9": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-wifi",
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#245da7"
-          }
-        },
-        "82515c53-8418-4fc3-af36-fbd960f38260": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Smart-Home<\/strong><br\/>Mit dem mitgelieferten DTU Lite Modul zum Auslesen der Leistung und visualisieren auf dem Smartphone. Datenspeicherung in der Hoymiles S-Cloud.<\/p>"
-          }
-        },
-        "0ff88328-9a93-48c5-a1ae-da297e754d94": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-jewelry",
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#245da7"
-          }
-        },
-        "f2f38d29-3d42-4e75-86c9-d68c17a4af97": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>12 Jahre Garantie<\/strong><br\/>Auf alle unsere Hoymiles Inverter erhältst du 12 Jahre Herstellergarantie. Ohne wenn und aber.<\/p>"
-          }
-        },
-        "9df15aaf-79d1-49b2-bf7b-8996a11834fb": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "f7a389e4-2410-4ab7-82fa-9252d62f9e7a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Wechselrichter_Sunpower4u_Balkonkraftwerk_1.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-heading-1",
-        "76174b68-2143-4418-9305-f807257d3601",
-        "template--19853288702278__aa386ebc-5ee0-4823-b55f-c3061f0cb6e9-richtext-1",
-        "868a5367-b44f-42e0-8fcd-f1830ebf02a9",
-        "82515c53-8418-4fc3-af36-fbd960f38260",
-        "0ff88328-9a93-48c5-a1ae-da297e754d94",
-        "f2f38d29-3d42-4e75-86c9-d68c17a4af97",
-        "9df15aaf-79d1-49b2-bf7b-8996a11834fb",
-        "f7a389e4-2410-4ab7-82fa-9252d62f9e7a"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": false,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1173d43f-d6ff-4ae6-93f0-f107c2947025": {
+    "b0e4fbce-574f-4177-a44b-a6769824dcbc": {
       "type": "media-with-text",
       "blocks": {
-        "template--20187808465222__1173d43f-d6ff-4ae6-93f0-f107c2947025-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hoymiles_Wechselrichter.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Wechselrichter der neuesten Generation",
-            "content": "<p><strong>Zertifiziert<\/strong><br\/>100% sicher und getestet entsprechen alle unsere Hoymiles Inverter deutschen Gesetzen. Selbstverständlich inklusive Relais für NA-Schutz!<\/p><p><strong>Smart-Home<\/strong><br\/>Mit dem mitgelieferten DTU Lite Modul zum Auslesen der Leistung und visualisieren auf dem Smartphone. Datenspeicherung in der Hoymiles S-Cloud.<\/p><p><strong>12 Jahre Garantie<\/strong><br\/>Auf alle unsere Hoymiles Inverter erhältst du 12 Jahre Herstellergarantie. Ohne wenn und aber.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20187808465222__1173d43f-d6ff-4ae6-93f0-f107c2947025-image-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "67a00ce8-1c6c-43f2-856b-b7e98c520deb": {
-      "type": "media-with-text",
-      "blocks": {
-        "b2763662-a0ee-483c-a444-49de10bca94c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Solar_Panels_Details_14df9e98-cd52-4847-ac08-45e0fe00d21f.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Premium Solarmodule in Qualität & Leistung",
-            "content": "<p><strong>Spitzen-Effizienz<\/strong><br\/>Mit einer Leistungsausbeute von mehr als 94% und einem Wirkungsgrad von bis zu 21,8% gehören unsere Solarpanels zu den effizientesten PV-Modulen überhaupt.<\/p><p><strong>Sicherheit<\/strong><br\/>Alle Solarmodule sind selbstverständlich CE, TÜV, VDE, ISO & IEC zertifiziert und auf ihre Qualität geprüft.<\/p><p><strong>30 Jahre Garantie<\/strong><br\/>Wir geben auf alle unsere Solarmodule 30 Jahre Garantie für extra lineare Ausgangsleistung und 12 Jahre Garantie auf Material und Verarbeitung.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "b2763662-a0ee-483c-a444-49de10bca94c"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "210e556e-42d9-4a88-9154-692fb3f8d467": {
-      "type": "media-with-text",
-      "blocks": {
-        "80df4524-5b8d-4e1f-a550-d9fd5f638f2c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sunpower4u_Kabel.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Kabel für den Anschluss deines Balkonkraftwerks",
-            "content": "{{ product.metafields.custom.kabel_beschreibung | metafield_tag }}{{ product.metafields.custom.solar_kabel_beschreibung | metafield_tag }}",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "80df4524-5b8d-4e1f-a550-d9fd5f638f2c"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "80393bba-89d8-491f-a3f6-e2b951ad6b9d": {
-      "type": "rich-text",
-      "blocks": {
-        "606e31ff-3982-424f-874a-7b117b99827d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Solar_Panels_Details.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "92f00170-00dc-4097-abe9-24ee5de9414e": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "d7ae4e73-8073-4ecd-876c-b97b143f1be9": {
-          "type": "heading",
-          "settings": {
-            "text": "Premium Solarmodule in Qualität & Leistung",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "37c1ff29-b282-421f-b9b8-3f783382bb41": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-star",
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "rgba(0,0,0,0)",
-            "icon_color": "#245da7"
-          }
-        },
-        "template--19853288702278__80393bba-89d8-491f-a3f6-e2b951ad6b9d-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Spitzen-Effizienz<\/strong><br\/>Mit einer Leistungsausbeute von mehr als 94% und einem Wirkungsgrad von bis zu 21,8% gehören unsere Solarpanels zu den effizientesten PV-Modulen überhaupt.<\/p>"
-          }
-        },
-        "38777d0d-b46e-45eb-8062-9a8fec46e86e": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-validation",
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#245da7"
-          }
-        },
-        "18157b72-9466-438e-bad3-536035ca37c4": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Sicherheit<\/strong><br\/>Alle Solarmodule sind selbstverständlich CE, TÜV, VDE, ISO & IEC zertifiziert und auf ihre Qualität geprüft.<\/p>"
-          }
-        },
-        "13249b38-d475-4890-8cca-16dd2b8bf74e": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-jewelry",
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#245da7"
-          }
-        },
-        "f6460894-136d-4316-82fe-5bf6189ba09d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>30 Jahre Garantie<\/strong><br\/>Wir geben auf alle unsere Solarmodule 30 Jahre Garantie für extra lineare Ausgangsleistung und 12 Jahre Garantie auf Material und Verarbeitung.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "606e31ff-3982-424f-874a-7b117b99827d",
-        "92f00170-00dc-4097-abe9-24ee5de9414e",
-        "d7ae4e73-8073-4ecd-876c-b97b143f1be9",
-        "37c1ff29-b282-421f-b9b8-3f783382bb41",
-        "template--19853288702278__80393bba-89d8-491f-a3f6-e2b951ad6b9d-richtext-1",
-        "38777d0d-b46e-45eb-8062-9a8fec46e86e",
-        "18157b72-9466-438e-bad3-536035ca37c4",
-        "13249b38-d475-4890-8cca-16dd2b8bf74e",
-        "f6460894-136d-4316-82fe-5bf6189ba09d"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": false,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "ef7ded03-2106-4310-a465-60323349c610": {
-      "type": "media-with-text",
-      "blocks": {
-        "6571664e-5ece-4eae-9b39-7b03773a045d": {
-          "type": "image",
-          "settings": {
-            "image": "{{ product.metafields.custom.halterung_bild.value }}",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "{{ product.metafields.custom.halterungsname.value }}",
-            "content": "{{ product.metafields.custom.halterung_text | metafield_tag }}",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "6571664e-5ece-4eae-9b39-7b03773a045d"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "4b2a3177-117b-4865-8099-fb6a9151d581": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--20187808465222__4b2a3177-117b-4865-8099-fb6a9151d581-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SUNPOWER4U_App_262982c8-0fcc-4381-a572-d587e74bcdf9.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Inklusive Smartphone App",
-            "content": "<p>Inklusive App-Auswertung der Balkonkraftwerk Leistung am Smartphone oder am Computer.<\/p><p>Verfügbar für:<\/p><p><strong>✓<\/strong> iOS<br\/><strong>✓ <\/strong>Android<br\/><strong>✓ <\/strong>Web<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20187808465222__4b2a3177-117b-4865-8099-fb6a9151d581-image-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "03ebe7dc-f633-4ad6-86b0-b0b3be215751": {
-      "type": "media-with-text",
-      "blocks": {
-        "2c8e37f0-f8d8-4f52-ad05-5b3b7242f52f": {
+        "32e37a91-c488-4df6-b445-a01cf35dbf78": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Zendure Sunpower4u.mp4",
+            "video": "shopify:\/\/files\/videos\/Montagevideo Universalhalterung.mp4",
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "autoplay": true,
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<h3>Optional auch mit Speicher<\/h3><p>Um den tagsüber erzeugten Strom zu speichern, gibt es jedes unserer Balkonkraftwerke mit dem Zendure SolarFlor Akkuspeicher im attraktiven Kombi-Set.<\/p><p>So kannst du auch abends und in der Nacht den Strom verbrauchen, den du kostenlos am Tag produziert hast.<\/p><p><a href=\"https:\/\/www.sunpower4u.de\/products\/zendure-solarflow-set-960wh\" target=\"_blank\" title=\"https:\/\/www.sunpower4u.de\/products\/zendure-solarflow-set-960wh\">Alle Details zum Zendure Akku<\/a><\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "2c8e37f0-f8d8-4f52-ad05-5b3b7242f52f"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "50df181f-06bf-458a-ab14-5f4187806d70": {
-      "type": "media-with-text",
-      "blocks": {
-        "4b4008e4-0253-48ff-a289-dbe942087bf0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Balkonkraftwerk_anmelden.webp",
+            "poster_image": "shopify:\/\/shop_images\/Solarpanelhalterung_1_Montagevideo_Deckbild_2.jpg",
+            "autoplay": false,
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Anmeldung & Zuschüsse",
-            "content": "{{ product.metafields.custom.anmeldung_beschreibung | metafield_tag }}<p><strong>Zuschüsse: <\/strong>In vielen Kommunen werden Balkonkraftwerke bezuschusst. Informiere dich am besten noch heute, um beim Kauf richtig Geld zu sparen.<\/p>",
+            "title": "Aufbau & Montage",
+            "content": "<p>In diesem Video siehst du, wie schnell und einfach der Aufbau und die Montage der Premium-Universalhalterung ist.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -588,56 +165,48 @@
         }
       },
       "block_order": [
-        "4b4008e4-0253-48ff-a289-dbe942087bf0"
+        "32e37a91-c488-4df6-b445-a01cf35dbf78"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
     },
-    "62c9be91-a05c-47d8-a295-8e4243919897": {
-      "type": "rich-text",
+    "9d864708-6910-4dec-bf9f-e4dfc7605948": {
+      "type": "media-with-text",
       "blocks": {
-        "a427b6ac-1024-458f-9539-c2d599818497": {
-          "type": "heading",
+        "725d3c90-56c1-4426-8fb7-adc38aa8a406": {
+          "type": "video",
           "settings": {
-            "text": "Technische Details zum Balkonkraftwerk",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "09e2d378-d0c5-463e-b48f-b509d0952b9d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Für alle Nutzer, die tiefer in die technischen Details vom \"{{ product.title }}\" Balkonkraftwerk einsteigen möchten, bieten wir alle Datenblätter zum Download.<\/p>"
-          }
-        },
-        "def8d2a9-2ea6-4d5b-913f-bde64604fb71": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "5ebae1da-94d1-4a9e-8214-891e011f9f52": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% if product.metafields.custom.product_pdf1_file %}\n<ul>\n  <div class=\"product_pdf\">\n    <li>\n    <a href=\"{{ product.metafields.custom.product_pdf1_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf1_description %}\n        {{ product.metafields.custom.product_pdf1_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf2_file %}\n  <div class=\"product_pdf\">\n  <li>\n    <a href=\"{{ product.metafields.custom.product_pdf2_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf2_description %}\n        {{ product.metafields.custom.product_pdf2_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf3_file %}\n  <div class=\"product_pdf\">\n    <li>\n    <a href=\"{{ product.metafields.custom.product_pdf3_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf3_description %}\n        {{ product.metafields.custom.product_pdf3_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf4_file %}\n  <div class=\"product_pdf\">\n    <li>\n    <a href=\"{{ product.metafields.custom.product_pdf4_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf4_description %}\n        {{ product.metafields.custom.product_pdf4_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n{% endif %}\n{% if product.metafields.custom.product_pdf5_file %}\n  <div class=\"product_pdf\">\n  <li>\n    <a href=\"{{ product.metafields.custom.product_pdf5_file | file_url }}\" target=\"_blank\">\n      {% if product.metafields.custom.product_pdf5_description %}\n        {{ product.metafields.custom.product_pdf5_description }}\n      {% else %}\n        Product Specifications\n      {% endif %}\n    <\/a>\n    <\/li>\n  <\/div>\n  <\/ul>\n{% endif %}"
+            "video": "shopify:\/\/files\/videos\/SUNPOWER4U Intro Film - SD 480p.mov",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "poster_image": "shopify:\/\/shop_images\/Sunpower_4u_Balkonkraftwerk_Videobild_YouTube-Miniatur_14765f91-296b-44ee-846c-0c1c4c7cf7c4.webp",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Warum wir lieben, was wir tun.",
+            "content": "<p>Solarenergie ist für uns einer der ersten Schritte der Energiewende. Hin zu einer sicheren Zukunft und einer sauberen Umwelt für unsere Kinder.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "a427b6ac-1024-458f-9539-c2d599818497",
-        "09e2d378-d0c5-463e-b48f-b509d0952b9d",
-        "def8d2a9-2ea6-4d5b-913f-bde64604fb71",
-        "5ebae1da-94d1-4a9e-8214-891e011f9f52"
+        "725d3c90-56c1-4426-8fb7-adc38aa8a406"
       ],
       "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "#245da7",
-        "background_gradient": "",
-        "text_color": "#ffffff"
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31": {
@@ -704,43 +273,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "9d864708-6910-4dec-bf9f-e4dfc7605948": {
-      "type": "media-with-text",
-      "blocks": {
-        "725d3c90-56c1-4426-8fb7-adc38aa8a406": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/SUNPOWER4U Intro Film - SD 480p.mov",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "poster_image": "shopify:\/\/shop_images\/Sunpower_4u_Balkonkraftwerk_Videobild_YouTube-Miniatur_14765f91-296b-44ee-846c-0c1c4c7cf7c4.webp",
-            "autoplay": false,
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Warum wir lieben, was wir tun.",
-            "content": "<p>Solarenergie ist für uns einer der ersten Schritte der Energiewende. Hin zu einer sicheren Zukunft und einer sauberen Umwelt für unsere Kinder.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "725d3c90-56c1-4426-8fb7-adc38aa8a406"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
       }
     },
     "26c6b3d3-7fa8-4af2-a247-53e46ac49c03": {
@@ -944,7 +476,7 @@
           "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
-            "aggregated": false,
+            "aggregated": true,
             "limit": 10,
             "hide_thumbnails": false,
             "maxwidth": 1080
@@ -1187,18 +719,9 @@
   },
   "order": [
     "main",
-    "aa386ebc-5ee0-4823-b55f-c3061f0cb6e9",
-    "1173d43f-d6ff-4ae6-93f0-f107c2947025",
-    "67a00ce8-1c6c-43f2-856b-b7e98c520deb",
-    "210e556e-42d9-4a88-9154-692fb3f8d467",
-    "80393bba-89d8-491f-a3f6-e2b951ad6b9d",
-    "ef7ded03-2106-4310-a465-60323349c610",
-    "4b2a3177-117b-4865-8099-fb6a9151d581",
-    "03ebe7dc-f633-4ad6-86b0-b0b3be215751",
-    "50df181f-06bf-458a-ab14-5f4187806d70",
-    "62c9be91-a05c-47d8-a295-8e4243919897",
-    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
+    "b0e4fbce-574f-4177-a44b-a6769824dcbc",
     "9d864708-6910-4dec-bf9f-e4dfc7605948",
+    "6e4cd277-2096-4c1b-9ae5-8ad0dee80d31",
     "26c6b3d3-7fa8-4af2-a247-53e46ac49c03",
     "8e518067-1bda-4084-8870-64e79596bd3c",
     "9dd9171e-add8-4baa-b147-0d037bcf6fa4",
