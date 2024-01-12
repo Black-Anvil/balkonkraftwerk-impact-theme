@@ -10088,6 +10088,7 @@ split-lines {
   flex-direction: column;
   gap: 60px;
   width: 35%;
+  align-self: flex-start;
 }
 
 .collection-form__form {
